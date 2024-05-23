@@ -90,21 +90,35 @@ const Homepage = () => {
       <div className="px-8 py-10 md:flex md:px-16">
         <div className="font-outfit font-[500]">
           <h2 className="text-[13px] md:text-[14px]">TOP SERVICES</h2>
-          <h1 className="text-[30px] leading-none md:text-[57px] md:pt-3">Our help makes your work productive</h1>
+          <h1 className="text-[30px] leading-none md:text-[57px] md:pt-3">
+            Our help makes your work productive
+          </h1>
         </div>
         <div className="pt-5 flex flex-col gap-5 md:gap-12 ">
           {topServices.map((service, index) => {
             return (
               <div key={index} className="flex items-center gap-6">
-                <div className="bg-[#ecf4f5] p-6 rounded-full text-4xl text-[#50aab2]">{service.ico}</div>
+                <div className="bg-[#ecf4f5] p-6 rounded-full text-4xl text-[#50aab2]">
+                  {service.ico}
+                </div>
                 <div>
-                  <h1 className="font-outfit text-[20.8px] md:text-[26px] font-[500]">{service.title}</h1>
-                  <p className="font-dmsans text-[17px] pt-2 md:pt-4">{service.desc}</p>
+                  <h1 className="font-outfit text-[20.8px] md:text-[26px] font-[500]">
+                    {service.title}
+                  </h1>
+                  <p className="font-dmsans text-[17px] pt-2 md:pt-4">
+                    {service.desc}
+                  </p>
                 </div>
               </div>
             );
           })}
         </div>
+      </div>
+      <div className="py-5">
+        <marquee direction="left" className="font-outfit font-[100] text-[100px] md:text-[200px] text-[#dfebec]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+          corporis!
+        </marquee>
       </div>
     </div>
   );
