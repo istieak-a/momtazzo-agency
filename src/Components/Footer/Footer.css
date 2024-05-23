@@ -1,0 +1,3 @@
+.link-border:not(:last-child) {
+    @apply border-r border-gray-300;
+  }
