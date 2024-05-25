@@ -49,14 +49,14 @@ const Homepage = () => {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="bg-gradient-to-br py-20 px-8 md:px-16 md:h-screen from-top-left to-bottom-right flex flex-col md:flex-row gap-3 md:gap-20 items-start">
-        <div className="font-outfit text-[43px] md:text-[86px] font-[500] pt-6 md:pt-20 uppercase leading-none">
+    <div className=" mx-auto max-w-7xl">
+      <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-20 md:h-screen md:flex-row md:gap-20 md:px-16">
+        <div className="pt-6 font-outfit text-[43px] font-[500] uppercase leading-none md:pt-20 md:text-[86px]">
           <h1>your</h1>
-          <h1 className="relative z-30">
+          <h1 className="relative">
             website{" "}
             <img
-              className="absolute bottom-1 md:bottom-3 left-[190px] md:left-[380px] w-14 md:w-24"
+              className="absolute bottom-1 left-[190px] w-14 md:bottom-3 md:left-[380px] md:w-24"
               src={man}
               alt="man"
             />
@@ -64,8 +64,8 @@ const Homepage = () => {
           <h1>sales are our</h1>
           <h1>priority</h1>
         </div>
-        <div className="md:absolute right-[8%] bottom-[95px]">
-          <p className="font-dmsans text-[15px] w-[300px] hidden md:block pb-5">
+        <div className="bottom-[95px] right-[8%] md:absolute">
+          <p className="hidden w-[300px] pb-5 font-dmsans text-[15px] md:block">
             Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
             aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt
             explicabo.
@@ -77,12 +77,12 @@ const Homepage = () => {
         {partners.map((item, index) => (
           <div
             key={index}
-            className="flex justify-center items-center py-6 px-5 border"
+            className="flex items-center justify-center border px-5 py-6"
           >
             <img
               src={item.img}
               alt={item.name}
-              className="opacity-40 hover:opacity-100 transition-all duration-300 ease-in-out"
+              className="opacity-40 transition-all duration-300 ease-in-out hover:opacity-100"
             />
           </div>
         ))}
@@ -90,22 +90,22 @@ const Homepage = () => {
       <div className="px-8 py-10 md:flex md:px-16">
         <div className="font-outfit font-[500]">
           <h2 className="text-[13px] md:text-[14px]">TOP SERVICES</h2>
-          <h1 className="text-[30px] leading-none md:text-[57px] md:pt-3">
+          <h1 className="text-[30px] leading-none md:pt-3 md:text-[57px]">
             Our help makes your work productive
           </h1>
         </div>
-        <div className="pt-5 flex flex-col gap-5 md:gap-12 ">
+        <div className="flex flex-col gap-5 pt-5 md:gap-12 ">
           {topServices.map((service, index) => {
             return (
               <div key={index} className="flex items-center gap-6">
-                <div className="bg-[#ecf4f5] p-6 rounded-full text-4xl text-[#50aab2]">
+                <div className="rounded-full bg-[#ecf4f5] p-6 text-4xl text-[#50aab2]">
                   {service.ico}
                 </div>
                 <div>
-                  <h1 className="font-outfit text-[20.8px] md:text-[26px] font-[500]">
+                  <h1 className="font-outfit text-[20.8px] font-[500] md:text-[26px]">
                     {service.title}
                   </h1>
-                  <p className="font-dmsans text-[17px] pt-2 md:pt-4">
+                  <p className="pt-2 font-dmsans text-[17px] md:pt-4">
                     {service.desc}
                   </p>
                 </div>
@@ -115,7 +115,10 @@ const Homepage = () => {
         </div>
       </div>
       <div className="py-5">
-        <marquee direction="left" className="font-outfit font-[100] text-[100px] md:text-[200px] text-[#dfebec]">
+        <marquee
+          direction="left"
+          className="font-outfit text-[100px] font-[100] text-[#dfebec] md:text-[200px]"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
           corporis!
         </marquee>

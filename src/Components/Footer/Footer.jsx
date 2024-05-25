@@ -77,7 +77,7 @@ const Footer = () => {
               key={index}
               href={social.link}
               target="_blank"
-              className="flex items-center justify-center gap-2 w-[25%] font-outfit text-[14px] py-3 md:py-8 link-border font-[500]"
+              className="link-border flex w-[25%] items-center justify-center gap-2 py-3 font-outfit text-[14px] font-[500] md:py-8"
             >
               {social.icon}
               {social.title}
