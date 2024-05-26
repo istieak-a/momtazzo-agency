@@ -261,6 +261,11 @@ const Navbar = () => {
     setActiveDropdown(null);
   };
 
+  const handleCategorySubItemClick = () => {
+    setIsDropDownActive(false);
+    setActiveDropdown(null);
+  };
+
   return (
     <nav className="relative flex justify-between px-5 py-4 shadow-xl md:px-20">
       <Link to={"/"}>
@@ -346,6 +351,7 @@ const Navbar = () => {
                             to={subitem.url}
                             key={subItemIndex}
                             className="rounded-lg p-2 hover:text-[#e9892b]"
+                            onClick={handleCategorySubItemClick}
                           >
                             {subitem.title}
                           </Link>
