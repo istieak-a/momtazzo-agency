@@ -2,3 +2,24 @@
     color: #e9892b; 
     text-decoration: underline;
 }
+
+.link {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #e9892b;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .link:hover::after {
+    width: 100%;
+  }
