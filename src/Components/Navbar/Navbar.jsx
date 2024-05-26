@@ -2,8 +2,9 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
-
-const sampleIcon = "https://via.placeholder.com/20"; // Sample icon URL
+import { RiTeamFill } from "react-icons/ri";
+import { LiaIndustrySolid } from "react-icons/lia";
+import "./Navbar.css";
 
 const Navbar = () => {
   const navData = [
@@ -12,30 +13,35 @@ const Navbar = () => {
       subitems: [
         {
           heading: "Reduce Cost",
+          url: "/reduce-cost",
           desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, perspiciatis!",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/large-enterprises-menu-img.jpg?width=624&height=345&name=large-enterprises-menu-img.jpg",
         },
         {
           heading: "Scale Fast",
+          url: "/scale-fast",
           desc: "Reap the benefits of big-business infrastructure and proven best-practices without all the usual hassle and expenditure.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/small-businesses-menu-img.jpg?width=624&height=345&name=small-businesses-menu-img.jpg#",
         },
         {
           heading: "Why MicroSourcing?",
+          url: "/why-microsourcing",
           desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Why_20MicroSourcing.jpg?width=624&height=345&name=Why_20MicroSourcing.jpg",
         },
         {
           heading: "Increase Quality & Efficiency",
+          url: "/increase-quality-efficiency",
           desc: "When your offshore team cares about the outcomes of their work, they'll work harder and commit to continuous improvement.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/increase-quality-menu-img.jpg?width=624&height=345&name=increase-quality-menu-img.jpg",
         },
         {
           heading: "Why The Philippines?",
+          url: "/why-philippines",
           desc: "Its low living costs and first-class education system are just the beginning. See why the Philippines is the best offshoring destination.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",
@@ -46,24 +52,32 @@ const Navbar = () => {
       title: "How It Works",
       subitems: [
         {
-          title: "How Offshoring Works",
+          heading: "How Offshoring Works",
+          url: "/how-offshoring-works",
           desc: "It's your team. You have full visibility and control, without having to worry about facilities, operations and regulations.",
-          thumb: "#",
+          thumb:
+            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/how-offshoring-works-menu-img.jpg?width=624&height=345&name=how-offshoring-works-menu-img.jpg",
         },
         {
-          title: "The Keys to Success",
+          heading: "The Keys to Success",
+          url: "/keys-to-success",
           desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
-          thumb: "#",
+          thumb:
+            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
         },
         {
-          title: "Is It For You?",
+          heading: "Is It For You?",
+          url: "/is-it-for-you",
           desc: "Learn your offshoring options and explore the benefits of Managed Operations over less effective models.",
-          thumb: "#",
+          thumb:
+            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Outsourcing_20Models.jpg",
         },
         {
-          title: "Offshore Staffing",
+          heading: "Offshore Staffing",
+          url: "/offshore-staffing",
           desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
-          thumb: "#",
+          thumb:
+            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
         },
       ],
     },
@@ -72,131 +86,133 @@ const Navbar = () => {
       categories: [
         {
           title: "Teams",
+          ico: <RiTeamFill />,
           heading: "Select Your Team",
           desc: "Outsourcing an entire department or division in your business can lead to major efficiency gains. For successful team structures, local market recruitment advice and suggested staff to leader ratios, select one of the common teams that can be easily outsourced to the Philippines below.",
           subitems: [
             {
               title: "Accounting",
-              url: "#",
+              url: "/teams/accounting",
             },
             {
               title: "Administration Support",
-              url: "#",
+              url: "/teams/administration-support",
             },
             {
               title: "Creative Services",
-              url: "#",
+              url: "/teams/creative-services",
             },
             {
               title: "Customer Service",
-              url: "#",
+              url: "/teams/customer-service",
             },
             {
               title: "Data Management",
-              url: "#",
+              url: "/teams/data-management",
             },
             {
               title: "Finance",
-              url: "#",
+              url: "/teams/finance",
             },
             {
               title: "Health Information Management",
-              url: "#",
+              url: "/teams/health-information-management",
             },
             {
               title: "HR Services",
-              url: "#",
+              url: "/teams/hr-services",
             },
             {
               title: "Insurance",
-              url: "#",
+              url: "/teams/insurance",
             },
             {
               title: "Marketing",
-              url: "#",
+              url: "/teams/marketing",
             },
             {
               title: "Operations",
-              url: "#",
+              url: "/teams/operations",
             },
             {
               title: "Quality Assurance",
-              url: "#",
+              url: "/teams/quality-assurance",
             },
             {
               title: "Sales Support",
-              url: "#",
+              url: "/teams/sales-support",
             },
             {
               title: "Technical Support",
-              url: "#",
+              url: "/teams/technical-support",
             },
           ],
         },
         {
           title: "Industry",
+          ico: <LiaIndustrySolid />,
           heading: "Select Your Industry",
           desc: "Outsourcing is a very versatile strategy suitable for businesses of all shapes and sizes. Below are common industries that have successfully implemented an offshore model. Get local insights relevant to your area of specialization, learn what others have done in your industry and leverage their experience.",
           subitems: [
             {
               title: "Education",
-              url: "#",
+              url: "/industries/education",
             },
             {
               title: "Engineering & Construction",
-              url: "#",
+              url: "/industries/engineering-construction",
             },
             {
               title: "Financial Services",
-              url: "#",
+              url: "/industries/financial-services",
             },
             {
               title: "Healthcare",
-              url: "#",
+              url: "/industries/healthcare",
             },
             {
               title: "Hospitality & Tourism",
-              url: "#",
+              url: "/industries/hospitality-tourism",
             },
             {
               title: "Information Technology",
-              url: "#",
+              url: "/industries/information-technology",
             },
             {
               title: "Legal Services",
-              url: "#",
+              url: "/industries/legal-services",
             },
             {
               title: "Logistics",
-              url: "#",
+              url: "/industries/logistics",
             },
             {
               title: "Media & Communications",
-              url: "#",
+              url: "/industries/media-communications",
             },
             {
               title: "Professional Services",
-              url: "#",
+              url: "/industries/professional-services",
             },
             {
               title: "Real Estate",
-              url: "#",
+              url: "/industries/real-estate",
             },
             {
               title: "Retail & eCommerce",
-              url: "#",
+              url: "/industries/retail-ecommerce",
             },
             {
               title: "Telecommunications",
-              url: "#",
+              url: "/industries/telecommunications",
             },
             {
               title: "Utilities",
-              url: "#",
+              url: "/industries/utilities",
             },
             {
               title: "Wholesale Trade",
-              url: "#",
+              url: "/industries/wholesale-trade",
             },
           ],
         },
@@ -228,6 +244,23 @@ const Navbar = () => {
     setActiveCategory(index);
   };
 
+  const handleSubItemMouseEnter = () => {
+    clearTimeout(dropdownTimeout.current);
+  };
+
+  const handleSubItemMouseLeave = () => {
+    dropdownTimeout.current = setTimeout(() => {
+      setIsDropDownActive(false);
+      setActiveDropdown(null);
+      setActiveCategory(0); // Reset to the first category when dropdown is closed
+    }, 300);
+  };
+
+  const handleSubItemClick = () => {
+    setIsDropDownActive(false);
+    setActiveDropdown(null);
+  };
+
   return (
     <nav className="relative flex justify-between px-5 py-4 shadow-xl md:px-20">
       <Link to={"/"}>
@@ -246,7 +279,7 @@ const Navbar = () => {
             </h2>
             {isDropDownActive && activeDropdown === index && (
               <div
-                className="absolute left-0 z-50 mt-10 grid w-full grid-cols-2 gap-4 bg-white px-5 py-5"
+                className="absolute left-0 z-50 mt-10 flex  bg-white px-5 py-5"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -258,49 +291,61 @@ const Navbar = () => {
                         onMouseEnter={() =>
                           handleCategoryMouseEnter(categoryIndex)
                         }
-                        className="flex cursor-pointer items-center gap-2 p-2 hover:bg-[#f4fafc]"
+                        className={`flex cursor-pointer items-center gap-2 px-10 py-2 hover:bg-[#fafafa] hover:text-[#e9892b] ${
+                          activeCategory === categoryIndex ? "bg-[#fafafa]" : ""
+                        }`}
                       >
-                        <img src={sampleIcon} alt="icon" className="h-5 w-5" />
-                        <span>{category.title}</span>
+                        <span className="flex items-center gap-2 text-xl">
+                          {category.ico}
+                          {category.title}
+                        </span>
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <div className="flex flex-col">
-                    {item.subitems.map((subitem, subitemIndex) => (
-                      <div key={subitemIndex} className="flex flex-col mb-4">
-                        <h3 className="font-outfit text-xl font-semibold">
-                          {subitem.heading || subitem.title}
-                        </h3>
-                        <p className="text-md font-dmsans">
-                          {subitem.desc}
-                        </p>
-                        {subitem.thumb && (
+                  <div className="grid grid-cols-2 gap-5">
+                    {item.subitems &&
+                      item.subitems.map((subitem, subItemIndex) => (
+                        <Link
+                          to={subitem.url}
+                          key={subItemIndex}
+                          className="navdropdown-item flex w-full gap-4 rounded-lg px-2 py-2 hover:bg-[#f4fafc]"
+                          onMouseEnter={handleSubItemMouseEnter}
+                          onMouseLeave={handleSubItemMouseLeave}
+                          onClick={handleSubItemClick}
+                        >
                           <img
                             src={subitem.thumb}
-                            alt="thumbnail"
-                            className="mt-2 w-full h-auto rounded"
+                            alt={subitem.heading}
+                            className="size-20 rounded-xl object-cover"
                           />
-                        )}
-                      </div>
-                    ))}
+                          <div>
+                            <h3 className="font-outfit text-lg font-semibold">
+                              {subitem.heading}
+                            </h3>
+                            <p className="font-dmsans text-sm">
+                              {subitem.desc}
+                            </p>
+                          </div>
+                        </Link>
+                      ))}
                   </div>
                 )}
                 {activeCategory !== null && item.categories && (
-                  <div className="flex flex-col">
+                  <div className="flex flex-col bg-[#fafafa] p-3">
                     <h3 className="font-outfit text-xl font-semibold">
                       {item.categories[activeCategory].heading}
                     </h3>
-                    <p className="text-md font-dmsans">
+                    <p className="font-dmsans text-sm">
                       {item.categories[activeCategory].desc}
                     </p>
-                    <div className="mt-2 flex flex-col gap-2">
+                    <div className="mt-6 grid grid-cols-3">
                       {item.categories[activeCategory].subitems.map(
                         (subitem, subItemIndex) => (
                           <Link
                             to={subitem.url}
                             key={subItemIndex}
-                            className="rounded-lg p-2 hover:bg-[#f4fafc]"
+                            className="rounded-lg p-2 hover:text-[#e9892b]"
                           >
                             {subitem.title}
                           </Link>
