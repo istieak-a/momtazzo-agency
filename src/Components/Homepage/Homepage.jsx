@@ -3,6 +3,12 @@ import man from "../../assets/slider-2-slide-1-copyright.jpg";
 import Button from "../Button/Button";
 import "./Homepage.css";
 import { FaReact } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import heroLady from "../../assets/herolady.png";
+import increaseQuality from "../../assets/icons/increase-quality.png";
+import reduceCost from "../../assets/icons/reduce-cost.png";
+import scaleFast from "../../assets/icons/scale-fast.png";
+import Card from "../Card/Card";
 
 const Homepage = () => {
   const partners = [
@@ -48,20 +54,54 @@ const Homepage = () => {
       ico: <FaReact />,
     },
   ];
+  const cardData = [
+    {
+      title: "Reduce Costs",
+      ico: reduceCost,
+      desc: "Outsourcing allows your organization to be more competitive, sustainable and profitable with 70% labor cost savings.",
+      btn: "Boost my profits",
+      url: "/reduce-cost",
+    },
+    {
+      title: "Increase quality & efficiency",
+      ico: increaseQuality,
+      desc: "Remote staffing solutions rectify skills shortages and improve internal processes by accessing global talent pools.",
+      btn: "Build your team",
+      url: "/increase-quality-efficiency",
+    },
+    {
+      title: "Scale faster",
+      ico: scaleFast,
+      desc: "Tailor your offshore operations to help scale quickly, meet demand, combat rising labor costs and access specialty talent all without the overheads.",
+      btn: "Scale my business",
+      url: "/scale-fast",
+    },
+  ];
   return (
     <div className=" mx-auto max-w-7xl">
-      <div className="flex flex-col items-start gap-3 py-10 bg-gradient-to-br from-top-left to-bottom-right px-8 md:h-[80vh] md:flex-row md:gap-20 md:px-16">
-        <div className="">
-          <h1 className="font-dmsans text-3xl">Hire full-time outsourced teams in the Philippines. </h1>
-          <h2 className="font-outfit font-bold text-4xl">Ready to work in as little as six weeks</h2>
-        </div>
-        <div className="bottom-[95px] right-[8%] md:flex flex-col items-start justify-center h-full">
-          <p className="hidden w-[300px] pb-5 font-dmsans text-[15px] md:block">
-            Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt
-            explicabo.
+      <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:flex-row md:gap-20 md:px-16">
+        <div className="pe-5 md:w-[60%] md:pe-0">
+          <h1 className="font-dmsans text-4xl md:text-6xl">
+            Hire full-time outsourced teams in the Philippines.{" "}
+          </h1>
+          <h2 className="font-outfit text-4xl font-bold md:text-6xl">
+            Ready to work in as little as six weeks
+          </h2>
+          <p className="pt-5">
+            Achieve unparalleled, sustainable growth while maintaining complete
+            operational control.
           </p>
-          <Button>More Info</Button>
+          <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
+            <Link className="btn" to="/contact">
+              Ask an expert
+            </Link>
+            <Link className="btn-outline" to="/contact">
+              what roles to outsource
+            </Link>
+          </div>
+        </div>
+        <div className="hidden md:flex">
+          <img src={heroLady} alt="" />
         </div>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-6 ">
@@ -78,7 +118,21 @@ const Homepage = () => {
           </div>
         ))}
       </div>
-      <div className="px-8 py-10 md:flex md:px-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-8 py-10 ">
+        {cardData.map((item, index) => {
+          return (
+            <Card
+              key={index}
+              title={item.title}
+              desc={item.desc}
+              url={item.url}
+              ico={item.ico}
+              btn={item.btn}
+            />
+          );
+        })}
+      </div>
+      {/* <div className="px-8 py-10 md:flex md:px-16">
         <div className="font-outfit font-[500]">
           <h2 className="text-[13px] md:text-[14px]">TOP SERVICES</h2>
           <h1 className="text-[30px] leading-none md:pt-3 md:text-[57px]">
@@ -104,7 +158,7 @@ const Homepage = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
       <div className="py-5">
         <marquee
           direction="left"
