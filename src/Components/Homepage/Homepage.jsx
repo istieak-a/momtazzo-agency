@@ -119,7 +119,7 @@ const Homepage = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-8 py-10 ">
+      <div className="grid grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 ">
         {cardData.map((item, index) => {
           return (
             <Card
@@ -133,10 +133,50 @@ const Homepage = () => {
           );
         })}
       </div>
+      <div className="mx-5 flex flex-col gap-10 bg-[#547087] px-8 py-10 md:py-16 md:mx-0 md:flex-row-reverse">
+        <div className="chart md:w-[60%]">
+          <div className="chart-container flex flex-col gap-7 border-b py-5">
+            <div className="w-[55%]">
+              <h2>AUSTRALIA</h2>
+            </div>
+            <div className="w-[70%]">
+              <h2>USA</h2>
+            </div>
+            <div className="w-[100%]">
+              <h2>UK</h2>
+            </div>
+            <div className="w-[20%]">
+              <h2>PHILIPPNES</h2>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
+          <h2 className="font-outfit text-4xl text-white md:text-5xl ">
+            Business who engage in business process outsourcing{" "}
+            <span className="font-semibold">
+              (BPO) save 70% on employment costs.
+            </span>
+          </h2>
+          <Link className="btn">Learn how your business can save</Link>
+        </div>
+      </div>
+      <div>
+        <h1>How offshoring works</h1>
+        <div>
+          <div>
+
+          </div>
+          <div></div>
+        </div>
+      </div>
+
       <div className="py-20">
-        <h2 className="text-center font-outfit text-4xl pb-10 font-bold">What Our Clients Are Saying</h2>
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          What Our Clients Are Saying
+        </h2>
         <Reviews />
       </div>
+
       {/* <div className="px-8 py-10 md:flex md:px-16">
         <div className="font-outfit font-[500]">
           <h2 className="text-[13px] md:text-[14px]">TOP SERVICES</h2>

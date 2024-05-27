@@ -8,3 +8,43 @@
 .btn-outline {
     @apply border-2 border-[#50aab2] text-[#50aab2] font-outfit uppercase px-6 py-2 rounded-full hover:bg-[#50aab2] hover:text-white duration-300
 }
+
+/* Chart CSS */
+.chart-container {
+    background: url(../../assets/chartbg.png);
+    background-size: 100% auto;
+    position: relative;
+
+}
+.chart-container::before {
+    content: 'COUNTRY';
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    rotate: -90deg;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.chart-container::after {
+    content: 'WAGES';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.chart-container div {
+    background: linear-gradient(to right, #f2f9fb, #bde0f0);
+    padding: 20px 0;
+}
+.chart-container div h2 {
+    padding-left: 20px;
+    font-size: 10px;
+    font-family: 'outfit', sans-serif;
+    color: #50aab2;
+    font-weight: bold;
+}
