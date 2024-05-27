@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import man from "../../assets/slider-2-slide-1-copyright.jpg";
 import Button from "../Button/Button";
 import "./Homepage.css";
@@ -13,8 +13,15 @@ import Reviews from "../Reviews/Reviews";
 import collaborate from "../../assets/collaborate.jpg";
 import recruit from "../../assets/recruit.png";
 import support from "../../assets/support.png";
+import globe from '../../assets/icons/globe.png';
+import card from '../../assets/icons/card.png';
+import contact from '../../assets/icons/contact.png';
+import manico from '../../assets/icons/manico.png';
+import people from '../../assets/icons/people.png';
+import verify from '../../assets/icons/verify.png';
 
 const Homepage = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
   const partners = [
     {
       name: "partner1",
@@ -101,6 +108,39 @@ const Homepage = () => {
       img: support,
     },
   ];
+  const unique = [
+    {
+      title: "15 Years Of Experience",
+      desc: "Rated the #1 virtual assistant company with 7500+ clients served and 800+ verified 5-star business reviews, we are the leader in virtual assistant services in both North America and the Philippines.",
+      ico: verify,
+    },
+    {
+      title: "Speed to Hire",
+      desc: "Instantly scale your business with an employee who can quickly launch in your business and make an impact today.",
+      ico: contact,
+    },
+    {
+      title: "Diverse Talent",
+      desc: "Our virtual assistants specialize in 8 different services for a variety of industries. From administrative and marketing tasks to inside sales and customer service – we hire only the most qualified individual for the role.",
+      ico: people,
+    },
+    {
+      title: "Extensive Screening & Vetting",
+      desc: "All virtual assistants are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
+      ico: contact,
+    },
+    {
+      title: "All-Inclusive Pricing",
+      desc: "Pay one flat rate per virtual assistant and let us handle the rest. We provide competitive medical benefits, insurance and paid time off in addition to handling the entire recruitment, interview and onboarding process.",
+      ico: card,
+    },
+    {
+      title: "Standardized Work Environment",
+      desc: "Our virtual assistants have dedicated work computers, noise-isolated environments, backup power and internet connections, and time tracking software to ensure they’re present and focused.",
+      ico: globe,
+    },
+  ];
+
   return (
     <div className=" mx-auto max-w-7xl">
       <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:flex-row md:gap-20 md:px-16">
@@ -183,17 +223,19 @@ const Homepage = () => {
           <Link className="btn">Learn how your business can save</Link>
         </div>
       </div>
-      <div className="flex flex-col gap-5 md:gap-10 px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-3xl font-normal md:text-5xl">
+      <div className="flex flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-4xl font-normal md:text-5xl">
           How offshoring works
         </h1>
         <div className="flex flex-col gap-5 md:flex-row">
-          <div className="flex md:w-1/2 flex-col gap-5">
+          <div className="flex flex-col gap-5 md:w-1/2">
             {offhsoring.map((item, index) => {
               return (
                 <div
                   key={index}
                   className="offshoring cursor-pointer rounded-lg py-4 ps-8 duration-300 hover:shadow-xl"
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
                 >
                   <h3 className="font-dmsans text-xs font-bold text-[#3e96dd]">
                     {item.no}
@@ -209,12 +251,32 @@ const Homepage = () => {
             })}
           </div>
           <div className="flex items-center">
-            <img src={collaborate} alt="" />
+            <img
+              src={
+                hoveredIndex !== null
+                  ? offhsoring[hoveredIndex].img
+                  : offhsoring[0].img
+              }
+              alt=""
+            />
           </div>
         </div>
       </div>
 
-      <div className="py-20">
+      <div className="px-5 md:px-16 flex flex-col gap-10 py-10">
+        <h1 className="text-4xl font-outfit font-[500] text-center">What sets up apart</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {
+            unique.map((item, index) => {
+              return (
+                <Card key={index} title={item.title} desc={item.desc} ico={item.ico}  />
+              )
+            })
+          }
+        </div>
+      </div>
+
+      <div className="px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
           What Our Clients Are Saying
         </h2>
