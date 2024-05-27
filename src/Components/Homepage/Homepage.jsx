@@ -142,7 +142,7 @@ const Homepage = () => {
   ];
 
   return (
-    <div className=" mx-auto max-w-7xl">
+    <div className="">
       <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:flex-row md:gap-20 md:px-16">
         <div className="pe-5 md:w-[60%] md:pe-0">
           <h1 className="font-dmsans text-4xl md:text-6xl">

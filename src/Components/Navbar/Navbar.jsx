@@ -11,6 +11,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { GrContactInfo } from "react-icons/gr";
 
 const Navbar = () => {
   const navData = [
@@ -90,6 +91,138 @@ const Navbar = () => {
     {
       title: "Build Your Team",
       categories: [
+        {
+          title: "Jobs",
+          ico: <GrContactInfo />,
+          heading: "Select Your Job Role",
+          desc: "Unlock the full potential of outsourcing with ease and discover the perfect fit for your organization. Our comprehensive range of offshore roles can help streamline your operations and make outsourcing simple.",
+          subitems: [
+            {
+              title: "Accountant",
+              url: "/job-roles/accountant",
+            },
+            {
+              title: "Administrative assistant",
+              url: "/job-roles/administrative-assistant",
+            },
+            {
+              title: "Collection specialist",
+              url: "/job-roles/collection-specialist",
+            },
+            {
+              title: "Customer service rep",
+              url: "/job-roles/customer-service-rep",
+            },
+            {
+              title: "Data analyst",
+              url: "/job-roles/data-analyst",
+            },
+            {
+              title: "Data entry specialist",
+              url: "/job-roles/data-entry-specialist",
+            },
+            {
+              title: "Digital marketing specialist",
+              url: "/job-roles/digital-marketing-specialist",
+            },
+            {
+              title: "Enrollment Administrator",
+              url: "/job-roles/enrollment-administrator",
+            },
+            {
+              title: "Executive assistant",
+              url: "/job-roles/executive-assistant",
+            },
+            {
+              title: "Finance specialist",
+              url: "/job-roles/finance-specialist",
+            },
+            {
+              title: "Graphic designer",
+              url: "/job-roles/graphic-designer",
+            },
+            {
+              title: "HR specialist",
+              url: "/job-roles/hr-specialist",
+            },
+            {
+              title: "Legal specialist",
+              url: "/job-roles/legal-specialist",
+            },
+            {
+              title: "Logistics coordinator",
+              url: "/job-roles/logistics-coordinator",
+            },
+            {
+              title: "Marketing specialist",
+              url: "/job-roles/marketing-specialist",
+            },
+            {
+              title: "Medical billing specialist",
+              url: "/job-roles/medical-billing-specialist",
+            },
+            {
+              title: "Order processing specialist",
+              url: "/job-roles/order-processing-specialist",
+            },
+            {
+              title: "Payroll specialist",
+              url: "/job-roles/payroll-specialist",
+            },
+            {
+              title: "PPC & SEM Specialist",
+              url: "/job-roles/ppc-sem-specialist",
+            },
+            {
+              title: "Project Manager",
+              url: "/job-roles/project-manager",
+            },
+            {
+              title: "Quality assurance specialist",
+              url: "/job-roles/quality-assurance-specialist",
+            },
+            {
+              title: "Real estate assistant",
+              url: "/job-roles/real-estate-assistant",
+            },
+            {
+              title: "Reservation booking agent",
+              url: "/job-roles/reservation-booking-agent",
+            },
+            {
+              title: "SEO Specialist",
+              url: "/job-roles/seo-specialist",
+            },
+            {
+              title: "Sales support",
+              url: "/job-roles/sales-support",
+            },
+            {
+              title: "Social media specialist",
+              url: "/job-roles/social-media-specialist",
+            },
+            {
+              title: "Software developer",
+              url: "/job-roles/software-developer",
+            },
+            {
+              title: "Talent acquisition specialist",
+              url: "/job-roles/talent-acquisition-specialist",
+            },
+            {
+              title: "Video editor",
+              url: "/job-roles/video-editor",
+            },
+            {
+              title: "Virtual Assistant",
+              url: "/job-roles/virtual-assistant",
+            },
+            {
+              title: "Web developer",
+              url: "/job-roles/web-developer",
+            },
+          ],
+        },
         {
           title: "Teams",
           ico: <RiTeamFill />,
@@ -224,6 +357,36 @@ const Navbar = () => {
         },
       ],
     },
+    {
+      title: "Learn", 
+      subitems: [
+        {
+          heading: "About",
+          url: "/about",
+        }, 
+        {
+          heading: "Blog",
+          url: "/blog",
+        }, 
+        {
+          heading: "Case Studies",
+          url: "/case-studies",
+        }, 
+        {
+          heading: "FAQs",
+          url: "/faqs",
+        }, 
+        {
+          heading: "News",
+          url: "/news",
+        }, 
+        {
+          heading: "Videos",
+          url: "/videos",
+        },
+
+      ]
+    }
   ];
   const socialData = [
     {
@@ -437,6 +600,8 @@ const Navbar = () => {
             )}
           </div>
         ))}
+        <Link to={"/pricing"} className="font-outfit text-lg hover:text-orange-500">Pricing</Link>
+        <button className="btn ms-10">Contact</button>
       </div>
       <motion.div
         variants={toggleVariants}
@@ -551,14 +716,17 @@ const NavItem = ({ title, subitems, categories, setNavToggle }) => {
                 key={subItemIndex}
                 to={subitem.url}
                 onClick={() => setNavToggle(false)}
-                className="font-dmsans text-[16px] link"
+                className="link font-dmsans text-[16px]"
               >
                 {subitem.heading}
               </Link>
             ))}
           {categories &&
             categories.map((category, categoryIndex) => (
-              <div key={categoryIndex} className="ml-2 flex flex-col items-start gap-2">
+              <div
+                key={categoryIndex}
+                className="ml-2 flex flex-col items-start gap-2"
+              >
                 <span className="font-outfit text-sm font-semibold">
                   {category.title}
                 </span>
@@ -567,7 +735,7 @@ const NavItem = ({ title, subitems, categories, setNavToggle }) => {
                     key={subItemIndex}
                     to={subitem.url}
                     onClick={() => setNavToggle(false)}
-                    className="font-dmsans text-[16px] link"
+                    className="link font-dmsans text-[16px]"
                   >
                     {subitem.title}
                   </Link>
