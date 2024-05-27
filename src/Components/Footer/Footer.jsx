@@ -262,21 +262,29 @@ const Footer = () => {
           );
         })}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 bg-[#07131d] px-5 py-10">
+      <div className="grid grid-cols-1 gap-5 bg-[#07131d] px-5 py-10 md:grid-cols-4">
         <div>
           <img className="h-20" src={logo} alt="" />
         </div>
         <div>
-          <h1 className="font-outfit text-[18px] font-[500] text-white">Office</h1>
-          <p className="font-dmsans text-[16px] text-[#c0d1d9] mt-4">
+          <h1 className="font-outfit text-[18px] font-[500] text-white">
+            Office
+          </h1>
+          <p className="mt-4 font-dmsans text-[16px] text-[#c0d1d9]">
             Germany — <br />
             785 15h Street, Office 478 <br />
             Berlin, De 81566
           </p>
-          <a href="mailto:info@gmail.com" className="font-dmsans text-[16px] text-white block mt-3">
+          <a
+            href="mailto:info@gmail.com"
+            className="mt-3 block font-dmsans text-[16px] text-white"
+          >
             info@gmail.com
           </a>
-          <a href="#" className="font-dmsans text-[18px] text-white  mt-3 link-white">
+          <a
+            href="#"
+            className="link-white mt-3 font-dmsans  text-[18px] text-white"
+          >
             +18408412569
           </a>
         </div>
@@ -284,13 +292,13 @@ const Footer = () => {
           <h1 className="font-outfit text-[18px] font-[500]">
             Why Outshource?
           </h1>
-          <div className="flex flex-col items-start gap-1 mt-4">
+          <div className="mt-4 flex flex-col items-start gap-1">
             {navData[0].subitems.map((item, index) => {
               return (
                 <Link
                   to={item.url}
                   key={index}
-                  className="font-dmsans text-[16px] text-[#c0d1d9] link-white"
+                  className="link-white font-dmsans text-[16px] text-[#c0d1d9]"
                 >
                   {item.heading}
                 </Link>
@@ -300,13 +308,13 @@ const Footer = () => {
         </div>
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">How it works?</h1>
-          <div className="flex flex-col items-start gap-1 mt-4">
+          <div className="mt-4 flex flex-col items-start gap-1">
             {navData[1].subitems.map((item, index) => {
               return (
                 <Link
                   to={item.url}
                   key={index}
-                  className="font-dmsans text-[16px] text-[#c0d1d9] link-white"
+                  className="link-white font-dmsans text-[16px] text-[#c0d1d9]"
                 >
                   {item.heading}
                 </Link>

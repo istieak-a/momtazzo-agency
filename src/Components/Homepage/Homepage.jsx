@@ -50,21 +50,12 @@ const Homepage = () => {
   ];
   return (
     <div className=" mx-auto max-w-7xl">
-      <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-20 md:h-screen md:flex-row md:gap-20 md:px-16">
-        <div className="pt-6 font-outfit text-[43px] font-[500] uppercase leading-none md:pt-20 md:text-[86px]">
-          <h1>your</h1>
-          <h1 className="relative">
-            website{" "}
-            <img
-              className="absolute bottom-1 left-[190px] w-14 md:bottom-3 md:left-[380px] md:w-24"
-              src={man}
-              alt="man"
-            />
-          </h1>
-          <h1>sales are our</h1>
-          <h1>priority</h1>
+      <div className="flex flex-col items-start gap-3 py-10 bg-gradient-to-br from-top-left to-bottom-right px-8 md:h-[80vh] md:flex-row md:gap-20 md:px-16">
+        <div className="">
+          <h1 className="font-dmsans text-3xl">Hire full-time outsourced teams in the Philippines. </h1>
+          <h2 className="font-outfit font-bold text-4xl">Ready to work in as little as six weeks</h2>
         </div>
-        <div className="bottom-[95px] right-[8%] md:absolute">
+        <div className="bottom-[95px] right-[8%] md:flex flex-col items-start justify-center h-full">
           <p className="hidden w-[300px] pb-5 font-dmsans text-[15px] md:block">
             Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
             aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt
