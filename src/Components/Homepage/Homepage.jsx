@@ -10,6 +10,9 @@ import reduceCost from "../../assets/icons/reduce-cost.png";
 import scaleFast from "../../assets/icons/scale-fast.png";
 import Card from "../Card/Card";
 import Reviews from "../Reviews/Reviews";
+import collaborate from "../../assets/collaborate.jpg";
+import recruit from "../../assets/recruit.png";
+import support from "../../assets/support.png";
 
 const Homepage = () => {
   const partners = [
@@ -78,6 +81,26 @@ const Homepage = () => {
       url: "/scale-fast",
     },
   ];
+  const offhsoring = [
+    {
+      no: "STEP 1",
+      title: "Collaborate",
+      desc: "We discuss your remote staffing requirements.",
+      img: collaborate,
+    },
+    {
+      no: "STEP 2",
+      title: "Recruit",
+      desc: "We recruit and employ your outsourced team",
+      img: recruit,
+    },
+    {
+      no: "STEP 3",
+      title: "Support",
+      desc: "We support the operation of your outsourced team.",
+      img: support,
+    },
+  ];
   return (
     <div className=" mx-auto max-w-7xl">
       <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:flex-row md:gap-20 md:px-16">
@@ -119,7 +142,7 @@ const Homepage = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 ">
+      <div className="grid grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
           return (
             <Card
@@ -133,7 +156,7 @@ const Homepage = () => {
           );
         })}
       </div>
-      <div className="mx-5 flex flex-col gap-10 bg-[#547087] px-8 py-10 md:py-16 md:mx-0 md:flex-row-reverse">
+      <div className="mx-5 flex flex-col gap-10 bg-[#547087] px-8 py-10 md:mx-0 md:flex-row-reverse md:p-16">
         <div className="chart md:w-[60%]">
           <div className="chart-container flex flex-col gap-7 border-b py-5">
             <div className="w-[55%]">
@@ -160,13 +183,34 @@ const Homepage = () => {
           <Link className="btn">Learn how your business can save</Link>
         </div>
       </div>
-      <div>
-        <h1>How offshoring works</h1>
-        <div>
-          <div>
-
+      <div className="flex flex-col gap-5 md:gap-10 px-5 py-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-3xl font-normal md:text-5xl">
+          How offshoring works
+        </h1>
+        <div className="flex flex-col gap-5 md:flex-row">
+          <div className="flex md:w-1/2 flex-col gap-5">
+            {offhsoring.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="offshoring cursor-pointer rounded-lg py-4 ps-8 duration-300 hover:shadow-xl"
+                >
+                  <h3 className="font-dmsans text-xs font-bold text-[#3e96dd]">
+                    {item.no}
+                  </h3>
+                  <h1 className="font-outfit text-4xl font-[600]">
+                    {item.title}
+                  </h1>
+                  <p className="w-[70%] pt-5 font-dmsans text-lg">
+                    {item.desc}
+                  </p>
+                </div>
+              );
+            })}
           </div>
-          <div></div>
+          <div className="flex items-center">
+            <img src={collaborate} alt="" />
+          </div>
         </div>
       </div>
 
