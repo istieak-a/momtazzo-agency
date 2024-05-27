@@ -9,6 +9,7 @@ import increaseQuality from "../../assets/icons/increase-quality.png";
 import reduceCost from "../../assets/icons/reduce-cost.png";
 import scaleFast from "../../assets/icons/scale-fast.png";
 import Card from "../Card/Card";
+import Reviews from "../Reviews/Reviews";
 
 const Homepage = () => {
   const partners = [
@@ -132,6 +133,10 @@ const Homepage = () => {
           );
         })}
       </div>
+      <div className="py-20">
+        <h2 className="text-center font-outfit text-4xl pb-10 font-bold">What Our Clients Are Saying</h2>
+        <Reviews />
+      </div>
       {/* <div className="px-8 py-10 md:flex md:px-16">
         <div className="font-outfit font-[500]">
           <h2 className="text-[13px] md:text-[14px]">TOP SERVICES</h2>
@@ -159,7 +164,7 @@ const Homepage = () => {
           })}
         </div>
       </div> */}
-      <div className="py-5">
+      {/* <div className="py-5">
         <marquee
           direction="left"
           className="font-outfit text-[100px] font-[100] text-[#dfebec] md:text-[200px]"
@@ -167,7 +172,7 @@ const Homepage = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
           corporis!
         </marquee>
-      </div>
+      </div> */}
     </div>
   );
 };
