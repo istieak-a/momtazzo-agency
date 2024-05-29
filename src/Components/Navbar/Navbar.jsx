@@ -358,35 +358,34 @@ const Navbar = () => {
       ],
     },
     {
-      title: "Learn", 
+      title: "Learn",
       subitems: [
         {
           heading: "About",
           url: "/about",
-        }, 
+        },
         {
           heading: "Blog",
           url: "/blog",
-        }, 
+        },
         {
           heading: "Case Studies",
           url: "/case-studies",
-        }, 
+        },
         {
           heading: "FAQs",
           url: "/faqs",
-        }, 
+        },
         {
           heading: "News",
           url: "/news",
-        }, 
+        },
         {
           heading: "Videos",
           url: "/videos",
         },
-
-      ]
-    }
+      ],
+    },
   ];
   const socialData = [
     {
@@ -411,10 +410,12 @@ const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = React.useState(null);
   const [activeCategory, setActiveCategory] = React.useState(0); // Default to the first category
   const dropdownTimeout = React.useRef(null);
+  const [activeDropdownIndex, setActiveDropdownIndex] = React.useState(null);
 
   const handleMouseEnter = (index) => {
     setIsDropDownActive(true);
     setActiveDropdown(index);
+    setActiveDropdownIndex(index); // Set the active dropdown index
     clearTimeout(dropdownTimeout.current);
   };
 
@@ -422,7 +423,8 @@ const Navbar = () => {
     dropdownTimeout.current = setTimeout(() => {
       setIsDropDownActive(false);
       setActiveDropdown(null);
-      setActiveCategory(0); // Reset to the first category when dropdown is closed
+      setActiveCategory(0);
+      setActiveDropdownIndex(null); // Reset the active dropdown index
     }, 300);
   };
 
@@ -520,7 +522,9 @@ const Navbar = () => {
             </h2>
             {isDropDownActive && activeDropdown === index && (
               <div
-                className="absolute left-0 z-50 mt-8 flex  bg-white px-5 py-5"
+                className={`absolute top-[90px] z-50 flex bg-white px-5 py-5 ${
+                  activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
+                }`}
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -555,19 +559,31 @@ const Navbar = () => {
                           onMouseLeave={handleSubItemMouseLeave}
                           onClick={handleSubItemClick}
                         >
-                          <img
-                            src={subitem.thumb}
-                            alt={subitem.heading}
-                            className="size-20 rounded-xl object-cover"
-                          />
-                          <div>
-                            <h3 className="font-outfit text-lg font-semibold">
-                              {subitem.heading}
-                            </h3>
-                            <p className="font-dmsans text-sm">
-                              {subitem.desc}
-                            </p>
-                          </div>
+                          {subitem.thumb ? (
+                            // Design when subitem.thumb exists
+                            <>
+                              <img
+                                src={subitem.thumb}
+                                alt={subitem.heading}
+                                className="size-20 rounded-xl object-cover"
+                              />
+                              <div>
+                                <h3 className="font-outfit text-lg font-semibold">
+                                  {subitem.heading}
+                                </h3>
+                                <p className="font-dmsans text-sm">
+                                  {subitem.desc}
+                                </p>
+                              </div>
+                            </>
+                          ) : (
+                            // Design when subitem.thumb does not exist
+                            <div>
+                              <h3 className="font-outfit text-lg font-semibold">
+                                {subitem.heading}
+                              </h3>
+                            </div>
+                          )}
                         </Link>
                       ))}
                   </div>
@@ -600,7 +616,12 @@ const Navbar = () => {
             )}
           </div>
         ))}
-        <Link to={"/pricing"} className="font-outfit text-lg hover:text-orange-500">Pricing</Link>
+        <Link
+          to={"/pricing"}
+          className="font-outfit text-lg hover:text-orange-500"
+        >
+          Pricing
+        </Link>
         <button className="btn ms-10">Contact</button>
       </div>
       <motion.div
