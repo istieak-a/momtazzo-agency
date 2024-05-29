@@ -1,0 +1,15 @@
+.microsourcing-divs {
+    @apply px-5 md:px-16 flex flex-col gap-5 pb-10 border-b py-10
+}
+.microsourcing-divs h1 {
+    @apply font-outfit font-bold text-3xl
+}
+.microsourcing-divs p {
+    @apply font-dmsans text-lg
+}
+.microsourcing-divs ul {
+    @apply list-disc list-inside
+}
+.microsourcing-divs h4 {
+    @apply font-bold
+}

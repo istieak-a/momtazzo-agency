@@ -1,0 +1,15 @@
+.increase-divs {
+    @apply px-5 md:px-16 flex flex-col gap-5 pb-10 border-b py-10
+}
+.increase-divs h1 {
+    @apply font-outfit font-bold text-3xl
+}
+.increase-divs p {
+    @apply font-dmsans text-lg
+}
+.increase-divs ul {
+    @apply list-disc list-inside
+}
+.increase-divs h4 {
+    @apply font-bold
+}
