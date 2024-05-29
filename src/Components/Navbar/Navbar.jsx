@@ -20,35 +20,35 @@ const Navbar = () => {
       subitems: [
         {
           heading: "Reduce Cost",
-          url: "/reduce-cost",
+          url: "/why-outsource/reduce-cost",
           desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, perspiciatis!",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/large-enterprises-menu-img.jpg?width=624&height=345&name=large-enterprises-menu-img.jpg",
         },
         {
           heading: "Scale Fast",
-          url: "/scale-fast",
+          url: "/why-outsource/scale-fast",
           desc: "Reap the benefits of big-business infrastructure and proven best-practices without all the usual hassle and expenditure.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/small-businesses-menu-img.jpg?width=624&height=345&name=small-businesses-menu-img.jpg#",
         },
         {
           heading: "Why MicroSourcing?",
-          url: "/why-microsourcing",
+          url: "/why-outsource/why-microsourcing",
           desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Why_20MicroSourcing.jpg?width=624&height=345&name=Why_20MicroSourcing.jpg",
         },
         {
           heading: "Increase Quality & Efficiency",
-          url: "/increase-quality-efficiency",
+          url: "/why-outsource/increase-quality-efficiency",
           desc: "When your offshore team cares about the outcomes of their work, they'll work harder and commit to continuous improvement.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/increase-quality-menu-img.jpg?width=624&height=345&name=increase-quality-menu-img.jpg",
         },
         {
           heading: "Why The Philippines?",
-          url: "/why-philippines",
+          url: "/why-outsource/why-philippines",
           desc: "Its low living costs and first-class education system are just the beginning. See why the Philippines is the best offshoring destination.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",

@@ -19,6 +19,7 @@ import contact from '../../assets/icons/contact.png';
 import manico from '../../assets/icons/manico.png';
 import people from '../../assets/icons/people.png';
 import verify from '../../assets/icons/verify.png';
+import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -281,6 +282,9 @@ const Homepage = () => {
           What Our Clients Are Saying
         </h2>
         <Reviews />
+      </div>
+      <div>
+        <BuildTeam />
       </div>
 
       {/* <div className="px-8 py-10 md:flex md:px-16">
