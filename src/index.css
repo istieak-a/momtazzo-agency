@@ -5,21 +5,25 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
 @layer utilities {
   .item {
-    @apply text-[17px] font-outfit font-[500];
+    @apply font-outfit text-[17px] font-[500];
   }
   .item::after {
-    @apply content-[''] bg-black h-[3px] w-0 rounded-xl absolute left-0 -bottom-[5px] duration-300;
+    @apply absolute -bottom-[5px] left-0 h-[3px] w-0 rounded-xl bg-black duration-300 content-[''];
   }
   .item:hover::after {
     @apply w-full;
   }
   .subitem {
-    @apply text-[15px] font-outfit font-[400] relative;
+    @apply relative font-outfit text-[15px] font-[400];
   }
   .subitem::after {
-    @apply content-[''] bg-white h-[3px] w-0 rounded-xl absolute  left-0 -bottom-[5px] duration-300;
+    @apply absolute -bottom-[5px] left-0 h-[3px] w-0 rounded-xl  bg-white duration-300 content-[''];
   }
   .subitem:hover::after {
     @apply w-full;
@@ -32,7 +36,9 @@
   .subitem-enter-active {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 300ms, transform 300ms;
+    transition:
+      opacity 300ms,
+      transform 300ms;
   }
 
   .subitem-exit {
@@ -43,6 +49,20 @@
   .subitem-exit-active {
     opacity: 0;
     transform: translateY(-10px);
-    transition: opacity 300ms, transform 300ms;
+    transition:
+      opacity 300ms,
+      transform 300ms;
   }
+  .section-container {
+    @apply px-5 py-10 md:px-16 flex flex-col items-start gap-7 font-dmsans text-lg text-gray-600;
+}
+.section-container ul {
+    @apply list-disc list-inside;
+}
+.section-container h1 {
+    @apply text-4xl font-outfit font-[500];
+}
+.section-container h2 {
+  @apply text-3xl font-outfit font-[400];
+}
 }

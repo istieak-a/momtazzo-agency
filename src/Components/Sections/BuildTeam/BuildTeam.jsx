@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BuildTeam = () => {
     return (
-        <div className='bg-[#1c2336] text-white flex flex-col md:flex-row gap-10 px-8 py-20 md:py-36'>
+        <div className='bg-[#1c2336] text-white flex flex-col md:flex-row gap-10 px-8 md:px-16 py-20 md:py-36'>
             <div className='md:border-e '>
                 <h1 className='font-outfit font-bold text-4xl md:text-5xl hover:underline hover:text-[#63b3bb] duration-300 cursor-pointer'>Build a dedicated team in the Philippines</h1>
             </div>

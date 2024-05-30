@@ -60,28 +60,28 @@ const Navbar = () => {
       subitems: [
         {
           heading: "How Offshoring Works",
-          url: "/how-offshoring-works",
+          url: "/how-it-works/how-offshoring-works",
           desc: "It's your team. You have full visibility and control, without having to worry about facilities, operations and regulations.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/how-offshoring-works-menu-img.jpg?width=624&height=345&name=how-offshoring-works-menu-img.jpg",
         },
         {
           heading: "The Keys to Success",
-          url: "/keys-to-success",
+          url: "/how-it-works/the-keys-to-success",
           desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
         },
         {
           heading: "Is It For You?",
-          url: "/is-it-for-you",
+          url: "/how-it-works/is-it-for-you",
           desc: "Learn your offshoring options and explore the benefits of Managed Operations over less effective models.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Outsourcing_20Models.jpg",
         },
         {
           heading: "Offshore Staffing",
-          url: "/offshore-staffing",
+          url: "/how-it-works/offshore-staffing",
           desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
