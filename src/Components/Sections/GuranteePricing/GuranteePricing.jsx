@@ -19,15 +19,11 @@ const GuranteePricing = () => {
             <div className='flex flex-col md:flex-row md:justify-around items-center  gap-8'>
                 <div className='flex flex-col items-center gap-4'>
                     <img src={fixed} alt="ico" />
-                    <h2 className='text-white font-dmsans text-xl'>Fixed monthly service fee</h2>
-                </div>
-                <div className='flex flex-col items-center gap-4'>
-                    <img src={transparent} alt="ico" />
-                    <h2 className='text-white font-dmsans text-xl'>Transparent pricing model</h2>
+                    <h2 className='text-white font-dmsans text-xl'>All inclusive pricing</h2>
                 </div>
                 <div className='flex flex-col items-center gap-4'>
                     <img src={hidden} alt="ico" />
-                    <h2 className='text-white font-dmsans text-xl'>No hidden costs</h2>
+                    <h2 className='text-white font-dmsans text-xl'>No hidden fees</h2>
                 </div>
             </div>
         </div>

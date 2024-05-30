@@ -14,6 +14,22 @@ import HowOffshoringWorks from "./Components/pages/HowItWorks/HowOffshoringWorks
 import IsItForYou from "./Components/pages/HowItWorks/IsItForYou/IsItForYou";
 import TheKeysToSuccess from "./Components/pages/HowItWorks/TheKeysToSuccess/TheKeysToSuccess";
 import OffshoreStaffing from "./Components/pages/HowItWorks/OffshoreStaffing/OffshoreStaffing";
+import Industry from "./Components/pages/Industry/Industry";
+import Education from "./Components/pages/Industry/Education/Education";
+import EngineeringConstruction from "./Components/pages/Industry/EngineeringConstruction/EngineeringConstruction";
+import FinancialServices from "./Components/pages/Industry/FinancialServices/FinancialServices";
+import Healthcare from "./Components/pages/Industry/Healthcare/Healthcare";
+import HospitalityTourism from "./Components/pages/Industry/HospitalityTourism/HospitalityTourism";
+import InformationTechnology from "./Components/pages/Industry/InformationTechnology/InformationTechnology";
+import LegalServices from "./Components/pages/Industry/LegalServices/LegalServices";
+import Logistics from "./Components/pages/Industry/Logistics/Logistics";
+import MediaCommunications from "./Components/pages/Industry/MediaCommunications/MediaCommunications";
+import ProfessionalServices from "./Components/pages/Industry/ProfessionalServices/ProfessionalServices";
+import RealEstate from "./Components/pages/Industry/RealEstate/RealEstate";
+import RetailEcommerce from "./Components/pages/Industry/RetailEcommerce/RetailEcommerce";
+import Telecommunications from "./Components/pages/Industry/Telecommunications/Telecommunications";
+import Utilities from "./Components/pages/Industry/Utilities/Utilities";
+import WholesaleTrade from "./Components/pages/Industry/WholesaleTrade/WholesaleTrade";
 
 const App = () => {
   return (
@@ -33,7 +49,23 @@ const App = () => {
           <Route path="is-it-for-you" element={<IsItForYou />} />
           <Route path="the-keys-to-success" element={<TheKeysToSuccess />} />
           <Route path="offshore-staffing" element={<OffshoreStaffing />} />
-
+        </Route>
+        <Route path="industries" element={<Industry />}>
+          <Route path="education" element={<Education />} />
+          <Route path="engineering-construction" element={<EngineeringConstruction />} />
+          <Route path="financial-services" element={<FinancialServices />} />
+          <Route path="healthcare" element={<Healthcare />} />
+          <Route path="hospitality-tourism" element={<HospitalityTourism />} />
+          <Route path="information-technology" element={<InformationTechnology />} />
+          <Route path="legal-services" element={<LegalServices />} />
+          <Route path="logistics" element={<Logistics />} />
+          <Route path="media-communications" element={<MediaCommunications />} />
+          <Route path="professional-services" element={<ProfessionalServices />} />
+          <Route path="real-estate" element={<RealEstate />} />
+          <Route path="retail-ecommerce" element={<RetailEcommerce />} />
+          <Route path="telecommunications" element={<Telecommunications />} />
+          <Route path="utilities" element={<Utilities />} />
+          <Route path="wholesale-trade" element={<WholesaleTrade />} />
         </Route>
       </Routes>
       <Footer />

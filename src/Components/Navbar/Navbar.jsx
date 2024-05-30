@@ -134,10 +134,6 @@ const Navbar = () => {
               url: "/job-roles/executive-assistant",
             },
             {
-              title: "Finance specialist",
-              url: "/job-roles/finance-specialist",
-            },
-            {
               title: "Graphic designer",
               url: "/job-roles/graphic-designer",
             },
@@ -145,10 +141,7 @@ const Navbar = () => {
               title: "HR specialist",
               url: "/job-roles/hr-specialist",
             },
-            {
-              title: "Legal specialist",
-              url: "/job-roles/legal-specialist",
-            },
+
             {
               title: "Logistics coordinator",
               url: "/job-roles/logistics-coordinator",
@@ -172,10 +165,6 @@ const Navbar = () => {
             {
               title: "PPC & SEM Specialist",
               url: "/job-roles/ppc-sem-specialist",
-            },
-            {
-              title: "Project Manager",
-              url: "/job-roles/project-manager",
             },
             {
               title: "Quality assurance specialist",
