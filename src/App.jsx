@@ -30,6 +30,22 @@ import RetailEcommerce from "./Components/pages/Industry/RetailEcommerce/RetailE
 import Telecommunications from "./Components/pages/Industry/Telecommunications/Telecommunications";
 import Utilities from "./Components/pages/Industry/Utilities/Utilities";
 import WholesaleTrade from "./Components/pages/Industry/WholesaleTrade/WholesaleTrade";
+import Teams from "./Components/pages/Teams/Teams";
+import Accounting from "./Components/pages/Teams/Accounting/Accounting";
+import AdministrationSupport from "./Components/pages/Teams/AdministrationSupport/AdministrationSupport";
+import CreativeServices from "./Components/pages/Teams/CreativeServices/CreativeServices";
+import CustomerService from "./Components/pages/Teams/CustomerService/CustomerService";
+import DataManagement from "./Components/pages/Teams/DataManagement/DataManagement";
+import Finance from "./Components/pages/Teams/Finance/Finance";
+import HealthInformationManagement from "./Components/pages/Teams/HealthInformationManagement/HealthInformationManagement";
+import HRServices from "./Components/pages/Teams/HRServices/HRServices";
+import Insurance from "./Components/pages/Teams/Insurance/Insurance";
+import Marketing from "./Components/pages/Teams/Marketing/Marketing";
+import Operations from "./Components/pages/Teams/Operations/Operations";
+import QualityAssurance from "./Components/pages/Teams/QualityAssurance/QualityAssurance";
+import SalesSupport from "./Components/pages/Teams/SalesSupport/SalesSupport";
+import TechnicalSupport from "./Components/pages/Teams/TechnicalSupport/TechnicalSupport";
+
 
 const App = () => {
   return (
@@ -66,6 +82,22 @@ const App = () => {
           <Route path="telecommunications" element={<Telecommunications />} />
           <Route path="utilities" element={<Utilities />} />
           <Route path="wholesale-trade" element={<WholesaleTrade />} />
+        </Route>
+        <Route path="teams" element={<Teams />}>
+          <Route path="accounting" element={<Accounting />} />
+          <Route path="administration-support" element={<AdministrationSupport />} />
+          <Route path="creative-services" element={<CreativeServices />} />
+          <Route path="customer-service" element={<CustomerService />} />
+          <Route path="data-management" element={<DataManagement />} />
+          <Route path="finance" element={<Finance />} />
+          <Route path="health-information-management" element={<HealthInformationManagement />} />
+          <Route path="hr-services" element={<HRServices />} />
+          <Route path="insurance" element={<Insurance />} />
+          <Route path="marketing" element={<Marketing />} />
+          <Route path="operations" element={<Operations />} />
+          <Route path="quality-assurance" element={<QualityAssurance />} />
+          <Route path="sales-support" element={<SalesSupport />} />
+          <Route path="technical-support" element={<TechnicalSupport />} />
         </Route>
       </Routes>
       <Footer />
