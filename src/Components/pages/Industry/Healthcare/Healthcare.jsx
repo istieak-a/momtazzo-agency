@@ -116,8 +116,8 @@ const Healthcare = () => {
           sense.
         </p>
       </div>
-      <div className="section-container bg-[#f1f4f6]">
-        <h1>Sample medical coder profiles</h1>
+      <div className="bg-[#f1f4f6] px-5 md:px-16 py-10 md:py-16">
+        <h1 className="text-center font-outfit font-bold text-4xl md:text-5xl pb-8">Sample medical coder profiles</h1>
         <img src={sectionImg} alt="" />
       </div>
       <div>
