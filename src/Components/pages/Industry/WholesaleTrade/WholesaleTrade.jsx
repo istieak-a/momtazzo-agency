@@ -5,7 +5,7 @@ import sectionImg from "./profile.png";
 
 const WholesaleTrade = () => {
   const banner = {
-    img: "",
+    img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/iStock-1469919334.png?width=828&height=465&name=iStock-1469919334.png",
     title: "Wholesale trade outsourcing to the Philippines",
     btn: "HOW IT WORKS",
     cate: "INDUSTRY",
