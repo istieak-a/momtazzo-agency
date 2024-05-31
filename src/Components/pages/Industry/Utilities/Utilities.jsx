@@ -20,11 +20,13 @@ const Utilities = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>
-          Curious About Outsourced Utilities and What Approach is Best for Your
+      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
+        <p>
+        Curious About Outsourced Utilities and What Approach is Best for Your
           Organization? Here’s What You Need to Know.
-        </h1>
+        </p>
+      </div>
+      <div className="section-container">
         <p>
           Few industries elicit as much emotion from the public, politicians,
           and media as the provision of utilities. It’s rarely out of the press,
@@ -116,7 +118,7 @@ const Utilities = () => {
 
         <h1>Frequently Offshored Utilities Roles</h1>
         <p>Some of the more frequently offshored utilities roles include:</p>
-        <ul>
+        <ul className="link-li grid md:grid-cols-2">
           <li>Customer Service Representative</li>
           <li>Sales Representative</li>
           <li>Account Executive</li>

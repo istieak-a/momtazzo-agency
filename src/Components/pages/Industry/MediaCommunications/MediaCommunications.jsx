@@ -20,16 +20,14 @@ const MediaCommunications = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>
-          Looking to Embrace Outsourcing to the Philippines for Your Media &
-          Communications Services?
-        </h1>
+      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
         <p>
-          Before you choose your offshore provider, here's what you need to
+        Looking to Embrace Outsourcing to the Philippines for Your Media &
+          Communications Services? Before you choose your offshore provider, here's what you need to
           know...
         </p>
-
+      </div>
+      <div className="section-container">
         <h1>What is Media and Communications Outsourcing?</h1>
         <p>
           Media and communications outsourcing involves engaging a third-party
@@ -107,7 +105,7 @@ const MediaCommunications = () => {
           Some popular roles outsourced in the media and communications industry
           include:
         </p>
-        <ul className="grid md:grid-cols-3">
+        <ul className="grid md:grid-cols-3 link-li">
           <li>Advertising Executive</li>
           <li>SEM Specialist</li>
           <li>PR Executive</li>
@@ -126,18 +124,30 @@ const MediaCommunications = () => {
           <li>Graphic Designer</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-10 bg-[#f1f4f6] px-5 py-10 md:px-16 md:py-16">
-        <h1 className="text-center font-outfit text-4xl font-bold md:text-5xl">
-          Sample marketing and communications employee profiles
-        </h1>
-        <p className="text-center">
-          At MicroSourcing, we have more than 4,500 media and communications
+      <div className="section-container bg-[#f1f4f6]">
+        <h1>Sample engineering and construction employee profiles</h1>
+        <p>
+          At MicroSourcing, we have more than 6,100 engineering and construction
           specialists in our candidate database, and access to more than an
-          additional 6,000 across the Philippines. So we’re well equipped to
-          build your outsourcing team. Here are a few examples of real candidate
-          profiles:
+          additional 4,500 across the Philippines. Here are a few examples of
+          real candidate profiles:
         </p>
-        <img src={sectionImg} alt="" />
+        <img src={sectionImg} alt="profile" />
+      </div>
+      <div className="section-margin flex flex-col items-center gap-10">
+        <h1 className="font-outfit text-5xl">MicroSourcing clients by industry</h1>
+        <p className=" text-center px-20">
+          MicroSourcing has built a close affinity with the Ecommerce Industry.
+          In fact, ECommerce is in our Top 5 Industry Sectors enjoying and
+          mastering the benefits of offshoring. With over 320 Ecommerce
+          professionals currently working for clients in Australia, the Americas
+          and across Europe, we have significant experience in this Industry.
+        </p>
+        <img
+          className="md:px-40"
+          src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png"
+          alt="chart"
+        />
       </div>
       <div>
         <GetInTouch />

@@ -20,12 +20,14 @@ const Healthcare = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>
-          Wonder if healthcare outsourcing to the Philippines is right for you,
+      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
+        <p>
+        Wonder if healthcare outsourcing to the Philippines is right for you,
           or which healthcare BPO your organization should work with? Here’s
           what you need to know…
-        </h1>
+        </p>
+      </div>
+      <div className="section-container">
         <p>
           The healthcare sector is facing a new set of challenges. As life
           expectancy climbs, demand for treatment of diseases like cancer,
@@ -82,8 +84,9 @@ const Healthcare = () => {
           technologies and processes, and recruit people with the required
           skills at a cost that keeps your business viable.
         </p>
-
-        <h1>Why is healthcare outsourcing to the Philippines a good idea?</h1>
+      </div>
+      <div className="section-container border-t-2">
+      <h1>Why is healthcare outsourcing to the Philippines a good idea?</h1>
         <p>
           Offshoring works well for the healthcare sector because many of the
           roles that need to be filled have long been performed by offshore
@@ -96,7 +99,7 @@ const Healthcare = () => {
         </p>
 
         <p>Furthermore:</p>
-        <ul>
+        <ul className="">
           <li>Most non-clinical roles don’t have to be performed onsite.</li>
           <li>
             Consumers want the capacity to book appointments and make certain
@@ -119,6 +122,21 @@ const Healthcare = () => {
       <div className="bg-[#f1f4f6] px-5 md:px-16 py-10 md:py-16">
         <h1 className="text-center font-outfit font-bold text-4xl md:text-5xl pb-8">Sample medical coder profiles</h1>
         <img src={sectionImg} alt="" />
+      </div>
+      <div className="section-margin flex flex-col items-center gap-10">
+        <h1 className="font-outfit text-5xl">MicroSourcing clients by industry</h1>
+        <p className=" text-center px-20">
+          MicroSourcing has built a close affinity with the Ecommerce Industry.
+          In fact, ECommerce is in our Top 5 Industry Sectors enjoying and
+          mastering the benefits of offshoring. With over 320 Ecommerce
+          professionals currently working for clients in Australia, the Americas
+          and across Europe, we have significant experience in this Industry.
+        </p>
+        <img
+          className="md:px-40"
+          src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png"
+          alt="chart"
+        />
       </div>
       <div>
         <GetInTouch />

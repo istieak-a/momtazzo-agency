@@ -1,15 +1,10 @@
 import React from "react";
 import HeroBanner2 from "../../../Sections/HeroBanner2/HeroBanner2";
-import WhyMicrosourcing from "../../../Sections/WhyMicrosourcing/WhyMicrosourcing";
-import increaseQuality from "../../../../assets/icons/increase-quality.png";
-import reduceCost from "../../../../assets/icons/reduce-cost.png";
-import scaleFast from "../../../../assets/icons/scale-fast.png";
-import Card from "../../../Card/Card";
-import icon1 from "../../../../assets/icons/How does offshoring work-01_dark.png";
-import icon2 from "../../../../assets/icons/How does offshoring work-02_dark.png";
-import icon3 from "../../../../assets/icons/How does offshoring work-03_dark.png";
 import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
-
+import PhilippinesMap from "../../../Sections/PhilippinesMap/PhilippinesMap";
+import FeaturesSection from "../../../Sections/FeaturesSection/FeaturesSection";
+import FilipinoBefinits from "../../../Sections/FilipinoBenifits/FilipinoBefinits";
+import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const ProfessionalServices = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/iStock-1367572246.png?width=828&height=465&name=iStock-1367572246.png",
@@ -17,40 +12,27 @@ const ProfessionalServices = () => {
     btn: "HOW IT WORKS",
     cate: "INDUSTRY",
   };
-  const cardData = [
-    {
-      title: "Reduce Costs",
-      ico: reduceCost,
-      desc: "Save up to 70% on employment costs. Get top-notch skills at a fraction of the price.",
-    },
-    {
-      title: "Increase efficiency",
-      ico: increaseQuality,
-      desc: "27% of companies outsource to maximize efficiencies.",
-    },
-    {
-      title: "Faster Growth",
-      ico: scaleFast,
-      desc: "Navigate demand and scale sustainably with the right people dedicated to your business.",
-    },
-  ];
-  const cardData2 = [
-    {
-      title: "COLLABORATE",
-      ico: icon1,
-      desc: "We discuss your offshore resourcing requirements",
-    },
-    {
-      title: "RECRUIT",
-      ico: icon2,
-      desc: "We recruit and employ your offshore team",
-    },
-    {
-      title: "SUPPORT",
-      ico: icon3,
-      desc: "We support the operations of your offshore team",
-    },
-  ];
+  const features = {
+    title: "Benefits of Outsourcing in the Professional Services Industry",
+    li1: "Outsourcing can enable scalability by leveraging external expertise and resources while maintaining personalized client experiences.",
+    li2: "By outsourcing non-core functions to specialized partners, organizations can streamline operations and focus on their core competencies.",
+    li3: "Outsourcing communication and collaboration tasks can enhance efficiency, promote seamless information flow, and facilitate effective decision-making across the organization.",
+    li4: "Embracing outsourcing allows organizations to access cutting-edge technologies and industry expertise without heavy upfront investments.",
+  };
+  const outsourcingServices = {
+    title: "Professional Services and Roles Outsourced with MicroSourcing",
+    services: [
+      "Technical support",
+      "Customer service",
+      "Accounting",
+      "HR services",
+      "Marketing",
+      "Legal services",
+      "Data management",
+      "Logistics",
+    ],
+  };
+
   return (
     <div>
       <div>
@@ -61,106 +43,51 @@ const ProfessionalServices = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>Challenges in the Professional Services Industry</h1>
-        <p>
-          Professional services organizations struggle to balance scalability
-          with personalized client experiences, risking a loss of agility.
-        </p>
-        <p>
-          Optimizing operational efficiency while maintaining high service
-          standards is a significant challenge.
-        </p>
-        <p>
-          Complex internal communication and collaboration hinder effective
-          decision-making and knowledge-sharing.
-        </p>
-        <p>
-          Adapting to evolving technologies and industry trends requires a
-          continuous investment in skill development and modernization.
-        </p>
-      </div>
-      <WhyMicrosourcing />
-      <div className="section-container">
-        <h1>
-          Why is the Professional Services Industry Well Suited to Outsourcing?
-        </h1>
-        <p>
-          Outsourcing can enable scalability by leveraging external expertise
-          and resources while maintaining personalized client experiences.
-        </p>
-        <p>
-          By outsourcing non-core functions to specialized partners,
-          organizations can streamline operations and focus on their core
-          competencies.
-        </p>
-        <p>
-          Outsourcing communication and collaboration tasks can enhance
-          efficiency, promote seamless information flow, and facilitate
-          effective decision-making across the organization.
-        </p>
-        <p>
-          Embracing outsourcing allows organizations to access cutting-edge
-          technologies and industry expertise without heavy upfront investments.
-        </p>
-        <p>
-          Professional services organizations can tap into a global talent pool,
-          benefiting from diverse skill sets and fresh perspectives.
-        </p>
-      </div>
-      <div className="section-container">
-        <h1>
-          What are the benefits of Filipino professional services outsourcing?
-        </h1>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cardData.map((item, index) => {
-            return (
-              <Card
-                key={index}
-                title={item.title}
-                desc={item.desc}
-                url={item.url}
-                ico={item.ico}
-                btn={item.btn}
-              />
-            );
-          })}
+      <div className="section-margin flex flex-col items-center gap-5 md:flex-row">
+        <div className="flex flex-col gap-5">
+          <p>
+            Professional services organizations struggle to balance scalability
+            with personalized client experiences, risking a loss of agility.
+          </p>
+          <p>
+            Optimizing operational efficiency while maintaining high service
+            standards is a significant challenge.
+          </p>
+          <p>
+            Complex internal communication and collaboration hinder effective
+            decision-making and knowledge-sharing.
+          </p>
+          <p>
+            Adapting to evolving technologies and industry trends requires a
+            continuous investment in skill development and modernization.
+          </p>
+        </div>
+        <div>
+          <PhilippinesMap />
         </div>
       </div>
-      <div className="section-container">
-        <h1>
-          What Professional Services and Roles Can You Outsource with
-          MicroSourcing?
-        </h1>
-        <p>
-          MicroSourcing is the leading outsourcing provider in the Philippines,
-          building full-time, dedicated teams for its clients while taking care
-          of everything on the ground.
-        </p>
-        <ul>
-          <li>Technical support</li>
-          <li>Customer service</li>
-          <li>Accounting</li>
-          <li>HR services</li>
-          <li>Marketing</li>
-          <li>Legal services</li>
-          <li>Data management</li>
-          <li>Logistics</li>
-        </ul>
+
+      <div>
+        <FeaturesSection
+          title={features.title}
+          li1={features.li1}
+          li2={features.li2}
+          li3={features.li3}
+          li4={features.li4}
+        />
       </div>
-      <div className="section-container">
-        <h1>How does offshoring with MicroSourcing work?</h1>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cardData2.map((data, index) => (
-            <Card
-              key={index}
-              title={data.title}
-              ico={data.ico}
-              desc={data.desc}
-            />
-          ))}
-        </div>
+
+      <div className="py-10">
+        <FilipinoBefinits title={"professional services"} />
       </div>
+
+      <div>
+        <MicroSourcing
+          title={outsourcingServices.title}
+          services={outsourcingServices.services}
+        />
+      </div>
+
       <div>
         <GetInTouch />
       </div>

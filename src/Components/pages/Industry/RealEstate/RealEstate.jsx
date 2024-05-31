@@ -41,8 +41,8 @@ const RealEstate = () => {
           cate={banner.cate}
         />
       </div>
+      
       <div className="section-container">
-        <h1>Growth in the Global Real Estate Market</h1>
         <p>
           The global real estate market was valued at $3.69 trillion in 2021 and
           is expected to grow, between 2022 and 2030, at a compound annual
@@ -125,7 +125,7 @@ const RealEstate = () => {
         <div className="grid gap-5 md:grid-cols-2">
           <div className="flex flex-col gap-3">
             <h2>Finance, Accounting and Payroll</h2>
-            <ul>
+            <ul className="link-li">
               <li>Accountants</li>
               <li>Accounts Receivable & Payable Specialists</li>
               <li>Administrative Assistants</li>
@@ -138,7 +138,7 @@ const RealEstate = () => {
 
           <div className="flex flex-col gap-3">
             <h2>Human Resources, Recruitment and Training</h2>
-            <ul>
+            <ul className="link-li">
               <li>HR Managers</li>
               <li>HR or Recruitment Officers</li>
               <li>Talent Acquisition Specialists</li>
@@ -148,7 +148,7 @@ const RealEstate = () => {
 
           <div className="flex flex-col gap-3">
             <h2>Marketing and Creative Services</h2>
-            <ul>
+            <ul className="link-li">
               <li>Content Marketing Managers</li>
               <li>Content Moderators</li>
               <li>Copywriters</li>
@@ -162,7 +162,7 @@ const RealEstate = () => {
 
           <div className="flex flex-col gap-3">
             <h2>Data Management</h2>
-            <ul>
+            <ul className="link-li">
               <li>Data Analysts</li>
               <li>Data Cleansing Analysts</li>
               <li>Data Entry Specialists</li>
@@ -172,7 +172,7 @@ const RealEstate = () => {
 
           <div className="flex flex-col gap-3">
             <h2>Administrative and Technical Support</h2>
-            <ul>
+            <ul className="link-li">
               <li>Customer Service Representatives</li>
               <li>Executive Assistants</li>
               <li>Live Chat Agents</li>
@@ -185,7 +185,7 @@ const RealEstate = () => {
 
           <div className="flex flex-col gap-3">
             <h2>Operations</h2>
-            <ul>
+            <ul className="link-li">
               <li>Lease Consultants</li>
               <li>Listing Coordinators</li>
               <li>Project Managers</li>
@@ -195,10 +195,14 @@ const RealEstate = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#f1f4f6] px-5 md:px-16 py-10 md:py-16 flex flex-col gap-10">
-        <h1 className="text-center font-outfit font-bold text-4xl md:text-5xl">Sample real estate employee profiles</h1>
-        <p className="text-center">At MicroSourcing, we have more than 400 real estate specialists in our candidate database, and access to more than an additional 3,000 real estate outsourcing specialists across the Philippines. Here are a few examples of real candidate profiles:</p>
-        <img src={sectionImg} alt="" />
+      <div className="section-container bg-[#f1f4f6]">
+        <h1>Sample real estate employee profiles</h1>
+        <p>
+        At MicroSourcing, we have more than 400 real estate specialists in our candidate database, and access to more than an additional 3,000 real estate outsourcing specialists across the Philippines. Here are a few examples of real candidate profiles:
+
+
+        </p>
+        <img src={sectionImg} alt="profile" />
       </div>
       <div>
         <GetInTouch />

@@ -1,0 +1,15 @@
+.mlist li {
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.mlist li::before {
+    content: ' ';
+    background: url(../../../assets/icons/verified.png) no-repeat;
+    position: absolute;
+    left: 0;
+    width: 10%;
+    height: 70%;
+
+}

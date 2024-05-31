@@ -1,6 +1,6 @@
 import React from "react";
 import HeroBanner2 from "../../../Sections/HeroBanner2/HeroBanner2";
-import sectionImg from "./constructionsection.png"
+import sectionImg from "./constructionsection.png";
 import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
 
 const EngineeringConstruction = () => {
@@ -20,21 +20,15 @@ const EngineeringConstruction = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>
-          Curious about construction outsourcing or whether engineering services
-          outsourcing could work for your company?
-        </h1>
+      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
         <p>
-          Before you sign up with a BPO or hire offshore staff, here’s what you
-          need to know… The construction and engineering sector is particularly
-          sensitive to global economic and political fluctuations. But while
-          these are complex times, particularly in relation to trade agreements,
-          tariffs and disruption to global supply chains, the future of the
-          industry looks bright, according to Deloitte’s 2019 Engineering and
-          Construction Industry Outlook.
+          Curious about construction outsourcing or whether engineering services
+          outsourcing could work for your company? Before you sign up with a BPO
+          or hire offshore staff, here’s what you need to know…
         </p>
-
+      </div>
+      <div className="section-container">
+        <p>The construction and engineering sector is particularly sensitive to global economic and political fluctuations. But while these are complex times, particularly in relation to trade agreements, tariffs and disruption to global supply chains, the future of the industry looks bright, according to Deloitte’s 2019 Engineering and Construction Industry Outlook.</p>
         <p>
           This is great news for construction and engineering firms. However,
           keeping up with demand for high-quality services, delivered on
@@ -76,8 +70,11 @@ const EngineeringConstruction = () => {
           But how does it work? Watch this video to find out more about
           outsourcing in construction and engineering.
         </p>
-
-        <h1>Why outsource construction and engineering services?</h1>
+        <iframe width="560" className="mx-auto" height="315" src="https://www.youtube.com/embed/OOdVfUZWMIY?si=5AjyY0tFqgiTKd8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+      <div className="section-container border-t-2">
+      <h1>Why outsource construction and engineering services?</h1>
         <p>
           Construction and engineering projects are generally made up of many
           components that are subcontracted to smaller entities. Project
@@ -120,7 +117,7 @@ const EngineeringConstruction = () => {
           Some of the more frequently offshored engineering and construction
           roles include:
         </p>
-        <ul>
+        <ul className="link-li">
           <li>Quantity Surveyor</li>
           <li>Site Estimator</li>
           <li>Electrical Engineer</li>
@@ -135,13 +132,28 @@ const EngineeringConstruction = () => {
       </div>
       <div className="section-container bg-[#f1f4f6]">
         <h1>Sample engineering and construction employee profiles</h1>
-        <p>At MicroSourcing, we have more than 6,100 engineering and construction specialists in our candidate database, and access to more than an additional 4,500 across the Philippines. Here are a few examples of real candidate profiles:</p>
+        <p>
+          At MicroSourcing, we have more than 6,100 engineering and construction
+          specialists in our candidate database, and access to more than an
+          additional 4,500 across the Philippines. Here are a few examples of
+          real candidate profiles:
+        </p>
         <img src={sectionImg} alt="profile" />
       </div>
-      <div className="section-container ">
-        <h1>MicroSourcing clients by industry</h1>
-        <p>MicroSourcing has built a close affinity with the Ecommerce Industry. In fact, ECommerce is in our Top 5 Industry Sectors enjoying and mastering the benefits of offshoring. With over 320 Ecommerce professionals currently working for clients in Australia, the Americas and across Europe, we have significant experience in this Industry.</p>
-        <img className="" src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png" alt="chart" />
+      <div className="section-margin flex flex-col items-center gap-10">
+        <h1 className="font-outfit text-5xl">MicroSourcing clients by industry</h1>
+        <p className=" text-center px-20">
+          MicroSourcing has built a close affinity with the Ecommerce Industry.
+          In fact, ECommerce is in our Top 5 Industry Sectors enjoying and
+          mastering the benefits of offshoring. With over 320 Ecommerce
+          professionals currently working for clients in Australia, the Americas
+          and across Europe, we have significant experience in this Industry.
+        </p>
+        <img
+          className="md:px-40"
+          src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png"
+          alt="chart"
+        />
       </div>
       <div>
         <GetInTouch />

@@ -53,16 +53,25 @@ body {
       opacity 300ms,
       transform 300ms;
   }
+  .section-margin {
+    @apply p-5 md:px-16 py-10;
+  }
   .section-container {
-    @apply px-5 py-10 md:px-16 flex flex-col items-start gap-7 font-dmsans text-lg text-gray-600;
-}
-.section-container ul {
-    @apply list-disc list-inside;
-}
-.section-container h1 {
-    @apply text-4xl font-outfit font-[500];
-}
-.section-container h2 {
-  @apply text-3xl font-outfit font-[400];
-}
+    @apply flex flex-col items-start gap-7 px-5 py-10 font-dmsans text-lg  md:px-16;
+  }
+  .section-container p {
+    @apply font-outfit text-[17px] font-[400] text-gray-600;
+  }
+  .section-container ul {
+    @apply list-inside list-disc;
+  }
+  .section-container h1 {
+    @apply font-outfit text-4xl font-[500];
+  }
+  .section-container h2 {
+    @apply font-outfit text-3xl font-[400];
+  }
+  .link-li li {
+    @apply cursor-pointer pe-10 text-[#00b7ef] hover:underline;
+  }
 }

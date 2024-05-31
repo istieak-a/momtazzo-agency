@@ -104,7 +104,7 @@ const WholesaleTrade = () => {
           fill almost any wholesale trade position or team. More frequently
           outsourced roles include:
         </p>
-        <ul className="grid gap-3 md:grid-cols-2">
+        <ul className="grid gap-3 md:grid-cols-2 link-li">
           <li>3D Designer</li>
           <li>Accounting</li>
           <li>Accounts Receivable and Payable Officers</li>

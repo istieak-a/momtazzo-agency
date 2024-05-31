@@ -97,9 +97,9 @@ const Education = () => {
           fill almost any education position or team. More frequently outsourced
           roles include:
         </p>
-        <ul>
+        <ul className="link-li">
           <li>Accounting</li>
-          <li>Accounts Receivable and Payable Officers</li>
+          <li>Accounts Receivable</li>
           <li>Admin Assistant</li>
           <li>Bookkeeper</li>
           <li>Content Moderator</li>

@@ -5,11 +5,12 @@ import increaseQuality from "../../../../assets/icons/increase-quality.png";
 import reduceCost from "../../../../assets/icons/reduce-cost.png";
 import scaleFast from "../../../../assets/icons/scale-fast.png";
 import Card from "../../../Card/Card";
-import icon1 from "../../../../assets/icons/How does offshoring work-01_dark.png";
-import icon2 from "../../../../assets/icons/How does offshoring work-02_dark.png";
-import icon3 from "../../../../assets/icons/How does offshoring work-03_dark.png";
-import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
 
+import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
+import PhilippinesMap from "../../../Sections/PhilippinesMap/PhilippinesMap";
+import FeaturesSection from "../../../Sections/FeaturesSection/FeaturesSection";
+import FilipinoBefinits from "../../../Sections/FilipinoBenifits/FilipinoBefinits";
+import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 
 const FinancialServices = () => {
   const banner = {
@@ -35,23 +36,31 @@ const FinancialServices = () => {
       desc: "Navigate demand and scale sustainably with the right people dedicated to your business.",
     },
   ];
-  const cardData2 = [
-    {
-      title: "COLLABORATE",
-      ico: icon1,
-      desc: "We discuss your offshore resourcing requirements",
-    },
-    {
-      title: "RECRUIT",
-      ico: icon2,
-      desc: "We recruit and employ your offshore team",
-    },
-    {
-      title: "SUPPORT",
-      ico: icon3,
-      desc: "We support the operations of your offshore team",
-    },
-  ];
+  
+  const features = {
+    title: "Why is the financial services industry well suited to outsourcing?",
+    li1: "Outsourcing can effectively address complex regulatory requirements and compliance standards by leveraging external expertise and specialized resources.",
+    li2: "It fosters seamless communication and collaboration by partnering with skilled service providers, enhancing operational efficiency across departments.",
+    li3: "Additionally, outsourcing provides scalable solutions, allowing organizations to balance growth effectively while minimizing risks.",
+    li4: "Moreover, trusted outsourcing partners often possess robust cybersecurity measures, ensuring the protection of sensitive financial data and mitigating cyber threats."
+  };
+  const outsourcingServices = {
+    title: "Financial Services",
+    services: [
+      "Accounting",
+      "Auditing",
+      "Compliance and risk management",
+      "Customer service",
+      "Data management",
+      "Investment management",
+      "Mortgage processing",
+      "Payroll processing",
+      "Taxation services",
+      "Technical support"
+    ]
+};
+
+  
   return (
     <div>
       <div>
@@ -62,8 +71,8 @@ const FinancialServices = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>Challenges in the Financial Services Industry</h1>
+      <div className="section-margin flex flex-col md:flex-row items-center gap-5">
+        <div className="flex flex-col gap-5">
         <p>
           In the financial services industry, managing regulation and compliance
           requires substantial resources and expertise, which can stretch an
@@ -86,92 +95,19 @@ const FinancialServices = () => {
           concern, demanding robust security measures and continuous monitoring
           to safeguard sensitive financial data.
         </p>
-      </div>
-      <div className="section-container bg-[#f4fafc]">
-        <img src={sectionImg} alt="section" />
-      </div>
-      <div className="section-container">
-        <h1>
-          Why is the financial services industry well suited to outsourcing?
-        </h1>
-        <p>
-          Outsourcing can effectively address complex regulatory requirements
-          and compliance standards by leveraging external expertise and
-          specialized resources.
-        </p>
-        <p>
-          It fosters seamless communication and collaboration by partnering with
-          skilled service providers, enhancing operational efficiency across
-          departments.
-        </p>
-        <p>
-          Additionally, outsourcing provides scalable solutions, allowing
-          organizations to balance growth effectively while minimizing risks.
-        </p>
-        <p>
-          Moreover, trusted outsourcing partners often possess robust
-          cybersecurity measures, ensuring the protection of sensitive financial
-          data and mitigating cyber threats.
-        </p>
-      </div>
-      <div className="section-container">
-        <h1>
-          What are the benefits of Filipino financial services outsourcing?
-        </h1>
-        <p>
-          Offshore staffing provides several benefits to organizations looking
-          to outsource a variety of business processes or functions.
-        </p>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cardData.map((item, index) => {
-            return (
-              <Card
-                key={index}
-                title={item.title}
-                desc={item.desc}
-                url={item.url}
-                ico={item.ico}
-                btn={item.btn}
-              />
-            );
-          })}
+        </div>
+        <div>
+        <PhilippinesMap />
         </div>
       </div>
-      <div className="section-container">
-        <h1>
-          What financial services and roles can you outsource with
-          MicroSourcing?
-        </h1>
-        <p>
-          MicroSourcing is the leading outsourcing provider in the Philippines,
-          building full-time, dedicated teams for its clients while taking care
-          of everything on the ground.
-        </p>
-        <ul className="grid md:grid-cols-3">
-          <li>Accounting</li>
-          <li>Auditing</li>
-          <li>Compliance and risk management</li>
-          <li>Customer service</li>
-          <li>Data management</li>
-          <li>Investment management</li>
-          <li>Mortgage processing</li>
-          <li>Payroll processing</li>
-          <li>Taxation services</li>
-          <li>Technical support</li>
-        </ul>
+      <div>
+        <FeaturesSection title={features.title} li1={features.li1} li2={features.li2} li3={features.li3} li4={features.li4} />
       </div>
-      <div className="section-container">
-        <h1>How does offshoring with MicroSourcing work?</h1>
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cardData2.map((data, index) => (
-            <Card
-              key={index}
-              title={data.title}
-              ico={data.ico}
-              desc={data.desc}
-            />
-          ))}
-        </div>
+      <div className="py-10">
+        <FilipinoBefinits title={'financial services'} />
+      </div>
+      <div>
+        <MicroSourcing title={outsourcingServices.title} services={outsourcingServices.services} />
       </div>
       <div>
         <GetInTouch />

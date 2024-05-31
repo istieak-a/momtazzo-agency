@@ -20,13 +20,14 @@ const Logistics = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-container">
-        <h1>Outsourcing Transport and Logistics Jobs</h1>
+      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
         <p>
-          Outsourcing transport and logistics jobs is becoming increasingly
+        Outsourcing transport and logistics jobs is becoming increasingly
           common. Before you start outsourcing your warehouse operations to the
           Philippines, here’s what you need to know…
         </p>
+      </div>
+      <div className="section-container">
         <p>
           The transport, postal and warehousing industry is a significant
           contributor to the global economy. In Australia, for instance, the
@@ -122,7 +123,7 @@ const Logistics = () => {
           Some of the more frequently offshored transport, postal and
           warehousing roles include:
         </p>
-        <ul className="grid md:grid-cols-2">
+        <ul className="grid md:grid-cols-2 link-li">
           <li>Asset Management Specialist</li>
           <li>Logistics and Transport Coordinator</li>
           <li>Logistics and Warehouse Coordinator</li>
@@ -134,15 +135,30 @@ const Logistics = () => {
           <li>Data Analyst/ Encoders</li>
         </ul>
       </div>
-      <div className="bg-[#f1f4f6] px-5 md:px-16 py-10 md:py-16 flex flex-col gap-10">
-        <h1 className="text-center font-outfit font-bold text-4xl md:text-5xl">Sample transport, postal and warehousing employee profiles</h1>
-        <p className="text-center">At MicroSourcing, we have more than 900 transport, postal and warehousing specialists in our candidate database, and access to more than an additional 3,800 individuals across the Philippines who can help with outsourcing your warehouse operations. Here are a few examples of real candidate profiles:</p>
-        <img src={sectionImg} alt="" />
+      <div className="section-container bg-[#f1f4f6]">
+        <h1>Sample engineering and construction employee profiles</h1>
+        <p>
+          At MicroSourcing, we have more than 6,100 engineering and construction
+          specialists in our candidate database, and access to more than an
+          additional 4,500 across the Philippines. Here are a few examples of
+          real candidate profiles:
+        </p>
+        <img src={sectionImg} alt="profile" />
       </div>
-      <div className="section-container ">
-        <h1>MicroSourcing clients by industry</h1>
-        <p>MicroSourcing has built a close affinity with the Ecommerce Industry. In fact, ECommerce is in our Top 5 Industry Sectors enjoying and mastering the benefits of offshoring. With over 320 Ecommerce professionals currently working for clients in Australia, the Americas and across Europe, we have significant experience in this Industry.</p>
-        <img className="md:px-40" src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png" alt="chart" />
+      <div className="section-margin flex flex-col items-center gap-10">
+        <h1 className="font-outfit text-5xl">MicroSourcing clients by industry</h1>
+        <p className=" text-center px-20">
+          MicroSourcing has built a close affinity with the Ecommerce Industry.
+          In fact, ECommerce is in our Top 5 Industry Sectors enjoying and
+          mastering the benefits of offshoring. With over 320 Ecommerce
+          professionals currently working for clients in Australia, the Americas
+          and across Europe, we have significant experience in this Industry.
+        </p>
+        <img
+          className="md:px-40"
+          src="https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Learn/Resources/ms-engineering-construction-chart.png?width=1268&height=803&name=ms-engineering-construction-chart.png"
+          alt="chart"
+        />
       </div>
       <div>
         <GetInTouch />
