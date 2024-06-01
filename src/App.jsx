@@ -45,7 +45,7 @@ import Operations from "./Components/pages/Teams/Operations/Operations";
 import QualityAssurance from "./Components/pages/Teams/QualityAssurance/QualityAssurance";
 import SalesSupport from "./Components/pages/Teams/SalesSupport/SalesSupport";
 import TechnicalSupport from "./Components/pages/Teams/TechnicalSupport/TechnicalSupport";
-
+import Accountant from './Components/pages/Jobs/Accountant/Accountant'
 
 const App = () => {
   return (
@@ -99,6 +99,7 @@ const App = () => {
           <Route path="sales-support" element={<SalesSupport />} />
           <Route path="technical-support" element={<TechnicalSupport />} />
         </Route>
+        <Route path="/test" element={<Accountant />} />
       </Routes>
       <Footer />
     </BrowserRouter>
