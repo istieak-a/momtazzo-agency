@@ -99,7 +99,7 @@ const App = () => {
           <Route path="sales-support" element={<SalesSupport />} />
           <Route path="technical-support" element={<TechnicalSupport />} />
         </Route>
-        <Route path="/test" element={<Accountant />} />
+        <Route path="/job-roles/accountant" element={<Accountant />} />
       </Routes>
       <Footer />
     </BrowserRouter>
