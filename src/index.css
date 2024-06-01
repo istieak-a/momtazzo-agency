@@ -54,10 +54,10 @@ body {
       transform 300ms;
   }
   .section-margin {
-    @apply p-5 md:px-16 py-10;
+    @apply p-5 md:px-28 py-10;
   }
   .section-container {
-    @apply flex flex-col items-start gap-7 px-5 py-10 font-dmsans text-lg  md:px-16;
+    @apply flex flex-col items-start gap-7 px-5 py-10 font-dmsans text-lg  md:px-28;
   }
   .section-container p {
     @apply font-outfit text-[17px] font-[400] text-gray-600;
