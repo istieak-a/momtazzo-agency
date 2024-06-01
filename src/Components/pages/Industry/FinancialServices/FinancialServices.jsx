@@ -19,24 +19,6 @@ const FinancialServices = () => {
     btn: "HOW IT WORKS",
     cate: "Industries",
   };
-  const cardData = [
-    {
-      title: "Reduce Costs",
-      ico: reduceCost,
-      desc: "Save up to 70% on employment costs. Get top-notch skills at a fraction of the price.",
-    },
-    {
-      title: "Increase efficiency",
-      ico: increaseQuality,
-      desc: "27% of companies outsource to maximize efficiencies.",
-    },
-    {
-      title: "Faster Growth",
-      ico: scaleFast,
-      desc: "Navigate demand and scale sustainably with the right people dedicated to your business.",
-    },
-  ];
-  
   const features = {
     title: "Why is the financial services industry well suited to outsourcing?",
     li1: "Outsourcing can effectively address complex regulatory requirements and compliance standards by leveraging external expertise and specialized resources.",

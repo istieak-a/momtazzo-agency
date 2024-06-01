@@ -26,9 +26,9 @@ const MicroSourcing = ({ title, services }) => {
         },
       ];
   return (
-    <div className="px-5 md:px-16 flex flex-col gap-10">
+    <div className="px-5 md:px-28 flex flex-col gap-10">
     <div className="flex flex-col items-center gap-8 py-10">
-      <h1 className="font-outfit text-5xl text-center font-semibold">What {title} and roles can you outsource with Microsourcing</h1>
+      <h1 className="font-outfit text-5xl text-center font-semibold">What {title} roles can you outsource with Microsourcing</h1>
       <p className="text-center md:px-20">MicroSourcing is the leading outsourcing provider in the Philippines, building full-time, dedicated teams for its clients while taking care of everything on the ground.</p>
       <ul className="grid grid-cols-3 mlist gap-4">
         {services.map((service, index) => (
