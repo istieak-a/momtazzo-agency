@@ -29,41 +29,34 @@ const folders = [
   "TalentAcquisitionSpecialist",
   "VideoEditor",
   "VirtualAssistant",
-  "WebDeveloper",
+  "WebDeveloper"
 ];
 
 const generateComponent = (folder) => {
-  return `
-import React from "react";
-import HeroBanner from "../../../Sections/HeroBanner/HeroBanner";
+  const componentName = folder.replace(/&/g, 'And').replace(/Specialist/g, 'Spec').replace(/[^a-zA-Z]/g, ''); // Clean and format folder name for JavaScript variable naming conventions
+  return `import React from "react";
+import HeroBanner4 from "../../../Sections/HeroBanner4/HeroBanner4";
 import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
 
-const ${folder} = () => {
+const ${componentName} = () => {
   const heroBanner = {
-    title: "How Does Offshoring Work?",
-    desc: "It’s your team. With offshore staffing, you have full visibility and control, without having to worry about facilities, operations and regulations.",
-    img: 'https://www.microsourcing.com/hubfs/3D%20designer_desktop.jpg',
-    imgRes: 'https://www.microsourcing.com/hubfs/3D%20designer_mobile.jpg',
+    title: "Outsource ${folder.toLowerCase()} to the Philippines",
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
+    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg"
   };
   return (
     <div>
-    <div>
-        <HeroBanner
-          title={heroBanner.title}
-          desc={heroBanner.desc}
-          img={heroBanner.img}
-          imgRes={heroBanner.imgRes}
-        />
-      </div>
-      <div>
-        <GetInTouch />
-      </div>
+      <HeroBanner4
+        title={heroBanner.title}
+        img={heroBanner.img}
+        imgRes={heroBanner.imgRes}
+      />
+      <GetInTouch />
     </div>
   );
 };
 
-export default ${folder};
-`;
+export default ${componentName};`;
 };
 
 folders.forEach((folder) => {

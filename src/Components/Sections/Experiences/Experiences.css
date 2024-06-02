@@ -1,0 +1,24 @@
+.indivu {
+    @apply bg-white px-8 py-10 flex flex-col gap-5 rounded-lg relative pt-28;
+}
+.indivu h2 {
+    @apply text-3xl font-bold font-outfit;
+}
+
+.indivu ul {
+    @apply list-image-none flex flex-col gap-3 list-disc list-inside pt-5;
+}
+.star-rating {
+    @apply flex gap-1 bg-[#ef8934] absolute -left-5 top-8 w-[140px] h-[40px]  items-center justify-center text-white text-2xl;
+}
+.star-rating::before {
+    border-color: #c5712c #c5712c #fff0 #fff0;
+    border-style: solid;
+    border-width: 11px;
+    content: "";
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 39px;
+    width: 20px;
+}

@@ -7,7 +7,7 @@ const HeroBanner = ({ title, title2, desc, img, imgRes }) => {
 
   return (
     <div
-      className="flex h-[130vh] flex-col justify-end bg-cover px-5 py-20 text-white md:h-[70vh] md:justify-center md:px-16"
+      className="flex h-[130vh] flex-col justify-end bg-cover px-5 py-20 text-white md:h-[70vh] md:justify-center md:px-16 "
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="flex flex-col items-center md:w-[40%] md:items-start">
