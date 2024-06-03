@@ -39,12 +39,13 @@ const ReduceCost = () => {
           staffing with the potential sales or revenue they may generate.
         </p>
         <p>
-          Outsourcing allows businesses to ease such financial pressures, with
+          Outsourcing allows businesses to  ease such financial pressures, with
           studies finding cost reduction is the number one reason1 businesses
           choose to outsource.
         </p>
-        <p>
-          With the cost of living in the Philippines much lower than in Western
+        <p className="flex items-center gap-5 py-5">
+          <img src="https://www.microsourcing.com/hubfs/MicroSourcing/Why%20Offshore/Reduce%20Cost/reduce-cost-im1.png" alt="ico" />
+          With the cost of living in India much lower than in Western
           countries, partnering with a quality outsourcing provider can save
           businesses up to 70% on employment costs for the same level of talent
           and output quality. In the battle to maintain pace with competitors,
@@ -64,9 +65,6 @@ const ReduceCost = () => {
       <div className="flex flex-col items-center gap-5">
         <GuranteePricing />
         <Link to={`#`} className="btn px-10 py-4">Get a quote</Link>
-      </div>
-      <div>
-        <CaseStudy />
       </div>
       <div>
         <TheBenifits />

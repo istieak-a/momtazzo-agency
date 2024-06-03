@@ -21,7 +21,7 @@ const Navbar = () => {
         {
           heading: "Reduce Cost",
           url: "/why-outsource/reduce-cost",
-          desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, perspiciatis!",
+          desc: "Reduce costs and increase profits without compromise. All while accessing a deeper, wider talent pool.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/large-enterprises-menu-img.jpg?width=624&height=345&name=large-enterprises-menu-img.jpg",
         },
@@ -47,9 +47,9 @@ const Navbar = () => {
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/increase-quality-menu-img.jpg?width=624&height=345&name=increase-quality-menu-img.jpg",
         },
         {
-          heading: "Why The Philippines?",
+          heading: "Why India?",
           url: "/why-outsource/why-philippines",
-          desc: "Its low living costs and first-class education system are just the beginning. See why the Philippines is the best offshoring destination.",
+          desc: "Its low living costs and first-class education system are just the beginning. See why the India is the best offshoring destination.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",
         },
@@ -494,8 +494,8 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="px-5 py-7 shadow-xl md:px-20 ">
-      <div className="mx-auto relative flex max-w-7xl items-center justify-between">
+    <nav className="px-5 py-7 shadow-xl md:px-20 relative">
+      <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Link to={"/"}>
           <img className="w-[150px]" src={logo} alt="logo" />
         </Link>
@@ -614,7 +614,7 @@ const Navbar = () => {
           >
             Pricing
           </Link>
-          <button className="btn ms-10">Contact</button>
+          <Link to={'/contact'} className="btn ms-10">Contact</Link>
         </div>
         <motion.div
           variants={toggleVariants}

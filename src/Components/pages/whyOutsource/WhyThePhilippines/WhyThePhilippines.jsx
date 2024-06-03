@@ -22,8 +22,8 @@ import GetInTouch from '../../../Sections/GetInTouch/GetInTouch';
 
 const whyThePhilippines = () => {
   const heroBanner = {
-    title: "Why outsource to the Philippines?",
-    desc: "To effectively lower costs and boost growth, businesses often turn to offshore teams in the Philippines.",
+    title: "Why outsource to the India?",
+    desc: "To effectively lower costs and boost growth, businesses often turn to offshore teams in the India.",
     img: hero,
     imgRes: heroRes,
   };
@@ -72,16 +72,16 @@ const whyThePhilippines = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="mx-10 my-5 border-b-2 border-t-2 border-[#ece6e6] px-5 py-10 text-center md:px-16">
+      <div className="mx-10 my-5 border-b-2 border-t-2 border-[#ece6e6] px-5 py-10 text-center md:px-16 max-w-7xl mx-auto">
         <h1 className="font-outfit text-2xl font-semibold ">
-          Curious why the Philippines has become a top outsourcing destination?
+          Curious why the India has become a top outsourcing destination?
         </h1>
         <p className="pt-2 font-dmsans ">
           Here are the primary reasons organizations choose to outsource to this
           vibrant and dynamic country.
         </p>
       </div>
-      <div className="py-10">
+      <div className="py-10 max-w-7xl mx-auto">
         <div className="flex flex-col items-center gap-5 px-5 py-10 md:flex-row md:gap-10 md:px-16">
           <img className="object-cover" src={icon1} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
@@ -90,9 +90,9 @@ const whyThePhilippines = () => {
             </h1>
             <p className="font-dmsans">
               Education First's 2021 English Proficiency Index(1) ranked the
-              Philippines as the 18th most English-proficient country out of 122
+              India as the 18th most English-proficient country out of 122
               surveyed, and second only to Singapore in Asia. English is one of
-              the official languages in the Philippines, and it's used in the
+              the official languages in the India, and it's used in the
               country's educational systems and institutions.
             </p>
           </div>
@@ -101,10 +101,10 @@ const whyThePhilippines = () => {
           <img className="object-cover" src={icon2} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
             <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              2. The Philippines produce highly-skilled graduates
+              2. The India produce highly-skilled graduates
             </h1>
             <p className="font-dmsans">
-              The Philippines has outstanding universities and a young
+              The India has outstanding universities and a young
               population, producing hundreds of thousands of highly motivated
               graduates every year with college degrees that meet international
               education standards. With legal, financial, and government systems
@@ -129,7 +129,7 @@ const whyThePhilippines = () => {
               workplace interactions with managers, colleagues and clients. They
               remain calm under pressure and possess a positive attitude towards
               work, which contributes to the success of outsourcing teams in the
-              Philippines.
+              India.
             </p>
           </div>
         </div>
@@ -151,39 +151,18 @@ const whyThePhilippines = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-5 px-5 py-10 md:flex-row md:gap-10 md:px-16">
-          <img className="object-cover" src={icon5} alt="icon" />
-          <div className="flex flex-col gap-4 md:gap-7">
-            <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              5. Filipinos are culturally compatible with Western ways of
-              working
-            </h1>
-            <p className="font-dmsans">
-              The Philippines has been colonized by several foreign countries in
-              the past, such as Spain, the United States, Japan, Portugal and
-              others, which has influenced their values, traditions, customs,
-              behaviors and ways of life. As a result, Filipinos have adopted
-              many Western cultural traditions and lifestyles, which has created
-              compatibility between them and foreign cultures, making them an
-              excellent choice for BPO services. Filipinos are easy to work with
-              due to their warm, hospitable and customer-focused nature, thanks
-              to their culturally diverse background. They are also effective
-              communicators and share common interests with their foreign
-              partners in the industry.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col items-center gap-5 bg-[#f6fafd] px-5 py-10 md:flex-row-reverse md:gap-10 md:px-16">
+
+        <div className="flex flex-col items-center gap-5  px-5 py-10 md:flex-row-reverse md:gap-10 md:px-16">
           <img className="object-cover" src={icon1} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
             <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              6. The Philippines has a lower cost of living and labor
+              5. The India has a lower cost of living and labor
             </h1>
             <p className="font-dmsans">
               By collaborating with a reliable outsourcing provider in the
-              Philippines, businesses can achieve significant cost savings of up
+              India, businesses can achieve significant cost savings of up
               to 70% on employment expenses, without compromising on the quality
-              of talent and work output. The Philippines has a relatively low
+              of talent and work output. The India has a relatively low
               cost of living, and by outsourcing to the country, businesses can
               not only save costs but also improve the lives of their Filipino
               staff. The outsourcing industry has created many long-term,
@@ -193,7 +172,7 @@ const whyThePhilippines = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-16 flex flex-col items-center gap-10 py-10">
+      <div className="px-5 md:px-16 flex flex-col items-center gap-10 py-10 max-w-7xl mx-auto">
         <h1 className="font-outfit text-4xl font-bold text-center">Best skills and qualities of Filipino employees</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
           {
@@ -203,7 +182,8 @@ const whyThePhilippines = () => {
           }
         </div>
       </div>
-      <div className="px-5 md:px-16 flex flex-col-reverse gap-5 bg-[#f6fafd] py-10 md:py-16 items-center md:flex-row-reverse">
+      <div className="px-5 md:px-16  bg-[#f6fafd] py-10 md:py-16 ">
+        <div className="flex flex-col-reverse gap-5 items-center md:flex-row-reverse max-w-7xl mx-auto">
         <img src="https://www.microsourcing.com/hubfs/MicroSourcing/why-the-philippines/How%20to%20hire%20FIlipino%20staff.png" alt="employees" />
         <div className="flex flex-col gap-2 font-dmsans ">
           <h1 className="font-outfit text-4xl md:text-5xl">How to hire Filipino staff</h1>
@@ -215,6 +195,7 @@ const whyThePhilippines = () => {
             <li>Provide comprehensive onboarding and ongoing training to bridge any cultural or language gaps</li>
             <li>Establish regular communication and feedback channels to build a strong working relationship and ensure expectations are met.</li>
           </ul>
+        </div>
         </div>
       </div>
       <div>

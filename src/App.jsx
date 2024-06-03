@@ -76,6 +76,7 @@ import VirtualAssistant from "./Components/pages/Jobs/VirtualAssistant/VirtualAs
 import WebDeveloper from "./Components/pages/Jobs/WebDeveloper/WebDeveloper";
 import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 const App = () => {
   return (
     <BrowserRouter>
@@ -84,6 +85,7 @@ const App = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="/pricing" element={<Pricing  />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
           <Route path="why-microsourcing" element={<WhyMicrosourcing />} />  

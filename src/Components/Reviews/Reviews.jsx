@@ -33,7 +33,7 @@ const Reviews = () => {
   const reviews = [
     {
       review:
-        "I have 2 VA's with MyOutDesk. Our VA's are amazing! They help us with BPO tasks, Craigslist, postlets, Facebook greetings, Zillow, IVR, metric spreadsheets, RealPro tasks, listing tasks, price reduction plans, finding comps, etc. I'm grateful for our VA's daily!",
+        "I have 2 VA's with Montazzo. Our VA's are amazing! They help us with BPO tasks, Craigslist, postlets, Facebook greetings, Zillow, IVR, metric spreadsheets, RealPro tasks, listing tasks, price reduction plans, finding comps, etc. I'm grateful for our VA's daily!",
       img: avatar,
       name: "Toril Schoepfer",
       desc: "Broker/Owner",
@@ -41,7 +41,7 @@ const Reviews = () => {
     },
     {
       review:
-        "Working with MyOutDesk has really been a dream. It has allowed me to cost effectively outsource the prospecting part of my business. The investment is nothing compared to the return I am getting from listings, opportunities, and brand exposure they provide me.",
+        "Working with Montazzo has really been a dream. It has allowed me to cost effectively outsource the prospecting part of my business. The investment is nothing compared to the return I am getting from listings, opportunities, and brand exposure they provide me.",
       img: avatar,
       name: "Adam Kruse",
       desc: "Broker/Owner",
@@ -65,7 +65,7 @@ const Reviews = () => {
     },
     {
       review:
-        "MyOutDesk is where you'll find real estate trained Virtual Assistants that can do everything that an assistant can do for you, except physically picking up a lockbox or paperwork, because they're located remotely in the Philippines. They work the hours you want, in the timezone",
+        "Montazzo is where you'll find real estate trained Virtual Assistants that can do everything that an assistant can do for you, except physically picking up a lockbox or paperwork, because they're located remotely in the India. They work the hours you want, in the timezone",
       img: avatar,
       name: "Tom Ferry",
       desc: "Coach & Trainer",
@@ -81,7 +81,7 @@ const Reviews = () => {
     },
     {
       review:
-        "MyOutDesk has allowed me to start building my real estate team, starting with what I needed help with the most - lead generation. I'd highly recommend MyOutDesk to any agent like who is looking to get to the next level and ultimately build a real estate team.",
+        "Montazzo has allowed me to start building my real estate team, starting with what I needed help with the most - lead generation. I'd highly recommend Montazzo to any agent like who is looking to get to the next level and ultimately build a real estate team.",
       img: avatar,
       name: "Charlie Hutchinson",
       desc: "REALTOR®",
@@ -89,7 +89,7 @@ const Reviews = () => {
     },
     {
       review:
-        "MyOutDesk has really revolutionized our business. We'd generate rental leads, hand them off to our agents, and have those agents reach out. We needed a better way to use the time these agents were spending to get these leads ready to go out on tour. I can't tell you how",
+        "Montazzo has really revolutionized our business. We'd generate rental leads, hand them off to our agents, and have those agents reach out. We needed a better way to use the time these agents were spending to get these leads ready to go out on tour. I can't tell you how",
       img: avatar,
       name: "Boots Levinson",
       desc: "Principal",

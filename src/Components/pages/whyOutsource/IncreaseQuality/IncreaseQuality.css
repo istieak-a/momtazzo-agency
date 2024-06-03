@@ -1,8 +1,8 @@
 .increase-divs {
-    @apply px-5 md:px-16 flex flex-col gap-5 pb-10 border-b py-10
+    @apply px-5 md:px-16 flex flex-col gap-5 pb-10 border-b py-10 max-w-7xl mx-auto
 }
 .increase-divs h1 {
-    @apply font-outfit font-bold text-3xl
+    @apply font-sans font-bold text-3xl
 }
 .increase-divs p {
     @apply font-dmsans text-lg

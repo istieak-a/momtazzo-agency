@@ -112,7 +112,7 @@ const Homepage = () => {
   const unique = [
     {
       title: "15 Years Of Experience",
-      desc: "Rated the #1 virtual assistant company with 7500+ clients served and 800+ verified 5-star business reviews, we are the leader in virtual assistant services in both North America and the Philippines.",
+      desc: "Rated the #1 virtual assistant company with 7500+ clients served and 800+ verified 5-star business reviews, we are the leader in virtual assistant services in both North America and India.",
       ico: verify,
     },
     {
@@ -148,7 +148,7 @@ const Homepage = () => {
         <div className="max-w-7xl mx-auto flex flex-col items-start gap-3 md:flex-row md:gap-20">
         <div className="pe-5 md:w-[60%] md:pe-0">
           <h1 className="font-dmsans text-4xl md:text-6xl">
-            Hire full-time outsourced teams in the Philippines.{" "}
+            Hire full-time outsourced teams in India.{" "}
           </h1>
           <h2 className="font-outfit text-4xl font-bold md:text-6xl">
             Ready to work in as little as six weeks
@@ -213,7 +213,7 @@ const Homepage = () => {
               <h2>UK</h2>
             </div>
             <div className="w-[20%]">
-              <h2>PHILIPPNES</h2>
+              <h2>INDIA</h2>
             </div>
           </div>
         </div>

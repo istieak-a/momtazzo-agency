@@ -24,8 +24,8 @@ const ScaleFast = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="flex flex-col gap-5 px-5 py-16 md:px-16">
-        <h1 className="pb-4 text-center font-outfit text-3xl font-[500] md:text-6xl">
+      <div className="flex flex-col gap-5 px-5 py-16 md:px-16 max-w-7xl mx-auto">
+        <h1 className="pb-4 text-left font-sans text-3xl font-[500] md:text-5xl">
           How outsourcing facilitates scalability
         </h1>
         <p>
@@ -38,7 +38,8 @@ const ScaleFast = () => {
           issues that arise when staff become surplus to requirements and it is
           time to downsize again.
         </p>
-        <p>
+        <p className="flex items-center py-5 gap-5">
+          <img src="https://www.microsourcing.com/hubfs/MicroSourcing/Why%20Offshore/Scale%20Fast/ms-benefit-scalability-img1.png" alt="ico" />
           Quality outsourcing providers allow businesses to access individual
           staff or establish entire teams in as little as six to eight weeks and
           at a fraction of the cost of doing so in-house. Be it navigating
@@ -64,9 +65,9 @@ const ScaleFast = () => {
           reasons for outsourcing1.
         </p>
       </div>
-      <div>
+      {/* <div>
         <CaseStudy />
-      </div>
+      </div> */}
       <div>
         <TheBenifits />
       </div>
