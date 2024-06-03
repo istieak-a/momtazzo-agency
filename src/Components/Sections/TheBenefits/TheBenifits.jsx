@@ -17,7 +17,7 @@ const TheBenifits = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-5 px-5 py-10 md:gap-10 md:px-20 md:py-20 ">
+    <div className="flex flex-col gap-5 px-5 py-10 md:gap-10 md:px-20 md:py-20 max-w-7xl mx-auto">
       <div className="flex flex-col gap-3">
         <h1 className="text-center font-outfit text-3xl font-bold md:text-5xl">
           The benefits of outsourcing do not end with reduced costs.

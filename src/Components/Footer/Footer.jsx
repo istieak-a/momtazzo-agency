@@ -244,10 +244,9 @@ const Footer = () => {
       ],
     },
   ];
-  console.log(navData[0].subitems);
   return (
-    <div>
-      <div className="flex bg-[#ecf4f5]">
+    <div className="bg-[#07131d]">
+      {/* <div className="flex bg-[#ecf4f5]">
         {socialData.map((social, index) => {
           return (
             <a
@@ -261,8 +260,8 @@ const Footer = () => {
             </a>
           );
         })}
-      </div>
-      <div className="grid grid-cols-1 gap-5 bg-[#07131d] px-5 py-10 md:grid-cols-4">
+      </div> */}
+      <div className="grid grid-cols-1 gap-5  px-5 py-10 md:grid-cols-4 max-w-7xl mx-auto">
         <div>
           <img className="h-20" src={logo} alt="" />
         </div>

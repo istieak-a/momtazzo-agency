@@ -494,7 +494,8 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="relative flex items-center justify-between px-5 py-4 shadow-xl md:px-20">
+    <nav className="relative  px-5 py-4 shadow-xl md:px-20 ">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
       <Link to={"/"}>
         <img className="w-[150px]" src={logo} alt="logo" />
       </Link>
@@ -677,6 +678,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      </div>
     </nav>
   );
 };

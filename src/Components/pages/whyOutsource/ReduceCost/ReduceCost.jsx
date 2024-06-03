@@ -27,7 +27,7 @@ const ReduceCost = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="px-5 md:px-16 py-16 flex flex-col gap-5">
+      <div className="px-5 md:px-16 py-16 flex flex-col gap-5 max-w-7xl mx-auto">
         <h1 className="text-center text-3xl md:text-6xl font-outfit font-[500] pb-4">How outsourcing saves money</h1>
         <p>
           Labor is one of the biggest operating expenses for most businesses,
