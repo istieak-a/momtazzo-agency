@@ -494,190 +494,192 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="relative  px-5 py-4 shadow-xl md:px-20 ">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-      <Link to={"/"}>
-        <img className="w-[150px]" src={logo} alt="logo" />
-      </Link>
-      <div className="hidden items-center gap-5 md:flex ">
-        {navData.map((item, index) => (
-          <div key={index}>
-            <h2
-              className="flex cursor-pointer items-center gap-1 font-outfit text-lg hover:text-orange-500"
-              onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={handleMouseLeave}
-            >
-              {item.title}
-              <IoIosArrowDown />
-            </h2>
-            {isDropDownActive && activeDropdown === index && (
-              <div
-                className={`absolute top-[90px] z-50 flex bg-white px-5 py-5 ${
-                  activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
-                }`}
+    <nav className="px-5 py-7 shadow-xl md:px-20 ">
+      <div className="mx-auto relative flex max-w-7xl items-center justify-between">
+        <Link to={"/"}>
+          <img className="w-[150px]" src={logo} alt="logo" />
+        </Link>
+        <div className="hidden items-center gap-5 md:flex ">
+          {navData.map((item, index) => (
+            <div key={index}>
+              <h2
+                className="flex cursor-pointer items-center gap-1 font-outfit text-lg hover:text-orange-500"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
-                {item.categories ? (
-                  <div className="flex flex-col gap-2">
-                    {item.categories.map((category, categoryIndex) => (
-                      <div
-                        key={categoryIndex}
-                        onMouseEnter={() =>
-                          handleCategoryMouseEnter(categoryIndex)
-                        }
-                        className={`flex cursor-pointer items-center gap-2 px-10 py-2 hover:bg-[#fafafa] hover:text-[#e9892b] ${
-                          activeCategory === categoryIndex ? "bg-[#fafafa]" : ""
-                        }`}
-                      >
-                        <span className="flex items-center gap-2 text-xl">
-                          {category.ico}
-                          {category.title}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="grid grid-cols-2 gap-5">
-                    {item.subitems &&
-                      item.subitems.map((subitem, subItemIndex) => (
-                        <Link
-                          to={subitem.url}
-                          key={subItemIndex}
-                          className="navdropdown-item flex w-full gap-4 rounded-lg px-2 py-2 hover:bg-[#f4fafc]"
-                          onMouseEnter={handleSubItemMouseEnter}
-                          onMouseLeave={handleSubItemMouseLeave}
-                          onClick={handleSubItemClick}
+                {item.title}
+                <IoIosArrowDown />
+              </h2>
+              {isDropDownActive && activeDropdown === index && (
+                <div
+                  className={`absolute top-[73px]  z-50 flex bg-white px-5 py-5 ${
+                    activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
+                  }`}
+                  onMouseEnter={() => handleMouseEnter(index)}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {item.categories ? (
+                    <div className="flex flex-col gap-2">
+                      {item.categories.map((category, categoryIndex) => (
+                        <div
+                          key={categoryIndex}
+                          onMouseEnter={() =>
+                            handleCategoryMouseEnter(categoryIndex)
+                          }
+                          className={`flex cursor-pointer items-center gap-2 px-10 py-2 hover:bg-[#fafafa] hover:text-[#e9892b] ${
+                            activeCategory === categoryIndex
+                              ? "bg-[#fafafa]"
+                              : ""
+                          }`}
                         >
-                          {subitem.thumb ? (
-                            // Design when subitem.thumb exists
-                            <>
-                              <img
-                                src={subitem.thumb}
-                                alt={subitem.heading}
-                                className="size-20 rounded-xl object-cover"
-                              />
+                          <span className="flex items-center gap-2 text-xl">
+                            {category.ico}
+                            {category.title}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-2 gap-5">
+                      {item.subitems &&
+                        item.subitems.map((subitem, subItemIndex) => (
+                          <Link
+                            to={subitem.url}
+                            key={subItemIndex}
+                            className="navdropdown-item flex w-full gap-4 rounded-lg px-2 py-2 hover:bg-[#f4fafc]"
+                            onMouseEnter={handleSubItemMouseEnter}
+                            onMouseLeave={handleSubItemMouseLeave}
+                            onClick={handleSubItemClick}
+                          >
+                            {subitem.thumb ? (
+                              // Design when subitem.thumb exists
+                              <>
+                                <img
+                                  src={subitem.thumb}
+                                  alt={subitem.heading}
+                                  className="size-20 rounded-xl object-cover"
+                                />
+                                <div>
+                                  <h3 className="font-outfit text-lg font-semibold">
+                                    {subitem.heading}
+                                  </h3>
+                                  <p className="font-dmsans text-sm">
+                                    {subitem.desc}
+                                  </p>
+                                </div>
+                              </>
+                            ) : (
+                              // Design when subitem.thumb does not exist
                               <div>
                                 <h3 className="font-outfit text-lg font-semibold">
                                   {subitem.heading}
                                 </h3>
-                                <p className="font-dmsans text-sm">
-                                  {subitem.desc}
-                                </p>
                               </div>
-                            </>
-                          ) : (
-                            // Design when subitem.thumb does not exist
-                            <div>
-                              <h3 className="font-outfit text-lg font-semibold">
-                                {subitem.heading}
-                              </h3>
-                            </div>
-                          )}
-                        </Link>
-                      ))}
-                  </div>
-                )}
-                {activeCategory !== null && item.categories && (
-                  <div className="flex flex-col bg-[#fafafa] p-3">
-                    <h3 className="font-outfit text-xl font-semibold">
-                      {item.categories[activeCategory].heading}
-                    </h3>
-                    <p className="font-dmsans text-sm">
-                      {item.categories[activeCategory].desc}
-                    </p>
-                    <div className="mt-6 grid grid-cols-3">
-                      {item.categories[activeCategory].subitems.map(
-                        (subitem, subItemIndex) => (
-                          <Link
-                            to={subitem.url}
-                            key={subItemIndex}
-                            className="rounded-lg p-2 hover:text-[#e9892b]"
-                            onClick={handleCategorySubItemClick}
-                          >
-                            {subitem.title}
+                            )}
                           </Link>
-                        ),
-                      )}
+                        ))}
                     </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-        ))}
-        <Link
-          to={"/pricing"}
-          className="font-outfit text-lg hover:text-orange-500"
-        >
-          Pricing
-        </Link>
-        <button className="btn ms-10">Contact</button>
-      </div>
-      <motion.div
-        variants={toggleVariants}
-        animate={navToggle ? "open" : "closed"}
-        className="z-50 md:hidden"
-      >
-        {navToggle ? (
-          <IoCloseSharp
-            className="cursor-pointer text-4xl text-black"
-            onClick={() => setNavToggle(!navToggle)}
-          />
-        ) : (
-          <IoMenu
-            className="cursor-pointer text-4xl"
-            onClick={() => setNavToggle(!navToggle)}
-          />
-        )}
-      </motion.div>
-      <AnimatePresence>
-        {navToggle && (
-          <motion.div
-            variants={menuAnimate}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            className="absolute left-0 top-0 z-40 flex min-h-screen w-full origin-top flex-col gap-[40px] bg-white"
+                  )}
+                  {activeCategory !== null && item.categories && (
+                    <div className="flex flex-col bg-[#fafafa] p-3">
+                      <h3 className="font-outfit text-xl font-semibold">
+                        {item.categories[activeCategory].heading}
+                      </h3>
+                      <p className="font-dmsans text-sm">
+                        {item.categories[activeCategory].desc}
+                      </p>
+                      <div className="mt-6 grid grid-cols-3">
+                        {item.categories[activeCategory].subitems.map(
+                          (subitem, subItemIndex) => (
+                            <Link
+                              to={subitem.url}
+                              key={subItemIndex}
+                              className="rounded-lg p-2 hover:text-[#e9892b]"
+                              onClick={handleCategorySubItemClick}
+                            >
+                              {subitem.title}
+                            </Link>
+                          ),
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
+          <Link
+            to={"/pricing"}
+            className="font-outfit text-lg hover:text-orange-500"
           >
-            <div className="flex h-[90px] items-center px-8">
-              <img className="w-[110px]" src={logo} alt="logo" />
-            </div>
-            <div className="flex flex-col gap-12 px-8">
-              <motion.div
-                variants={itemVariants}
-                initial="initial"
-                animate="open"
-                exit="exit"
-                className="flex flex-col gap-7 "
-              >
-                {navData.map((item, index) => (
-                  <div key={index} className="overflow-hidden">
-                    <NavItem
-                      setNavToggle={setNavToggle}
-                      title={item.title}
-                      subitems={item.subitems}
-                      categories={item.categories}
-                    />
-                  </div>
-                ))}
-              </motion.div>
-              <div className="flex gap-5">
-                {socialData.map((item, index) => (
-                  <a
-                    key={index}
-                    href={item.link}
-                    target="_blank"
-                    className="flex items-center gap-4 font-outfit text-[20px] font-[500] text-black"
-                  >
-                    {item.icon}
-                  </a>
-                ))}
+            Pricing
+          </Link>
+          <button className="btn ms-10">Contact</button>
+        </div>
+        <motion.div
+          variants={toggleVariants}
+          animate={navToggle ? "open" : "closed"}
+          className="z-50 md:hidden"
+        >
+          {navToggle ? (
+            <IoCloseSharp
+              className="cursor-pointer text-4xl text-black"
+              onClick={() => setNavToggle(!navToggle)}
+            />
+          ) : (
+            <IoMenu
+              className="cursor-pointer text-4xl"
+              onClick={() => setNavToggle(!navToggle)}
+            />
+          )}
+        </motion.div>
+        <AnimatePresence>
+          {navToggle && (
+            <motion.div
+              variants={menuAnimate}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              className="absolute left-0 top-0 z-40 flex min-h-screen w-full origin-top flex-col gap-[40px] bg-white"
+            >
+              <div className="flex h-[90px] items-center px-8">
+                <img className="w-[110px]" src={logo} alt="logo" />
               </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              <div className="flex flex-col gap-12 px-8">
+                <motion.div
+                  variants={itemVariants}
+                  initial="initial"
+                  animate="open"
+                  exit="exit"
+                  className="flex flex-col gap-7 "
+                >
+                  {navData.map((item, index) => (
+                    <div key={index} className="overflow-hidden">
+                      <NavItem
+                        setNavToggle={setNavToggle}
+                        title={item.title}
+                        subitems={item.subitems}
+                        categories={item.categories}
+                      />
+                    </div>
+                  ))}
+                </motion.div>
+                <div className="flex gap-5">
+                  {socialData.map((item, index) => (
+                    <a
+                      key={index}
+                      href={item.link}
+                      target="_blank"
+                      className="flex items-center gap-4 font-outfit text-[20px] font-[500] text-black"
+                    >
+                      {item.icon}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </nav>
   );

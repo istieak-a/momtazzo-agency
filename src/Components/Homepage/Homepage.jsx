@@ -144,7 +144,8 @@ const Homepage = () => {
 
   return (
     <div className="">
-      <div className="flex flex-col items-start gap-3 bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:flex-row md:gap-20 md:px-16">
+      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 ">
+        <div className="max-w-7xl mx-auto flex flex-col items-start gap-3 md:flex-row md:gap-20">
         <div className="pe-5 md:w-[60%] md:pe-0">
           <h1 className="font-dmsans text-4xl md:text-6xl">
             Hire full-time outsourced teams in the Philippines.{" "}
@@ -168,8 +169,9 @@ const Homepage = () => {
         <div className="hidden md:flex">
           <img src={heroLady} alt="" />
         </div>
+        </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-6 ">
+      {/* <div className="grid grid-cols-2 md:grid-cols-6 ">
         {partners.map((item, index) => (
           <div
             key={index}
@@ -182,8 +184,8 @@ const Homepage = () => {
             />
           </div>
         ))}
-      </div>
-      <div className="grid grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
+      </div> */}
+      <div className="grid grid-cols-1 gap-4 px-8 max-w-7xl mx-auto py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
           return (
             <Card
@@ -197,7 +199,8 @@ const Homepage = () => {
           );
         })}
       </div>
-      <div className="mx-5 flex flex-col gap-10 bg-[#547087] px-8 py-10 md:mx-0 md:flex-row-reverse md:p-16">
+      <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
+        <div className="max-w-7xl mx-auto flex flex-col gap-10  md:flex-row-reverse md:p-16">
         <div className="chart md:w-[60%]">
           <div className="chart-container flex flex-col gap-7 border-b py-5">
             <div className="w-[55%]">
@@ -223,8 +226,9 @@ const Homepage = () => {
           </h2>
           <Link className="btn">Learn how your business can save</Link>
         </div>
+        </div>
       </div>
-      <div className="flex flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
+      <div className="flex max-w-7xl mx-auto flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-4xl font-normal md:text-5xl">
           How offshoring works
         </h1>
@@ -264,7 +268,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="px-5 md:px-16 flex flex-col gap-10 py-10">
+      <div className="px-5 md:px-16 max-w-7xl mx-auto flex flex-col gap-10 py-10">
         <h1 className="text-4xl font-outfit font-[500] text-center">What sets up apart</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {
@@ -277,7 +281,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="px-5 py-20">
+      <div className="px-5 max-w-7xl mx-auto py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
           What Our Clients Are Saying
         </h2>

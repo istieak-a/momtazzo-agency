@@ -74,12 +74,16 @@ import TalentAcquisitionSpecialist from "./Components/pages/Jobs/TalentAcquisiti
 import VideoEditor from "./Components/pages/Jobs/VideoEditor/VideoEditor";
 import VirtualAssistant from "./Components/pages/Jobs/VirtualAssistant/VirtualAssistant";
 import WebDeveloper from "./Components/pages/Jobs/WebDeveloper/WebDeveloper";
+import Pricing from "./Components/Pricing/Pricing";
+import About from "./Components/About/About";
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/pricing" element={<Pricing  />} />
+        <Route path="/about" element={<About />} />
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
           <Route path="why-microsourcing" element={<WhyMicrosourcing />} />  
