@@ -28,7 +28,7 @@ const ReduceCost = () => {
         />
       </div>
       <div className="px-5 md:px-16 py-16 flex flex-col gap-5 max-w-7xl mx-auto">
-        <h1 className="text-center text-3xl md:text-6xl font-outfit font-[500] pb-4">How outsourcing saves money</h1>
+        <h1 className="text-left text-3xl md:text-5xl font-sans font-[500] pb-4">How outsourcing saves money</h1>
         <p>
           Labor is one of the biggest operating expenses for most businesses,
           with the likes of recruitment, training, wages and annual leave
