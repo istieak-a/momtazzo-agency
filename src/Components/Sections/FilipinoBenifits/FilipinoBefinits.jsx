@@ -47,7 +47,7 @@ const Card = ({title, ico, desc, link}) => {
     return (
         <Link to={link} className='bg-white px-5 py-8 rounded-lg flex flex-col  items-center gap-3'>
             <img src={ico} alt="icon" />
-            <h1 className='font-outfit text-2xl font-bold'>{title}</h1>
+            <h1 className='font-outfit text-2xl font-bold text-center'>{title}</h1>
             <p className='text-center'>{desc}</p>
         </Link>
     );

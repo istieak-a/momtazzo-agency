@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
@@ -8,12 +8,13 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_h55e2rd", "template_87qf7yq", form.current, {
-        publicKey: "bBBsu6XDvQXDmB7Ve",
+      .sendForm("service_ktzilk7", "template_x6gmzhg", form.current, {
+        publicKey: "nFV8rFh4ndxn4-C_9",
       })
       .then(
         () => {
           console.log("SUCCESS!");
+          window.open("https://calendly.com/tanveer-montazzocalendar/30mins", "_blank");  // Open a new tab with the URL
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -24,15 +25,12 @@ const Contact = () => {
   return (
     <div>
       <div className="flex items-center justify-center bg-[#1c2336] py-20 text-white">
-        <h1 className="font-outfit text-5xl font-semibold">Contact US</h1>
+        <h1 className="font-outfit text-5xl font-semibold">Contact Us</h1>
       </div>
       <div className="mx-auto my-20 max-w-md rounded-lg bg-white p-6 shadow-md">
         <h1 className="text-center text-2xl font-bold text-gray-800">
-          Strategy Call with
+          Strategy Call with an Expert
         </h1>
-        <h2 className="text-center text-2xl font-bold text-[#50aab2]">
-          an Expert
-        </h2>
         <form className="mt-6 space-y-4" onSubmit={sendEmail} ref={form}>
           <div>
             <label className="block text-sm font-medium text-gray-700">

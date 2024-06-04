@@ -25,7 +25,7 @@ const HeroBanner4 = ({ title, title2, desc, img, imgRes }) => {
           </h2>
         )}
         <p className="text-center text-lg md:text-left">{desc}</p>
-        <Link to="/how-it-works" className="btn">
+        <Link to="/contact" className="btn">
           {
             title === "Montazzo's Pricing Plans"
               ? "Book a Strategy Call"

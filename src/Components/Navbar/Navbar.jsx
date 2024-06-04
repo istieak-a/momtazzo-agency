@@ -12,6 +12,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { GrContactInfo } from "react-icons/gr";
+import manImg from '../../assets/man.webp'
+import womenImg from '../../assets/women.webp'
 
 const Navbar = () => {
   const navData = [
@@ -62,8 +64,7 @@ const Navbar = () => {
           heading: "How Offshoring Works",
           url: "/how-it-works/how-offshoring-works",
           desc: "It's your team. You have full visibility and control, without having to worry about facilities, operations and regulations.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/how-offshoring-works-menu-img.jpg?width=624&height=345&name=how-offshoring-works-menu-img.jpg",
+          thumb: 'https://i.ibb.co/mBmRkjf/man.webp'
         },
         // {
         //   heading: "The Keys to Success",
@@ -76,8 +77,7 @@ const Navbar = () => {
           heading: "Is It For You?",
           url: "/how-it-works/is-it-for-you",
           desc: "Learn your offshoring options and explore the benefits of Managed Operations over less effective models.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Outsourcing_20Models.jpg",
+          thumb:'https://i.ibb.co/WfnLd6j/women.webp'
         },
         // {
         //   heading: "Offshore Staffing",

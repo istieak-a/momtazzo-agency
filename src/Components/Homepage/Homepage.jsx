@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import "./Homepage.css";
 import { FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import heroLady from "../../assets/herolady.png";
+import heroLady from "../../assets/herolady2.webp";
 import increaseQuality from "../../assets/icons/increase-quality.png";
 import reduceCost from "../../assets/icons/reduce-cost.png";
 import scaleFast from "../../assets/icons/scale-fast.png";
@@ -167,7 +167,7 @@ const Homepage = () => {
               </Link>
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden w-1/2 rounded-lg overflow-hidden md:flex">
             <img src={heroLady} alt="" />
           </div>
         </div>

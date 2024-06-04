@@ -61,7 +61,7 @@ const MicroSourcing = ({ title, services }) => {
             />
           ))}
         </div>
-        <button className="btn">Learn more</button>
+        <Link to={'/contact'} className="btn">Learn more</Link>
     </div>
     </div>
   );
