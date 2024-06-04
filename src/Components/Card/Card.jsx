@@ -9,7 +9,7 @@ const Card = ({ title, ico, desc, btn, url }) => {
       <h2 className="text-center font-outfit text-2xl font-semibold md:pt-5 md:text-3xl">
         {title}
       </h2>
-      <p className="text-center text-sm line-clamp-4">{desc}</p>
+      <p className="text-center text-sm">{desc}</p>
       {btn && (
         <Link
           className="flex items-center gap-2 pt-3 font-dmsans text-lg font-bold text-[#50aab2] underline"
