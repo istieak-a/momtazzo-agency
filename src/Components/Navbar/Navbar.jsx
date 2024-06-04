@@ -34,7 +34,7 @@ const Navbar = () => {
         },
         {
           heading: "Why Montazzo?",
-          url: "/why-outsource/why-microsourcing",
+          url: "/why-outsource/why-montazzo",
           desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Why_20MicroSourcing.jpg?width=624&height=345&name=Why_20MicroSourcing.jpg",
@@ -48,7 +48,7 @@ const Navbar = () => {
         },
         {
           heading: "Why India?",
-          url: "/why-outsource/why-philippines",
+          url: "/why-outsource/why-india",
           desc: "Its low living costs and first-class education system are just the beginning. See why the India is the best offshoring destination.",
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",

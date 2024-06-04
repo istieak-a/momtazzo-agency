@@ -88,8 +88,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
-          <Route path="why-microsourcing" element={<WhyMicrosourcing />} />  
-          <Route path="why-philippines" element={<WhyThePhilippines />} />
+          <Route path="why-montazzo" element={<WhyMicrosourcing />} />  
+          <Route path="why-india" element={<WhyThePhilippines />} />
           <Route path="scale-fast" element={<ScaleFast />} />
           <Route path="increase-quality-efficiency" element={<IncreaseQuality />} />
         </Route>

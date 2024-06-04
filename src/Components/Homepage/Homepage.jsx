@@ -20,6 +20,7 @@ import manico from "../../assets/icons/manico.png";
 import people from "../../assets/icons/people.png";
 import verify from "../../assets/icons/verify.png";
 import BuildTeam from "../Sections/BuildTeam/BuildTeam";
+import Accordion from "../Accordian/Accordian";
 
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -75,14 +76,14 @@ const Homepage = () => {
       url: "/why-outsource/reduce-cost",
     },
     {
-      title: "Increase quality & efficiency",
+      title: "Increase Quality & Efficiency",
       ico: increaseQuality,
       desc: "Remote staffing solutions rectify skills shortages and improve internal processes by accessing global talent pools.",
       btn: "Build your team",
       url: "/why-outsource/increase-quality-efficiency",
     },
     {
-      title: "Scale faster",
+      title: "Scale Faster",
       ico: scaleFast,
       desc: "Tailor your offshore operations to help scale quickly, meet demand, combat rising labor costs and access specialty talent all without the overheads.",
       btn: "Scale my business",
@@ -144,13 +145,13 @@ const Homepage = () => {
 
   return (
     <div className="">
-      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 ">
+      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:px-16 ">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
           <div className="pe-5 md:w-[60%] md:pe-0">
             <h1 className="font-dmsans text-4xl md:text-6xl">
               Hire full-time outsourced teams in India.{" "}
             </h1>
-            <h2 className="font-outfit text-4xl font-bold md:text-6xl">
+            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
               Ready to work in as little as two weeks
             </h2>
             <p className="pt-5">
@@ -219,7 +220,7 @@ const Homepage = () => {
           </div>
           <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
             <h2 className="font-outfit text-4xl text-white md:text-5xl ">
-              Business who engage in business process outsourcing{" "}
+              Businesses who engage in business process outsourcing{" "}
               <span className="font-semibold">
                 (BPO) save 70% on employment costs.
               </span>
@@ -270,7 +271,7 @@ const Homepage = () => {
 
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <h1 className="text-center font-outfit text-4xl font-[500]">
-          What sets up apart
+          What sets us apart
         </h1>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {unique.map((item, index) => {
@@ -292,6 +293,7 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
+      <Accordion />
       <div>
         <BuildTeam />
       </div>

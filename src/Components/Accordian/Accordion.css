@@ -1,0 +1,21 @@
+.custom-accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .custom-accordion-content.open {
+    max-height: 1000px; /* adjust accordingly */
+  }
+  
+  .custom-accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-accordion-title:hover {
+    background-color: #e7e7e7;
+  }
+  
