@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const form = useRef();
@@ -13,17 +15,38 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
-          window.open("https://calendly.com/tanveer-montazzocalendar/30mins", "_blank");  // Open a new tab with the URL
+          
+          // Show success toast
+          toast.success("Successful, redirecting...!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: false,
+            draggable: true,
+            progress: undefined,
+          });
+          // Open a new tab immediately after successful form submission
+          window.open("https://calendly.com/tanveer-montazzocalendar/30mins", "_blank");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          // Show error toast if email sending fails
+          toast.error(`Failed to send email: ${error.text}`, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         },
       );
   };
 
   return (
     <div>
+      <ToastContainer />
       <div className="flex items-center justify-center bg-[#1c2336] py-20 text-white">
         <h1 className="font-outfit text-5xl font-semibold">Contact Us</h1>
       </div>
