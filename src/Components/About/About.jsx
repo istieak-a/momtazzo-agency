@@ -22,7 +22,7 @@ const About = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
+      <div className="section-margin mx-auto my-3 max-w-7xl border-b-2 border-t-2 text-center">
         <p>
           Most of our clients are Australian, American and European companies,
           but we help businesses from all around the world. The one thing they
@@ -31,22 +31,39 @@ const About = () => {
           help them do just that.
         </p>
       </div>
-      <div className="section-container">
+      <div className="section-container mx-auto max-w-7xl">
         <p>
-          Founded in 2006, we pioneered a new way of offshoring. This model
-          involves setting up an overseas division of your company and getting a
-          local specialist to handle facilities, IT, labor laws, recruitment and
-          HR, while you retain control over quality and productivity. Today,
-          we’re still one of the largest and most experienced offshoring
-          providers in the Philippines, with 700+ active clients and 9,000+
-          employees. We operate within purpose-built, class-A facilities that
-          are strategically located for access to Manila’s most talented people.
-          We’re backed by our Australian parent company, Probe and we’re ISO
-          certified.
+          Montazzo LLC began its journey in 2021 with a focus on B2B lead
+          generation. As we worked with various clients, we saw the challenges
+          American businesses face due to high local hiring costs and overheads.
+          This issue is particularly significant for startups, often causing
+          financial strain and operational inefficiencies. To address this, we
+          expanded our services in 2022 to help businesses save 70-80% on salary
+          and overhead costs by building and managing offshore teams for almost
+          any online role. Today, we assist businesses from the USA, UK,
+          Australia, and Canada in scaling their operations efficiently by
+          outsourcing tasks to India.
+        </p>
+        <h1>FBI-Grade Background Checks</h1>
+        <p>
+          We ensure the highest level of security and reliability by providing
+          employees who have passed FBI-grade background checks. This rigorous
+          vetting process guarantees that our clients can trust the integrity
+          and competence of their offshore team members.
+        </p>
+        <h1>IT and Data Security</h1>
+        <p>
+          Data security is a top priority at Montazzo. Our 24/7 IT support team
+          implements robust system monitoring, advanced encryption, and strict
+          access controls to protect sensitive data. We conduct regular audits
+          and maintain comprehensive disaster recovery plans to ensure
+          compliance with industry security standards and to safeguard our
+          clients' information.
         </p>
         <img
           src="https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/mic_MS_MicroSourcing-team.jpg"
           alt="img"
+          className="mx-auto"
         />
         <h1>Our difference</h1>
         <p>
@@ -83,18 +100,17 @@ const About = () => {
           </li>
           <li>Professional performance management and discipline framework</li>
           <li>
-            MicroSourcing University with dozens of training development
-            programs
+            Montazzo University with dozens of training development programs
           </li>
         </ul>
       </div>
       <div className="flex flex-col items-center gap-5 pt-10">
         <GuranteePricing />
-        <Link to={`#`} className="btn px-10 py-4">
+        <Link to={`/contact`} className="btn px-10 py-4">
           Get a quote
         </Link>
       </div>
-      <div className="section-container">
+      <div className="section-container mx-auto max-w-7xl">
         <h1>Mission, Vision and Values</h1>
 
         <h2>Mission</h2>

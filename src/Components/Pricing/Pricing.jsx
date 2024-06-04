@@ -23,30 +23,25 @@ const Pricing = () => {
         />
       </div>
       <div className="mx-auto flex max-w-5xl flex-col bg-white p-6 py-10 md:flex-row">
-        <div className="flex flex-col items-center justify-center rounded-lg bg-blue-900 p-6 text-white md:w-1/3">
-          <div className="mb-2 text-4xl font-bold">$1,988</div>
-          <div className="mb-4 text-lg">per month*</div>
-          <button className="rounded-lg bg-orange-500 px-4 py-2 text-white hover:bg-orange-600">
+        <div className="flex flex-col items-center justify-center rounded-lg bg-[#4a6277] p-6 text-white md:w-1/3">
+          <div className="mb-2 text-4xl font-bold text-center">Our pricing varies based on the specific role</div>
+          <Link to={'/contact'} className="btn mt-5">
             Book a Strategy Call
-          </button>
+          </Link>
         </div>
         <div className="p-6 md:w-2/3">
           <h2 className="mb-4 text-3xl font-bold">
-            Scale With <span className="text-orange-500">Unbeatable ROI</span>
+            Scale With <span className="text-[#50aab2]">Unbeatable ROI</span>
           </h2>
           <p className="mb-4">
-            Virtual Assistants can save you up to 70% of the cost of a full-time
+            Offshore staff can save you up to 70% of the cost of a full-time
             employee – without the headaches of insurance, retirement, office &
-            equipment costs, and unemployment. We’ve saved our clients over 55M
-            in 2023.
+            equipment costs, and unemployment.
           </p>
           <h3 className="mb-2 font-bold">What’s Included:</h3>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <ul className="list-none space-y-2">
-              <li className="flex items-start">
-                <img alt="check" src={checkIco} className="mr-2 h-4 w-4" /> VA
-                Benefits & Medical Coverage
-              </li>
+
               <li className="flex items-start">
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" /> FBI
                 Grade Background Checks
@@ -75,7 +70,7 @@ const Pricing = () => {
               </li>
               <li className="flex items-start">
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
-                Legal Entity in US\PH
+                Legal Entity in US\INDIA
               </li>
               <li className="flex items-start">
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
@@ -83,16 +78,9 @@ const Pricing = () => {
               </li>
               <li className="flex items-start">
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
-                Secure PCI Compliant Payments
-              </li>
-              <li className="flex items-start">
-                <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
                 Standardized Office & Equipment Policy
               </li>
-              <li className="flex items-start">
-                <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
-                Productivity Tracking Software via MyTimeIn
-              </li>
+
             </ul>
           </div>
         </div>
@@ -102,7 +90,7 @@ const Pricing = () => {
           <div className="mb-10 text-center">
             <h1 className="text-5xl font-semibold">Us vs Them</h1>
             <p className="mt-3 text-zinc-600">
-              MyOutDesk is miles ahead of the competition
+              Montazzo is miles ahead of the competition
             </p>
           </div>
           <div className="overflow-x-auto text-lg">
@@ -111,7 +99,7 @@ const Pricing = () => {
                 <tr>
                   <th className="w-1/2"></th>
                   <th className="w-1/4 bg-blue-500 py-2 text-white">
-                    MYOUTDESK
+                    Montazzo
                   </th>
                   <th className="w-1/4 bg-zinc-100 py-2 text-zinc-700">THEM</th>
                 </tr>
@@ -133,7 +121,7 @@ const Pricing = () => {
                   them="✖"
                 />
                 <TableRow
-                  title="Legally Entity In US \ PH"
+                  title="Legally Entity In US \ INDIA"
                   myOutDesk="✔"
                   them="✖"
                 />
@@ -144,11 +132,6 @@ const Pricing = () => {
                 />
                 <TableRow
                   title="Standardized Equipment Policies"
-                  myOutDesk="✔"
-                  them="✖"
-                />
-                <TableRow
-                  title="Productivity Tracking Software"
                   myOutDesk="✔"
                   them="✖"
                 />
@@ -166,13 +149,7 @@ const Pricing = () => {
       <div className="mx-auto max-w-7xl py-20">
         <Reviews />
       </div>
-      <div className="relative bg-black bg-opacity-50">
-        <img
-          src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/06/global-cta-slate.png"
-          alt="Business meeting"
-          className="h-[50vh] w-full object-cover"
-        />
-        <div className="absolute inset-0 mx-auto flex  max-w-7xl flex-col items-start justify-center space-y-5 px-5 md:px-10 lg:px-20">
+        <div className="inset-0 mx-auto flex  max-w-7xl flex-col items-start justify-center space-y-5 px-5 md:px-10 lg:px-20 py-12 bg-[#1c2336]">
           <h2 className="text-2xl font-bold text-white md:text-3xl lg:text-4xl">
             Ready to scale your business?
           </h2>
@@ -180,9 +157,9 @@ const Pricing = () => {
             Find a virtual professional that meets your unique business needs
             and save up to 70% on hiring costs today.
           </p>
-          <Link className="btn">Book a Strategy Call</Link>
+          <Link to={'/contact'} className="btn">Book a Strategy Call</Link>
         </div>
-      </div>
+
     </div>
   );
 };
