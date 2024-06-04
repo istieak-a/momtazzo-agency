@@ -28,8 +28,8 @@ const MicroSourcing = ({ title, services }) => {
   return (
     <div className="px-5 md:px-28 flex flex-col gap-10">
     <div className="flex flex-col items-center gap-8 py-10">
-      <h1 className="font-outfit text-5xl text-center font-semibold">What {title} roles can you outsource with Microsourcing</h1>
-      <p className="text-center md:px-20">MicroSourcing is the leading outsourcing provider in the Philippines, building full-time, dedicated teams for its clients while taking care of everything on the ground.</p>
+      <h1 className="font-outfit text-5xl text-center font-semibold">What {title} roles can you outsource with Montazzo</h1>
+      <p className="text-center md:px-20">Montazzo is the leading outsourcing provider in the India, building full-time, dedicated teams for its clients while taking care of everything on the ground.</p>
       <ul className="grid grid-cols-3 mlist gap-4">
         {services.map((service, index) => (
           <li key={index}>{service}</li>
@@ -37,7 +37,7 @@ const MicroSourcing = ({ title, services }) => {
       </ul>
     </div>
     <div className="flex flex-col gap-20 items-center py-10">
-        <h1 className="font-outfit text-5xl font-semibold">Microsourcing client results</h1>
+        <h1 className="font-outfit text-5xl font-semibold">Montazzo client results</h1>
         <div className="flex gap-5">
             <div className="flex items-center gap-5 bg-[#f4fafc] px-8 py-5 rounded-lg">
                 <img src="https://www.microsourcing.com/hubfs/icon-productivity%20increased%20(1).svg" alt="ico" />
@@ -50,7 +50,7 @@ const MicroSourcing = ({ title, services }) => {
         </div>
     </div>
     <div className="flex flex-col gap-10 items-center py-10">
-        <h1 className="font-outfit font-bold text-4xl">How does offshoring work with Microsourcing work?</h1>
+        <h1 className="font-outfit font-bold text-4xl">How does offshoring work with Montazzo?</h1>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {cardData2.map((data, index) => (
             <Card
