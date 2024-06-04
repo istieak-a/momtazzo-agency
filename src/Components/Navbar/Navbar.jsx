@@ -608,7 +608,7 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          <Link to={'/about'} className="font-outfit text-[15px] hover:text-orange-500 text-[17px]">About</Link>
+          <Link to={'/about'} className="font-outfit hover:text-orange-500 text-[17px]">About</Link>
 
           <Link
             to={"/pricing"}
