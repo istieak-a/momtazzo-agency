@@ -4,7 +4,7 @@ import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
 
 const DataAnalyst = () => {
   const heroBanner = {
-    title: "Outsource Data Analyst to the Philippines",
+    title: "Outsource Data Analyst to India",
     img: "https://www.microsourcing.com/hubfs/M_Webpage_-Header-Banner_Data-Analyst.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/job-role-personal-assistant-banner-m.jpg",
@@ -55,7 +55,7 @@ const DataAnalyst = () => {
           A large number of data analyst tasks can be completed digitally, which
           makes them well-suited to being performed in an offshore environment.
           As long as your business is offshore ready, outsourcing data analysts
-          to the Philippines is simple and cost-effective.
+          to the India is simple and cost-effective.
         </p>
 
         <h2>What Are the Benefits of Outsourcing Data Analyst Tasks?</h2>
@@ -64,13 +64,13 @@ const DataAnalyst = () => {
             <strong>Cost savings:</strong> By hiring an offshore data analyst to
             support your local team with repetitive and time-consuming drafting
             tasks for a fraction of the price, due to the lower living costs in
-            the Philippines, you can save up to 70% when compared to hiring
+            the India, you can save up to 70% when compared to hiring
             locally.
           </li>
           <li>
             <strong>Increase in output efficiency and quality levels:</strong>{" "}
             Sending routine data analysis tasks to an offshore team in the
-            Philippines means your onshore team will have more time, budget and
+            India means your onshore team will have more time, budget and
             project scope to take on higher value work. Your business will
             notice a drastic increase in productivity levels within your
             construction and engineering services.
@@ -78,7 +78,7 @@ const DataAnalyst = () => {
           <li>
             <strong>Business growth and scaling opportunities:</strong> When you
             send your time-consuming tasks to an offshore data analyst in the
-            Philippines, your local team will have more time to focus on
+            India, your local team will have more time to focus on
             increasing profits and business growth and development
             opportunities. The additional capacity that your onshore team gets
             from your offshore team's support means you can grow your business
@@ -174,14 +174,14 @@ const DataAnalyst = () => {
           />
         </div>
 
-        <h2>Tips for Employing Filipino Data Analysts</h2>
+        <h2>Tips for Employing Indian Data Analysts</h2>
         <p>
           Your data analysts must know your business's systems and software to
           provide the best level of support for your data management services.
         </p>
 
         <p>
-          Ensure that you let your talent acquisition team in the Philippines
+          Ensure that you let your talent acquisition team in the Indian
           know the size of projects and plans your ideal offshore data analysts
           will be working on. Employing an offshore team member who has had
           experience will better understand timelines and expectations.
@@ -189,7 +189,7 @@ const DataAnalyst = () => {
 
         <p>
           You can recruit as many data analysts as required from project to
-          project and can even hire senior data analysts in the Philippines to
+          project and can even hire senior data analysts in the Indian to
           manage your offshore teams. If/when you grow your offshore team to
           several staff, having one team lead can ensure streamlined
           communication and project updates are effectively delivered to your

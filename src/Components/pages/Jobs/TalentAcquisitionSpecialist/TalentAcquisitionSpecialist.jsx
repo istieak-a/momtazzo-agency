@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const TalentAcquisitionSpec = () => {
   const heroBanner = {
-    title: "Outsource talentacquisitionspecialist to the Philippines",
+    title: "Outsource talentacquisitionspecialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg"
   };
@@ -52,7 +52,7 @@ const TalentAcquisitionSpec = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your Talent acqusition capabilities with dedicated Filipino teams.
+          Improve your Talent acqusition capabilities with dedicated Indian teams.
         </h1>
         <p>
         Talent acquisition can be a challenging task for any organization. With the ever-changing job market and the increasing competition for top talent, companies are under increasing pressure to meet their talent acquisition needs while keeping costs down. That's where outsourced talent acquisition specialists come in. 

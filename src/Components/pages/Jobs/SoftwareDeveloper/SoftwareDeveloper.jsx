@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const SoftwareDeveloper = () => {
   const heroBanner = {
-    title: "Outsource Software Developer to the Philippines",
+    title: "Outsource Software Developer to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg",
@@ -91,11 +91,11 @@ const SoftwareDeveloper = () => {
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
           Improve your software development capabilities with offshore teams in
-          the Philippines
+          India
         </h1>
         <p>
           Is your business struggling to keep up with software development
-          tasks? Experienced teams in the Philippines are skilled at managing
+          tasks? Experienced teams in India are skilled at managing
           the most crucial software development tasks, including web
           development, mobile app development, and software testing.
         </p>

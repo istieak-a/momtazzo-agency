@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const VirtualAssistant = () => {
   const heroBanner = {
-    title: "Outsource Virtual Assistant to the Philippines",
+    title: "Outsource Virtual Assistant to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Claims-Analyst_Banner.png",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/virtual-assistant/M_Web_Role-page_Virtual-Assistant_Mobile-Banner.jpg",
@@ -67,13 +67,13 @@ const VirtualAssistant = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your administration capabilities with dedicated Filipino
+          Improve your administration capabilities with dedicated Indian
           teams.
         </h1>
         <p>
           Need flexible and online support for administrative tasks, allowing
           your business to focus on core activities to increase productivity?
-          Experienced teams in the Philippines are skilled at managing the most
+          Experienced teams in India are skilled at managing the most
           crucial virtual tasks including social media management, email
           management, calendar scheduling and data entry.
         </p>

@@ -6,7 +6,7 @@ import sectionImg from "./profile.png";
 const HealthInformationManagement = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-1.png?width=828&height=494&name=Mask%20Group%208-1.png",
-    title: "Health Information Management outsourcing to the Philippines",
+    title: "Health Information Management outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };
@@ -26,7 +26,7 @@ const HealthInformationManagement = () => {
           Does your healthcare organization need a more efficient and
           cost-effective way of staying on top of the never-ending
           administration that comes with delivering quality care? Find out why
-          working with a health information management BPO in the Philippines is
+          working with a health information management BPO in India is
           the answer.
         </p>
       </div>
@@ -60,7 +60,7 @@ const HealthInformationManagement = () => {
         </p>
 
         <p>
-          Outsourcing health information management to the Philippines is
+          Outsourcing health information management to India is
           playing a vital role in helping organizations not only survive but
           thrive. Specialist offshore staff and teams are deftly handling tasks
           such as data entry, compliance, billing, and medical coding, allowing
@@ -69,14 +69,14 @@ const HealthInformationManagement = () => {
         </p>
 
         <h1>
-          Why is Health Information Management Outsourcing to the Philippines a
+          Why is Health Information Management Outsourcing to India a
           Good Idea?
         </h1>
         <p>
           Health information management is too important to be left to chance.
           It requires people with meticulous attention to detail, an
           understanding of medical language, and experience in computer systems
-          and databases - and the Philippines is home to a large talent pool of
+          and databases - and India is home to a large talent pool of
           professionals who fit the bill.
         </p>
 
@@ -110,7 +110,7 @@ const HealthInformationManagement = () => {
           </li>
           <li>
             <strong>Rich Talent Pool:</strong> Boasting a well-educated
-            population, the Philippines offers a rich talent pool for health
+            population, India offers a rich talent pool for health
             insurance companies wanting to outsource roles such as insurance
             claims analysts or assessors, which require a keen eye for detail,
             strong skills in literacy and numeracy, and a detailed knowledge of
@@ -118,14 +118,14 @@ const HealthInformationManagement = () => {
           </li>
           <li>
             <strong>24-Hour Availability:</strong> An outsourced health
-            information team in the Philippines can be structured on a 24-hour
+            information team in India can be structured on a 24-hour
             roster so professionals in different countries can call on their
             support at any time.
           </li>
           <li>
             <strong>Advanced Data Security:</strong> With health information
             management now almost entirely electronic and cloud-based, it is
-            well suited to outsourcing and the Philippines offers equipment and
+            well suited to outsourcing and India offers equipment and
             data security of the highest quality.
           </li>
         </ul>
@@ -135,7 +135,7 @@ const HealthInformationManagement = () => {
           Philippines is just what the doctor ordered.
         </p>
 
-        <h1>Common HIM Roles Outsourced to the Philippines</h1>
+        <h1>Common HIM Roles Outsourced to India</h1>
         <ul className="link-li grid gap-3 md:grid-cols-2">
           <li>Medical Coder</li>
           <li>Medical Coding Trainer</li>

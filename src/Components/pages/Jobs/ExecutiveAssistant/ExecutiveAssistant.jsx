@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const ExecutiveAssistant = () => {
   const heroBanner = {
-    title: "Outsource Executive Assistant to the Philippines",
+    title: "Outsource Executive Assistant to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Executive%20Assistants/M_Web_Role-page_Executive-Assistant_Banner.png",
     imgRes: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Mobile.jpg"
   };
@@ -65,10 +65,10 @@ const ExecutiveAssistant = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your executive capabilities with dedicated Filipino teams.
+        Improve your executive capabilities with dedicated Indian teams.
         </h1>
         <p>
-        Need help managing administrative tasks so that your executives can focus on strategic decision-making and core responsibilities? Experienced teams in the Philippines are skilled at managing the most crucial executive assistant tasks including scheduling, correspondence management and coordination, allowing your leaders to maximize productivity and efficiency.
+        Need help managing administrative tasks so that your executives can focus on strategic decision-making and core responsibilities? Experienced teams in India are skilled at managing the most crucial executive assistant tasks including scheduling, correspondence management and coordination, allowing your leaders to maximize productivity and efficiency.
         </p>
       </div>
       

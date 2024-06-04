@@ -9,7 +9,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const Finance = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-2.png?width=828&height=494&name=Mask%20Group%208-2.png",
-    title: "Finance outsourcing to the Philippines",
+    title: "Finance outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };

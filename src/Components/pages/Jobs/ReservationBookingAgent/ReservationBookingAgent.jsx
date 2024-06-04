@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const ReservationBookingAgent = () => {
   const heroBanner = {
-    title: "Outsource reservationbookingagent to the Philippines",
+    title: "Outsource reservationbookingagent to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg"
   };
@@ -57,7 +57,7 @@ const ReservationBookingAgent = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your Reservation booking capabilities with dedicated Filipino teams.
+          Improve your Reservation booking capabilities with dedicated Indian teams.
         </h1>
         <p>
         The online hospitality and tourism booking services market was valued at $519.1 billion in 2021 and is expected to grow, from 2022 to 2030, at a compound annual growth rate (CAGR) of 9.0% during this time period1. This is largely driven by a shift in consumer behavior and disposable income spending due to the surge in overseas travel post-pandemic.

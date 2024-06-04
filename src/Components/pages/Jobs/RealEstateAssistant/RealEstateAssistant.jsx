@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const RealEstateAssistant = () => {
   const heroBanner = {
-    title: "Outsource realestateassistant to the Philippines",
+    title: "Outsource realestateassistant to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Real%20Estate%20Assistant/MS_HeaderBanner_Real%20Estate%20Assistant.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Real%20Estate%20Assistant/MS_HeaderBanner-M_Real-Estate-Assistant.jpg"
   };
@@ -69,10 +69,10 @@ const RealEstateAssistant = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your real estate capabilities with dedicated Filipino teams.
+        Improve your real estate capabilities with dedicated Indian teams.
         </h1>
         <p>
-        Is your real estate team overwhelmed with administrative tasks, leaving less time for client interactions and property management? Experienced teams in the Philippines are skilled at managing the most crucial real estate administration tasks, such as data entry, scheduling, and other essential behind-the-scenes tasks.
+        Is your real estate team overwhelmed with administrative tasks, leaving less time for client interactions and property management? Experienced teams in India are skilled at managing the most crucial real estate administration tasks, such as data entry, scheduling, and other essential behind-the-scenes tasks.
         </p>
       </div>
       

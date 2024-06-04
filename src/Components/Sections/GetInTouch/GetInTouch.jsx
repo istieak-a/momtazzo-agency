@@ -9,7 +9,7 @@ const GetInTouch = () => {
                 <h1 className='font-outfit font-bold text-4xl md:text-5xl hover:underline hover:text-[#63b3bb] duration-300 cursor-pointer'>Get in touch</h1>
             </div>
             <div className='flex flex-col md:items-start gap-4 items-center'>
-                <p className='font-dmsans text-lg md:text-xl'>Get in contact today and have your offshore team up and running in as little as six weeks.</p>
+                <p className='font-dmsans text-lg md:text-xl'>Get in contact today and have your offshore team up and running in as little as two weeks.</p>
                 <Link to="/contact" className='btn'>Contact us</Link>
             </div>
             </div>

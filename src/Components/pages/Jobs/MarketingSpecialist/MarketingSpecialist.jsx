@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const MarketingSpec = () => {
   const heroBanner = {
-    title: "Outsource Marketing Specialist to the Philippines",
+    title: "Outsource Marketing Specialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Marketing%20specialist/Variant%20B/MS_HeaderBanner_Marketing%20Specialist.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Marketing%20specialist/Variant%20B/MS_HeaderBanner-M_Marketing-Specialist.jpg",
@@ -68,12 +68,12 @@ const MarketingSpec = () => {
 
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your marketing capabilities with dedicated Filipino teams.
+          Improve your marketing capabilities with dedicated Indian teams.
         </h1>
         <p>
           Need help reaching and engaging your target audience, crafting
           compelling marketing strategies and achieving your desired marketing
-          goals? Experienced teams in the Philippines are skilled at managing
+          goals? Experienced teams in India are skilled at managing
           the most crucial marketing tasks, including digital marketing, content
           marketing and social media optimization.
         </p>

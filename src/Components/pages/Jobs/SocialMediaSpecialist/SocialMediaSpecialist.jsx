@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const SocialMediaSpec = () => {
   const heroBanner = {
-    title: "Outsource social media specialists to the Philippines",
+    title: "Outsource social media specialists to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Social%20Media%20Marketer/M_Web_Role%20page_Social%20Media%20Specialist%20Banner.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Social%20Media%20Marketer/M_Banner%20mobile_Social%20Media%20Specialist.jpg"
   };
@@ -75,10 +75,10 @@ const SocialMediaSpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your social media capabilities with dedicated Filipino teams.
+        Improve your social media capabilities with dedicated Indian teams.
         </h1>
         <p>
-        Need help managing online community interactions and building digital brand loyalty? Experienced teams in the Philippines are skilled at managing the most crucial social media tasks including content creation, content moderation, community management, social analytics reporting and trend monitoring.
+        Need help managing online community interactions and building digital brand loyalty? Experienced teams in India are skilled at managing the most crucial social media tasks including content creation, content moderation, community management, social analytics reporting and trend monitoring.
         </p>
       </div>
       

@@ -9,7 +9,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const TechnicalSupport = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-Feb-20-2024-08-13-01-5323-AM.png?width=828&height=494&name=Mask%20Group%208-Feb-20-2024-08-13-01-5323-AM.png",
-    title: "TechnicalSupport outsourcing to the Philippines",
+    title: "TechnicalSupport outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };
@@ -21,7 +21,7 @@ const TechnicalSupport = () => {
     li4: "Dedicated outsourcing partners can handle customer interactions, alleviating emotional stress on in-house technical support teams.",
   };
   const outsourcingServices = {
-    title: "Technical Support Roles Outsourced with MicroSourcing",
+    title: "Technical Support Roles Outsourced with Montazzo",
     services: [
       "Application Support Analyst",
       "Customer Support Representative",

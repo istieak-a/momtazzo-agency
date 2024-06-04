@@ -3,6 +3,7 @@ import icon1 from "../../../assets/icons/How does offshoring work-01_dark.png";
 import icon2 from "../../../assets/icons/How does offshoring work-02_dark.png";
 import icon3 from "../../../assets/icons/How does offshoring work-03_dark.png";
 import Card from "../../Card/Card";
+import { Link } from 'react-router-dom';
 const HowMicrosourcingWork = () => {
     const cardData2 = [
         {
@@ -34,7 +35,7 @@ const HowMicrosourcingWork = () => {
             />
           ))}
         </div>
-        <button className="btn">Learn more</button>
+        <Link to={'/contact'} className="btn">Learn more</Link>
     </div>
     );
 };

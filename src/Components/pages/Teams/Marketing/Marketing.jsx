@@ -6,7 +6,7 @@ import chart from "./chart.png";
 const Marketing = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-1.png?width=828&height=494&name=Mask%20Group%208-1.png",
-    title: "Outsource Digital Marketing Services to the Philippines",
+    title: "Outsource Digital Marketing Services to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };
@@ -54,13 +54,13 @@ const Marketing = () => {
         </p>
 
         <p>
-          In the Philippines, for instance, you can employ an entire marketing
+          In India, for instance, you can employ an entire marketing
           team for the same salary that you’d pay for a single marketing person
           at home. Perhaps even less. Likewise, you can employ someone full-time
           offshore for about the same outlay as outsourcing job after job to
           freelancers, on a project basis. And then obviously you can reinvest
           the savings into your next marketing campaign! Outsourcing your
-          digital marketing services to a team in the Philippines could help you
+          digital marketing services to a team in India could help you
           scale and grow to meet your business objectives.
         </p>
 
@@ -132,7 +132,7 @@ const Marketing = () => {
           roles as part of smaller team units. What’s more, when they’re all in
           the same offshore location, it’s easy for each team unit to work with
           the other subspecialties. Unlike working with a local online
-          advertising company, in the Philippines, you can set up your own team
+          advertising company, in India, you can set up your own team
           who work exclusively for you, moving your projects forward and
           delivering on your objectives.
         </p>

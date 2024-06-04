@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const OrderProcessingSpec = () => {
   const heroBanner = {
-    title: "Outsource Order Processing Specialist to the Philippines",
+    title: "Outsource Order Processing Specialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Order%20Processing%20Specialists/MS_HeaderBanner_Order%20Processing%20Specialist.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Order%20Processing%20Specialists/MS_HeaderBanner-M_Order-Processing-Specialist.jpg"
   };
@@ -66,11 +66,11 @@ const OrderProcessingSpec = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your order processing capabilities with dedicated Filipino teams.
+        Improve your order processing capabilities with dedicated Indian teams.
 
         </h1>
         <p>
-        Facing delays, errors and customer complaints due to order processing system and workflow efficiency issues? Experienced teams in the Philippines are skilled at managing the most crucial order processing tasks, including order entry and verification, order tracking and status updates and inventory management and stock control.
+        Facing delays, errors and customer complaints due to order processing system and workflow efficiency issues? Experienced teams in India are skilled at managing the most crucial order processing tasks, including order entry and verification, order tracking and status updates and inventory management and stock control.
         </p>
       </div>
       

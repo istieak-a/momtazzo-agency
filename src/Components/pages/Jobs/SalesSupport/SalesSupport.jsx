@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const SalesSupport = () => {
   const heroBanner = {
-    title: "Outsource salessupport to the Philippines",
+    title: "Outsource salessupport to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg"
   };
@@ -66,10 +66,10 @@ const SalesSupport = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your sales support capabilities with offshore teams in the Philippines
+        Improve your sales support capabilities with offshore teams in India
         </h1>
         <p>
-          Outsourcing sales support to the Philippines can help your organization
+          Outsourcing sales support to India can help your organization
           improve customer satisfaction, increase sales and reduce costs. Our
           dedicated sales support teams offer a range of experience levels to
           meet your specific requirements. Whether you need assistance with

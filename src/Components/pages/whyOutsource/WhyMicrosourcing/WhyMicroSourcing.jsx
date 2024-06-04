@@ -58,7 +58,7 @@ const whyMicroSourcing = () => {
           risks. Here are the factors to consider when choosing an offshoring
           provider:
         </p>
-        <ul className="link-li">
+        <ul className="text-blue-800">
           <li className="flex items-center gap-3">
             <img className="size-4" src={checkIco} alt="" />
             Fees & inclusions
@@ -111,6 +111,7 @@ const whyMicroSourcing = () => {
 
         <p>Your fixed monthly service fee covers:</p>
         <ul>
+          <li>Salaries</li>
           <li>
             Fully furnished offices including a computer, monitor, mouse and
             keyboard for each workstation
@@ -125,7 +126,6 @@ const whyMicroSourcing = () => {
           </li>
           <li>24/7 on-site IT support</li>
           <li>Client management and team management</li>
-          <li>Salaries</li>
         </ul>
         <p>
           With other service providers, you may find that not everything is
@@ -139,12 +139,10 @@ const whyMicroSourcing = () => {
         <h1>Robust infrastructure, designed for maximum uptime</h1>
         <p>
           When you’re comparing offshoring services, ask about their
-          infrastructure, technology and emergency systems. India is exposed to
-          a number of typhoons each year, and we’ve seen how other businesses
-          get into trouble when the power and internet go out in extreme
-          weather. A cheap or unreliable provider may have skimped on
-          infrastructure, which can make the difference between the success and
-          failure of your offshore investment.
+          infrastructure, technology and emergency systems. A cheap or
+          unreliable provider may have skimped on infrastructure, which can make
+          the difference between the success and failure of your offshore
+          investment.
         </p>
         <p>
           It’s important to make sure you’re getting a reliable service with
@@ -153,46 +151,18 @@ const whyMicroSourcing = () => {
         <p>
           So why choose Montazzo? Every Montazzo facility provides 100%
           infrastructure redundancy and world-class business continuity
-          processes. To keep things running smoothly, our offices have:
+          processes. To keep things running smoothly, our office have:
         </p>
         <ul>
           <li>Backup generators</li>
           <li>
-            Multiple, dedicated internet connections from tier-1 providers at
-            each site (any site can be used as a fail-over for any other site)
+            Multiple, dedicated internet connections from tier-1 providers site
           </li>
           <li>24/7/365 dedicated IT support on site</li>
         </ul>
         <p>
           So no matter what the weather throws at the india, it’s business as
           usual for you, and your customers won’t notice the difference.
-        </p>
-      </div>
-      <div className="microsourcing-divs">
-        <h1>State-of-the-art facilities</h1>
-        <p>
-          Our offices are located in purpose-built business process outsourcing
-          (BPO) hubs. We’ve invested in state-of-the-art office fit-outs that
-          are regarded as class-A facilities, with everything you’re used to
-          seeing in a modern, big-city office: the latest computers, ergonomic
-          workstation furniture, on-site cafés, and even onsite nurses and
-          medical centers. Indeed, many of our clients are surprised that their
-          offshore staff are based in offices that surpass their onshore office
-          space!
-        </p>
-        <p>
-          Take a virtual tour of our state-of-the-art premises. Or better yet,
-          come take a look in person and really get to know us! We’d love to
-          give you a personal tour.
-        </p>
-      </div>
-      <div className="microsourcing-divs">
-        <h1>CBD locations</h1>
-        <p>
-          Montazzo operates 13 offshoring facilities across Manila – all
-          strategically located in CBD business estates. This helps you tap into
-          the vast india labor pool, and also gives your team easy access to
-          transport and affordable local restaurants.
         </p>
       </div>
       <div className="microsourcing-divs">
@@ -247,13 +217,13 @@ const whyMicroSourcing = () => {
           </li>
         </ol>
         <p>
-          This process typically takes about 6-8 weeks. Then you can settle in
+          This process typically takes about 2-4 weeks. Then you can settle in
           and get to know your new superstar, knowing that you’ve made the right
           choice for your business.
         </p>
       </div>
 
-      <div className="microsourcing-divs">
+      {/* <div className="microsourcing-divs">
         <h1>Employee engagement</h1>
         <p>
           Montazzo is one of the india’ premier employers. We employ more than
@@ -289,7 +259,7 @@ const whyMicroSourcing = () => {
             where we recognize our employees for exceptional performance.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="microsourcing-divs">
         <h1>Grow and evolve the team with your business</h1>
         <p>
@@ -313,7 +283,7 @@ const whyMicroSourcing = () => {
       <div className="microsourcing-divs">
         <h1>Quality and continuous improvement</h1>
         <p>
-          Over the years, we’ve developed our proprietary support platforms,
+          Over the time, we’ve developed our proprietary support platforms,
           systems for time and attendance tracking, HR processing, recruitment
           and referral programs, so we know exactly how to provide the best
           value support for our clients.

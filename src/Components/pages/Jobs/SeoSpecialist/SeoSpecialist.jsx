@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const SeoSpec = () => {
   const heroBanner = {
-    title: "Outsource SEO specialists to the Philippines",
+    title: "Outsource SEO specialists to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Banner_SEO%20Specialist.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Banner%20mobile_SEO%20Specialist.jpg",
@@ -74,11 +74,11 @@ const SeoSpec = () => {
 
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your SEO capabilities with offshore teams in the Philippines
+          Improve your SEO capabilities with offshore teams in India
         </h1>
         <p>
           Are you looking to improve your website's search engine rankings and
-          increase organic traffic? SEO specialists in the Philippines are
+          increase organic traffic? SEO specialists in India are
           skilled in optimizing websites for search engines, conducting keyword
           research, and implementing SEO strategies to help your business grow.
         </p>

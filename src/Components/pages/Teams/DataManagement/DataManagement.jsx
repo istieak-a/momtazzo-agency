@@ -9,7 +9,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const DataManagement = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/data-management-banner.png?width=828&height=494&name=data-management-banner.png",
-    title: "Data Management outsourcing to the Philippines",
+    title: "Data Management outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };

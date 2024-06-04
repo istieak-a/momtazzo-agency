@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const DataEntrySpec = () => {
   const heroBanner = {
-    title: "Outsource dataentryspecialist to the Philippines",
+    title: "Outsource dataentryspecialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/data-entry/Data%20Entry%20Specialist_Desktop.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Background/Mobile-banner-BG.jpg",
@@ -65,10 +65,10 @@ const DataEntrySpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your data entry capabilities in the Philippines.
+        Improve your data entry capabilities in the India.
         </h1>
         <p>
-        Need assistance with accurate data entry, maintaining organized databases and streamlining data management? Experienced teams in the Philippines are skilled at managing the most crucial data entry tasks including data input, data verification, database management, data formatting and cleansing.
+        Need assistance with accurate data entry, maintaining organized databases and streamlining data management? Experienced teams in the India are skilled at managing the most crucial data entry tasks including data input, data verification, database management, data formatting and cleansing.
         </p>
       </div>
 

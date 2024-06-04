@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const VideoEditor = () => {
   const heroBanner = {
-    title: "Outsource Video Editor to the Philippines",
+    title: "Outsource Video Editor to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Video%20Editor/M_Web_Role-page_Video-Editor_Banner.png",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Video%20Editor/M_Web_Role-page_Video-Editor_Mobile-Banner.jpg",
@@ -67,7 +67,7 @@ const VideoEditor = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your video editing capabilities with dedicated Filipino teams.
+          Improve your video editing capabilities with dedicated Indian teams.
         </h1>
         <p>
           Need help creating professional and aesthetically pleasing videos that

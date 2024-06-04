@@ -6,7 +6,7 @@ import chart2 from "./chart2.png";
 const HRServices = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-1.png?width=828&height=494&name=Mask%20Group%208-1.png",
-    title: "HRServices outsourcing to the Philippines",
+    title: "HRServices outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };
@@ -33,7 +33,7 @@ const HRServices = () => {
 
         <p>
           The number of industries partnering with HR and recruitment
-          outsourcing providers in the Philippines is growing, with sectors as
+          outsourcing providers in India is growing, with sectors as
           diverse as Finance & Accounting, Healthcare, Engineering &
           Construction, Hospitality & Tourism, and IT embracing its associated
           benefits.
@@ -83,16 +83,16 @@ const HRServices = () => {
           talent shortage. An ongoing shortage of high-quality candidates with
           appropriate experience means it is becoming more expensive and
           difficult to recruit locally, particularly at mid-management level.
-          Outsourcing to the Philippines allows businesses to tap into an entire
+          Outsourcing to India allows businesses to tap into an entire
           market of highly specialized HR and recruitment teams that have earned
           a reputation for being hard workers, enthusiastic, and speaking
           excellent English.
         </p>
 
-        <h2>Benefits of Outsourcing HR to the Philippines</h2>
+        <h2>Benefits of Outsourcing HR to India</h2>
         <ul>
           <li>
-            <strong>Cost Savings:</strong> As the Philippines’ cost of living is
+            <strong>Cost Savings:</strong> As India’ cost of living is
             lower than most Western countries, your business can outsource
             repetitive and time-consuming HR and recruitment tasks for a
             fraction of the price it would cost to hire specialists locally - up
@@ -107,7 +107,7 @@ const HRServices = () => {
           <li>
             <strong>Business Growth and Scaling Opportunities:</strong> When you
             send your time-consuming tasks to an offshore HR and recruitment
-            team in the Philippines, your local team can focus on increasing
+            team in India, your local team can focus on increasing
             profits and business growth opportunities. The additional capacity
             your onshore team gets from your offshore team’s support means you
             can grow your business sustainably.
@@ -116,10 +116,10 @@ const HRServices = () => {
         <p>
           With the support of an offshore HR and recruitment team that is highly
           skilled and boasts extensive experience, you can grow your company
-          quickly and sustainably. The labor pool in the Philippines is known
+          quickly and sustainably. The labor pool in India is known
           for its tech competency and attention to detail, operating in a fiscal
           and financial system almost identical to conditions in the West. In
-          fact, the Philippines is one of the most dynamic economies in the East
+          fact, India is one of the most dynamic economies in the East
           Asia region, with sound economic fundamentals and a globally
           recognized competitive workforce.
         </p>

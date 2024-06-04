@@ -86,14 +86,10 @@ const whyThePhilippines = () => {
           <img className="object-cover" src={icon1} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
             <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              1. Filipinos speak English to a high standard
+              1. Indians speak English to a high standard
             </h1>
             <p className="font-dmsans">
-              Education First's 2021 English Proficiency Index(1) ranked the
-              India as the 18th most English-proficient country out of 122
-              surveyed, and second only to Singapore in Asia. English is one of
-              the official languages in the India, and it's used in the
-              country's educational systems and institutions.
+            Indian professionals are known for their high standard of English proficiency, a result of rigorous education systems that emphasize English language skills from an early age. This linguistic capability facilitates seamless communication in global business environments, enhancing their value in outsourcing and international collaborations.
             </p>
           </div>
         </div>
@@ -108,7 +104,7 @@ const whyThePhilippines = () => {
               population, producing hundreds of thousands of highly motivated
               graduates every year with college degrees that meet international
               education standards. With legal, financial, and government systems
-              similar to those in the United States, Filipino professionals are
+              similar to those in the United States, Indian professionals are
               familiar with Western business practices, making it easy for
               Western companies to work with them.
             </p>
@@ -118,13 +114,13 @@ const whyThePhilippines = () => {
           <img className="object-cover" src={icon3} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
             <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              3. Filipinos have a strong work ethic
+              3. Indians have a strong work ethic
             </h1>
             <p className="font-dmsans">
-              Filipino teams are highly valued by business owners because of
+              Indian teams are highly valued by business owners because of
               their exceptional work ethic, integrity, loyalty and
               service-oriented mindset. They create a friendly work environment,
-              respect time and individuals and value professionalism. Filipinos
+              respect time and individuals and value professionalism. Indians
               balance fun and responsibility while remaining respectful in
               workplace interactions with managers, colleagues and clients. They
               remain calm under pressure and possess a positive attitude towards
@@ -137,10 +133,10 @@ const whyThePhilippines = () => {
           <img className="object-cover" src={icon4} alt="icon" />
           <div className="flex flex-col gap-4 md:gap-7">
             <h1 className="font-outfit text-3xl font-normal md:text-5xl">
-              4. The Philippine government supports companies that outsource
+              4. The Indian government supports companies that outsource
             </h1>
             <p className="font-dmsans">
-              The Philippine government is highly supportive of the outsourcing
+              The Indian government is highly supportive of the outsourcing
               industry and provides strong infrastructure and support for
               outsourcing companies and businesses setting up an offshore team.
               They have implemented initiatives such as partnerships with
@@ -164,7 +160,7 @@ const whyThePhilippines = () => {
               to 70% on employment expenses, without compromising on the quality
               of talent and work output. The India has a relatively low
               cost of living, and by outsourcing to the country, businesses can
-              not only save costs but also improve the lives of their Filipino
+              not only save costs but also improve the lives of their Indian
               staff. The outsourcing industry has created many long-term,
               fulfilling career opportunities for the local population, who may
               not have had access to such opportunities otherwise.
@@ -173,7 +169,7 @@ const whyThePhilippines = () => {
         </div>
       </div>
       <div className="px-5 md:px-16 flex flex-col items-center gap-10 py-10 max-w-7xl mx-auto">
-        <h1 className="font-outfit text-4xl font-bold text-center">Best skills and qualities of Filipino employees</h1>
+        <h1 className="font-outfit text-4xl font-bold text-center">Best skills and qualities of Indian employees</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
           {
             cardsData.map((card, index) => (
@@ -186,8 +182,8 @@ const whyThePhilippines = () => {
         <div className="flex flex-col-reverse gap-5 items-center md:flex-row-reverse max-w-7xl mx-auto">
         <img src="https://www.microsourcing.com/hubfs/MicroSourcing/why-the-philippines/How%20to%20hire%20FIlipino%20staff.png" alt="employees" />
         <div className="flex flex-col gap-2 font-dmsans ">
-          <h1 className="font-outfit text-4xl md:text-5xl">How to hire Filipino staff</h1>
-          <p>To effectively hire offshore Filipino staff: </p>
+          <h1 className="font-outfit text-4xl md:text-5xl">How to hire Indian staff</h1>
+          <p>To effectively hire offshore Indian staff: </p>
           <ul className="pt-5 list-inside list-disc">
             <li>Clearly define your needs and expectations</li>
             <li>Partner with a reputable outsourcing provider that offers recruitment and HR support</li>

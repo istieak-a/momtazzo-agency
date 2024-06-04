@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AdministrativeAssistant = () => {
   const heroBanner = {
-    title: "Outsource Administrative Assistant to the Philippines",
+    title: "Outsource Administrative Assistant to India",
     img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
@@ -17,7 +17,7 @@ const AdministrativeAssistant = () => {
         img={heroBanner.img}
         imgRes={heroBanner.imgRes}
       />
-      <div className="section-container">
+      <div className="section-container max-w-7xl mx-auto">
         <h1>The Business Support Services Market</h1>
         <p>
           The business support services market is expected to grow from $621.03
@@ -33,7 +33,7 @@ const AdministrativeAssistant = () => {
           assistants. A solution; outsourcing. Many administration tasks can be
           completed online, which makes them well-suited to being performed in
           an offshore environment. As long as your business is offshore ready,
-          outsourcing to the Philippines is simple and cost-effective.
+          outsourcing to the India is simple and cost-effective.
         </p>
 
         <h2>What Are the Benefits of Outsourcing Administrative Assistants?</h2>
@@ -160,9 +160,9 @@ const AdministrativeAssistant = () => {
         </div>
         <h1>Save up to 70% on labor and occupancy costs</h1>
         <p>
-          Because living costs are so low in the Philippines, labor and
+          Because living costs are so low in the India, labor and
           occupancy costs are too. We can employ and accommodate fully qualified
-          and experienced administrative assistants in the Philippines for up to
+          and experienced administrative assistants in the India for up to
           70% less than you'd pay in your local employment market.
         </p>
         <Link to="/get-in-touch" className="btn mx-auto">
@@ -177,7 +177,7 @@ const AdministrativeAssistant = () => {
 
         <p>
           It’s key to communicate effectively and efficiently with your talent
-          acquisition team in the Philippines, making sure to let them know the
+          acquisition team in the India, making sure to let them know the
           job requirements, skills and qualifications you require of your ideal
           administrative assistant(s). This will help the team to source the
           right candidates, streamline the recruitment process and ultimately,
@@ -187,7 +187,7 @@ const AdministrativeAssistant = () => {
         <p>
           You can recruit as many administrative assistants as required from
           project to project and can even hire senior administrative assistants
-          in the Philippines to manage your offshore teams. If/when you grow
+          in the India to manage your offshore teams. If/when you grow
           your offshore team, having one team lead can ensure streamlined
           communication and project updates are effectively delivered to your
           onshore team.

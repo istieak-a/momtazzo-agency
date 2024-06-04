@@ -9,7 +9,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const SalesSupport = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/sales-support-banner.png?width=828&height=494&name=sales-support-banner.png",
-    title: "Sales Support outsourcing to the Philippines",
+    title: "Sales Support outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };

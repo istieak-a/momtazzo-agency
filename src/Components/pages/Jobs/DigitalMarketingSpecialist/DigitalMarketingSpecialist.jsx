@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const DigitalMarketingSpec = () => {
   const heroBanner = {
-    title: "Outsource Digital Marketing Specialist to the Philippines",
+    title: "Outsource Digital Marketing Specialist to India",
     img: "https://www.microsourcing.com/hubfs/M_Web_Role-page_Digital-Marketing-Specialist_Banner.png",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Learn/Resources/M_Web_Role-page_Digital-Marketing-Specialist_Mobile-Banner.jpg"
   };
@@ -66,10 +66,10 @@ const DigitalMarketingSpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your digital marketing capabilities with dedicated Filipino teams.
+        Improve your digital marketing capabilities with dedicated India teams.
         </h1>
         <p>
-        Need help strategically implementing online campaigns to maximize brand visibility, lead generation and drive customer engagement? Experienced teams in the Philippines are skilled at managing the most crucial digital marketing tasks including social media management, content creation and marketing, email marketing, influencer marketing and digital advertising campaign management.
+        Need help strategically implementing online campaigns to maximize brand visibility, lead generation and drive customer engagement? Experienced teams in India are skilled at managing the most crucial digital marketing tasks including social media management, content creation and marketing, email marketing, influencer marketing and digital advertising campaign management.
 
 
         </p>

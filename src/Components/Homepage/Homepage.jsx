@@ -13,12 +13,12 @@ import Reviews from "../Reviews/Reviews";
 import collaborate from "../../assets/collaborate.jpg";
 import recruit from "../../assets/recruit.png";
 import support from "../../assets/support.png";
-import globe from '../../assets/icons/globe.png';
-import card from '../../assets/icons/card.png';
-import contact from '../../assets/icons/contact.png';
-import manico from '../../assets/icons/manico.png';
-import people from '../../assets/icons/people.png';
-import verify from '../../assets/icons/verify.png';
+import globe from "../../assets/icons/globe.png";
+import card from "../../assets/icons/card.png";
+import contact from "../../assets/icons/contact.png";
+import manico from "../../assets/icons/manico.png";
+import people from "../../assets/icons/people.png";
+import verify from "../../assets/icons/verify.png";
 import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 
 const Homepage = () => {
@@ -72,21 +72,21 @@ const Homepage = () => {
       ico: reduceCost,
       desc: "Outsourcing allows your organization to be more competitive, sustainable and profitable with 70% labor cost savings.",
       btn: "Boost my profits",
-      url: "/reduce-cost",
+      url: "/why-outsource/reduce-cost",
     },
     {
       title: "Increase quality & efficiency",
       ico: increaseQuality,
       desc: "Remote staffing solutions rectify skills shortages and improve internal processes by accessing global talent pools.",
       btn: "Build your team",
-      url: "/increase-quality-efficiency",
+      url: "/why-outsource/increase-quality-efficiency",
     },
     {
       title: "Scale faster",
       ico: scaleFast,
       desc: "Tailor your offshore operations to help scale quickly, meet demand, combat rising labor costs and access specialty talent all without the overheads.",
       btn: "Scale my business",
-      url: "/scale-fast",
+      url: "/why-outsource/scale-fast",
     },
   ];
   const offhsoring = [
@@ -112,7 +112,7 @@ const Homepage = () => {
   const unique = [
     {
       title: "15 Years Of Experience",
-      desc: "Rated the #1 virtual assistant company with 7500+ clients served and 800+ verified 5-star business reviews, we are the leader in virtual assistant services in both North America and India.",
+      desc: "With 15 years of BPM experience, we lead in providing top offshore employees. Serving clients in the USA, UK, Australia and Canada. We deliver outstanding support and efficiency for your business. ",
       ico: verify,
     },
     {
@@ -122,12 +122,12 @@ const Homepage = () => {
     },
     {
       title: "Diverse Talent",
-      desc: "Our virtual assistants specialize in 8 different services for a variety of industries. From administrative and marketing tasks to inside sales and customer service – we hire only the most qualified individual for the role.",
+      desc: "Our offshore employees provide a range of services tailored to client needs, including admin support, marketing, sales and customer service. We hrie top talent for seamless integration and business success. ",
       ico: people,
     },
     {
       title: "Extensive Screening & Vetting",
-      desc: "All virtual assistants are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
+      desc: "All offshore are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
       ico: contact,
     },
     {
@@ -137,7 +137,7 @@ const Homepage = () => {
     },
     {
       title: "Standardized Work Environment",
-      desc: "Our virtual assistants have dedicated work computers, noise-isolated environments, backup power and internet connections, and time tracking software to ensure they’re present and focused.",
+      desc: "Montazzo offers modern fully equipped offices with high-speed internet and advanced IT infrastucture ensuring productivity, security and seamless integration for exceptional performance. ",
       ico: globe,
     },
   ];
@@ -145,30 +145,30 @@ const Homepage = () => {
   return (
     <div className="">
       <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 ">
-        <div className="max-w-7xl mx-auto flex flex-col items-start gap-3 md:flex-row md:gap-20">
-        <div className="pe-5 md:w-[60%] md:pe-0">
-          <h1 className="font-dmsans text-4xl md:text-6xl">
-            Hire full-time outsourced teams in India.{" "}
-          </h1>
-          <h2 className="font-outfit text-4xl font-bold md:text-6xl">
-            Ready to work in as little as six weeks
-          </h2>
-          <p className="pt-5">
-            Achieve unparalleled, sustainable growth while maintaining complete
-            operational control.
-          </p>
-          <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
-            <Link className="btn" to="/contact">
-              Ask an expert
-            </Link>
-            <Link className="btn-outline" to="/contact">
-              what roles to outsource
-            </Link>
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
+          <div className="pe-5 md:w-[60%] md:pe-0">
+            <h1 className="font-dmsans text-4xl md:text-6xl">
+              Hire full-time outsourced teams in India.{" "}
+            </h1>
+            <h2 className="font-outfit text-4xl font-bold md:text-6xl">
+              Ready to work in as little as two weeks
+            </h2>
+            <p className="pt-5">
+              Achieve unparalleled, sustainable growth while maintaining
+              complete operational control.
+            </p>
+            <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
+              <Link className="btn" to="/contact">
+                Ask an expert
+              </Link>
+              <Link className="btn-outline" to="/contact">
+                what roles to outsource
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="hidden md:flex">
-          <img src={heroLady} alt="" />
-        </div>
+          <div className="hidden md:flex">
+            <img src={heroLady} alt="" />
+          </div>
         </div>
       </div>
       {/* <div className="grid grid-cols-2 md:grid-cols-6 ">
@@ -185,7 +185,7 @@ const Homepage = () => {
           </div>
         ))}
       </div> */}
-      <div className="grid grid-cols-1 gap-4 px-8 max-w-7xl mx-auto py-10 md:grid-cols-3 md:px-16">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
           return (
             <Card
@@ -200,35 +200,35 @@ const Homepage = () => {
         })}
       </div>
       <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
-        <div className="max-w-7xl mx-auto flex flex-col gap-10  md:flex-row-reverse md:p-16">
-        <div className="chart md:w-[60%]">
-          <div className="chart-container flex flex-col gap-7 border-b py-5">
-            <div className="w-[55%]">
-              <h2>AUSTRALIA</h2>
-            </div>
-            <div className="w-[70%]">
-              <h2>USA</h2>
-            </div>
-            <div className="w-[100%]">
-              <h2>UK</h2>
-            </div>
-            <div className="w-[20%]">
-              <h2>INDIA</h2>
+        <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
+          <div className="chart md:w-[60%]">
+            <div className="chart-container flex flex-col gap-7 border-b py-5">
+              <div className="w-[55%]">
+                <h2>AUSTRALIA</h2>
+              </div>
+              <div className="w-[70%]">
+                <h2>USA</h2>
+              </div>
+              <div className="w-[100%]">
+                <h2>UK</h2>
+              </div>
+              <div className="w-[20%]">
+                <h2>INDIA</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
-          <h2 className="font-outfit text-4xl text-white md:text-5xl ">
-            Business who engage in business process outsourcing{" "}
-            <span className="font-semibold">
-              (BPO) save 70% on employment costs.
-            </span>
-          </h2>
-          <Link className="btn">Learn how your business can save</Link>
-        </div>
+          <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
+            <h2 className="font-outfit text-4xl text-white md:text-5xl ">
+              Business who engage in business process outsourcing{" "}
+              <span className="font-semibold">
+                (BPO) save 70% on employment costs.
+              </span>
+            </h2>
+            {/* <Link className="btn">Learn how your business can save</Link> */}
+          </div>
         </div>
       </div>
-      <div className="flex max-w-7xl mx-auto flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
+      <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-4xl font-normal md:text-5xl">
           How offshoring works
         </h1>
@@ -268,20 +268,25 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="px-5 md:px-16 max-w-7xl mx-auto flex flex-col gap-10 py-10">
-        <h1 className="text-4xl font-outfit font-[500] text-center">What sets up apart</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {
-            unique.map((item, index) => {
-              return (
-                <Card key={index} title={item.title} desc={item.desc} ico={item.ico}  />
-              )
-            })
-          }
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
+        <h1 className="text-center font-outfit text-4xl font-[500]">
+          What sets up apart
+        </h1>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {unique.map((item, index) => {
+            return (
+              <Card
+                key={index}
+                title={item.title}
+                desc={item.desc}
+                ico={item.ico}
+              />
+            );
+          })}
         </div>
       </div>
 
-      <div className="px-5 max-w-7xl mx-auto py-20">
+      <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
           What Our Clients Are Saying
         </h2>

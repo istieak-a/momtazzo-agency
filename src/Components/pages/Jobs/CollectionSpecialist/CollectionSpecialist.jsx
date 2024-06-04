@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const CollectionSpec = () => {
   const heroBanner = {
-    title: "Outsource collection specialist to the Philippines",
+    title: "Outsource collection specialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Collection-Specialists_Banner.png",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/roles/collection-specialists/img-header-collection%20specialist-m@2x.png"
   };
@@ -66,7 +66,7 @@ const CollectionSpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your collections capabilities with dedicated Filipino teams.
+        Improve your collections capabilities with dedicated Indian teams.
         </h1>
         <p>
         Need help managing and collecting overdue payments and debts? Are your outstanding accounts overdue with customers who have missed payments? Experienced teams in the Philippines are skilled at managing the most crucial debt collection tasks.

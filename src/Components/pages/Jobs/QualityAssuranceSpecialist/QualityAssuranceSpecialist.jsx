@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const QualityAssuranceSpec = () => {
   const heroBanner = {
-    title: "Outsource Quality Assurance Specialist to the Philippines",
+    title: "Outsource Quality Assurance Specialist to India",
     img: "https://www.microsourcing.com/hubfs/M_Web_Role_%EF%BB%BFQuality-Assurance-Specialist_Banner.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/QA%20Specialist/M_Web_Role__Quality-Assurance-Specialist_Mobile-Banner.jpg",
@@ -71,12 +71,12 @@ const QualityAssuranceSpec = () => {
 
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your quality assurance capabilities with dedicated Filipino
+          Improve your quality assurance capabilities with dedicated Indian
           teams.
         </h1>
         <p>
           Looking to deliver top-notch products and services that consistently
-          exceed customer expectations? Experienced teams in the Philippines are
+          exceed customer expectations? Experienced teams in India are
           skilled at managing the most crucial quality assurance (QA) tasks,
           enhancing product reliability, customer satisfaction and brand
           reputation.

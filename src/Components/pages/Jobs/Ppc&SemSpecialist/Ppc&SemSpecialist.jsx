@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const PpcAndSemSpec = () => {
   const heroBanner = {
-    title: "Outsource ppc&semspecialist to the Philippines",
+    title: "Outsource ppc&semspecialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/sem-specialist/M_Web_Role-page_PPC-and-SEM-specialists_Banner.png",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Software-Developer_Banner_mobile-1.jpg"
   };
@@ -66,10 +66,10 @@ const PpcAndSemSpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your pay-per-click (PPC) and search engine marketing (SEM) capabilities with dedicated Filipino teams.
+        Improve your pay-per-click (PPC) and search engine marketing (SEM) capabilities with dedicated Indian teams.
         </h1>
         <p>
-        Need help effectively managing online advertising campaigns, optimizing ad spend and increasing website traffic? Experienced teams in the Philippines are skilled at managing the most crucial PPC and SEM tasks including providing keyword research, campaign setup, ad copywriting, bid management and landing page optimization.
+        Need help effectively managing online advertising campaigns, optimizing ad spend and increasing website traffic? Experienced teams in India are skilled at managing the most crucial PPC and SEM tasks including providing keyword research, campaign setup, ad copywriting, bid management and landing page optimization.
 
 
         </p>

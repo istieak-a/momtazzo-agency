@@ -10,7 +10,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const QualityAssurance = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/quality-assurance-banner-v1.png?width=828&height=494&name=quality-assurance-banner-v1.png",
-    title: "Quality Assurance outsourcing to the Philippines",
+    title: "Quality Assurance outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };

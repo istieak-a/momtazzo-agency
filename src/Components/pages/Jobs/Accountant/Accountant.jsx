@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const Accountant = () => {
   const heroBanner = {
-    title: "Outsource accountant to the Philippines",
+    title: "Outsource accountant to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Accountant_Banner.png",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Banner%20mobile_Accounting.jpg",
@@ -70,13 +70,13 @@ const Accountant = () => {
         img={heroBanner.img}
         imgRes={heroBanner.imgRes}
       />
-      <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
+      <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20 max-w-7xl mx-auto">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your accounting capabilities with dedicated Filipino teams.
+          Improve your accounting capabilities with dedicated Indian teams.
         </h1>
         <p>
           Is your business struggling to keep up with accounting tasks and
-          financial management? Experienced teams in the Philippines are skilled
+          financial management? Experienced teams in the India are skilled
           at managing the most crucial accounting tasks, including bookkeeping,
           tax preparation and budgeting or forecasting.
         </p>

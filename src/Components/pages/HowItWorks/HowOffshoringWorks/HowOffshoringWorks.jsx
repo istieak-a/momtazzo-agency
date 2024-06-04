@@ -43,7 +43,7 @@ const HowOffshoringWorks = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="px-5 py-10 md:px-16">
+      <div className="px-5 py-10 md:px-16 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {cardData.map((data, index) => (
             <Card
@@ -57,11 +57,11 @@ const HowOffshoringWorks = () => {
         <p className="pt-10 text-center font-dmsans">
           Offshoring is a type of outsourcing where you create an extension of
           your business or team in another country. There are a few traditional
-          models of offshoring, but here at MicroSourcing, we provide a unique
+          models of offshoring, but here at Montazzo, we provide a unique
           solution.
         </p>
       </div>
-      <div className="flex flex-col gap-10 px-5 py-10 md:px-16">
+      <div className="flex flex-col gap-10 px-5 py-10 md:px-16 max-w-7xl mx-auto">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col items-center gap-5 md:flex-row">
             <img className="size-36" src={icon1} alt="icon" />
@@ -91,7 +91,7 @@ const HowOffshoringWorks = () => {
               </li>
               <li>
                 CRM’s and programs that are accessible in a remote work setting
-                or a different location, such as the Philippines?
+                or a different location, such as the Indian?
               </li>
               <li>
                 Licenses and certifications that allow you to export tasks,
@@ -191,7 +191,7 @@ const HowOffshoringWorks = () => {
               descriptions for your onshore team, you’d do the same for your
               offshore staff. After we’ve analyzed those requirements, we then
               provide feedback to ensure that they will attract the best
-              Filipino talent for the role. By supporting you with this process,
+              Indian talent for the role. By supporting you with this process,
               we are able to confidently source suitable candidates from the
               local market and our database of more than 275,000 applicants. We
               then present our shortlist to you to select the staff that best
@@ -272,7 +272,7 @@ const HowOffshoringWorks = () => {
                 performance
               </li>
               <li>
-                Management of Philippines-specific legal and compliance matters
+                Management of Indian-specific legal and compliance matters
               </li>
               <li>
                 Ongoing recruitment, HR, payroll, facilities management and IT
@@ -284,7 +284,7 @@ const HowOffshoringWorks = () => {
               While we handle all of this, you retain as much control of quality
               and productivity as you would like. In other words, we take care
               of everything on the ground, enabling you to focus purely on the
-              business processes you want to run out of the Philippines.
+              business processes you want to run out of the Indian.
             </p>
 
             <p>

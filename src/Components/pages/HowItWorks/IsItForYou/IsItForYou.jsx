@@ -7,7 +7,7 @@ import BuildTeam from "../../../Sections/BuildTeam/BuildTeam";
 const IsItForYou = () => {
   const heroBanner = {
     title: "Outsourcing models and their benefits",
-    desc: "Learn about your offshoring options and explore the benefits of MicroSourcing’s model over less effective models.",
+    desc: "Learn about your offshoring options and explore the benefits of Montazzo’s model over less effective models.",
     img: hero,
     imgRes: heroRes,
   };
@@ -21,7 +21,7 @@ const IsItForYou = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="section-container mx-16 my-10 border-b border-t">
+      <div className="section-container mx-16 my-10 border-b border-t max-w-7xl mx-auto">
         <p className="text-center text-lg">
           To decide if offshoring is for you, you first need to understand
           exactly what the term ‘offshoring’ means. There are a few different
@@ -29,17 +29,17 @@ const IsItForYou = () => {
           They all have their own pros and cons.
         </p>
       </div>
-      <div className="section-container flex  flex-col">
+      <div className="section-container flex  flex-col max-w-7xl mx-auto">
         <img
           src="https://www.microsourcing.com/hs-fs/hubfs/Costing%20table-01.png?width=1052&name=Costing%20table-01.png"
           alt="chart"
-          className="md:w-[60%]"
+          className="md:w-[60%] mx-auto"
         />
-        <p className="text-lg">
+        <p className="text-lg mx-auto">
           Please read on for more information about each model.
         </p>
       </div>
-      <div className="section-container">
+      <div className="section-container max-w-7xl mx-auto">
         <h1>Project Based Outsourcing</h1>
         <h2>(we don’t do this)</h2>
         <p>
@@ -65,7 +65,7 @@ const IsItForYou = () => {
           quiet times.)
         </p>
       </div>
-      <div className="section-container">
+      <div className="section-container max-w-7xl mx-auto">
         <h1>Business Process Outsourcing</h1>
         <h2>(we don’t do this)</h2>
         <p>
@@ -101,7 +101,7 @@ const IsItForYou = () => {
           cover things that will probably never happen.
         </p>
       </div>
-      <div className="section-container">
+      <div className="section-container max-w-7xl mx-auto">
         <h1>Offshore Company Incorporation</h1>
         <h2>(we don’t do this)</h2>
         <p>
@@ -130,10 +130,10 @@ const IsItForYou = () => {
           the business.
         </p>
       </div>
-      <div className="section-container">
-        <h1>MicroSourcing’s model: (what we do)</h1>
+      <div className="section-container max-w-7xl mx-auto">
+        <h1>Montazzo model: (what we do)</h1>
         <p>
-          Last but not least, is MicroSourcing’s solution. This model involves
+          Last but not least, is Montazzo’s solution. This model involves
           getting a partner in the offshore location to set up an overseas
           division of your company, and getting them to handle facilities, IT
           recruitment and HR, while you handle quality and productivity. This is

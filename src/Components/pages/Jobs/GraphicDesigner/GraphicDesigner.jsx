@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const GraphicDesigner = () => {
   const heroBanner = {
-    title: "Outsource Graphic Designer to the Philippines",
+    title: "Outsource Graphic Designer to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Graphic%20Designer/M_Web_Role-page_Graphic-Designer_Banner.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Graphic%20Designer/M_Web_Role-page_Graphic-Designer_Mobile_Banner.jpg",
@@ -67,14 +67,14 @@ const GraphicDesigner = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your graphic design capabilities with dedicated Filipino
+          Improve your graphic design capabilities with dedicated Indian
           teams.
         </h1>
         <p>
           Struggling to maintain a consistent and visually appealing brand
           identity across your marketing materials? Need help streamlining and
           elevating your visual communication strategy? Experienced teams in the
-          Philippines are skilled at managing the most crucial graphic design
+          India are skilled at managing the most crucial graphic design
           tasks including visual concept creation, logo design and branding,
           print design, UI and UX design, social media graphics and email
           marketing templates.

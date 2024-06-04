@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const HrSpec = () => {
   const heroBanner = {
-    title: "Outsource HR Specialist to the Philippines",
+    title: "Outsource HR Specialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/hr-specialist/MS_HeaderBanner_Human%20Resource%20Specialist.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/hr-specialist/MS_HeaderBanner-M_Human%20Resource%20Specialist.jpg",
@@ -67,12 +67,12 @@ const HrSpec = () => {
       />
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-          Improve your human resource capabilities with dedicated Filipino
+          Improve your human resource capabilities with dedicated Indian
           teams.
         </h1>
         <p>
           Want to elevate your employee experience while improving people
-          management practices? Experienced teams in the Philippines are skilled
+          management practices? Experienced teams in India are skilled
           at managing the most crucial HR tasks including employee relations,
           employee benefits and labor compliance.
         </p>

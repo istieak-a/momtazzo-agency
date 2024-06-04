@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
 
 import { LiaIndustrySolid } from "react-icons/lia";
 import "./Footer.css";

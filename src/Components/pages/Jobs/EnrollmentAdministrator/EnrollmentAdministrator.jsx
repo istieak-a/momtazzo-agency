@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const EnrollmentAdministrator = () => {
   const heroBanner = {
-    title: "Outsource Enrollment Administrator to the Philippines",
+    title: "Outsource Enrollment Administrator to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner_Teaching%20Administrator.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner%20mobile_Teaching%20Administrator.jpg",
@@ -68,12 +68,12 @@ const EnrollmentAdministrator = () => {
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
           Improve your enrollment capabilities with offshore teams in the
-          Philippines
+          India
         </h1>
         <p>
           Are you looking to improve your enrollment capabilities and streamline
           your enrollment processes? Look no further than our offshore team in
-          the Philippines. Our team of experienced enrollment administrators are
+          India. Our team of experienced enrollment administrators are
           highly skilled and trained to manage all aspects of enrollment,
           ensuring that your educational institution runs smoothly and
           efficiently.

@@ -9,7 +9,7 @@ import MicroSourcing from "../../../Sections/Microsourcing/Microsourcing";
 const CustomerService = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-Mar-18-2024-06-26-58-9366-AM.png?width=828&height=494&name=Mask%20Group%208-Mar-18-2024-06-26-58-9366-AM.png",
-    title: "Customer Service outsourcing to the Philippines",
+    title: "Customer Service outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };

@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const LogisticsCoordinator = () => {
   const heroBanner = {
-    title: "Outsource Logistics Coordinator to the Philippines",
+    title: "Outsource Logistics Coordinator to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/logistics-coordinator/MS_HeaderBanner_Logistics%20Coordinator.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/logistics-coordinator/MS_HeaderBanner-M_Logistics-Coordinator.jpg"
   };
@@ -62,10 +62,10 @@ const LogisticsCoordinator = () => {
 
 <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
-        Improve your logistics capabilities with dedicated Filipino teams.
+        Improve your logistics capabilities with dedicated Indian teams.
         </h1>
         <p>
-        Need help effectively managing and optimizing supply chain and distribution processes, including inventory control, transportation and order fulfilment? Experienced teams in the Philippines are skilled at managing the most crucial logistic coordination tasks, including inventory management, supplier relationships and cost optimization.
+        Need help effectively managing and optimizing supply chain and distribution processes, including inventory control, transportation and order fulfilment? Experienced teams in India are skilled at managing the most crucial logistic coordination tasks, including inventory management, supplier relationships and cost optimization.
         </p>
       </div>
       

@@ -7,7 +7,7 @@ import chart2 from "./chart2.png";
 const CreativeServices = () => {
   const banner = {
     img: "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/Build%20Your%20Team/Mask%20Group%208-1.png?width=828&height=494&name=Mask%20Group%208-1.png",
-    title: "CreativeServices outsourcing to the Philippines",
+    title: "CreativeServices outsourcing to India",
     btn: "HOW IT WORKS",
     cate: "TEAM PROFILE",
   };
@@ -27,7 +27,7 @@ const CreativeServices = () => {
           outsource creative services and build the ultimate team to deliver on
           projects faster – working exclusively for your organization. But
           before you hire any creatives, here’s what you need to know about
-          outsourcing creative design services to the Philippines…
+          outsourcing creative design services to India…
         </p>
       </div>
       <div className="section-container">
@@ -153,7 +153,7 @@ const CreativeServices = () => {
           Indeed, an entirely new industry has sprung up around this type of
           offshoring. It’s called creative process outsourcing (CPO), and it
           evolved from the traditional business process outsourcing (BPO) that
-          the Philippines is renowned for. In the Philippines, with its
+          India is renowned for. In India, with its
           well-educated, articulate, English-speaking labor force, established
           offshoring providers can help you put together a customized and
           affordable creative team of seasoned professionals.
@@ -183,7 +183,7 @@ const CreativeServices = () => {
         </p>
         <p>
           These are some of the support creative services roles that are
-          commonly outsourced to the Philippines. The people in these jobs put
+          commonly outsourced to India. The people in these jobs put
           into practice the branding and marketing strategies devised by
           creative executives. They come up with the artwork according to
           briefs, write the copy for all platforms, and drive customers back to

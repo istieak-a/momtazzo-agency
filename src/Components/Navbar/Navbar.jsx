@@ -33,7 +33,7 @@ const Navbar = () => {
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/small-businesses-menu-img.jpg?width=624&height=345&name=small-businesses-menu-img.jpg#",
         },
         {
-          heading: "Why MicroSourcing?",
+          heading: "Why Montazzo?",
           url: "/why-outsource/why-microsourcing",
           desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
           thumb:
@@ -65,13 +65,13 @@ const Navbar = () => {
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/how-offshoring-works-menu-img.jpg?width=624&height=345&name=how-offshoring-works-menu-img.jpg",
         },
-        {
-          heading: "The Keys to Success",
-          url: "/how-it-works/the-keys-to-success",
-          desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
-        },
+        // {
+        //   heading: "The Keys to Success",
+        //   url: "/how-it-works/the-keys-to-success",
+        //   desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
+        //   thumb:
+        //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
+        // },
         {
           heading: "Is It For You?",
           url: "/how-it-works/is-it-for-you",
@@ -79,13 +79,13 @@ const Navbar = () => {
           thumb:
             "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Outsourcing_20Models.jpg",
         },
-        {
-          heading: "Offshore Staffing",
-          url: "/how-it-works/offshore-staffing",
-          desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
-        },
+        // {
+        //   heading: "Offshore Staffing",
+        //   url: "/how-it-works/offshore-staffing",
+        //   desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
+        //   thumb:
+        //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
+        // },
       ],
     },
     {
@@ -276,74 +276,74 @@ const Navbar = () => {
             },
           ],
         },
-        {
-          title: "Industry",
-          ico: <LiaIndustrySolid />,
-          heading: "Select Your Industry",
-          desc: "Outsourcing is a very versatile strategy suitable for businesses of all shapes and sizes. Below are common industries that have successfully implemented an offshore model. Get local insights relevant to your area of specialization, learn what others have done in your industry and leverage their experience.",
-          subitems: [
-            {
-              title: "Education",
-              url: "/industries/education",
-            },
-            {
-              title: "Engineering & Construction",
-              url: "/industries/engineering-construction",
-            },
-            {
-              title: "Financial Services",
-              url: "/industries/financial-services",
-            },
-            {
-              title: "Healthcare",
-              url: "/industries/healthcare",
-            },
-            {
-              title: "Hospitality & Tourism",
-              url: "/industries/hospitality-tourism",
-            },
-            {
-              title: "Information Technology",
-              url: "/industries/information-technology",
-            },
-            {
-              title: "Legal Services",
-              url: "/industries/legal-services",
-            },
-            {
-              title: "Logistics",
-              url: "/industries/logistics",
-            },
-            {
-              title: "Media & Communications",
-              url: "/industries/media-communications",
-            },
-            {
-              title: "Professional Services",
-              url: "/industries/professional-services",
-            },
-            {
-              title: "Real Estate",
-              url: "/industries/real-estate",
-            },
-            {
-              title: "Retail & eCommerce",
-              url: "/industries/retail-ecommerce",
-            },
-            {
-              title: "Telecommunications",
-              url: "/industries/telecommunications",
-            },
-            {
-              title: "Utilities",
-              url: "/industries/utilities",
-            },
-            {
-              title: "Wholesale Trade",
-              url: "/industries/wholesale-trade",
-            },
-          ],
-        },
+        // {
+        //   title: "Industry",
+        //   ico: <LiaIndustrySolid />,
+        //   heading: "Select Your Industry",
+        //   desc: "Outsourcing is a very versatile strategy suitable for businesses of all shapes and sizes. Below are common industries that have successfully implemented an offshore model. Get local insights relevant to your area of specialization, learn what others have done in your industry and leverage their experience.",
+        //   subitems: [
+        //     {
+        //       title: "Education",
+        //       url: "/industries/education",
+        //     },
+        //     {
+        //       title: "Engineering & Construction",
+        //       url: "/industries/engineering-construction",
+        //     },
+        //     {
+        //       title: "Financial Services",
+        //       url: "/industries/financial-services",
+        //     },
+        //     {
+        //       title: "Healthcare",
+        //       url: "/industries/healthcare",
+        //     },
+        //     {
+        //       title: "Hospitality & Tourism",
+        //       url: "/industries/hospitality-tourism",
+        //     },
+        //     {
+        //       title: "Information Technology",
+        //       url: "/industries/information-technology",
+        //     },
+        //     {
+        //       title: "Legal Services",
+        //       url: "/industries/legal-services",
+        //     },
+        //     {
+        //       title: "Logistics",
+        //       url: "/industries/logistics",
+        //     },
+        //     {
+        //       title: "Media & Communications",
+        //       url: "/industries/media-communications",
+        //     },
+        //     {
+        //       title: "Professional Services",
+        //       url: "/industries/professional-services",
+        //     },
+        //     {
+        //       title: "Real Estate",
+        //       url: "/industries/real-estate",
+        //     },
+        //     {
+        //       title: "Retail & eCommerce",
+        //       url: "/industries/retail-ecommerce",
+        //     },
+        //     {
+        //       title: "Telecommunications",
+        //       url: "/industries/telecommunications",
+        //     },
+        //     {
+        //       title: "Utilities",
+        //       url: "/industries/utilities",
+        //     },
+        //     {
+        //       title: "Wholesale Trade",
+        //       url: "/industries/wholesale-trade",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -494,16 +494,16 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="px-5 py-7 shadow-xl md:px-20 relative">
+    <nav className="px-5 py-5 shadow-xl md:px-20 relative">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Link to={"/"}>
-          <img className="w-[150px]" src={logo} alt="logo" />
+          <img className="w-[210px]" src={logo} alt="logo" />
         </Link>
         <div className="hidden items-center gap-5 md:flex ">
           {navData.map((item, index) => (
             <div key={index}>
               <h2
-                className="flex cursor-pointer items-center gap-1 font-outfit text-lg hover:text-orange-500"
+                className="flex cursor-pointer items-center gap-1 font-outfit text-[15px] hover:text-orange-500"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -512,7 +512,7 @@ const Navbar = () => {
               </h2>
               {isDropDownActive && activeDropdown === index && (
                 <div
-                  className={`absolute top-[73px]  z-50 flex bg-white px-5 py-5 ${
+                  className={`absolute top-[85px]  z-50 flex bg-white px-20 py-5 ${
                     activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
                   }`}
                   onMouseEnter={() => handleMouseEnter(index)}
@@ -610,7 +610,7 @@ const Navbar = () => {
           ))}
           <Link
             to={"/pricing"}
-            className="font-outfit text-lg hover:text-orange-500"
+            className="font-outfit text-[15px] hover:text-orange-500"
           >
             Pricing
           </Link>

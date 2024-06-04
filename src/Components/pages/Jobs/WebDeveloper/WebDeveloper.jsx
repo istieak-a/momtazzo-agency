@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const WebDeveloper = () => {
   const heroBanner = {
-    title: "Outsource webdeveloper to the Philippines",
+    title: "Outsource webdeveloper to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Web-Developer_Banner.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Web-Developer_Banner_mobile-1.jpg",
@@ -17,7 +17,7 @@ const WebDeveloper = () => {
   const experience = {
     title: "How experienced are our offshore web developers?",
     description:
-      "Our outsourced web developers in the Philippines offer different levels of experience depending on the support you require.",
+      "Our outsourced web developers in India offer different levels of experience depending on the support you require.",
     levels: {
       junior: {
         yearsOfExperience: "1-2 years of web development experience",

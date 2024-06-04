@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const MedicalBillingSpec = () => {
   const heroBanner = {
-    title: "Outsource Medical billing specialist to the Philippines",
+    title: "Outsource Medical billing specialist to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-Medical%20Billing%20and%20Coding%20Specialist.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-M_Medical-Billing-and-Coding-Specialist.jpg",
@@ -69,13 +69,13 @@ const MedicalBillingSpec = () => {
       <div className="section-margin grid items-center gap-5 md:grid-cols-2 md:gap-20 md:py-20">
         <h1 className="font-outfit text-4xl font-semibold md:text-5xl ">
           Improve your medical billing and coding capabilities with dedicated
-          Filipino teams.
+          Indian teams.
         </h1>
         <p>
           Need help ensuring medical claims are accurately and efficiently
           processed? Struggling to streamline revenue cycle management while
           maintaining compliance with healthcare regulations? Experienced teams
-          in the Philippines are skilled at managing the most crucial medical
+          in India are skilled at managing the most crucial medical
           billing and coding tasks such as assigning diagnostic and procedural
           codes, submitting medical insurance claims and maintaining billing
           records.
