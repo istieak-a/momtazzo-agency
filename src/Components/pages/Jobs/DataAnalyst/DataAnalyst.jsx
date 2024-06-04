@@ -5,9 +5,9 @@ import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
 const DataAnalyst = () => {
   const heroBanner = {
     title: "Outsource Data Analyst to India",
-    img: "https://www.microsourcing.com/hubfs/M_Webpage_-Header-Banner_Data-Analyst.jpg",
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-Medical%20Billing%20and%20Coding%20Specialist.jpg",
     imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/job-role-personal-assistant-banner-m.jpg",
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-M_Medical-Billing-and-Coding-Specialist.jpg",
   };
   return (
     <div>

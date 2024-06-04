@@ -10,8 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const TalentAcquisitionSpec = () => {
   const heroBanner = {
     title: "Outsource talentacquisitionspecialist to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner.jpg",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/3d-designer-banner-m.jpg"
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner_Teaching%20Administrator.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner%20mobile_Teaching%20Administrator.jpg",
   };
   const experience = {
     title: "How to hire offshore talent acquisition specialists?",

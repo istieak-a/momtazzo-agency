@@ -1,25 +1,25 @@
 import React from "react";
 import hero from "../../assets/banner-img/M_Web_Why-MicroSourcing_Banner_202307.jpg";
 import heroRes from "../../assets/banner-img/M_Mobile_Why-MicroSourcing_Banner_202307.jpg";
-import HeroBanner from "../Sections/HeroBanner/HeroBanner";
+import HeroBanner4 from "../Sections/HeroBanner4/HeroBanner4";
 import { Link } from "react-router-dom";
 import GuranteePricing from "../Sections/GuranteePricing/GuranteePricing";
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
-    desc: "We make it easy and affordable for businesses to build their own full-time, dedicated teams in the Philippines.",
-    img: hero,
-    imgRes: heroRes,
+    desc: "We make it easy and affordable for businesses to build their own full-time, dedicated teams in the India.",
+    img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
   };
   return (
     <div>
       <div>
-        <HeroBanner
+      <HeroBanner4
           title={heroBanner.title}
-          title2={heroBanner.title2}
-          desc={heroBanner.desc}
           img={heroBanner.img}
           imgRes={heroBanner.imgRes}
+          desc={heroBanner.desc}
         />
       </div>
       <div className="section-margin mx-auto my-3 max-w-7xl border-b-2 border-t-2 text-center">
@@ -68,17 +68,17 @@ const About = () => {
         <h1>Our difference</h1>
         <p>
           Our solution to offshoring is quite unique – in fact, we were the
-          first in the Philippines to offer it. This means we help you build
-          your full-time, dedicated team in the Philippines, taking care of
+          first in the India to offer it. This means we help you build
+          your full-time, dedicated team in the India, taking care of
           everything on the ground, while you retain full control of your team,
           including KPIs, quality, workflow and productivity. So not only do you
-          enjoy significant cost savings (up to 70%), but you still get
+          enjoy significant cost savings (up to 70%), but you also get
           employees who work just for you, in your business, working towards
           your business-specific goals.
         </p>
         <p>
           As the biggest and most experienced provider of unique offshoring
-          solutions in the Philippines, we enable you to leverage big-business
+          solutions in the India, we enable you to leverage big-business
           infrastructure, like:
         </p>
         <ul>
@@ -116,14 +116,14 @@ const About = () => {
         <h2>Mission</h2>
         <p>
           Our mission is to help you grow your business with smart and flexible
-          offshoring solutions in the Philippines. While at the same time,
-          making a positive impact in the Philippines.
+          offshoring solutions in the India. While at the same time,
+          making a positive impact in the India.
         </p>
 
         <h2>Vision</h2>
         <p>
           Our vision is to become the recognized leader for outsourcing and
-          offshoring solutions in the Philippines.
+          offshoring solutions in the India.
         </p>
 
         <h2>Values</h2>

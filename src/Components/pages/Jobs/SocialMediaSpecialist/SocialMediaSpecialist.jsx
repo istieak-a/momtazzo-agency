@@ -10,8 +10,8 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const SocialMediaSpec = () => {
   const heroBanner = {
     title: "Outsource social media specialists to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Social%20Media%20Marketer/M_Web_Role%20page_Social%20Media%20Specialist%20Banner.jpg",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Social%20Media%20Marketer/M_Banner%20mobile_Social%20Media%20Specialist.jpg"
+    img: "https://www.microsourcing.com/hubfs/M_Web_Role-page_Digital-Marketing-Specialist_Banner.png",
+    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Learn/Resources/M_Web_Role-page_Digital-Marketing-Specialist_Mobile-Banner.jpg"
   };
   const experience = {
     title: "How experienced are our social media specialists?",

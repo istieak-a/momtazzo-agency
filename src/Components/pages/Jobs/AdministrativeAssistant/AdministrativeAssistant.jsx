@@ -165,7 +165,7 @@ const AdministrativeAssistant = () => {
           and experienced administrative assistants in the India for up to
           70% less than you'd pay in your local employment market.
         </p>
-        <Link to="/get-in-touch" className="btn mx-auto">
+        <Link to="/contact" className="btn mx-auto">
           Contact us for salary information
         </Link>
         <h1>Tips for Employing Filipino Administrative Assistants</h1>

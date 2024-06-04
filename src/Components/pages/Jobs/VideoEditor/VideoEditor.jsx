@@ -10,9 +10,8 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const VideoEditor = () => {
   const heroBanner = {
     title: "Outsource Video Editor to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Video%20Editor/M_Web_Role-page_Video-Editor_Banner.png",
-    imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Video%20Editor/M_Web_Role-page_Video-Editor_Mobile-Banner.jpg",
+    img: "https://www.microsourcing.com/hubfs/M_Web_Role-page_Digital-Marketing-Specialist_Banner.png",
+    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Learn/Resources/M_Web_Role-page_Digital-Marketing-Specialist_Mobile-Banner.jpg"
   };
   const experience = {
     title: "How experienced are our video editors?",

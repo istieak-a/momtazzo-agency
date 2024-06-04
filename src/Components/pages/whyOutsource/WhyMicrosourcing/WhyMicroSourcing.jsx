@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../../../../assets/banner-img/M_Web_Why-MicroSourcing_Banner_202307.jpg";
 import heroRes from "../../../../assets/banner-img/M_Mobile_Why-MicroSourcing_Banner_202307.jpg";
-import HeroBanner from "../../../Sections/HeroBanner/HeroBanner";
+import HeroBanner4 from "../../../Sections/HeroBanner4/HeroBanner4";
 import GuranteePricing from "../../../Sections/GuranteePricing/GuranteePricing";
 import { Link } from "react-router-dom";
 import "./WhyMicroSourcing.css";
@@ -12,13 +12,14 @@ const whyMicroSourcing = () => {
   const heroBanner = {
     title: "Reasons To Choose Montazzo",
     desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
-    img: hero,
-    imgRes: heroRes,
+    img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
   };
   return (
     <div>
       <div>
-        <HeroBanner
+        <HeroBanner4
           title={heroBanner.title}
           title2={heroBanner.title2}
           desc={heroBanner.desc}

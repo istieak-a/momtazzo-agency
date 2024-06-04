@@ -10,8 +10,8 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const PayrollSpec = () => {
   const heroBanner = {
     title: "Outsource Payroll Specialist to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Payroll-Specialists_Banner.png",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Medical-coder_Banner_mobile-1.jpg"
+    img: "https://www.microsourcing.com/hubfs/M_Web_Role-page_Digital-Marketing-Specialist_Banner.png",
+    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Learn/Resources/M_Web_Role-page_Digital-Marketing-Specialist_Mobile-Banner.jpg"
   };
   const experience = {
     title: "How experienced are our payroll specialists?",

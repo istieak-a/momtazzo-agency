@@ -10,9 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const Accountant = () => {
   const heroBanner = {
     title: "Outsource accountant to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Accountant_Banner.png",
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner_Teaching%20Administrator.jpg",
     imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Banner%20mobile_Accounting.jpg",
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner%20mobile_Teaching%20Administrator.jpg",
   };
   const experience = {
     title: "How experienced are our accountants?",

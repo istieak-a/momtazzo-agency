@@ -12,7 +12,7 @@ const GuranteePricing = () => {
             <div className='flex flex-col items-center gap-5'>
                 <img src={gurantee} alt="ico" />
                 <div className='flex flex-col items-center'>
-                    <h1 className='text-white text-4xl text-center font-outfit font-[700]'>Montazzo’s pricing gurarntee</h1>
+                    <h1 className='text-white text-4xl text-center font-outfit font-[700]'>Montazzo’s pricing gurantee</h1>
                     <p className='text-[#02b6f4] pt-3 text-3xl text-center font-dmsans font-bold'>Unlock your potential- no surprises, just result. </p>
                 </div>
             </div>

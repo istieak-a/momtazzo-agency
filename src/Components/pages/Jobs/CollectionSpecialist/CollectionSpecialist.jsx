@@ -10,8 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const CollectionSpec = () => {
   const heroBanner = {
     title: "Outsource collection specialist to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Collection-Specialists_Banner.png",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/roles/collection-specialists/img-header-collection%20specialist-m@2x.png"
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-Medical%20Billing%20and%20Coding%20Specialist.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/medical-billing-specialist/MS_HeaderBanner-M_Medical-Billing-and-Coding-Specialist.jpg",
   };
   const experience = {
     title: "How experienced are our collection specialists?",

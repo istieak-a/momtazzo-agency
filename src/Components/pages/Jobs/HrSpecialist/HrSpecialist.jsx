@@ -10,9 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const HrSpec = () => {
   const heroBanner = {
     title: "Outsource HR Specialist to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/hr-specialist/MS_HeaderBanner_Human%20Resource%20Specialist.jpg",
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/data-entry/Data%20Entry%20Specialist_Desktop.jpg",
     imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/hr-specialist/MS_HeaderBanner-M_Human%20Resource%20Specialist.jpg",
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Background/Mobile-banner-BG.jpg",
   };
   const experience = {
     title: "How experienced are our human resource specialists?",

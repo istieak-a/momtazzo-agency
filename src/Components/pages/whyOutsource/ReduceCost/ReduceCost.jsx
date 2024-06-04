@@ -12,7 +12,7 @@ const ReduceCost = () => {
   const heroBanner = {
     title: "Why outsource?",
     title2: "To reduce costs",
-    desc: "Improve business efficiencies and service quality whilesaving up to 70% on labor and operating costs",
+    desc: "Improve business efficiencies and service quality while saving up to 70% on labor and operating costs",
     img: hero,
     imgRes: heroRes,
   };
@@ -40,7 +40,7 @@ const ReduceCost = () => {
         </p>
         <p>
           Outsourcing allows businesses to  ease such financial pressures, with
-          studies finding cost reduction is the number one reason1 businesses
+          studies finding cost reduction is the number one reason businesses
           choose to outsource.
         </p>
         <p className="flex items-center gap-5 py-5">

@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Pricing = () => {
   const heroBanner = {
     title: "Montazzo's Pricing Plans",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Accountant_Banner.png",
+    img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
     imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Banner%20mobile_Accounting.jpg",
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
     desc: "Hire college educated, experienced virtual assistants that won’t stress your bottom line.",
   };
   return (
@@ -24,8 +24,10 @@ const Pricing = () => {
       </div>
       <div className="mx-auto flex max-w-5xl flex-col bg-white p-6 py-10 md:flex-row">
         <div className="flex flex-col items-center justify-center rounded-lg bg-[#4a6277] p-6 text-white md:w-1/3">
-          <div className="mb-2 text-4xl font-bold text-center">Our pricing varies based on the specific role</div>
-          <Link to={'/contact'} className="btn mt-5">
+          <div className="mb-2 text-center text-4xl font-bold">
+            Our pricing varies based on the specific role
+          </div>
+          <Link to={"/contact"} className="btn mt-5">
             Book a Strategy Call
           </Link>
         </div>
@@ -41,7 +43,6 @@ const Pricing = () => {
           <h3 className="mb-2 font-bold">What’s Included:</h3>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <ul className="list-none space-y-2">
-
               <li className="flex items-start">
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" /> FBI
                 Grade Background Checks
@@ -80,7 +81,6 @@ const Pricing = () => {
                 <img alt="check" src={checkIco} className="mr-2 h-4 w-4" />{" "}
                 Standardized Office & Equipment Policy
               </li>
-
             </ul>
           </div>
         </div>
@@ -149,17 +149,18 @@ const Pricing = () => {
       <div className="mx-auto max-w-7xl py-20">
         <Reviews />
       </div>
-        <div className="inset-0 mx-auto flex  max-w-7xl flex-col items-start justify-center space-y-5 px-5 md:px-10 lg:px-20 py-12 bg-[#1c2336]">
-          <h2 className="text-2xl font-bold text-white md:text-3xl lg:text-4xl">
-            Ready to scale your business?
-          </h2>
-          <p className="text-base text-white md:text-lg lg:text-xl">
-            Find a virtual professional that meets your unique business needs
-            and save up to 70% on hiring costs today.
-          </p>
-          <Link to={'/contact'} className="btn">Book a Strategy Call</Link>
-        </div>
-
+      <div className="inset-0 mx-auto flex  max-w-7xl flex-col items-start justify-center space-y-5 bg-[#1c2336] px-5 py-12 md:px-10 lg:px-20">
+        <h2 className="text-2xl font-bold text-white md:text-3xl lg:text-4xl">
+          Ready to scale your business?
+        </h2>
+        <p className="text-base text-white md:text-lg lg:text-xl">
+          Find a virtual professional that meets your unique business needs and
+          save up to 70% on hiring costs today.
+        </p>
+        <Link to={"/contact"} className="btn">
+          Book a Strategy Call
+        </Link>
+      </div>
     </div>
   );
 };

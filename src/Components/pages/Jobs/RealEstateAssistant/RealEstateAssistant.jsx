@@ -9,7 +9,7 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const RealEstateAssistant = () => {
   const heroBanner = {
-    title: "Outsource realestateassistant to India",
+    title: "Outsource Real Estate Assistant to India",
     img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Real%20Estate%20Assistant/MS_HeaderBanner_Real%20Estate%20Assistant.jpg",
     imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Real%20Estate%20Assistant/MS_HeaderBanner-M_Real-Estate-Assistant.jpg"
   };

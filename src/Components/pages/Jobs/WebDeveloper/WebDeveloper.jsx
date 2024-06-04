@@ -9,10 +9,10 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 
 const WebDeveloper = () => {
   const heroBanner = {
-    title: "Outsource webdeveloper to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Web-Developer_Banner.jpg",
+    title: "Outsource Web Developer to India",
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner_Teaching%20Administrator.jpg",
     imgRes:
-      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/M_Web_Role_Web-Developer_Banner_mobile-1.jpg",
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner%20mobile_Teaching%20Administrator.jpg",
   };
   const experience = {
     title: "How experienced are our offshore web developers?",

@@ -10,8 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const LogisticsCoordinator = () => {
   const heroBanner = {
     title: "Outsource Logistics Coordinator to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/logistics-coordinator/MS_HeaderBanner_Logistics%20Coordinator.jpg",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/logistics-coordinator/MS_HeaderBanner-M_Logistics-Coordinator.jpg"
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/data-entry/Data%20Entry%20Specialist_Desktop.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Background/Mobile-banner-BG.jpg",
   };
   const experience = {
     title: "How experienced are our logistics coordinators?",

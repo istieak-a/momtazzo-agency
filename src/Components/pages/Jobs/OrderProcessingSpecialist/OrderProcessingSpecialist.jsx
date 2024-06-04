@@ -10,8 +10,8 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const OrderProcessingSpec = () => {
   const heroBanner = {
     title: "Outsource Order Processing Specialist to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Order%20Processing%20Specialists/MS_HeaderBanner_Order%20Processing%20Specialist.jpg",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Job%20Roles/Order%20Processing%20Specialists/MS_HeaderBanner-M_Order-Processing-Specialist.jpg"
+    img: "https://www.microsourcing.com/hubfs/M_Web_Role-page_Digital-Marketing-Specialist_Banner.png",
+    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/Learn/Resources/M_Web_Role-page_Digital-Marketing-Specialist_Mobile-Banner.jpg"
   };
   const experience = {
     title: "How experienced are our order processing specialists?",

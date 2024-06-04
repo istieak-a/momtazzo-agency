@@ -15,8 +15,8 @@ const HeroBanner4 = ({ title, title2, desc, img, imgRes }) => {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex flex-col gap-4 items-center md:w-[40%] md:items-start">
-        <h1 className="text-center font-outfit text-5xl font-semibold md:text-left md:text-5xl">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-4 md:w-[100%] md:items-start">
+        <h1 className="text-center font-outfit text-5xl font-semibold md:text-left md:w-1/2 md:text-5xl">
           {title}
         </h1>
         {title2 && (
@@ -24,13 +24,11 @@ const HeroBanner4 = ({ title, title2, desc, img, imgRes }) => {
             {title2}
           </h2>
         )}
-        <p className="text-center text-lg md:text-left">{desc}</p>
+        <p className="w-1/2 text-center text-lg md:text-left">{desc}</p>
         <Link to="/contact" className="btn">
-          {
-            title === "Montazzo's Pricing Plans"
-              ? "Book a Strategy Call"
-              : "How it works"
-          }
+          {title === "Montazzo's Pricing Plans" || title.includes("Montazzo")
+            ? "Book a Strategy Call"
+            : "How it works"}
         </Link>
       </div>
     </div>

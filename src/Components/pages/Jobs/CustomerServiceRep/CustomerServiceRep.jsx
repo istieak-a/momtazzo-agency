@@ -10,8 +10,9 @@ import HowMicrosourcingWork from "../../../Sections/HowMicrosourcingWork/HowMicr
 const CustomerServiceRep = () => {
   const heroBanner = {
     title: "Outsource customer service to India",
-    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/M_Web_Role-page_Collection-Specialists_Banner.png",
-    imgRes: "https://www.microsourcing.com/hubfs/MicroSourcing/roles/collection-specialists/img-header-collection%20specialist-m@2x.png"
+    img: "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner_Teaching%20Administrator.jpg",
+    imgRes:
+      "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Enrollment%20Administrator/M_Banner%20mobile_Teaching%20Administrator.jpg",
   };
   const experience = {
     title: "How experienced are our customer service representatives?",
