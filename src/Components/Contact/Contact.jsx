@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_h55e2rd", "template_87qf7yq", form.current, {
+        publicKey: "bBBsu6XDvQXDmB7Ve",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        },
+      );
+  };
+
   return (
     <div>
       <div className="flex items-center justify-center bg-[#1c2336] py-20 text-white">
@@ -13,13 +33,14 @@ const Contact = () => {
         <h2 className="text-center text-2xl font-bold text-[#50aab2]">
           an Expert
         </h2>
-        <form className="mt-6 space-y-4">
-        <div>
+        <form className="mt-6 space-y-4" onSubmit={sendEmail} ref={form}>
+          <div>
             <label className="block text-sm font-medium text-gray-700">
               Company Name: <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
+              name="company_name"
               className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-[#50aab2] focus:ring-[#50aab2]"
               required
             />
@@ -30,13 +51,13 @@ const Contact = () => {
             </label>
             <input
               type="email"
+              name="business_email"
               className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-[#50aab2] focus:ring-[#50aab2]"
               placeholder="name@company.com"
               required
             />
           </div>
-          
-          
+
           <div className="mt-6">
             <button
               type="submit"
@@ -46,7 +67,6 @@ const Contact = () => {
             </button>
           </div>
         </form>
-      
       </div>
     </div>
   );

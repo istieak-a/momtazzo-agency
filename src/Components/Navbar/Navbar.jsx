@@ -512,7 +512,7 @@ const Navbar = () => {
               </h2>
               {isDropDownActive && activeDropdown === index && (
                 <div
-                  className={`absolute top-[95px]  z-50 flex bg-white px-20 py-5 ${
+                  className={`absolute top-[95px] z-50 flex bg-white px-20 py-5 ${
                     activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
                   }`}
                   onMouseEnter={() => handleMouseEnter(index)}
