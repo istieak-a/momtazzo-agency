@@ -29,7 +29,7 @@ const whyMicroSourcing = () => {
       </div>
       <div className="flex flex-col items-center gap-5 pt-10">
         <GuranteePricing />
-        <Link to={`#`} className="btn px-10 py-4">
+        <Link to={`/contact`} className="btn px-10 py-4">
           Get a quote
         </Link>
       </div>

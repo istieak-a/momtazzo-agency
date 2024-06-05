@@ -64,7 +64,7 @@ const ReduceCost = () => {
       </div>
       <div className="flex flex-col items-center gap-5">
         <GuranteePricing />
-        <Link to={`#`} className="btn px-10 py-4">Get a quote</Link>
+        <Link to={`/contact`} className="btn px-10 py-4">Get a quote</Link>
       </div>
       <div>
         <TheBenifits />
