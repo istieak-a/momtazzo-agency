@@ -51,7 +51,7 @@ const Finance = () => {
         />
       </div>
 
-      <div className="section-margin flex flex-col items-center gap-5 md:flex-row">
+      <div className="section-margin flex flex-col items-center gap-5 md:flex-row max-w-7xl mx-auto">
         <div className="flex flex-col gap-5">
           <p>
             Finance teams often grapple with large volumes of financial data,

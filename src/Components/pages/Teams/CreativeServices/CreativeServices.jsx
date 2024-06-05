@@ -21,7 +21,7 @@ const CreativeServices = () => {
           cate={banner.cate}
         />
       </div>
-      <div className="section-margin mx-5 my-3 border-b-2 border-t-2 text-center md:mx-16">
+      <div className="section-margin my-3 border-b-2 border-t-2 text-center max-w-7xl mx-auto">
         <p>
           From marketing and content writing to design and animation… you can
           outsource creative services and build the ultimate team to deliver on
@@ -30,7 +30,7 @@ const CreativeServices = () => {
           outsourcing creative design services to India…
         </p>
       </div>
-      <div className="section-container">
+      <div className="section-container max-w-7xl mx-auto">
         <h1>Creative Services: The Reality Behind the Buzz</h1>
         <p>
           Creative services – it’s an exciting, if vague title, calling up

@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import "./Homepage.css";
 import { FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import heroLady from "../../assets/herolady2.webp";
+import heroLady from "../../assets/herolady2.jpg";
 import increaseQuality from "../../assets/icons/increase-quality.png";
 import reduceCost from "../../assets/icons/reduce-cost.png";
 import scaleFast from "../../assets/icons/scale-fast.png";
@@ -293,7 +293,7 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
-      <Accordion />
+      {/* <Accordion /> */}
       <div>
         <BuildTeam />
       </div>

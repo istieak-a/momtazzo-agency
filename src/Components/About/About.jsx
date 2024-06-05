@@ -32,6 +32,7 @@ const About = () => {
         </p>
       </div>
       <div className="section-container mx-auto max-w-7xl">
+        <h1>Our Story</h1>
         <p>
           Montazzo LLC began its journey in 2021 with a focus on B2B lead
           generation. As we worked with various clients, we saw the challenges
