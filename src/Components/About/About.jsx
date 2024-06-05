@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import hero from "../../assets/banner-img/M_Web_Why-MicroSourcing_Banner_202307.jpg";
 import heroRes from "../../assets/banner-img/M_Mobile_Why-MicroSourcing_Banner_202307.jpg";
 import HeroBanner4 from "../Sections/HeroBanner4/HeroBanner4";
