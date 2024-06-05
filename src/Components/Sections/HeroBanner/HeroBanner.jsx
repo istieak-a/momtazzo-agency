@@ -11,7 +11,7 @@ const HeroBanner = ({ title, title2, desc, img, imgRes }) => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className=" max-w-7xl mx-auto">
-        <h1 className="text-center md:text-left font-outfit text-5xl ">
+        <h1 className="text-center md:text-left font-outfit text-5xl w-1/2">
           {title}
         </h1>
         {title2 && (
