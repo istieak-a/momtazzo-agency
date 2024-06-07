@@ -216,7 +216,7 @@ const Navbar = () => {
           title: "Teams",
           ico: <RiTeamFill />,
           heading: "Select Your Team",
-          desc: "Outsourcing an entire department or division in your business can lead to major efficiency gains. For successful team structures, local market recruitment advice and suggested staff to leader ratios, select one of the common teams that can be easily outsourced to the Philippines below.",
+          desc: "Outsourcing an entire department or division in your business can lead to major efficiency gains. For successful team structures, local market recruitment advice and suggested staff to leader ratios, select one of the common teams that can be easily outsourced to the India below.",
           subitems: [
             {
               title: "Accounting",
