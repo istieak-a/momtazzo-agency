@@ -443,7 +443,7 @@ const Footer = () => {
         </div>
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">
-            Why Outshource?
+            Why Outsource?
           </h1>
           <div className="mt-4 flex flex-col items-start gap-1">
             {navData[0].subitems.map((item, index) => {

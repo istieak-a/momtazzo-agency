@@ -123,7 +123,7 @@ const Homepage = () => {
     },
     {
       title: "Diverse Talent",
-      desc: "Our offshore employees provide a range of services tailored to client needs, including admin support, marketing, sales and customer service. We hrie top talent for seamless integration and business success. ",
+      desc: "Our offshore employees provide a range of services tailored to client needs, including admin support, marketing, sales and customer service. We hire top talent for seamless integration and business success. ",
       ico: people,
     },
     {

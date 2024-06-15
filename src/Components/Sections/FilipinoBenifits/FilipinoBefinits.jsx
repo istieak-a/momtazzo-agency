@@ -32,7 +32,7 @@ const FilipinoBefinits = ({title}) => {
     return (
         <div className=' px-5 md:px-16  bg-[#f4fafc] py-10  '>
             <div className='max-w-7xl mx-auto flex items-center flex-col md:flex-row gap-10'>
-            <h1 className='font-outfit text-5xl font-semibold text-center'>What are the benifits of Indian {title} outsourcing?</h1>
+            <h1 className='font-outfit text-5xl font-semibold text-center'>What are the benefits of Indian {title} outsourcing?</h1>
             <div className='grid grid-cols-2 gap-5'>
                 {cardData.map((card, i) => (
                     <Card key={i} title={card.title} ico={card.ico} desc={card.desc} link={card.link} />
