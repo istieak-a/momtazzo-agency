@@ -4,6 +4,7 @@ import heroRes from "../../assets/banner-img/M_Mobile_Why-MicroSourcing_Banner_2
 import HeroBanner4 from "../Sections/HeroBanner4/HeroBanner4";
 import { Link } from "react-router-dom";
 import GuranteePricing from "../Sections/GuranteePricing/GuranteePricing";
+import Reviews from "../Reviews/Reviews";
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
@@ -15,7 +16,7 @@ const About = () => {
   return (
     <div>
       <div>
-      <HeroBanner4
+        <HeroBanner4
           title={heroBanner.title}
           img={heroBanner.img}
           imgRes={heroBanner.imgRes}
@@ -69,13 +70,13 @@ const About = () => {
         <h1>Our difference</h1>
         <p>
           Our solution to offshoring is quite unique – in fact, we were the
-          first in the India to offer it. This means we help you build
-          your full-time, dedicated team in the India, taking care of
-          everything on the ground, while you retain full control of your team,
-          including KPIs, quality, workflow and productivity. So not only do you
-          enjoy significant cost savings (up to 70%), but you also get
-          employees who work just for you, in your business, working towards
-          your business-specific goals.
+          first in the India to offer it. This means we help you build your
+          full-time, dedicated team in the India, taking care of everything on
+          the ground, while you retain full control of your team, including
+          KPIs, quality, workflow and productivity. So not only do you enjoy
+          significant cost savings (up to 70%), but you also get employees who
+          work just for you, in your business, working towards your
+          business-specific goals.
         </p>
         <p>
           As the biggest and most experienced provider of unique offshoring
@@ -117,8 +118,8 @@ const About = () => {
         <h2>Mission</h2>
         <p>
           Our mission is to help you grow your business with smart and flexible
-          offshoring solutions in the India. While at the same time,
-          making a positive impact in the India.
+          offshoring solutions in the India. While at the same time, making a
+          positive impact in the India.
         </p>
 
         <h2>Vision</h2>
@@ -147,6 +148,9 @@ const About = () => {
           one another and we don’t have strict dress codes (hoodies, t-shirts,
           jeans, dresses – whatever!).
         </p>
+      </div>
+      <div>
+        <Reviews />
       </div>
     </div>
   );
