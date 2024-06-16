@@ -149,7 +149,10 @@ const About = () => {
           jeans, dresses – whatever!).
         </p>
       </div>
-      <div>
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          What Our Clients Are Saying
+        </h2>
         <Reviews />
       </div>
     </div>

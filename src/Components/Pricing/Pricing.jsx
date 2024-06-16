@@ -146,7 +146,10 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-7xl py-20">
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          What Our Clients Are Saying
+        </h2>
         <Reviews />
       </div>
       <div className="inset-0 mx-auto flex  max-w-7xl flex-col items-start justify-center space-y-5 bg-[#1c2336] px-5 py-12 md:px-10 lg:px-20">
