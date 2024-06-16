@@ -616,7 +616,7 @@ const Navbar = () => {
           >
             Pricing
           </Link>
-          <Link to={'/contact'} className="btn ms-10">Contact</Link>
+          <Link to={'/contact'} className="btn py-[5px] ms-10">Contact</Link>
         </div>
         <motion.div
           variants={toggleVariants}
