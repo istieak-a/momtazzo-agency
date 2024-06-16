@@ -146,16 +146,16 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:px-16 ">
+      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16 ">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
           <div className="pe-5 md:w-[60%] md:pe-0">
-            <h1 className="font-sans text-xs md:text-sm">
+            <h1 className="font-sans text-xs md:text-lg">
               GROW YOUR BUSINESS WITH MONTAZZO'S
             </h1>
-            <h2 className="py-5 font-outfit text-5xl font-semibold tracking-wide md:text-5xl">
+            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
               OFFSHORE PROFESSIONALS
             </h2>
-            <p className="text-sm">
+            <p className="text-lg">
               Outsource any remote role to our skilled and experienced
               professionals with your local market expertise, working from our
               24/7 office in your time zone.
@@ -272,14 +272,14 @@ const Homepage = () => {
       </div> */}
 
       <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col justify-between gap-5 px-5 py-20 md:py-36 md:flex-row md:px-24">
+        <div className="flex flex-col justify-between gap-5 px-5 py-20 md:flex-row md:px-24 md:py-36">
           <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
             Our model saves our clients{" "}
             <span className="text-[#61b2ba]">up to 70%</span> in traditional
             hiring costs.
           </p>
           <div className="md:w-1/2">
-            <h1 className="text-xl font-dmsans font-semibold">
+            <h1 className="font-dmsans text-xl font-semibold">
               We provide competitive compensation to our virtual assistants, as
               well as handle:
             </h1>
@@ -325,6 +325,59 @@ const Homepage = () => {
             );
           })}
         </div>
+      </div>
+
+      <div className="flex flex-col items-center bg-zinc-50 py-20 gap-14">
+        <h2 className="text-2xl md:text-4xl font-bold text-zinc-800 font-outfit">
+          How we work
+        </h2>
+        <div className="mb-5 flex flex-col items-center justify-center gap-8 md:flex-row">
+          <div className="flex flex-col items-center text-center">
+            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+                1.
+              </div>
+              <div className="rounded-lg bg-white p-6 shadow-lg">
+                <img
+                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/button-cursor.png"
+                  alt="Start Your Free Consultation"
+                />
+              </div>
+            </div>
+            <p className="text-zinc-800 font-semibold">Start Your Free Consultation</p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+                2.
+              </div>
+              <div className="rounded-lg bg-white p-6 shadow-lg">
+                <img
+                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/comment-text-multiple-outline.png"
+                  alt="Meet With Our Team"
+                />
+              </div>
+            </div>
+            <p className="text-zinc-800 font-semibold">Meet With Our Team</p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+                3.
+              </div>
+              <div className="rounded-lg bg-white p-6 shadow-lg">
+                <img
+                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/account-check-outline.png"
+                  alt="HAllYour Virtual Assistant"
+                />
+              </div>
+            </div>
+            <p className="text-zinc-800 font-semibold">Hire Your Offshore Professional</p>
+          </div>
+        </div>
+        <Link to="/contact" className="btn">Book a strategy Call</Link>
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
