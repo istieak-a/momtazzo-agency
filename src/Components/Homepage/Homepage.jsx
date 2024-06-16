@@ -152,7 +152,7 @@ const Homepage = () => {
             <h1 className="font-sans text-xs md:text-lg">
               GROW YOUR BUSINESS WITH MONTAZZO'S
             </h1>
-            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
+            <h2 className="py-8 font-outfit text-5xl font-bold tracking-wide md:text-7xl">
               OFFSHORE PROFESSIONALS
             </h2>
             <p className="text-lg">
@@ -327,14 +327,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center bg-zinc-50 py-20 gap-14">
-        <h2 className="text-2xl md:text-4xl font-bold text-zinc-800 font-outfit">
-          How we work
+      <div className="flex flex-col items-center bg-zinc-50 py-20 gap-20">
+        <h2 className="text-4xl md:text-6xl font-bold text-zinc-800 font-outfit">
+        How Offshoring Works
         </h2>
         <div className="mb-5 flex flex-col items-center justify-center gap-8 md:flex-row">
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 1.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -344,12 +344,12 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold">Start Your Free Consultation</p>
+            <p className="text-zinc-800 font-semibold text-xl pt-10">Start Your Free Consultation</p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 2.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -359,12 +359,12 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold">Meet With Our Team</p>
+            <p className="text-zinc-800 font-semibold text-xl pt-10">Meet With Our Team</p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-12 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-8 top-10 flex h-7 w-7 items-center justify-center rounded-full bg-blue-900 text-white">
+            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
+              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 3.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -374,7 +374,7 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold">Hire Your Offshore Professional</p>
+            <p className="text-zinc-800 font-semibold text-xl pt-10">Hire Your Offshore Professional</p>
           </div>
         </div>
         <Link to="/contact" className="btn">Book a strategy Call</Link>

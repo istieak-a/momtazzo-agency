@@ -503,7 +503,7 @@ const Navbar = () => {
           {navData.map((item, index) => (
             <div key={index}>
               <h2
-                className="flex cursor-pointer items-center gap-1 font-outfit text-[17px] hover:text-orange-500"
+                className="flex cursor-pointer items-center gap-1 font-outfit text-[15px] hover:text-orange-500"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -608,11 +608,11 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          <Link to={'/about'} className="font-outfit hover:text-orange-500 text-[17px]">About</Link>
+          <Link to={'/about'} className="font-outfit hover:text-orange-500 text-[15px]">About</Link>
 
           <Link
             to={"/pricing"}
-            className="font-outfit text-[17px] hover:text-orange-500"
+            className="font-outfit text-[15px] hover:text-orange-500"
           >
             Pricing
           </Link>
