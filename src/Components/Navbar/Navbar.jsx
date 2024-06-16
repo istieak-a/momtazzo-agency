@@ -497,7 +497,7 @@ const Navbar = () => {
     <nav className="px-5 py-5 shadow-xl md:px-20 relative">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Link to={"/"}>
-          <img className="w-[250px]" src={logo} alt="logo" />
+          <img className="w-[220px]" src={logo} alt="logo" />
         </Link>
         <div className="hidden items-center gap-5 md:flex ">
           {navData.map((item, index) => (
