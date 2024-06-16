@@ -21,6 +21,7 @@ import people from "../../assets/icons/people.png";
 import verify from "../../assets/icons/verify.png";
 import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 import Accordion from "../Accordian/Accordian";
+import checkIco from "../../assets/icons/pngegg.png";
 
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -112,8 +113,8 @@ const Homepage = () => {
   ];
   const unique = [
     {
-      title: "15 Years Of Experience",
-      desc: "With 15 years of BPM experience, we lead in providing top offshore employees. Serving clients in the USA, UK, Australia and Canada. We deliver outstanding support and efficiency for your business. ",
+      title: "5 Years Of Experience",
+      desc: "With 5 years of BPM experience, we lead in providing top offshore employees. Serving clients in the USA, UK, Australia and Canada. We deliver outstanding support and efficiency for your business. ",
       ico: verify,
     },
     {
@@ -144,19 +145,20 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="">
+    <div>
       <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:px-16 ">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
           <div className="pe-5 md:w-[60%] md:pe-0">
-            <h1 className="font-dmsans text-4xl md:text-6xl">
-              Hire full-time outsourced teams in India.{" "}
+            <h1 className="font-sans text-xs md:text-sm">
+              GROW YOUR BUSINESS WITH MONTAZZO'S
             </h1>
-            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
-              Ready to work in as little as two weeks
+            <h2 className="py-5 font-outfit text-5xl font-semibold tracking-wide md:text-5xl">
+              OFFSHORE PROFESSIONALS
             </h2>
-            <p className="pt-5">
-              Achieve unparalleled, sustainable growth while maintaining
-              complete operational control.
+            <p className="text-sm">
+              Outsource any remote role to our skilled and experienced
+              professionals with your local market expertise, working from our
+              24/7 office in your time zone.
             </p>
             <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
               <Link className="btn" to="/contact">
@@ -167,7 +169,7 @@ const Homepage = () => {
               </Link>
             </div>
           </div>
-          <div className="hidden w-1/2 rounded-lg overflow-hidden md:flex">
+          <div className="hidden w-1/2 overflow-hidden rounded-lg md:flex">
             <img src={heroLady} alt="" />
           </div>
         </div>
@@ -229,7 +231,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
+      {/* <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-4xl font-normal md:text-5xl">
           How offshoring works
         </h1>
@@ -265,6 +267,44 @@ const Homepage = () => {
               }
               alt=""
             />
+          </div>
+        </div>
+      </div> */}
+
+      <div className="mx-auto max-w-7xl">
+        <div className="flex flex-col justify-between gap-5 px-5 py-20 md:py-36 md:flex-row md:px-24">
+          <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
+            Our model saves our clients{" "}
+            <span className="text-[#61b2ba]">up to 70%</span> in traditional
+            hiring costs.
+          </p>
+          <div className="md:w-1/2">
+            <h1 className="text-xl font-dmsans font-semibold">
+              We provide competitive compensation to our virtual assistants, as
+              well as handle:
+            </h1>
+            <ul>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Human resource concerns
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Paid time-off
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Benefits
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Insurance
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Equipment
+              </li>
+            </ul>
           </div>
         </div>
       </div>
