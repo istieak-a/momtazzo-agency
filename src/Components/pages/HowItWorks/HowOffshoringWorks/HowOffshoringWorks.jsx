@@ -234,12 +234,12 @@ const HowOffshoringWorks = () => {
               that may arise along the way, we can provide expert guidance as we
               will be there step-by-step throughout the setup.
             </p>
-
+{/* 
             <p>
               In summary, your new team should be ready to begin work in as
               little as six weeks after you engage us. Why not check out our HQ
               office facilities for yourself…
-            </p>
+            </p> */}
           </div>
         </div>
 
