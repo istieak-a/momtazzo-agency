@@ -412,7 +412,7 @@ const Footer = () => {
           );
         })}
       </div> */}
-      <div className="mx-auto  flex flex-col justify-around gap-5 px-5 py-10 md:flex-row">
+      <div className="mx-auto max-w-7xl flex flex-col justify-around gap-5 px-5 py-10 md:flex-row">
         <div className="flex flex-col items-start gap-3">
           <img className="h-20" src={logo} alt="" />
           <p className=" font-dmsans text-[16px] text-[#c0d1d9] md:ms-4">
