@@ -47,33 +47,33 @@ const Reviews = () => {
       desc: "CEO",
       company: "Supply",
     },
+    // {
+    //   review:
+    //     "I really enjoyed working with Montazzo to find a new developer for my team! I've been extremely happy with the entire experience",
+    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/6414c8872e8c94b8d33bf98d_Nick%20Sharma.png",
+    //   name: "Nik Sharma",
+    //   desc: "CEO & Founder",
+    //   company: "Sharma Brands",
+    // },
+    // {
+    //   review:
+    //     'The Montazzo team helped me hire a new EA recently and it’s already been such a great addition to my team. Can highly recommend!',
+    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f7e143895838a5c6393ab5a_Adii.jpg",
+    //   name: "Adii Pienaar",
+    //   desc: "Creator ",
+    //   company: "WooCommerce",
+    // },
+    // {
+    //   review:
+    //     "Montazzo did an excellent job helping us find new engineering talent for our team. They've been competent and responsive throughout the entire process",
+    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5ff65534c5c32e3a50b8a2ec_Tobias_Vanschneider-p-500.jpeg",
+    //   name: "Tobias van Schneider",
+    //   desc: "Founder ",
+    //   company: "Semplice & Designer of Spotify",
+    // },
     {
       review:
-        "I really enjoyed working with Montazzo to find a new developer for my team! I've been extremely happy with the entire experience",
-      img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/6414c8872e8c94b8d33bf98d_Nick%20Sharma.png",
-      name: "Nik Sharma",
-      desc: "CEO & Founder",
-      company: "Sharma Brands",
-    },
-    {
-      review:
-        'The Montazzo team helped me hire a new EA recently and it’s already been such a great addition to my team. Can highly recommend!',
-      img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f7e143895838a5c6393ab5a_Adii.jpg",
-      name: "Adii Pienaar",
-      desc: "Creator ",
-      company: "WooCommerce",
-    },
-    {
-      review:
-        "Montazzo did an excellent job helping us find new engineering talent for our team. They've been competent and responsive throughout the entire process",
-      img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5ff65534c5c32e3a50b8a2ec_Tobias_Vanschneider-p-500.jpeg",
-      name: "Tobias van Schneider",
-      desc: "Founder ",
-      company: "Semplice & Designer of Spotify",
-    },
-    {
-      review:
-        "We were most impressed by the high quality of the candidates presented to us. We've been able to get wonderful talent to support our team",
+        "We’re constantly trying to bring the best the market has to offer to support our global business operations by identifying suppliers with the exact solution we need to solve our problem. In this case, we found an incredible partner in Montazzo.",
       img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f68f127e72936dbd9fbf60f_kaitlyn.jpeg",
       name: "Kaitlyn Witman",
       desc: "Co-Founder",
