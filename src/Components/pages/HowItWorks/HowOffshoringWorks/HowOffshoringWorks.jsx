@@ -8,6 +8,7 @@ import icon3 from "../../../../assets/icons/How does offshoring work-03_dark.png
 import Card from "../../../Card/Card";
 import "./HowOffshoringWorks.css";
 import GetInTouch from "../../../Sections/GetInTouch/GetInTouch";
+import checkIco from "../../../../assets/icons/pngegg.png";
 
 const HowOffshoringWorks = () => {
   const heroBanner = {
@@ -43,7 +44,7 @@ const HowOffshoringWorks = () => {
           imgRes={heroBanner.imgRes}
         />
       </div>
-      <div className="px-5 py-10 md:px-16 max-w-7xl mx-auto">
+      <div className="mx-auto max-w-7xl px-5 py-10 md:px-16">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {cardData.map((data, index) => (
             <Card
@@ -61,7 +62,7 @@ const HowOffshoringWorks = () => {
           solution.
         </p>
       </div>
-      <div className="flex flex-col gap-10 px-5 py-10 md:px-16 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col items-center gap-5 md:flex-row">
             <img className="size-36" src={icon1} alt="icon" />
@@ -84,16 +85,22 @@ const HowOffshoringWorks = () => {
 
             <p>Do you have:</p>
             <ul>
-              <li>Access to cloud-based tools and platforms?</li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Access to cloud-based tools and platforms?
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Your internal processes clearly documented so it is easy to
                 train new employees, or could you create some?
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 CRM’s and programs that are accessible in a remote work setting
                 or a different location, such as the Indian?
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Licenses and certifications that allow you to export tasks,
                 offshore and online?
               </li>
@@ -118,25 +125,36 @@ const HowOffshoringWorks = () => {
 
             <p>Questions covered include:</p>
             <ul>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Who will your offshore team members report to within your
                 onshore team?
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 How many team members will our offshore staff be collaborating
                 with?
               </li>
-              <li>What IT programs do you use?</li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                What IT programs do you use?
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 How many offshore team members do you need and in what
                 functions?
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Are you looking to reduce costs, in particular, employment
                 costs?
               </li>
-              <li>Are you transitioning to a remote workforce?</li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Are you transitioning to a remote workforce?
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 What are your business goals and objectives for this year?
               </li>
             </ul>
@@ -190,12 +208,12 @@ const HowOffshoringWorks = () => {
               the right person for the job. Just as you would write the job
               descriptions for your onshore team, you’d do the same for your
               offshore staff. After we’ve analyzed those requirements, we then
-              provide feedback to ensure that they will attract the best
-              Indian talent for the role. By supporting you with this process,
-              we are able to confidently source suitable candidates from the
-              local market and our database of more than 275,000 applicants. We
-              then present our shortlist to you to select the staff that best
-              suit your business, company culture and individual team dynamics.
+              provide feedback to ensure that they will attract the best Indian
+              talent for the role. By supporting you with this process, we are
+              able to confidently source suitable candidates from the local
+              market and our database of more than 275,000 applicants. We then
+              present our shortlist to you to select the staff that best suit
+              your business, company culture and individual team dynamics.
               Naturally, you can screen and interview the candidates exactly as
               you would when hiring locally.
             </p>
@@ -260,25 +278,40 @@ const HowOffshoringWorks = () => {
               This involves the following:
             </p>
             <ul>
-              <li>IT deployment and support</li>
-              <li>KPI development and performance management</li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                IT deployment and support
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                KPI development and performance management
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Ensure staff productivity levels are high through monitoring
                 work habits
               </li>
-              <li>Employee engagement activities</li>
-              <li>
+              <li className="flex items-center gap-3">
+                Employee engagement activities
+              </li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Proactive advice and best practices on optimizing overall
                 performance
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Management of Indian-specific legal and compliance matters
               </li>
-              <li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
                 Ongoing recruitment, HR, payroll, facilities management and IT
                 support
               </li>
-              <li>Expat settlement assistance</li>
+              <li className="flex items-center gap-3">
+                <img className="size-4" src={checkIco} alt="" />
+                Expat settlement assistance
+              </li>
             </ul>
             <p>
               While we handle all of this, you retain as much control of quality
