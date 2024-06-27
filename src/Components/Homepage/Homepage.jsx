@@ -271,7 +271,7 @@ const Homepage = () => {
         </div>
       </div> */}
 
-      <div className="mx-auto max-w-7xl">
+      {/* <div className="mx-auto max-w-7xl">
         <div className="flex flex-col justify-between gap-5 px-5 py-20 md:flex-row md:px-24 md:py-36">
           <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
             Our model saves our clients{" "}
@@ -307,7 +307,7 @@ const Homepage = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <h1 className="text-center font-outfit text-4xl font-[500]">
