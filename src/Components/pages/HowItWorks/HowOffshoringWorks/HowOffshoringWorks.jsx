@@ -97,7 +97,7 @@ const HowOffshoringWorks = () => {
               <li className="flex items-center gap-3">
                 <img className="size-4" src={checkIco} alt="" />
                 CRM’s and programs that are accessible in a remote work setting
-                or a different location, such as the Indian?
+                or a different location, such as the India?
               </li>
               <li className="flex items-center gap-3">
                 <img className="size-4" src={checkIco} alt="" />
@@ -208,7 +208,7 @@ const HowOffshoringWorks = () => {
               the right person for the job. Just as you would write the job
               descriptions for your onshore team, you’d do the same for your
               offshore staff. After we’ve analyzed those requirements, we then
-              provide feedback to ensure that they will attract the best Indian
+              provide feedback to ensure that they will attract the best India
               talent for the role. By supporting you with this process, we are
               able to confidently source suitable candidates from the local
               market and our database of more than 275,000 applicants. We then
@@ -301,7 +301,7 @@ const HowOffshoringWorks = () => {
               </li>
               <li className="flex items-center gap-3">
                 <img className="size-4" src={checkIco} alt="" />
-                Management of Indian-specific legal and compliance matters
+                Management of India-specific legal and compliance matters
               </li>
               <li className="flex items-center gap-3">
                 <img className="size-4" src={checkIco} alt="" />
@@ -317,7 +317,7 @@ const HowOffshoringWorks = () => {
               While we handle all of this, you retain as much control of quality
               and productivity as you would like. In other words, we take care
               of everything on the ground, enabling you to focus purely on the
-              business processes you want to run out of the Indian.
+              business processes you want to run out of the India.
             </p>
 
             <p>
