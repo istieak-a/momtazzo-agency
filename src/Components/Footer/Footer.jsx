@@ -412,15 +412,10 @@ const Footer = () => {
           );
         })}
       </div> */}
-      <div className="grid grid-cols-1 gap-5  px-5 py-10 md:grid-cols-4 max-w-7xl mx-auto">
+      <div className="mx-auto  px-5 py-10 flex flex-col md:flex-row gap-5 justify-around">
         <div>
           <img className="h-20" src={logo} alt="" />
-        </div>
-        <div>
-          <h1 className="font-outfit text-[18px] font-[500] text-white">
-            Office
-          </h1>
-          <p className="mt-4 font-dmsans text-[16px] text-[#c0d1d9]">
+          <p className="mt-5 md:ms-4 font-dmsans text-[16px] text-[#c0d1d9]">
             USA — <br />
             178 Columbus Ave, New York <br />
             NY 10023 <br /> <br />
@@ -428,12 +423,36 @@ const Footer = () => {
             5th floor, High street <br />
             Jagatpura, Jaipur, India 302017
           </p>
-          <a
+        </div>
+        <div className="text-white">
+          <h1 className="font-outfit text-[18px] font-[500]">About</h1>
+          <div className="mt-4 flex flex-col items-start gap-1">
+            <Link
+              className="link-white font-dmsans text-[16px] text-[#c0d1d9]"
+              to={"/about"}
+            >
+              About Us
+            </Link>
+            <Link
+              className="link-white font-dmsans text-[16px] text-[#c0d1d9]"
+              to={"/pricing"}
+            >
+              Pricing
+            </Link>
+            <Link
+              className="link-white font-dmsans text-[16px] text-[#c0d1d9]"
+              to={"/contact"}
+            >
+              Contact
+            </Link>
+          </div>
+
+          {/* <a
             href="mailto:info@gmail.com"
             className="mt-3 block font-dmsans text-[16px] text-white"
           >
             info@montazzo.com
-          </a>
+          </a> */}
           {/* <a
             href="#"
             className="link-white mt-3 font-dmsans  text-[18px] text-white"
@@ -442,9 +461,7 @@ const Footer = () => {
           </a> */}
         </div>
         <div className="text-white">
-          <h1 className="font-outfit text-[18px] font-[500]">
-            Why Outsource?
-          </h1>
+          <h1 className="font-outfit text-[18px] font-[500]">Why Outsource?</h1>
           <div className="mt-4 flex flex-col items-start gap-1">
             {navData[0].subitems.map((item, index) => {
               return (
