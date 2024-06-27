@@ -150,7 +150,7 @@ const Homepage = () => {
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
           <div className="pe-5 md:w-[60%] md:pe-0">
           <h1 className="font-dmsans text-4xl md:text-6xl">
-          Hire Full Time outsourced roles or Teams{" "}
+          Hire full time outsourced roles or teams{" "}
             </h1>
             <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
               Ready to work in as little as two weeks

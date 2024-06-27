@@ -78,6 +78,22 @@ const Reviews = () => {
       name: "Kaitlyn Witman",
       desc: "Co-Founder",
       company: "Rainfactory",
+    },
+    {
+      review:
+        "Anybody who’s gone to business school in the last 20 years has had 1 commandment hammered into them: if it’s not your core business, outsource it. Security, travel, tech, human resources – it’s not your core business, outsource it!",
+      img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/03/Pat-Cleary-640-2-300x300.jpg",
+      name: "Pat Cleary",
+      desc: "President & CEO",
+      company: "NAPEO",
+    },
+    {
+      review:
+        "MyOutDesk is a great option when you need a virtual assistant! They do all the heavy lifting to find the best candidate and assist with management in order to get up and running ASAP.",
+      img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/06/shealyn-anderson-500x500.jpg",
+      name: "SheaLyn Anderson",
+      desc: "REALTOR® & Operations Manager",
+      company: "The Wehner Group Brokered by EXP",
     }
   ];
 
