@@ -24,7 +24,7 @@ const HowMicrosourcingWork = () => {
       ];
     return (
         <div className="flex flex-col gap-10 items-center py-10 px-5 md:px-28">
-        <h1 className="font-outfit font-bold text-4xl">How does offshoring work with Microsourcing work?</h1>
+        <h1 className="font-outfit font-bold text-4xl">How does offshoring work with Montazzo?</h1>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {cardData2.map((data, index) => (
             <Card
