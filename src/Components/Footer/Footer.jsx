@@ -412,20 +412,18 @@ const Footer = () => {
           );
         })}
       </div> */}
-      <div className="mx-auto  px-5 py-10 flex flex-col md:flex-row gap-5 justify-around">
-        <div>
+      <div className="mx-auto  flex flex-col justify-around gap-5 px-5 py-10 md:flex-row">
+        <div className="flex flex-col items-start gap-3">
           <img className="h-20" src={logo} alt="" />
-          <p className="mt-5 md:ms-4 font-dmsans text-[16px] text-[#c0d1d9]">
-            USA - 
-            178 Columbus Ave, New York, 
-            NY 10023 <br /> <br />
-            India -
-            5th floor, High street,
-            Jagatpura, Jaipur, India 302017
+          <p className=" font-dmsans text-[16px] text-[#c0d1d9] md:ms-4">
+            USA - 178 Columbus Ave, New York, NY 10023 <br />
+          </p>
+          <p className="font-dmsans text-[16px] text-[#c0d1d9] md:ms-4">
+            India - 5th floor, High street, Jagatpura, Jaipur, India 302017
           </p>
           <a
             href="mailto:info@gmail.com"
-            className="mt-3 block font-dmsans md:ms-4 text-[16px] text-white"
+            className="block font-dmsans text-[16px] text-white md:ms-4"
           >
             info@montazzo.com
           </a>
@@ -458,8 +456,6 @@ const Footer = () => {
               Contact
             </Link>
           </div>
-
-          
         </div>
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">Why Outsource?</h1>
