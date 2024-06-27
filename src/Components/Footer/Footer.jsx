@@ -416,13 +416,25 @@ const Footer = () => {
         <div>
           <img className="h-20" src={logo} alt="" />
           <p className="mt-5 md:ms-4 font-dmsans text-[16px] text-[#c0d1d9]">
-            USA — <br />
-            178 Columbus Ave, New York <br />
+            USA - 
+            178 Columbus Ave, New York, 
             NY 10023 <br /> <br />
-            India - <br />
-            5th floor, High street <br />
+            India -
+            5th floor, High street,
             Jagatpura, Jaipur, India 302017
           </p>
+          <a
+            href="mailto:info@gmail.com"
+            className="mt-3 block font-dmsans md:ms-4 text-[16px] text-white"
+          >
+            info@montazzo.com
+          </a>
+          {/* <a
+            href="#"
+            className="link-white mt-3 font-dmsans md:ms-4  text-[18px] text-white"
+          >
+            +18408412569
+          </a> */}
         </div>
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">About</h1>
@@ -447,18 +459,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* <a
-            href="mailto:info@gmail.com"
-            className="mt-3 block font-dmsans text-[16px] text-white"
-          >
-            info@montazzo.com
-          </a> */}
-          {/* <a
-            href="#"
-            className="link-white mt-3 font-dmsans  text-[18px] text-white"
-          >
-            +18408412569
-          </a> */}
+          
         </div>
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">Why Outsource?</h1>
