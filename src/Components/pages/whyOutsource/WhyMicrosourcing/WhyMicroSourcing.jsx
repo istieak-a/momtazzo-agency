@@ -104,7 +104,7 @@ const whyMicroSourcing = () => {
         <p>
           Let’s take a look at each of these important features in more detail,
           so you can evaluate the Montazzo model, and judge for yourself why it
-          pays to partner with the strongest offshoring provider in the india.
+          pays to partner with the strongest offshoring provider in India.
         </p>
       </div>
       <div className="microsourcing-divs">
@@ -162,7 +162,7 @@ const whyMicroSourcing = () => {
           <li>24/7/365 dedicated IT support on site</li>
         </ul>
         <p>
-          So no matter what the weather throws at the india, it’s business as
+          So no matter what the weather throws at India, it’s business as
           usual for you, and your customers won’t notice the difference.
         </p>
       </div>
@@ -227,7 +227,7 @@ const whyMicroSourcing = () => {
       {/* <div className="microsourcing-divs">
         <h1>Employee engagement</h1>
         <p>
-          Montazzo is one of the india’ premier employers. We employ more than
+          Montazzo is one of India’ premier employers. We employ more than
           8,000 people, across 13 offices, and we invest heavily in employee
           engagement and development programs. This means we can attract and
           retain top talent for your business. In fact, our annual attrition
@@ -236,7 +236,7 @@ const whyMicroSourcing = () => {
         <div>
           <h4>Employee engagement</h4>
           <p>
-            The Indian people are very social by nature and generally love
+            India people are very social by nature and generally love
             company parties and events. We have a dedicated employee engagement
             department that organizes a variety of events throughout the year,
             including Christmas, Valentines, Halloween, the MicrOlympics
