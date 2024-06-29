@@ -17,6 +17,26 @@ import womenImg from '../../assets/women.webp'
 
 const Navbar = () => {
   const navData = [
+    {
+      title: "Home", 
+      link: "/",
+    }, 
+    {
+      title: "About",
+      link: "/about",
+    }, 
+    {
+      title: "How it works",
+      link: "/how-it-works",
+    }, 
+    {
+      title: "Pricing",
+      link: "/pricing",
+    }, 
+    {
+      title: "Contact",
+      link: "/contact",
+    },
   ];
   const socialData = [
     {
@@ -137,18 +157,22 @@ const Navbar = () => {
   };
   return (
     <nav className="px-5 py-5 shadow-xl md:px-20 relative">
-      <div className="mx-auto flex max-w-7xl items-center justify-between">
+      <div className="mx-auto flex max-w-7xl items-center justify-between md:justify-around">
         <Link to={"/"}>
           <img className="w-[220px]" src={logo} alt="logo" />
         </Link>
         <div className="hidden items-center gap-5 md:flex ">
-          <Link to={'/about'} className="font-outfit hover:text-orange-500 text-[15px]">About</Link>
-          <Link
-            to={"/pricing"}
-            className="font-outfit text-[15px] hover:text-orange-500"
-          >
-            Pricing
-          </Link>
+          {
+            navData.map((item, index) => (
+              <Link
+                key={index}
+                to={item.link}
+                className="link-under font-outfit text-[18px] font-[400]"
+              >
+                {item.title}
+              </Link>
+            ))
+          }
           <Link to={'/contact'} className="btn py-[5px] ms-10">Book a strategy call</Link>
         </div>
         <motion.div

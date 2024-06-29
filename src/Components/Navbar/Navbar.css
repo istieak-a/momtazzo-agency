@@ -23,3 +23,24 @@
   .link:hover::after {
     width: 100%;
   }
+
+  .link-under {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .link-under::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #50aab2;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .link-under:hover::after {
+    width: 100%;
+  }
