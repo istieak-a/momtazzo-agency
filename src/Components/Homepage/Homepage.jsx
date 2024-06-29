@@ -148,50 +148,50 @@ const Homepage = () => {
     {
       desc: "eCommerce and Retail",
       ico: "https://influx.com/images/icons/icon-shopping-bags.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "SAAS",
       ico: "https://influx.com/images/icons/icon-rocket.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "Live chat",
       ico: "https://influx.com/images/icons/icon-live-chat.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "Enterprise call center",
       ico: "https://influx.com/images/icons/icon-call-centers.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "How it works",
       ico: "https://influx.com/images/icons/icon-lightbulb.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "Burst Coverage",
       ico: "https://influx.com/images/icons/icon-umbrella.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "After Hours",
       ico: "https://influx.com/images/icons/icon-night-to-day.svg",
-      link: "/contact"
+      url: "/contact"
     },
     {
       desc: "Sales teams on demand",
       ico: "https://influx.com/images/icons/icon-plant.svg",
-      link: "/contact"
+      url: "/contact"
     }
   ];
   
 
   return (
     <div>
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-20 md:px-16 md:py-28">
-        <h1 className="text-center font-outfit text-5xl font-semibold md:text-[80px]">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-20 md:px-16 md:py-10">
+        <h1 className="text-center font-outfit text-5xl font-semibold md:text-[80px] md:pt-8">
           Customer Support, Done.
         </h1>
         <p className=" text-center text-xl md:w-1/2">
@@ -217,6 +217,16 @@ const Homepage = () => {
           Service or part time agents.
         </p>
       </div>
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
+  <div class="h-[350px] shadow-2xl rounded-lg overflow-hidden">
+  <iframe className="h-full w-full object-cover" src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+
 
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
@@ -275,7 +285,7 @@ const Homepage = () => {
         <h1 className="font-outfit text-5xl">More solutions</h1>
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData3.map((item, index) => (
-            <Card key={index} desc={item.desc} ico={item.ico} link={item.link} />
+            <Card key={index} desc={item.desc} ico={item.ico} url={item.url} />
           ))}
         </div>
       </div>
