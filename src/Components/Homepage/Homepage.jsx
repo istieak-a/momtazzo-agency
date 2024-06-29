@@ -68,29 +68,6 @@ const Homepage = () => {
       ico: <FaReact />,
     },
   ];
-  const cardData = [
-    {
-      title: "Reduce Costs",
-      ico: reduceCost,
-      desc: "Outsourcing allows your organization to be more competitive, sustainable and profitable with 70% labor cost savings.",
-      btn: "Boost my profits",
-      url: "/why-outsource/reduce-cost",
-    },
-    {
-      title: "Increase Quality & Efficiency",
-      ico: increaseQuality,
-      desc: "Remote staffing solutions rectify skills shortages and improve internal processes by accessing global talent pools.",
-      btn: "Build your team",
-      url: "/why-outsource/increase-quality-efficiency",
-    },
-    {
-      title: "Scale Faster",
-      ico: scaleFast,
-      desc: "Tailor your offshore operations to help scale quickly, meet demand, combat rising labor costs and access specialty talent all without the overheads.",
-      btn: "Scale my business",
-      url: "/why-outsource/scale-fast",
-    },
-  ];
   const offhsoring = [
     {
       no: "STEP 1",
@@ -111,55 +88,52 @@ const Homepage = () => {
       img: support,
     },
   ];
-  const unique = [
+  const cardData1 = [
     {
-      title: "5 Years Of Experience",
-      desc: "With 5 years of BPM experience, we lead in providing top offshore employees. Serving clients in the USA, UK, Australia and Canada. We deliver outstanding support and efficiency for your business. ",
-      ico: verify,
+      title: "IQ + EQ",
+      desc: "Incredible customer support is as much about emotions as solving problems. It’s why we hire for intelligence and compassion.",
+      ico: "https://hugoinc.com/wp-content/uploads/2023/10/Asset-163.svg",
     },
     {
-      title: "Speed to Hire",
-      desc: "Instantly scale your business with an employee who can quickly launch in your business and make an impact today.",
-      ico: contact,
+      title: "Culture",
+      desc: "Empathy, proactivity, accountability, and openness - these are our values. We integrate your style and tone to create customer experiences that feel in-house.",
+      ico: "https://hugoinc.com/wp-content/uploads/2023/10/Asset-164.svg",
     },
     {
-      title: "Diverse Talent",
-      desc: "Our offshore employees provide a range of services tailored to client needs, including admin support, marketing, sales and customer service. We hire top talent for seamless integration and business success. ",
-      ico: people,
+      title: "Technology Driven",
+      desc: "Our innovative approach unites cutting-edge generative AI with exceptionally talented multilingual support teams, guaranteeing seamless global coverage.",
+      ico: "https://hugoinc.com/wp-content/uploads/2023/10/Asset-165.svg",
     },
     {
-      title: "Extensive Screening & Vetting",
-      desc: "All offshore are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
-      ico: contact,
-    },
-    {
-      title: "All-Inclusive Pricing",
-      desc: "Pay one flat rate per virtual assistant and let us handle the rest. We provide competitive medical benefits, insurance and paid time off in addition to handling the entire recruitment, interview and onboarding process.",
-      ico: card,
-    },
-    {
-      title: "Standardized Work Environment",
-      desc: "Montazzo offers modern fully equipped offices with high-speed internet and advanced IT infrastucture ensuring productivity, security and seamless integration for exceptional performance. ",
-      ico: globe,
+      title: "Seamless Integration",
+      desc: "From apps on your phone to Zendesk, we've mastered your tool stack. We’re ready to work from day one to deliver exceptional CX.",
+      ico: "https://hugoinc.com/wp-content/uploads/2023/10/Asset-166.svg",
     },
   ];
 
   return (
     <div>
-      <div className="px-5 max-w-7xl mx-auto md:px-16 py-20 md:py-28 flex flex-col items-center gap-8">
-        <h1 className="font-outfit text-5xl text-center md:text-[80px] font-semibold">Customer Support, Done.</h1>
-        <p className=" md:w-1/2 text-center text-xl">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-20 md:px-16 md:py-28">
+        <h1 className="text-center font-outfit text-5xl font-semibold md:text-[80px]">
+          Customer Support, Done.
+        </h1>
+        <p className=" text-center text-xl md:w-1/2">
           Deliver exceptional CX while keeping things simple. Influx is the
-          complete support ops solution for startups and scaleups, with <Link className="text-[#50aab2] hover:underline" to={'/pricing'}>month to
-          month pricing</Link>.
+          complete support ops solution for startups and scaleups, with{" "}
+          <Link className="text-[#50aab2] hover:underline" to={"/pricing"}>
+            month to month pricing
+          </Link>
+          .
         </p>
-        <div class="mb-4 md:mt-5 flex space-x-2">
+        <div class="mb-4 flex space-x-2 md:mt-5">
           <input
             type="email"
             placeholder="Your work email"
-            class="rounded-md border border-gray-300 px-5 md:px-20 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+            class="rounded-md border border-gray-300 px-5 py-3 outline-none focus:ring-2 focus:ring-blue-500 md:px-20"
           />
-          <Link class="btn flex items-center justify-center" to={'/contact'}>Get a quote →</Link>
+          <Link class="btn flex items-center justify-center" to={"/contact"}>
+            Get a quote →
+          </Link>
         </div>
         <p className="text-center">
           Need a simple, low-cost solution to get started? Try Support as a
@@ -173,131 +147,27 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
-
-
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
-        {cardData.map((item, index) => {
-          return (
+      <div className="px-5 md:px-16 py-10 flex flex-col items-center gap-5 max-w-7xl mx-auto">
+        <h1 className="text-2xl">Our Approach</h1>
+        <h2 className="font-semibold text-4xl md:text-5xl text-center">Empathy & Customer-Centric</h2>
+        <p className="w-1/2 text-center text-xs md:text-sm">
+          Feelings create connections. Dispute resolution, average handling
+          times, CSAT scores; the mechanics will always matter, and
+          categorically we're the best. But deep and uncommon empathy is our
+          ikigai.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-5">
+          {cardData1.map((item, index) => (
             <Card
               key={index}
               title={item.title}
               desc={item.desc}
-              url={item.url}
               ico={item.ico}
-              btn={item.btn}
             />
-          );
-        })}
-      </div>
-      <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
-        <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
-          <div className="chart md:w-[60%]">
-            <div className="chart-container flex flex-col gap-7 border-b py-5">
-              <div className="w-[55%]">
-                <h2>AUSTRALIA</h2>
-              </div>
-              <div className="w-[70%]">
-                <h2>USA</h2>
-              </div>
-              <div className="w-[100%]">
-                <h2>UK</h2>
-              </div>
-              <div className="w-[20%]">
-                <h2>INDIA</h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
-            <h2 className="font-outfit text-4xl text-white md:text-5xl ">
-              Businesses who engage in business process outsourcing{" "}
-              <span className="font-semibold">
-                (BPO) save 70% on employment costs.
-              </span>
-            </h2>
-            {/* <Link className="btn">Learn how your business can save</Link> */}
-          </div>
-        </div>
-      </div>
-      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
-        <h1 className="text-center font-outfit text-4xl font-[500]">
-          What sets us apart
-        </h1>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {unique.map((item, index) => {
-            return (
-              <Card
-                key={index}
-                title={item.title}
-                desc={item.desc}
-                ico={item.ico}
-              />
-            );
-          })}
+          ))}
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-20 bg-zinc-50 py-20">
-        <h2 className="font-outfit text-4xl font-bold text-zinc-800 md:text-6xl">
-          How Offshoring Works
-        </h2>
-        <div className="mb-5 flex flex-col items-center justify-center gap-8 md:flex-row">
-          <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
-              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
-                1.
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-lg">
-                <img
-                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/button-cursor.png"
-                  alt="Start Your Free Consultation"
-                />
-              </div>
-            </div>
-            <p className="pt-10 text-xl font-semibold text-zinc-800">
-              Start Your Free Consultation
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
-              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
-                2.
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-lg">
-                <img
-                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/comment-text-multiple-outline.png"
-                  alt="Meet With Our Team"
-                />
-              </div>
-            </div>
-            <p className="pt-10 text-xl font-semibold text-zinc-800">
-              Meet With Our Team
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
-              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
-                3.
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-lg">
-                <img
-                  src="https://mod-cdn.myoutdesk.com/wp-content/uploads/2023/07/account-check-outline.png"
-                  alt="HAllYour Virtual Assistant"
-                />
-              </div>
-            </div>
-            <p className="pt-10 text-xl font-semibold text-zinc-800">
-              Hire Your Offshore Professional
-            </p>
-          </div>
-        </div>
-        <Link to="/contact" className="btn">
-          Book a strategy Call
-        </Link>
-      </div>
-
-      
       {/* <Accordion /> */}
       <div>
         <BuildTeam />
