@@ -146,26 +146,34 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className="px-5 md:px-16 py-10 md:py-28 flex flex-col items-center gap-5">
-        <h1 className="font-outfit text-[80px] font-semibold">Customer Support, Done.</h1>
-        <p className="w-1/2 text-center text-xl">
+      <div className="px-5 max-w-7xl mx-auto md:px-16 py-20 md:py-28 flex flex-col items-center gap-8">
+        <h1 className="font-outfit text-5xl text-center md:text-[80px] font-semibold">Customer Support, Done.</h1>
+        <p className=" md:w-1/2 text-center text-xl">
           Deliver exceptional CX while keeping things simple. Influx is the
-          complete support ops solution for startups and scaleups, with month to
-          month pricing.
+          complete support ops solution for startups and scaleups, with <Link className="text-[#50aab2] hover:underline" to={'/pricing'}>month to
+          month pricing</Link>.
         </p>
         <div class="mb-4 md:mt-5 flex space-x-2">
           <input
             type="email"
             placeholder="Your work email"
-            class="rounded-md border border-gray-300 px-20 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+            class="rounded-md border border-gray-300 px-5 md:px-20 py-3 outline-none focus:ring-2 focus:ring-blue-500"
           />
           <Link class="btn flex items-center justify-center" to={'/contact'}>Get a quote →</Link>
         </div>
-        <p>
+        <p className="text-center">
           Need a simple, low-cost solution to get started? Try Support as a
           Service or part time agents.
         </p>
       </div>
+
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          What Our Clients Are Saying
+        </h2>
+        <Reviews />
+      </div>
+
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
@@ -210,84 +218,6 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      {/* <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-4xl font-normal md:text-5xl">
-          How offshoring works
-        </h1>
-        <div className="flex flex-col gap-5 md:flex-row">
-          <div className="flex flex-col gap-5 md:w-1/2">
-            {offhsoring.map((item, index) => {
-              return (
-                <div
-                  key={index}
-                  className="offshoring cursor-pointer rounded-lg py-4 ps-8 duration-300 hover:shadow-xl"
-                  onMouseEnter={() => setHoveredIndex(index)}
-                  onMouseLeave={() => setHoveredIndex(null)}
-                >
-                  <h3 className="font-dmsans text-xs font-bold text-[#3e96dd]">
-                    {item.no}
-                  </h3>
-                  <h1 className="font-outfit text-4xl font-[600]">
-                    {item.title}
-                  </h1>
-                  <p className="w-[70%] pt-5 font-dmsans text-lg">
-                    {item.desc}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-          <div className="flex items-center">
-            <img
-              src={
-                hoveredIndex !== null
-                  ? offhsoring[hoveredIndex].img
-                  : offhsoring[0].img
-              }
-              alt=""
-            />
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col justify-between gap-5 px-5 py-20 md:flex-row md:px-24 md:py-36">
-          <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
-            Our model saves our clients{" "}
-            <span className="text-[#61b2ba]">up to 70%</span> in traditional
-            hiring costs.
-          </p>
-          <div className="md:w-1/2">
-            <h1 className="font-dmsans text-xl font-semibold">
-              We provide competitive compensation to our virtual assistants, as
-              well as handle:
-            </h1>
-            <ul>
-              <li className="flex items-center gap-3">
-                <img className="size-4" src={checkIco} alt="" />
-                Human resource concerns
-              </li>
-              <li className="flex items-center gap-3">
-                <img className="size-4" src={checkIco} alt="" />
-                Paid time-off
-              </li>
-              <li className="flex items-center gap-3">
-                <img className="size-4" src={checkIco} alt="" />
-                Benefits
-              </li>
-              <li className="flex items-center gap-3">
-                <img className="size-4" src={checkIco} alt="" />
-                Insurance
-              </li>
-              <li className="flex items-center gap-3">
-                <img className="size-4" src={checkIco} alt="" />
-                Equipment
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
-
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <h1 className="text-center font-outfit text-4xl font-[500]">
           What sets us apart
@@ -367,12 +297,7 @@ const Homepage = () => {
         </Link>
       </div>
 
-      <div className="mx-auto max-w-7xl px-5 py-20">
-        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
-          What Our Clients Are Saying
-        </h2>
-        <Reviews />
-      </div>
+      
       {/* <Accordion /> */}
       <div>
         <BuildTeam />
