@@ -217,8 +217,8 @@ const Homepage = () => {
           Service or part time agents.
         </p>
       </div>
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 my-6">
-  <div class="h-[350px] shadow-2xl rounded-lg overflow-hidden">
+      <div class="max-w-[864px] mx-auto px-4 sm:px-6 lg:px-8 my-6">
+  <div class="h-[450px] shadow-2xl rounded-lg overflow-hidden">
   <iframe className="h-full w-full object-cover" src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
