@@ -110,6 +110,83 @@ const Homepage = () => {
       ico: "https://hugoinc.com/wp-content/uploads/2023/10/Asset-166.svg",
     },
   ];
+  const cardData2 = [
+    {
+      desc: "I NEED ONE REALLY GOOD SUPPORT AGENT",
+      ico: "https://www.datocms-assets.com/44723/1695021439-light-bulb-icon.svg",
+    },
+    {
+      desc: "I'M LOOKING FOR A TEAM OF SUPPORT AGENTS",
+      ico: "https://www.datocms-assets.com/44723/1695022995-connect-data-icon.svg",
+    },
+    {
+      desc: "I WANT PART TIME AGENTS",
+      ico: "https://www.datocms-assets.com/44723/1695021547-after-hours-icon.svg",
+    },
+    {
+      desc: "I WANT TECH SUPPORT AGENTS",
+      ico: "https://www.datocms-assets.com/44723/1695022991-computer-notification-icon.svg",
+    },
+    {
+      desc: "I NEED SALES REPS OR SDRS",
+      ico: "https://www.datocms-assets.com/44723/1695023003-headset-icon.svg",
+    },
+    {
+      desc: "I WANT A CALL CENTER TO CALL LEADS",
+      ico: "https://www.datocms-assets.com/44723/1695021386-call-center-icon.svg",
+    },
+    {
+      desc: "I WANT AI SERVICES AND PROCESS IMPROVEMENTS",
+      ico: "https://www.datocms-assets.com/44723/1695022467-cogs-icon.svg",
+    },
+    {
+      desc: "I'M LOOKING FOR A LARGE SCALE OPERATION (20+ AGENTS)",
+      ico: "https://www.datocms-assets.com/44723/1695023000-graph-icon.svg",
+    },
+  ];
+  const cardData3 = [
+    {
+      desc: "eCommerce and Retail",
+      ico: "https://influx.com/images/icons/icon-shopping-bags.svg",
+      link: "/contact"
+    },
+    {
+      desc: "SAAS",
+      ico: "https://influx.com/images/icons/icon-rocket.svg",
+      link: "/contact"
+    },
+    {
+      desc: "Live chat",
+      ico: "https://influx.com/images/icons/icon-live-chat.svg",
+      link: "/contact"
+    },
+    {
+      desc: "Enterprise call center",
+      ico: "https://influx.com/images/icons/icon-call-centers.svg",
+      link: "/contact"
+    },
+    {
+      desc: "How it works",
+      ico: "https://influx.com/images/icons/icon-lightbulb.svg",
+      link: "/contact"
+    },
+    {
+      desc: "Burst Coverage",
+      ico: "https://influx.com/images/icons/icon-umbrella.svg",
+      link: "/contact"
+    },
+    {
+      desc: "After Hours",
+      ico: "https://influx.com/images/icons/icon-night-to-day.svg",
+      link: "/contact"
+    },
+    {
+      desc: "Sales teams on demand",
+      ico: "https://influx.com/images/icons/icon-plant.svg",
+      link: "/contact"
+    }
+  ];
+  
 
   return (
     <div>
@@ -147,16 +224,18 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
-      <div className="px-5 md:px-16 py-10 flex flex-col items-center gap-5 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16">
         <h1 className="text-2xl">Our Approach</h1>
-        <h2 className="font-semibold text-4xl md:text-5xl text-center">Empathy & Customer-Centric</h2>
+        <h2 className="text-center text-4xl font-semibold md:text-5xl">
+          Empathy & Customer-Centric
+        </h2>
         <p className="w-1/2 text-center text-xs md:text-sm">
           Feelings create connections. Dispute resolution, average handling
           times, CSAT scores; the mechanics will always matter, and
           categorically we're the best. But deep and uncommon empathy is our
           ikigai.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-5">
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData1.map((item, index) => (
             <Card
               key={index}
@@ -167,6 +246,40 @@ const Homepage = () => {
           ))}
         </div>
       </div>
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:py-20 md:px-16">
+        <h1 className="font-outfit text-5xl">Get started today</h1>
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
+          {cardData2.map((item, index) => (
+            <Card key={index} desc={item.desc} ico={item.ico} />
+          ))}
+        </div>
+      </div>
+      <div className="bg-[#f4fafc]">
+        <div className="max-w-7xl mx-auto px-5 md:px-16 py-10 md:py-12 flex flex-col gap-8 md:flex-row items-center justify-around text-center">
+        <div>
+          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">99.8%</h1>
+          <p>Uptime in 2024</p>
+        </div>
+        <div>
+          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">89%</h1>
+          <p>First contact resolution</p>
+        </div>
+        <div>
+          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">98%</h1>
+          <p>CSAT/eNPS in 2024</p>
+        </div>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:py-20 md:px-16">
+        <h1 className="font-outfit text-5xl">More solutions</h1>
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
+          {cardData3.map((item, index) => (
+            <Card key={index} desc={item.desc} ico={item.ico} link={item.link} />
+          ))}
+        </div>
+      </div>
+    
 
       {/* <Accordion /> */}
       <div>
