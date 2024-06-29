@@ -146,48 +146,27 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16 ">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
-          <div className="pe-5 md:w-[60%] md:pe-0">
-          <h1 className="font-dmsans text-4xl md:text-6xl">
-          Test branch 2{" "}
-            </h1>
-            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
-              Ready to work in as little as two weeks
-            </h2>
-            <p className="pt-5">
-              Outsource any remote role to our skilled and experienced
-              professionals with your local market expertise, working from our
-              24/7 office in your time zone.
-            </p>
-            <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
-              <Link className="btn" to="/contact">
-                Ask an expert
-              </Link>
-              <Link className="btn-outline" to="/contact">
-                what roles to outsource
-              </Link>
-            </div>
-          </div>
-          <div className="hidden w-1/2 overflow-hidden rounded-lg md:flex">
-            <img src={heroLady} alt="" />
-          </div>
+      <div className="px-5 md:px-16 py-10 md:py-28 flex flex-col items-center gap-5">
+        <h1 className="font-outfit text-[80px] font-semibold">Customer Support, Done.</h1>
+        <p className="w-1/2 text-center text-xl">
+          Deliver exceptional CX while keeping things simple. Influx is the
+          complete support ops solution for startups and scaleups, with month to
+          month pricing.
+        </p>
+        <div class="mb-4 md:mt-5 flex space-x-2">
+          <input
+            type="email"
+            placeholder="Your work email"
+            class="rounded-md border border-gray-300 px-20 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <Link class="btn flex items-center justify-center" to={'/contact'}>Get a quote →</Link>
         </div>
+        <p>
+          Need a simple, low-cost solution to get started? Try Support as a
+          Service or part time agents.
+        </p>
       </div>
-      {/* <div className="grid grid-cols-2 md:grid-cols-6 ">
-        {partners.map((item, index) => (
-          <div
-            key={index}
-            className="flex items-center justify-center border px-5 py-6"
-          >
-            <img
-              src={item.img}
-              alt={item.name}
-              className="opacity-40 transition-all duration-300 ease-in-out hover:opacity-100"
-            />
-          </div>
-        ))}
-      </div> */}
+
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
           return (
@@ -327,14 +306,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center bg-zinc-50 py-20 gap-20">
-        <h2 className="text-4xl md:text-6xl font-bold text-zinc-800 font-outfit">
-        How Offshoring Works
+      <div className="flex flex-col items-center gap-20 bg-zinc-50 py-20">
+        <h2 className="font-outfit text-4xl font-bold text-zinc-800 md:text-6xl">
+          How Offshoring Works
         </h2>
         <div className="mb-5 flex flex-col items-center justify-center gap-8 md:flex-row">
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 1.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -344,12 +323,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Start Your Free Consultation</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Start Your Free Consultation
+            </p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 2.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -359,12 +340,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Meet With Our Team</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Meet With Our Team
+            </p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 3.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -374,10 +357,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Hire Your Offshore Professional</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Hire Your Offshore Professional
+            </p>
           </div>
         </div>
-        <Link to="/contact" className="btn">Book a strategy Call</Link>
+        <Link to="/contact" className="btn">
+          Book a strategy Call
+        </Link>
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
