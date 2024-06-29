@@ -148,42 +148,68 @@ const Homepage = () => {
     {
       desc: "eCommerce and Retail",
       ico: "https://influx.com/images/icons/icon-shopping-bags.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "SAAS",
       ico: "https://influx.com/images/icons/icon-rocket.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "Live chat",
       ico: "https://influx.com/images/icons/icon-live-chat.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "Enterprise call center",
       ico: "https://influx.com/images/icons/icon-call-centers.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "How it works",
       ico: "https://influx.com/images/icons/icon-lightbulb.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "Burst Coverage",
       ico: "https://influx.com/images/icons/icon-umbrella.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "After Hours",
       ico: "https://influx.com/images/icons/icon-night-to-day.svg",
-      url: "/contact"
+      url: "/contact",
     },
     {
       desc: "Sales teams on demand",
       ico: "https://influx.com/images/icons/icon-plant.svg",
-      url: "/contact"
+      url: "/contact",
+    },
+  ];
+  const cardData4 = [
+    {
+      title: "Extend your team",
+      desc: "Add support capacity to your business. Scale up and down as you need.",
+      link: "/contact",
+      ico: "https://www.datocms-assets.com/44723/1695023000-graph-icon.svg"
+    },
+    {
+      title: "Launch a team",
+      desc: "The top 1% of agents to fully manage your entire support experience.",
+      link: "/contact",
+      ico: "https://www.datocms-assets.com/44723/1695023040-star-icon.svg"
+    },
+    {
+      title: "Seasonal coverage",
+      desc: "Get ahead of holiday and seasonal spikes with no-commitment teams.",
+      link: "/contact",
+      ico: "https://www.datocms-assets.com/44723/1695022995-connect-data-icon.svg"
+    },
+    {
+      title: "Go 24/7",
+      desc: "After hours and weekends. Support your customers around the world.",
+      link: "/contact",
+      ico: "https://www.datocms-assets.com/44723/1695021645-24-7-cog-icon.svg"
     }
   ];
   
@@ -191,7 +217,7 @@ const Homepage = () => {
   return (
     <div>
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-20 md:px-16 md:py-10">
-        <h1 className="text-center font-outfit text-5xl font-semibold md:text-[80px] md:pt-8">
+        <h1 className="text-center font-outfit text-5xl font-semibold md:pt-8 md:text-[80px]">
           Customer Support, Done.
         </h1>
         <p className=" text-center text-xl md:w-1/2">
@@ -217,16 +243,21 @@ const Homepage = () => {
           Service or part time agents.
         </p>
       </div>
-      <div class="max-w-[864px] mx-auto px-4 sm:px-6 lg:px-8 my-6">
-  <div class="h-[450px] shadow-2xl rounded-lg overflow-hidden">
-  <iframe className="h-full w-full object-cover" src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</div>
-
-
-
-
-
+      <div className="bg-[#f4fafc] py-10">
+      <div class="mx-auto my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
+        <div class="h-[450px] overflow-hidden rounded-lg shadow-2xl">
+          <iframe
+            className="h-full w-full object-cover"
+            src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
@@ -256,7 +287,7 @@ const Homepage = () => {
           ))}
         </div>
       </div>
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:py-20 md:px-16">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-5xl">Get started today</h1>
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData2.map((item, index) => (
@@ -265,23 +296,25 @@ const Homepage = () => {
         </div>
       </div>
       <div className="bg-[#f4fafc]">
-        <div className="max-w-7xl mx-auto px-5 md:px-16 py-10 md:py-12 flex flex-col gap-8 md:flex-row items-center justify-around text-center">
-        <div>
-          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">99.8%</h1>
-          <p>Uptime in 2024</p>
-        </div>
-        <div>
-          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">89%</h1>
-          <p>First contact resolution</p>
-        </div>
-        <div>
-          <h1 className="text-5xl pb-3 font-semibold text-[#50aab2]">98%</h1>
-          <p>CSAT/eNPS in 2024</p>
-        </div>
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-around gap-8 px-5 py-10 text-center md:flex-row md:px-16 md:py-12">
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">
+              99.8%
+            </h1>
+            <p>Uptime in 2024</p>
+          </div>
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">89%</h1>
+            <p>First contact resolution</p>
+          </div>
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">98%</h1>
+            <p>CSAT/eNPS in 2024</p>
+          </div>
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:py-20 md:px-16">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-5xl">More solutions</h1>
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData3.map((item, index) => (
@@ -289,7 +322,15 @@ const Homepage = () => {
           ))}
         </div>
       </div>
-    
+
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-5xl">Scalable solutions, on demand</h1>
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
+          {cardData4.map((item, index) => (
+            <Card key={index} title={item.title} desc={item.desc} ico={item.ico} url={item.url} />
+          ))}
+        </div>
+      </div>
 
       {/* <Accordion /> */}
       <div>
