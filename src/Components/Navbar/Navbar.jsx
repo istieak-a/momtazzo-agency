@@ -34,8 +34,8 @@ const Navbar = () => {
       link: "/pricing",
     }, 
     {
-      title: "Contact",
-      link: "/contact",
+      title: "Case Study",
+      link: "/case-studies",
     },
   ];
   const socialData = [

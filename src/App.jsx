@@ -77,6 +77,7 @@ import WebDeveloper from "./Components/pages/Jobs/WebDeveloper/WebDeveloper";
 import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import CaseStudies from "./Components/CaseStudy/CaseStudies";
 import CaseStudy from "./Components/CaseStudy/CaseStudy";
 import CaseStudy1 from "./Components/CaseStudy/CaseStudies/CaseStudy1"
 import CaseStudy2 from "./Components/CaseStudy/CaseStudies/CaseStudy2"
@@ -94,6 +95,7 @@ const App = () => {
         <Route path="/pricing" element={<Pricing  />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
         
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />

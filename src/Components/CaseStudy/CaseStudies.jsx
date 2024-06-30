@@ -18,8 +18,7 @@ function CaseStudy() {
       link: "case-study-2",
     },
     {
-      title:
-        "Handling 8000 calls per week while achieving a 94% CSAT",
+      title: "Handling 8000 calls per week while achieving a 94% CSAT",
       desc: "A growing healthcare marketplace platform struggles to keep up with increased call volumes and unpredictable spikes.",
       img: "https://www.datocms-assets.com/44723/1695073653-4.png?auto=compress&w=500",
       link: "case-study-3",
@@ -32,22 +31,19 @@ function CaseStudy() {
       link: "case-study-4",
     },
     {
-      title:
-        "Transforming Customer Service in the Home Furnishings Industry",
+      title: "Transforming Customer Service in the Home Furnishings Industry",
       desc: "A renowned home furnishings company celebrated for its stylish yet affordable furniture range faced customer support challenges during a highly publicized, online-only product launch. The company’s legacy customer service systems could not withstand the surge of demand",
       img: "https://www.datocms-assets.com/44723/1695073653-4.png?auto=compress&w=500",
       link: "case-study-5",
     },
     {
-      title:
-        "A Narrative of Global Growth and Enhanced CX in Fashion Retail",
+      title: "A Narrative of Global Growth and Enhanced CX in Fashion Retail",
       desc: "In the dynamic world of fashion retail, a prominent company renowned for its personalized styling services and subscription boxes has been distinguishing itself. Famous for its unique approach to combining technology and hyper-personalization in fashion",
       img: "https://www.datocms-assets.com/44723/1695073653-4.png?auto=compress&w=500",
       link: "case-study-6",
     },
     {
-      title:
-        "Rewarding Shoppers: Hugo’s Strategic Cashback Alliance",
+      title: "Rewarding Shoppers: Hugo’s Strategic Cashback Alliance",
       desc: "A premier cashback platform, founded on the principle that every click holds the potential for reward, aimed to enhance every shopping experience with added value. Despite its innovative mission, the platform encountered challenges tracking transactions and meeting consumer expectations. ",
       img: "https://www.datocms-assets.com/44723/1695073653-4.png?auto=compress&w=500",
       link: "case-study-7",
@@ -56,11 +52,15 @@ function CaseStudy() {
 
   return (
     <div>
-      <div className="flex items-center justify-center px-5 py-10 md:px-16">
-        <h1 className="font-outfit text-4xl font-semibold">Case Studies</h1>
+      <div className="flex items-center justify-center bg-[#f4fafc] px-5 py-10 md:px-16">
+        <div className="max-w-screen-lg p-5">
+          <h1 className="font-outfit text-5xl font-semibold text-gray-800">
+            Case Studies
+          </h1>
+        </div>
       </div>
 
-      <div className="grid grid-cols-3 px-5 md:px-16 py-10 gap-10 max-w-7xl mx-auto">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-3 gap-10 px-5 py-10 md:px-16">
         {caseStudies.map((caseStudy, index) => (
           <BlogCard
             key={index}
