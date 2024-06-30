@@ -86,6 +86,9 @@ import CaseStudy4 from "./Components/CaseStudy/CaseStudies/CaseStudy4"
 import CaseStudy5 from "./Components/CaseStudy/CaseStudies/CaseStudy5"
 import CaseStudy6 from "./Components/CaseStudy/CaseStudies/CaseStudy6"
 import CaseStudy7 from "./Components/CaseStudy/CaseStudies/CaseStudy7"
+import CaseStudy8 from "./Components/CaseStudy/CaseStudies/CaseStudy8"
+import CaseStudy9 from "./Components/CaseStudy/CaseStudies/CaseStudy9"
+import CaseStudy10 from "./Components/CaseStudy/CaseStudies/CaseStudy10"
 const App = () => {
   return (
     <BrowserRouter>
@@ -183,6 +186,9 @@ const App = () => {
           <Route path="case-study-5" element={<CaseStudy5 />} />
           <Route path="case-study-6" element={<CaseStudy6 />} />
           <Route path="case-study-7" element={<CaseStudy7 />} />
+          <Route path="case-study-8" element={<CaseStudy8 />} />
+          <Route path="case-study-9" element={<CaseStudy9 />} />
+          <Route path="case-study-10" element={<CaseStudy10 />} />
         </Route>
 
       </Routes>

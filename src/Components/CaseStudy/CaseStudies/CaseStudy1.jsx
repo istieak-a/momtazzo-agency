@@ -1,8 +1,9 @@
 import React from "react";
+import ReadMore from "../ReadMore";
 
 const CaseStudy1 = () => {
   return (
-    <div className="w-[86=5%] bg-white px-5 py-10 md:px-40 max-w-7xl mx-auto">
+    <div className="mx-auto w-[86=5%] max-w-7xl bg-white px-5 py-10 md:px-40">
       <div>
         <p className="inline-block bg-[#50aab2] px-2 py-1 text-xs font-semibold text-white">
           CASE STUDY
@@ -73,14 +74,16 @@ const CaseStudy1 = () => {
           team was swamped with a flood of inbound leads. Recognizing the need
           to streamline their sales development efforts, the company made the
           strategic decision to explore outsourcing as a simple solution.
-          <br />
+        </p>
+        <p>
           In their search for the right partner, they turned to Influx,
           initially launching with a team of three sales representatives.
           Achieving significant progress in lead qualification and conversion
           rates, Later, they expanded their outsourced team to five, seven, and
           then 10 SDRs— a decision that allowed them to reduce their internal
           team for a more cost-effective solution.
-          <br />
+        </p>
+        <p>
           Working with Influx, they were able to handle a higher volume of
           qualified leads, close more deals, and generate over $1.6 million in
           revenue over five months.
@@ -96,6 +99,7 @@ const CaseStudy1 = () => {
         </p>
         <p>– Client (Chief Operating Officer)</p>
       </div>
+      <ReadMore />
     </div>
   );
 };
