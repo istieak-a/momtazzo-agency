@@ -22,6 +22,7 @@ import verify from "../../assets/icons/verify.png";
 import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 import Accordion from "../Accordian/Accordian";
 import checkIco from "../../assets/icons/pngegg.png";
+import BlogCard from "../BlogCard/BlogCard";
 
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -191,28 +192,50 @@ const Homepage = () => {
       title: "Extend your team",
       desc: "Add support capacity to your business. Scale up and down as you need.",
       link: "/contact",
-      ico: "https://www.datocms-assets.com/44723/1695023000-graph-icon.svg"
+      ico: "https://www.datocms-assets.com/44723/1695023000-graph-icon.svg",
     },
     {
       title: "Launch a team",
       desc: "The top 1% of agents to fully manage your entire support experience.",
       link: "/contact",
-      ico: "https://www.datocms-assets.com/44723/1695023040-star-icon.svg"
+      ico: "https://www.datocms-assets.com/44723/1695023040-star-icon.svg",
     },
     {
       title: "Seasonal coverage",
       desc: "Get ahead of holiday and seasonal spikes with no-commitment teams.",
       link: "/contact",
-      ico: "https://www.datocms-assets.com/44723/1695022995-connect-data-icon.svg"
+      ico: "https://www.datocms-assets.com/44723/1695022995-connect-data-icon.svg",
     },
     {
       title: "Go 24/7",
       desc: "After hours and weekends. Support your customers around the world.",
       link: "/contact",
-      ico: "https://www.datocms-assets.com/44723/1695021645-24-7-cog-icon.svg"
-    }
+      ico: "https://www.datocms-assets.com/44723/1695021645-24-7-cog-icon.svg",
+    },
   ];
-  
+  const caseStudies = [
+    {
+      title:
+        "Marketplace unlocks $1.6 million in new revenue with on demand sales agents",
+      desc: "A leading US-based industrial firm hired Influx in July 2022 to help them grow their two-sided marketplace. They needed to sign up more vendors, and close more sales from customers.",
+      img: "https://influx.com/blog/uploads/blog-thumbnail-images.png",
+      link: "case-study-1",
+    },
+    {
+      title:
+        "Ticketing app with 5 million users clears backlog and maintains 86% CSAT on 6,000+ tickets/month",
+      desc: "See how a ticketing app partnered with Influx to clear the backlog and maintain inbox zero on over 6,000 ticket each month.",
+      img: "https://influx.com/blog/uploads/case-studies-1-1.png",
+      link: "case-study-2",
+    },
+    {
+      title: "Handling 8000 calls per week while achieving a 94% CSAT",
+      desc: "A growing healthcare marketplace platform struggles to keep up with increased call volumes and unpredictable spikes.",
+      img: "https://influx.com/blog/uploads/case-studies-2.png",
+      link: "case-study-3",
+    },
+
+  ];
 
   return (
     <div>
@@ -244,19 +267,19 @@ const Homepage = () => {
         </p>
       </div>
       <div className="bg-[#f4fafc] py-10">
-      <div class="mx-auto my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
-        <div class="h-[450px] overflow-hidden rounded-lg shadow-2xl">
-          <iframe
-            className="h-full w-full object-cover"
-            src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+        <div class="mx-auto my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
+          <div class="h-[450px] overflow-hidden rounded-lg shadow-2xl">
+            <iframe
+              className="h-full w-full object-cover"
+              src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
@@ -327,9 +350,30 @@ const Homepage = () => {
         <h1 className="font-outfit text-5xl">Scalable solutions, on demand</h1>
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData4.map((item, index) => (
-            <Card key={index} title={item.title} desc={item.desc} ico={item.ico} url={item.url} />
+            <Card
+              key={index}
+              title={item.title}
+              desc={item.desc}
+              ico={item.ico}
+              url={item.url}
+            />
           ))}
         </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20 bg-[#f4fafc]">
+        <h1 className="font-outfit text-5xl">Case Studies</h1>
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-10 md:grid-cols-3 md:px-16">
+        {caseStudies.map((caseStudy, index) => (
+          <BlogCard
+            key={index}
+            title={caseStudy.title}
+            desc={caseStudy.desc}
+            img={caseStudy.img}
+            link={caseStudy.link}
+          />
+        ))}
+      </div>
       </div>
 
       {/* <Accordion /> */}
