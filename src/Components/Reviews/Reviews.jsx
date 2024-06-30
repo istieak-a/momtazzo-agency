@@ -87,14 +87,14 @@ const Reviews = () => {
       desc: "President & CEO",
       company: "NAPEO",
     },
-    {
-      review:
-        "MyOutDesk is a great option when you need a virtual assistant! They do all the heavy lifting to find the best candidate and assist with management in order to get up and running ASAP.",
-      img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/06/shealyn-anderson-500x500.jpg",
-      name: "SheaLyn Anderson",
-      desc: "REALTOR® & Operations Manager",
-      company: "The Wehner Group Brokered by EXP",
-    }
+    // {
+    //   review:
+    //     "MyOutDesk is a great option when you need a virtual assistant! They do all the heavy lifting to find the best candidate and assist with management in order to get up and running ASAP.",
+    //   img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/06/shealyn-anderson-500x500.jpg",
+    //   name: "SheaLyn Anderson",
+    //   desc: "REALTOR® & Operations Manager",
+    //   company: "The Wehner Group Brokered by EXP",
+    // }
   ];
 
   const settings = {
