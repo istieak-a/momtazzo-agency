@@ -77,6 +77,7 @@ import WebDeveloper from "./Components/pages/Jobs/WebDeveloper/WebDeveloper";
 import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import CaseStudy from "./Components/CaseStudy/CaseStudy";
 const App = () => {
   return (
     <BrowserRouter>
@@ -86,6 +87,7 @@ const App = () => {
         <Route path="/pricing" element={<Pricing  />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="case-studies" element={<CaseStudy />} />
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
           <Route path="why-montazzo" element={<WhyMicrosourcing />} />  
@@ -98,6 +100,7 @@ const App = () => {
           <Route path="is-it-for-you" element={<IsItForYou />} />
           <Route path="the-keys-to-success" element={<TheKeysToSuccess />} />
           <Route path="offshore-staffing" element={<OffshoreStaffing />} />
+          
         </Route>
         <Route path="industries" element={<Industry />}>
           <Route path="education" element={<Education />} />
