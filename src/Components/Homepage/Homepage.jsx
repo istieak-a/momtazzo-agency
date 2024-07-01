@@ -25,7 +25,10 @@ import checkIco from "../../assets/icons/pngegg.png";
 import BlogCard from "../BlogCard/BlogCard";
 import faqbg from "../../assets/faqbg.png";
 import Faq from "react-faq-component";
+import deserveBetter from "../../assets/images/deserve-better.png";
 import "../HowItWorks/Howitworks.css";
+
+
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const partners = [
@@ -318,8 +321,8 @@ const Homepage = () => {
         </p> */}
       </div>
       <div className="bg-[#f4fafc] py-10">
-        <div class="mx-auto my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
-          <div class="h-[450px] overflow-hidden rounded-lg shadow-2xl">
+        <div class="mx-auto md:my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
+          <div class="overflow-hidden rounded-lg shadow-2xl">
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/973150201?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -339,7 +342,32 @@ const Homepage = () => {
         </div>
       </div>
 
-      
+      <div className="px-5 md:px-16 py-10 md:py-16 flex flex-col items-center gap-10 max-w-7xl mx-auto">
+        <img
+          src="https://hugoinc.com/wp-content/uploads/2023/10/success-title.svg"
+          alt="title"
+          className="md:w-[60%] w-[85%]"
+        />
+        <div className="flex gap-20 flex-col md:flex-row justify-between items-center max-w-4xl mx-auto">
+          <div className="flex flex-col gap-4 items-center md:items-start md:w-[60%]">
+            <h1 className="font-outfit text-3xl">You deserve better.</h1>
+            <p className="w-[90%] md:w-full">
+              You deserve better outcomes, insights, and conversations. You
+              deserve to work with the top 1% of talent across global markets.
+              You should be obsessed over, not struggling to scale or
+              sacrificing quality for speed.
+              <br />
+              <br />
+              Whether you’re a disruptive startup or an iconic brand, with Hugo
+              you get more than outsourcing – you get what you deserve.
+            </p>
+            <Link className="btn" to="/contact">Contact Us</Link>
+          </div>
+          <div className="md:w-[40%]">
+            <img src={deserveBetter} alt="" />
+          </div>
+        </div>
+      </div>
 
       <div className="bg-[#f4fafc]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-around gap-8 px-5 py-10 text-center md:flex-row md:px-16 md:py-12">
@@ -393,9 +421,7 @@ const Homepage = () => {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 bg-[#f4fafc] px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-5xl">
-          Montazzo in Action
-        </h1>
+        <h1 className="font-outfit text-5xl">Montazzo in Action</h1>
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-10 md:grid-cols-3 md:px-16">
           {caseStudies.map((caseStudy, index) => (
             <BlogCard
@@ -411,9 +437,7 @@ const Homepage = () => {
 
       <div className="bg-[#fff9e6]">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-10 md:px-28 md:py-20">
-          <h1 className="font-outfit text-5xl">
-            How does it work?
-          </h1>
+          <h1 className="font-outfit text-5xl">How does it work?</h1>
           <p className="w-[70%] text-center text-lg md:w-1/2">
             We source, train, and assemble your new team in as little as 2
             weeks. Once you go live, we continuously work to ensure you hit
