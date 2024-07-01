@@ -29,7 +29,7 @@ const CaseStudy2 = () => {
         <p>
           As the platform grew, so did customer support volume—creating a
           backlog and (once that was solved) the opportunity to expand into new
-          channels. In 2022, the company came to Influx for help.
+          channels. In 2022, the company came to Montazzo for help.
         </p>
         <h2>The Need</h2>
         <p>
@@ -65,7 +65,7 @@ const CaseStudy2 = () => {
         </ul>
         <h2>The Solution</h2>
         <p>
-          Influx provided 6 dedicated digital-only agents to help clear out the
+          Montazzo provided 6 dedicated digital-only agents to help clear out the
           backlog. Once the backlog was solved, the team handled live chat and
           email support, gradually scaling to 10+ agents who achieved:
         </p>
@@ -80,9 +80,9 @@ const CaseStudy2 = () => {
           <li>80 tickets solved per agent daily</li>
         </ul>
         <p>
-          With a focus on quality and customer satisfaction, Influx’s Client
+          With a focus on quality and customer satisfaction, Montazzo’s Client
           Team Lead (CTL) provides weekly summary feedback on quality checks.
-          Today, Influx is the main extension for the platform’s customer
+          Today, Montazzo is the main extension for the platform’s customer
           support team, scaling up or down to match volume.
         </p>
         <img

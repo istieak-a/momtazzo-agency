@@ -32,15 +32,15 @@ const CaseStudy6 = () => {
           complexity lay in catering to these varied tastes while maintaining
           the brand’s essence.
         </p>
-        <h2>The Solution: Hugo’s Multilingual, Culturally Attuned Support</h2>
+        <h2>The Solution: Montazzo’s Multilingual, Culturally Attuned Support</h2>
         <p>
-          The company partnered with Hugo to navigate these waters, leveraging
+          The company partnered with Montazzo to navigate these waters, leveraging
           their global expertise to provide support in local languages and an
-          understanding of regional preferences. Hugo’s teams were uniquely
+          understanding of regional preferences. Montazzo’s teams were uniquely
           positioned to offer culturally aligned support to markets in Europe,
           the Middle East, and North America. Alex Rivera, Head of Customer
           Operations, highlighted the impact of this partnership: “Our global
-          expansion demanded a nuanced understanding of diverse markets. Hugo’s
+          expansion demanded a nuanced understanding of diverse markets. Montazzo’s
           team provided invaluable support, adapting seamlessly to each region’s
           unique fashion trends and expectations.”
         </p>
@@ -52,7 +52,7 @@ const CaseStudy6 = () => {
           </li>
           <li>
             Customer retention rates in new markets increased by 20% due to
-            Hugo’s region-specific customer engagement strategy, enhancing brand
+            Montazzo’s region-specific customer engagement strategy, enhancing brand
             loyalty.
           </li>
         </ul>
@@ -66,13 +66,13 @@ const CaseStudy6 = () => {
           ensuring clients received timely and personalized assistance at any
           hour, a demand that could significantly strain resources.
         </p>
-        <h2>The Solution: Hugo’s Round-the-Clock Support System</h2>
+        <h2>The Solution: Montazzo’s Round-the-Clock Support System</h2>
         <p>
-          Hugo stepped in to offer a 24/7 support system, effectively removing
-          the constraints of varying time zones. Hugo achieved this by employing
+          Montazzo stepped in to offer a 24/7 support system, effectively removing
+          the constraints of varying time zones. Montazzo achieved this by employing
           a globally distributed team, trained extensively in the brand’s
           products and customer service ethos, allowing for seamless service
-          regardless of the hour. Rivera highlighted the effectiveness of Hugo’s
+          regardless of the hour. Rivera highlighted the effectiveness of Montazzo’s
           approach: “…it has transformed our customer interactions, enabling us
           to respond proactively to issues even before they escalate sometimes,
           regardless of the time of day.”
@@ -107,15 +107,15 @@ const CaseStudy6 = () => {
           increasingly evident to ensure that the high customer service
           standards were consistently met, regardless of the seasonal demand.
         </p>
-        <h2>The Solution: Hugo’s Scalable Workforce Management</h2>
+        <h2>The Solution: Montazzo’s Scalable Workforce Management</h2>
         <p>
-          Hugo’s ability to dynamically scale its workforce was a game-changer.
-          With a reservoir of well-trained professionals, Hugo was adept at
+          Montazzo’s ability to dynamically scale its workforce was a game-changer.
+          With a reservoir of well-trained professionals, Montazzo was adept at
           quickly mobilizing additional resources to match the seasonal demand
           of the brand. Their pool of trained professionals could be deployed
           swiftly, ensuring a seamless integration with the existing team.
           “Seasonal peaks in the fashion industry are challenging,” Rivera
-          explained. “Hugo’s scalable workforce allowed us to adapt quickly,
+          explained. “Montazzo’s scalable workforce allowed us to adapt quickly,
           maintaining our service standards without overburdening our core team,
           which is exactly what we were looking for.”
         </p>
@@ -133,7 +133,7 @@ const CaseStudy6 = () => {
         </ul>
         <h2>Conclusion</h2>
         <p>
-          The company’s partnership with Hugo has been crucial in shaping a
+          The company’s partnership with Montazzo has been crucial in shaping a
           growth narrative hyper-focused on customer needs in the face of global
           expansion. As a result, the company strengthened its positioning in
           fashion retail, demonstrating its ability to adapt to a diverse

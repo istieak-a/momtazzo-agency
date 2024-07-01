@@ -9,7 +9,7 @@ const CaseStudy7 = () => {
           CASE STUDY
         </p>
         <h1 className="py-8 text-5xl font-semibold leading-snug text-[#303030]">
-          Rewarding Shoppers: Hugo’s Strategic Cashback Alliance
+          Rewarding Shoppers: Montazzo’s Strategic Cashback Alliance
         </h1>
       </div>
 
@@ -20,7 +20,7 @@ const CaseStudy7 = () => {
           holds the potential for reward, aimed to enhance every shopping
           experience with added value. Despite its innovative mission, the
           platform encountered challenges tracking transactions and meeting
-          consumer expectations. The company engaged Hugo, known for its
+          consumer expectations. The company engaged Montazzo, known for its
           forward-thinking solutions and customer-first approach, to find a
           solution.
         </p>
@@ -61,7 +61,7 @@ const CaseStudy7 = () => {
         </p>
         <p>
           “We recognized the necessity for a partner who could offer not just a
-          tech-forward approach but also deep strategic leverage. Hugo has
+          tech-forward approach but also deep strategic leverage. Montazzo has
           proven to be that. From the moment we onboarded them, they’ve provided
           a wealth of strategic, actionable insights,” shared Sophia Martinez,
           Vice President of Customer Success.
@@ -73,7 +73,7 @@ const CaseStudy7 = () => {
         />
         <h4>Enhancing Attribution Accuracy through Advanced Tracking</h4>
         <p>
-          Hugo implemented an advanced tracking system to improve the accuracy
+          Montazzo implemented an advanced tracking system to improve the accuracy
           of digital attribution. This system combined a sophisticated tagging
           matrix with machine learning algorithms to accurately track user
           interactions, ensuring that each click on the cashback platform was
@@ -81,7 +81,7 @@ const CaseStudy7 = () => {
           retailer’s checkout.
         </p>
         <p>
-          Hugo further introduced an additional quality assurance (QA) layer by
+          Montazzo further introduced an additional quality assurance (QA) layer by
           deploying a team of analysts who meticulously verified transaction
           data, enhancing the system’s accuracy. This integration of technology
           and human expertise effectively minimized discrepancies in reward
@@ -89,15 +89,15 @@ const CaseStudy7 = () => {
         </p>
         <h4>Revolutionizing Redemption Options for Enhanced User Experience</h4>
         <p>
-          Hugo provided strategic consulting to the company, focusing on
+          Montazzo provided strategic consulting to the company, focusing on
           developing a redemption platform that catered to the growing demand
           for flexible reward options. By analyzing market trends and consumer
-          preferences, Hugo helped the company identify the most appealing and
+          preferences, Montazzo helped the company identify the most appealing and
           effective reward options, ensuring the platform met modern consumer
           expectations.
         </p>
         <p>
-          Hugo established a feedback loop mechanism to enhance the user
+          Montazzo established a feedback loop mechanism to enhance the user
           experience further. This involved gathering and analyzing user
           feedback on the redemption process, enabling the company to make
           data-driven decisions and continuously improve the platform based on
@@ -105,16 +105,16 @@ const CaseStudy7 = () => {
         </p>
         <h4>Expanding the Retailer Network through Strategic Alliances</h4>
         <p>
-          Hugo tackled the challenge of expanding the platform’s retailer
+          Montazzo tackled the challenge of expanding the platform’s retailer
           network by conducting thorough market research to identify and
           approach potential retail partners who shared the platform’s values
           and were actively seeking partnership opportunities. To ensure a
           seamless integration into the cashback system and maintain a
-          consistent user experience across new shopping options, Hugo developed
+          consistent user experience across new shopping options, Montazzo developed
           a comprehensive onboarding process for these strategic partners.
         </p>
         <p>
-          In parallel, Hugo launched a targeted email campaign to drive
+          In parallel, Montazzo launched a targeted email campaign to drive
           engagement on the platform and re-engage dormant users. By leveraging
           insights from user data and segmentation, the campaign delivered
           personalized content and incentives, encouraging users to explore the
@@ -123,11 +123,11 @@ const CaseStudy7 = () => {
         </p>
         <h4>Cultivating Trust through Proactive Reputation Management</h4>
         <p>
-          Hugo implemented a reputation management strategy that combined
+          Montazzo implemented a reputation management strategy that combined
           sentiment analysis with a specialized customer engagement team. This
           team proactively monitored and responded to feedback on platforms like
           Trustpilot, addressing concerns and fostering positive interactions.
-          Hugo also launched a campaign to encourage satisfied customers to
+          Montazzo also launched a campaign to encourage satisfied customers to
           share their positive experiences, boosting the platform’s overall
           rating. In parallel, sentiment analysis was used to identify areas for
           improvement, ensuring the continuous enhancement of the platform’s
@@ -166,7 +166,7 @@ const CaseStudy7 = () => {
         <p>
           Reflecting on the partnership results, Martinez commented, “Witnessing
           our strategies come to life and drive such significant advancements
-          fills me with immense gratitude. This journey with Hugo helped us
+          fills me with immense gratitude. This journey with Montazzo helped us
           redefine what’s possible in our field.” The collaboration demonstrates
           the power of combining visionary strategy with cutting-edge technology
           to drive transformative change and lasting impact.

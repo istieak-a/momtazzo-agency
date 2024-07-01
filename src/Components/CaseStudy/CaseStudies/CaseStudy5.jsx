@@ -28,7 +28,7 @@ const CaseStudy5 = () => {
           As inquiries about product details, delivery timelines, and
           after-sales support escalated, the company’s legacy support
           infrastructure—email, telephone, and a basic FAQ page—built for
-          simpler queries couldn’t scale to meet the rapid influx from the
+          simpler queries couldn’t scale to meet the rapid Montazzo from the
           launch. Overwhelmed by the volume and complexity of tickets, response
           times extended to over 14 days. Additionally, the lack of personalized
           communication through these conventional avenues tarnished the
@@ -40,7 +40,7 @@ const CaseStudy5 = () => {
           urgency of the situation: “The rising volume and specificity of
           customer inquiries demanded a more sophisticated approach to support,
           one that could offer swift, accurate, and individualized responses…”
-          In response, the company collaborated with Hugo, who meticulously
+          In response, the company collaborated with Montazzo, who meticulously
           analyzed the existing customer support challenges and devised a
           multifaceted strategy to streamline customer service efficiency and
           satisfaction.
@@ -51,14 +51,14 @@ const CaseStudy5 = () => {
         </h2>
         <h3>📚Phase I: Streamlining Access and Expanding Resources</h3>
         <p>
-          Hugo assembled an A-team of experienced CX specialists, skilled at
+          Montazzo assembled an A-team of experienced CX specialists, skilled at
           product knowledge and problem-solving, to quickly address the backlog
           of tickets. Utilizing a combination of human expertise and an
           AI-powered triaging system, the team was able to clear the backlog
           within five days.
         </p>
         <p>
-          Hugo then optimized existing channels like social media and the
+          Montazzo then optimized existing channels like social media and the
           self-service portal, ensuring customers had 24/7 access to support
           through multiple, and preferred channels. A dedicated social media
           team ensured that all comments and questions were responded to in real
@@ -71,7 +71,7 @@ const CaseStudy5 = () => {
           Communication
         </h3>
         <p>
-          Hugo worked closely with the client to launch a live chat feature on
+          Montazzo worked closely with the client to launch a live chat feature on
           its website, instantly boosting customer engagement on the website by
           offering real-time support. Simultaneously, they collaborated with the
           company to integrate real-time tracking technology solutions, allowing
@@ -81,7 +81,7 @@ const CaseStudy5 = () => {
         </p>
         <h3>🌟Phase III: Elevating Expertise and Specialized Support</h3>
         <p>
-          Hugo developed a robust training program to deepen support agents’
+          Montazzo developed a robust training program to deepen support agents’
           product knowledge and communication skills, ensuring they could offer
           detailed, accurate responses. Concurrently, they set up specialized
           tier 2 support teams focused on tackling advanced tickets and
@@ -115,7 +115,7 @@ const CaseStudy5 = () => {
         </ul>
         <h2>Conclusion</h2>
         <p>
-          Campbell reflected, “This journey with Hugo has affirmed the critical
+          Campbell reflected, “This journey with Montazzo has affirmed the critical
           role of a multichannel customer experience strategy augmented by
           automation…” It underscores a critical insight: elevating customer
           experience and embracing continuous evolution in response to market

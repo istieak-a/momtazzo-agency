@@ -9,7 +9,7 @@ const CaseStudy8 = () => {
           CASE STUDY
         </p>
         <h1 className="py-8 text-5xl font-semibold leading-snug text-[#303030]">
-          How Hugo Helped A Leading Innovator Confront Inclusion Gaps
+          How Montazzo Helped A Leading Innovator Confront Inclusion Gaps
         </h1>
       </div>
 
@@ -36,20 +36,20 @@ const CaseStudy8 = () => {
           In this particular instance, the client needed to enhance visual
           recognition for its Pixel photo software through a more diverse data
           set of facial imagery. Data for users with darker skin tones proved
-          notably lacking. The client partnered with Hugo on a mission to fill
+          notably lacking. The client partnered with Montazzo on a mission to fill
           this critical gap – collecting 50,000 photo ID videos of people with
           undertrained skin tones each month.
         </p>
-        <h2>Why Hugo: Unrivaled Geographic Reach</h2>
+        <h2>Why Montazzo: Unrivaled Geographic Reach</h2>
         <p>
-          With operations centers spanning strategic African regions, Hugo
+          With operations centers spanning strategic African regions, Montazzo
           maintains unparalleled on-the-ground access to a rich diversity of
           black communities and offers teams that innately grasp intricacies
           around language, culture, logistics, and demographics.
         </p>
         <p>
           This powerful localized presence enabled swift, tailored recruitment;
-          within 14 days, Hugo had developed hyper-targeted campaigns and tapped
+          within 14 days, Montazzo had developed hyper-targeted campaigns and tapped
           willing participants across five countries to match the client’s
           criteria.
         </p>
@@ -59,10 +59,10 @@ const CaseStudy8 = () => {
           threatened timelines, our distributed model pivoted quickly across
           locations, minimizing delays through coordinated troubleshooting.
         </p>
-        <p>Hugo's commitment to inclusion and execution were game-changing</p>
+        <p>Montazzo's commitment to inclusion and execution were game-changing</p>
         <h2>Seasoned Data Practices Aligned to ML Rigor</h2>
         <p>
-          As veterans managing large-scale global data projects, Hugo brought
+          As veterans managing large-scale global data projects, Montazzo brought
           battle-hardened practices to uphold quality:
         </p>
         <ul>
@@ -80,14 +80,14 @@ const CaseStudy8 = () => {
           </li>
         </ul>
         <p>
-          At Hugo, protocols are tailored to each client’s parameters. For this
+          At Montazzo, protocols are tailored to each client’s parameters. For this
           client, the team created five custom environments (outdoors, kitchen,
           living room, bedroom, office) and mapped out the different equipment
           specifications for each to ensure the IDs collected aligned with the
           model’s guardrails.
         </p>
         <h2>The Outcome: Progressing Inclusion</h2>
-        <p>In just three months, Hugo delivered the entire project scope:</p>
+        <p>In just three months, Montazzo delivered the entire project scope:</p>
         <ul>
           <li>
             600,000 tailored photo IDs collected (against a 12-month target for
@@ -105,7 +105,7 @@ const CaseStudy8 = () => {
         <p>
           Our partner is propelling this progress across products. As computer
           vision continues advancing, segments once left behind are now factored
-          into the future. “Hugo’s commitment to inclusion and execution were
+          into the future. “Montazzo’s commitment to inclusion and execution were
           game-changing,” noted Michelle Z., the client’s Machine Learning Lead.
           “This data unlocks innovation that serves and empowers more people.”
         </p>

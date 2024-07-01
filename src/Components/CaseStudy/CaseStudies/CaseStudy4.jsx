@@ -28,7 +28,7 @@ const CaseStudy4 = () => {
           weekends. This after-hours backlog prevented the business from being
           able to catch up, and severely impacted first response time (FRT).
         </p>
-        <p>In 2018, the company came to Influx for help.</p>
+        <p>In 2018, the company came to Montazzo for help.</p>
         <h2>The Need</h2>
         <ul>
           <li>
@@ -50,13 +50,13 @@ const CaseStudy4 = () => {
         </p>
         <h2>The Solution</h2>
         <p>
-          As an extension of the company’s internal team, Influx provided a
+          As an extension of the company’s internal team, Montazzo provided a
           Support as a Service solution of 6 dedicated agents in 3 regions. This
           solution provided customers with 24/7 coverage, enabling real-time
           support no matter the time of day.
         </p>
         <p>
-          The Influx team handled ⅓ of total ticket volume (roughly 2,000-3,000
+          The Montazzo team handled ⅓ of total ticket volume (roughly 2,000-3,000
           tickets/month) via email, to achieve:
         </p>
         <ul>
@@ -70,14 +70,14 @@ const CaseStudy4 = () => {
           <li>An average response of 60 tickets/day/agent</li>
         </ul>
         <p>
-          Since the partnership began in 2018, Influx acts as a flexible layer
+          Since the partnership began in 2018, Montazzo acts as a flexible layer
           of support, scaling up or down depending on the company’s ticket
           volume to maintain consistent, high-quality coverage throughout the
           year.
         </p>
-        <h2>Get started with Influx</h2>
+        <h2>Get started with Montazzo</h2>
         <p>
-          Influx builds fully flexible, high-performance customer support teams.
+          Montazzo builds fully flexible, high-performance customer support teams.
           Our services range from mobile app support, live chat support, phone
           support, and more to give you the customer assistance you need to
           prioritize other responsibilities and continue scaling your business.
@@ -85,7 +85,7 @@ const CaseStudy4 = () => {
         <p>
           Make your support operations fast, flexible, and ready for anything
           with experienced, 24/7 support teams working on demand. See how brands
-          work with Influx to deliver exceptional customer support or get a
+          work with Montazzo to deliver exceptional customer support or get a
           quote now.
         </p>
         <img

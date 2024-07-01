@@ -17,12 +17,12 @@ const CaseStudy1 = () => {
       <div className="case-study-con">
         <h2>Summary</h2>
         <p>
-          A leading US-based industrial firm hired Influx in July 2022 to help
+          A leading US-based industrial firm hired Montazzo in July 2022 to help
           them grow their two-sided marketplace. They needed to sign up more
           vendors, and close more sales from customers.
         </p>
         <p>
-          The on demand Influx sales team consisted of 10 sales reps, locking in
+          The on demand Montazzo sales team consisted of 10 sales reps, locking in
           growth. The fully-managed solution (training, upskilling & QA) closed
           $1.6 million in new revenue in five months.
         </p>
@@ -40,7 +40,7 @@ const CaseStudy1 = () => {
           <li>Inbound lead engagement</li>
           <li>Omni-channel outreach to prospects</li>
         </ul>
-        <h2>Influx team setup</h2>
+        <h2>Montazzo team setup</h2>
         <ul>
           <li>3 sales representatives at launch</li>
           <li>Expansion to 10 sales representatives after two years</li>
@@ -50,7 +50,7 @@ const CaseStudy1 = () => {
           <li>Weekly reporting included</li>
           <li>Monthly team flexibility</li>
         </ul>
-        <h2>Influx activities</h2>
+        <h2>Montazzo activities</h2>
         <ul>
           <li>
             Inbound + outbound lead conversion - phone calls, emails, and text
@@ -67,7 +67,7 @@ const CaseStudy1 = () => {
           <li>5% conversion rate, consistent for every agent</li>
           <li>2,000+ leads per month</li>
         </ul>
-        <h2>Getting started with Influx</h2>
+        <h2>Getting started with Montazzo</h2>
         <p>
           This firm grew rapidly. As is often the case with businesses on the
           fast track, they encountered a common challenge: their internal sales
@@ -76,7 +76,7 @@ const CaseStudy1 = () => {
           strategic decision to explore outsourcing as a simple solution.
         </p>
         <p>
-          In their search for the right partner, they turned to Influx,
+          In their search for the right partner, they turned to Montazzo,
           initially launching with a team of three sales representatives.
           Achieving significant progress in lead qualification and conversion
           rates, Later, they expanded their outsourced team to five, seven, and
@@ -84,16 +84,16 @@ const CaseStudy1 = () => {
           team for a more cost-effective solution.
         </p>
         <p>
-          Working with Influx, they were able to handle a higher volume of
+          Working with Montazzo, they were able to handle a higher volume of
           qualified leads, close more deals, and generate over $1.6 million in
           revenue over five months.
         </p>
-        <h2>What they are saying about Influx</h2>
+        <h2>What they are saying about Montazzo</h2>
         <p>
-          “Partnering with Influx has been nothing short of an amazing
+          “Partnering with Montazzo has been nothing short of an amazing
           opportunity. What began as a strategic collaboration has now grown
           into an indispensable partnership that has helped us close more deals
-          and increase our revenue. Influx has become an integral part of our
+          and increase our revenue. Montazzo has become an integral part of our
           growth story, and their expertise is a driving force behind our
           continued success.”
         </p>

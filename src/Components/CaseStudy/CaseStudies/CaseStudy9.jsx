@@ -9,7 +9,7 @@ const CaseStudy9 = () => {
           CASE STUDY
         </p>
         <h1 className="py-8 text-5xl font-semibold leading-snug text-[#303030]">
-          Hugo Revolutionizes KYC Process for Crypto Company
+          Montazzo Revolutionizes KYC Process for Crypto Company
         </h1>
       </div>
 
@@ -24,10 +24,10 @@ const CaseStudy9 = () => {
         </p>
         <p>
           With expertise in navigating the complexities of KYC processes and
-          regulatory compliance, the company partnered with Hugo. The company’s
+          regulatory compliance, the company partnered with Montazzo. The company’s
           Director of Operations explained: “As we faced these challenges, it
           became clear that our internal resources were stretched too thin…we
-          began looking into outsourcing partners and were impressed by Hugo’s
+          began looking into outsourcing partners and were impressed by Montazzo’s
           capabilities.”
         </p>
         <h2>Challenge: Optimizing KYC for Business Growth</h2>
@@ -53,11 +53,11 @@ const CaseStudy9 = () => {
           alt=""
         />
         <h2>
-          Strategic Solutions: Hugo’s Approach to Efficiency and Compliance
+          Strategic Solutions: Montazzo’s Approach to Efficiency and Compliance
         </h2>
         <h3>Optimization of KYC Customer Lifecycle Management Features</h3>
         <p>
-          Hugo streamlined case management, consolidated document navigation
+          Montazzo streamlined case management, consolidated document navigation
           into a single unified view, integrated email correspondence tracking,
           automated reminders and follow-ups, and synchronized data with the
           core crypto system.
@@ -71,7 +71,7 @@ const CaseStudy9 = () => {
         </p>
         <h3>Modified Access Controls</h3>
         <p>
-          Hugo identified restrictive policies that forced unnecessary handoffs
+          Montazzo identified restrictive policies that forced unnecessary handoffs
           between departments and modified these policies to facilitate
           straight-through processing (STP) and improve overall efficiency.
         </p>
@@ -109,12 +109,12 @@ const CaseStudy9 = () => {
         </ul>
         <h2>Conclusion</h2>
         <p>
-          By addressing specific challenges with tailored solutions, Hugo not
+          By addressing specific challenges with tailored solutions, Montazzo not
           only streamlined the firm’s operations but also ensured regulatory
           compliance and reduced costs, underscoring the importance of embracing
           technology and innovative process management to stay ahead in the
           fast-paced crypto market. The Director of Operations reflected:
-          “Partnering with Hugo was not just a strategic move—it was an
+          “Partnering with Montazzo was not just a strategic move—it was an
           essential step. With tangible results, we feel better equipped for
           scale.”
         </p>

@@ -22,7 +22,7 @@ const CaseStudy3 = () => {
         <p>
           This healthcare platform experienced tremendous growth (6-15% per
           month), stretching their 50 support agent team. By partnering with
-          Influx, they were able to keep up with growth, while maintaining an
+          Montazzo, they were able to keep up with growth, while maintaining an
           excellent customer experience.
         </p>
         <h2>The Need</h2>
@@ -61,20 +61,20 @@ const CaseStudy3 = () => {
           <li>
             Additionally, quality assurance was a key support need, with regular
             audits and performance assessments to maintain high standards across
-            all channels. The marketplace platform came to Influx for help.
+            all channels. The marketplace platform came to Montazzo for help.
           </li>
         </ul>
         <h2>The Solution</h2>
         <p>
-          Influx initially launched a pilot-phase team of 15 CX professionals
+          Montazzo initially launched a pilot-phase team of 15 CX professionals
           with dedicated team leadership for 24/7 coverage. Within 3 months, the
-          company scaled their Influx team to 60+ full-time customer support
+          company scaled their Montazzo team to 60+ full-time customer support
           specialists across 6 regions.
         </p>
         <p>
-          Each Influx agent was pre-vetted and pre-trained for an accurate and
+          Each Montazzo agent was pre-vetted and pre-trained for an accurate and
           compliant onboarding process to ensure top-notch quality assurance
-          through every customer interaction. Influx established tiers of
+          through every customer interaction. Montazzo established tiers of
           management with workforce management expertise, including predictions,
           attritions, coaching, and volume.
         </p>
@@ -85,37 +85,37 @@ const CaseStudy3 = () => {
         <h2>The Results</h2>
         <ul>
           <li>
-            Call management: Influx agents decreased abandon call rate by 10X by
+            Call management: Montazzo agents decreased abandon call rate by 10X by
             using our award-winning internal playbook, SPEED.
           </li>
           <li>
-            Quality assurance: Each Influx agent is required to pass a monthly,
+            Quality assurance: Each Montazzo agent is required to pass a monthly,
             product knowledge assessment with a 90% or higher.
           </li>
           <li>
-            Customer satisfaction: Influx has received zero customer complaints,
+            Customer satisfaction: Montazzo has received zero customer complaints,
             driven by our unique in-house customer soft skills program, and
             maintains a 94% CSAT, exceeding a 90% target.
           </li>
           <li>
-            Schedule adherence - Influx’s daily shrinkage consistently remains
+            Schedule adherence - Montazzo’s daily shrinkage consistently remains
             below 10%.
           </li>
           <li>
-            Inbound + outbound voice support: Influx agents handle an average of
+            Inbound + outbound voice support: Montazzo agents handle an average of
             50-60 calls per agent each day, with a handle time of 6-8 minutes
             per call.
           </li>
         </ul>
         <p>
-          Since the partnership began in 2021, Influx acts as a flexible layer
+          Since the partnership began in 2021, Montazzo acts as a flexible layer
           of support, scaling up or down depending on the company’s ticket
           volume to maintain consistent, high-quality coverage throughout the
           year.
         </p>
-        <h2>Get started with Influx</h2>
+        <h2>Get started with Montazzo</h2>
         <p>
-          Influx builds fully flexible, high-performance call center teams. From
+          Montazzo builds fully flexible, high-performance call center teams. From
           small teams, all the way to our ‘Enterprise’ teams (built for 5k+
           interactions per week), we drive best-in-market productivity, scaling
           up or down as you need it.
@@ -123,7 +123,7 @@ const CaseStudy3 = () => {
         <p>
           Make your call center operations fast, flexible, and ready for
           anything with experienced, 24/7 support teams working on demand. See
-          how brands work with Influx to deliver exceptional customer support or
+          how brands work with Montazzo to deliver exceptional customer support or
           get a quote now.
         </p>
       </div>
