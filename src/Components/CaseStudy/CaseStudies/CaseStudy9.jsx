@@ -49,10 +49,8 @@ const CaseStudy9 = () => {
           email, the team was manually updating 100+ fields on KYC Customer
           Lifecycle Management (CLM) system, and conducting manual screenings.
         </p>
-        <img
-          src={case9}
-          alt=""
-        />
+        <img src="https://hugoinc.com/wp-content/uploads/2024/03/KYC-Overview-Process.png" alt="chart" />
+        
         <h2>
           Strategic Solutions: Montazzo’s Approach to Efficiency and Compliance
         </h2>
@@ -82,10 +80,10 @@ const CaseStudy9 = () => {
           automation for processes such as email correspondence and adverse
           media screenings.
         </p>
-        {/* <img
-          src="https://hugoinc.com/wp-content/uploads/2024/03/Transformed-KYC-Process.png"
-          alt="chart"
-        /> */}
+        <img
+          src={case9}
+          alt=""
+        />
         <h2>Outcomes</h2>
         <ul>
           <li>

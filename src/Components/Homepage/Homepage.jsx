@@ -219,22 +219,22 @@ const Homepage = () => {
     {
       title:
         "Marketplace unlocks $1.6 million in new revenue with on demand sales agents",
-      desc: "A leading US-based industrial firm hired Influx in July 2022 to help them grow their two-sided marketplace. They needed to sign up more vendors, and close more sales from customers.",
+      desc: "A leading US-based industrial firm hired Montazzo in July 2022 to help them grow their two-sided marketplace. They needed to sign up more vendors, and close more sales from customers.",
       img: "https://influx.com/blog/uploads/blog-thumbnail-images.png",
-      link: "case-study-1",
+      link: "case-studies/case-study-1",
     },
     {
       title:
         "Ticketing app with 5 million users clears backlog and maintains 86% CSAT on 6,000+ tickets/month",
-      desc: "See how a ticketing app partnered with Influx to clear the backlog and maintain inbox zero on over 6,000 ticket each month.",
+      desc: "See how a ticketing app partnered with Montazzo to clear the backlog and maintain inbox zero on over 6,000 ticket each month.",
       img: "https://influx.com/blog/uploads/case-studies-1-1.png",
-      link: "case-study-2",
+      link: "case-studies/case-study-2",
     },
     {
       title: "Handling 8000 calls per week while achieving a 94% CSAT",
       desc: "A growing healthcare marketplace platform struggles to keep up with increased call volumes and unpredictable spikes.",
       img: "https://influx.com/blog/uploads/case-studies-2.png",
-      link: "case-study-3",
+      link: "case-studies/case-study-3",
     },
   ];
 
@@ -298,40 +298,43 @@ const Homepage = () => {
           Customer Support, Done.
         </h1>
         <p className=" text-center text-xl md:w-1/2">
-          Deliver exceptional CX while keeping things simple. Influx is the
-          complete support ops solution for startups and scaleups, with{" "}
-          <Link className="text-[#50aab2] hover:underline" to={"/pricing"}>
-            month to month pricing
-          </Link>
-          .
+          Deliver exceptional CX while keeping things simple. Montazzo is the
+          complete support ops solution for startups and scaleups, with month to
+          month pricing.
         </p>
         <div class="mb-4 flex space-x-2 md:mt-5">
-          <input
+          {/* <input
             type="email"
             placeholder="Your work email"
             class="rounded-md border border-gray-300 px-5 py-3 outline-none focus:ring-2 focus:ring-blue-500 md:px-20"
-          />
+          /> */}
           <Link class="btn flex items-center justify-center" to={"/contact"}>
-            Get a quote →
+            Contact US
           </Link>
         </div>
-        <p className="text-center">
+        {/* <p className="text-center">
           Need a simple, low-cost solution to get started? Try Support as a
           Service or part time agents.
-        </p>
+        </p> */}
       </div>
       <div className="bg-[#f4fafc] py-10">
         <div class="mx-auto my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
           <div class="h-[450px] overflow-hidden rounded-lg shadow-2xl">
-            <iframe
-              className="h-full w-full object-cover"
-              src="https://www.youtube.com/embed/98FkcIzggao?autoplay=1&mute=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/973150201?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                title="Montazzo LLC"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -342,6 +345,35 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
+
+      <div className="bg-[#f4fafc]">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-around gap-8 px-5 py-10 text-center md:flex-row md:px-16 md:py-12">
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">
+              99.8%
+            </h1>
+            <p>Uptime in 2024</p>
+          </div>
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">89%</h1>
+            <p>First contact resolution</p>
+          </div>
+          <div>
+            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">98%</h1>
+            <p>CSAT/eNPS in 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-5xl">Get started today</h1>
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
+          {cardData2.map((item, index) => (
+            <Card key={index} desc={item.desc} ico={item.ico} />
+          ))}
+        </div>
+      </div>
+
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16">
         <h1 className="text-2xl">Our Approach</h1>
         <h2 className="text-center text-4xl font-semibold md:text-5xl">
@@ -364,30 +396,21 @@ const Homepage = () => {
           ))}
         </div>
       </div>
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-5xl">Get started today</h1>
-        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
-          {cardData2.map((item, index) => (
-            <Card key={index} desc={item.desc} ico={item.ico} />
+
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 bg-[#f4fafc] px-5 py-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-5xl font-semibold">
+          Montazzo in Action
+        </h1>
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-10 md:grid-cols-3 md:px-16">
+          {caseStudies.map((caseStudy, index) => (
+            <BlogCard
+              key={index}
+              title={caseStudy.title}
+              desc={caseStudy.desc}
+              img={caseStudy.img}
+              link={caseStudy.link}
+            />
           ))}
-        </div>
-      </div>
-      <div className="bg-[#f4fafc]">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-around gap-8 px-5 py-10 text-center md:flex-row md:px-16 md:py-12">
-          <div>
-            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">
-              99.8%
-            </h1>
-            <p>Uptime in 2024</p>
-          </div>
-          <div>
-            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">89%</h1>
-            <p>First contact resolution</p>
-          </div>
-          <div>
-            <h1 className="pb-3 text-5xl font-semibold text-[#50aab2]">98%</h1>
-            <p>CSAT/eNPS in 2024</p>
-          </div>
         </div>
       </div>
 
@@ -414,15 +437,6 @@ const Homepage = () => {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-5xl">More solutions</h1>
-        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
-          {cardData3.map((item, index) => (
-            <Card key={index} desc={item.desc} ico={item.ico} url={item.url} />
-          ))}
-        </div>
-      </div>
-
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-5xl">Scalable solutions, on demand</h1>
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
           {cardData4.map((item, index) => (
@@ -437,20 +451,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 bg-[#f4fafc] px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-5xl">Case Studies</h1>
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-10 md:grid-cols-3 md:px-16">
-          {caseStudies.map((caseStudy, index) => (
-            <BlogCard
-              key={index}
-              title={caseStudy.title}
-              desc={caseStudy.desc}
-              img={caseStudy.img}
-              link={caseStudy.link}
-            />
+      {/* <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-5xl">More solutions</h1>
+        <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-4">
+          {cardData3.map((item, index) => (
+            <Card key={index} desc={item.desc} ico={item.ico} url={item.url} />
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* <Accordion /> */}
       <div>

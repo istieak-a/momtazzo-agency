@@ -22,7 +22,7 @@ const Navbar = () => {
       link: "/",
     }, 
     {
-      title: "About",
+      title: "About US",
       link: "/about",
     }, 
     {
@@ -34,7 +34,7 @@ const Navbar = () => {
       link: "/pricing",
     }, 
     {
-      title: "Case Study",
+      title: "Case Studies",
       link: "/case-studies",
     },
   ];
@@ -156,7 +156,7 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="px-5 py-5 shadow-xl md:px-20 relative">
+    <nav className="px-5 py-5 shadow-xl md:px-10 relative">
       <div className="mx-auto flex max-w-7xl items-center justify-between md:justify-around">
         <Link to={"/"}>
           <img className="w-[220px]" src={logo} alt="logo" />

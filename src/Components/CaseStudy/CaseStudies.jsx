@@ -36,7 +36,7 @@ function CaseStudy() {
       link: "case-study-6",
     },
     {
-      title: "Rewarding Shoppers: Hugo’s Strategic Cashback Alliance",
+      title: "Rewarding Shoppers: Montazzo’s Strategic Cashback Alliance",
       desc: "A premier cashback platform, founded on the principle that every click holds the potential for reward, aimed to enhance every shopping experience with added value. Despite its innovative mission, the platform encountered challenges tracking transactions and meeting consumer expectations. ",
       img: "https://influx.com/blog/uploads/threadless-cover.jpeg",
       link: "case-study-7",

@@ -3,17 +3,13 @@ import { Link } from "react-router-dom";
 
 const BuildTeam = () => {
   return (
-    <div className="bg-[#1c2336] px-8  py-20 text-white md:px-16 md:py-36">
+    <div className="bg-[#1c2336] px-8  py-20 text-white md:px-16 md:py-20">
       <div className="mx-auto flex max-w-7xl flex-col gap-40 md:flex-row">
-        <div className="md:border-e">
-          <h1 className="cursor-pointer font-outfit text-4xl font-bold duration-300 hover:text-[#63b3bb] hover:underline md:text-5xl">
-            Build a dedicated team in India
-          </h1>
-        </div>
-        <div className="flex flex-col items-start gap-4">
-          <p className="font-dmsans text-lg md:text-xl">
-            Get in contact today and have your offshore team up and running in
-            as little as two weeks.
+        <div className="flex flex-col items-center gap-7">
+          <h1 className="font-outfit text-5xl font-semibold">Hire full-service teams on demand</h1>
+          <p className="font-dmsans text-lg md:text-xl w-1/2 text-center">
+            Make your support ops fast, flexible and ready for anything with
+            experienced 24/7 support teams working month to month.
           </p>
           <Link to="/contact" className="btn">
             Contact us
