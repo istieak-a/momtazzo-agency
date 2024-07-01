@@ -40,7 +40,7 @@ const Reviews = () => {
     },
     {
       review:
-        "Thanks to Montazzo, we’ve scaled our affiliate program to more than 800 global ambassadors. The team’s work also helped reduce customer support tickets by 50% per month and response times to less than an hour. Overall, they stand out for their proactive approach, flexibility, and professionalism.",
+        "Thanks to Montazzo, we’ve scaled our affiliate program to more than 40 global ambassadors. The team’s work also helped reduce customer support tickets by 50% per month and response times to less than an hour. Overall, they stand out for their proactive approach, flexibility, and professionalism.",
       img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f68ef76163eed7f21dd1268_Patrick.jpg",
       name: "VP of Growth",
       company: "Gaming",

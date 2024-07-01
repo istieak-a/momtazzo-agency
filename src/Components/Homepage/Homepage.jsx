@@ -231,7 +231,7 @@ const Homepage = () => {
       link: "case-studies/case-study-2",
     },
     {
-      title: "Handling 8000 calls per week while achieving a 94% CSAT",
+      title: "Handling 2000 calls per week while achieving a 94% CSAT",
       desc: "A growing healthcare marketplace platform struggles to keep up with increased call volumes and unpredictable spikes.",
       img: "https://influx.com/blog/uploads/case-studies-2.png",
       link: "case-studies/case-study-3",
