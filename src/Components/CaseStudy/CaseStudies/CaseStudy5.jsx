@@ -1,5 +1,6 @@
 import React from "react";
 import ReadMore from "../ReadMore";
+import case5 from "./img/case5.jpg";
 
 const CaseStudy5 = () => {
   return (
@@ -71,13 +72,13 @@ const CaseStudy5 = () => {
           Communication
         </h3>
         <p>
-          Montazzo worked closely with the client to launch a live chat feature on
-          its website, instantly boosting customer engagement on the website by
-          offering real-time support. Simultaneously, they collaborated with the
-          company to integrate real-time tracking technology solutions, allowing
-          for proactive order communication. This updated system automatically
-          informed customers about their order status at every significant
-          phase, from processing to delivery.
+          Montazzo worked closely with the client to launch a live chat feature
+          on its website, instantly boosting customer engagement on the website
+          by offering real-time support. Simultaneously, they collaborated with
+          the company to integrate real-time tracking technology solutions,
+          allowing for proactive order communication. This updated system
+          automatically informed customers about their order status at every
+          significant phase, from processing to delivery.
         </p>
         <h3>🌟Phase III: Elevating Expertise and Specialized Support</h3>
         <p>
@@ -88,10 +89,7 @@ const CaseStudy5 = () => {
           providing comprehensive after-sales support, such as troubleshooting
           and setup assistance, boosting the customer experience.
         </p>
-        <img
-          src="https://hugoinc.com/wp-content/uploads/2023/12/Customer-Inquiry-Channels-1-scaled.jpg"
-          alt="chart"
-        />
+        <img src={case5} alt="chart" />
         <h2>Outcomes</h2>
         <ul>
           <li>
@@ -115,9 +113,9 @@ const CaseStudy5 = () => {
         </ul>
         <h2>Conclusion</h2>
         <p>
-          Campbell reflected, “This journey with Montazzo has affirmed the critical
-          role of a multichannel customer experience strategy augmented by
-          automation…” It underscores a critical insight: elevating customer
+          Campbell reflected, “This journey with Montazzo has affirmed the
+          critical role of a multichannel customer experience strategy augmented
+          by automation…” It underscores a critical insight: elevating customer
           experience and embracing continuous evolution in response to market
           demands are pivotal for success.
         </p>

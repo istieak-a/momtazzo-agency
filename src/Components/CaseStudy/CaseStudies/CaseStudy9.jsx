@@ -1,5 +1,6 @@
 import React from "react";
 import ReadMore from "../ReadMore";
+import case9 from "./img/case9.jpeg";
 
 const CaseStudy9 = () => {
   return (
@@ -49,7 +50,7 @@ const CaseStudy9 = () => {
           Lifecycle Management (CLM) system, and conducting manual screenings.
         </p>
         <img
-          src="https://hugoinc.com/wp-content/uploads/2024/03/KYC-Overview-Process-1610x2048.png"
+          src={case9}
           alt=""
         />
         <h2>
@@ -81,10 +82,10 @@ const CaseStudy9 = () => {
           automation for processes such as email correspondence and adverse
           media screenings.
         </p>
-        <img
+        {/* <img
           src="https://hugoinc.com/wp-content/uploads/2024/03/Transformed-KYC-Process.png"
           alt="chart"
-        />
+        /> */}
         <h2>Outcomes</h2>
         <ul>
           <li>

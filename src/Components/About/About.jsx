@@ -36,56 +36,60 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex px-5 md:px-28 gap-10 py-10 flex-col md:flex-row md:items-center bg-[#f4fafc]">
+      <div className="flex flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28 max-w-7xl mx-auto">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={storyImg} alt="img" />
         </div>
         <div className="md:w-1/2">
-        <h1 className="font-outfit text-4xl font-normal pb-5">Our Story</h1>
-        <p className="text-md">
-          Montazzo LLC began its journey in 2021 with a focus on B2B lead
-          generation. As we worked with various clients, we saw the challenges
-          American businesses face due to high local hiring costs and overheads.
-          This issue is particularly significant for startups, often causing
-          financial strain and operational inefficiencies. To address this, we
-          expanded our services in 2022 to help businesses save 70-80% on salary
-          and overhead costs by building and managing offshore teams for almost
-          any online role. Today, we assist businesses from the USA, UK,
-          Australia, and Canada in scaling their operations efficiently by
-          outsourcing tasks to India.
-        </p>
+          <h1 className="pb-5 font-outfit text-4xl font-normal">Our Story</h1>
+          <p className="text-md">
+            Montazzo LLC began its journey in 2021 with a focus on B2B lead
+            generation. As we worked with various clients, we saw the challenges
+            American businesses face due to high local hiring costs and
+            overheads. This issue is particularly significant for startups,
+            often causing financial strain and operational inefficiencies. To
+            address this, we expanded our services in 2022 to help businesses
+            save 70-80% on salary and overhead costs by building and managing
+            offshore teams for almost any online role. Today, we assist
+            businesses from the USA, UK, Australia, and Canada in scaling their
+            operations efficiently by outsourcing tasks to India.
+          </p>
         </div>
       </div>
 
-      <div className="flex px-5 md:px-28 flex-col  md:flex-row-reverse gap-10 py-10 md:items-center">
+      <div className="flex flex-col gap-10 px-5  py-10 md:flex-row-reverse md:items-center md:px-28 max-w-7xl mx-auto">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={fbiImg} alt="img" />
         </div>
         <div className="md:w-1/2">
-        <h1 className="font-outfit text-4xl font-normal pb-5">FBI-Grade Background Checks</h1>
-        <p className="text-md">
-        We ensure the highest level of security and reliability by providing
-          employees who have passed FBI-grade background checks. This rigorous
-          vetting process guarantees that our clients can trust the integrity
-          and competence of their offshore team members.
-        </p>
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            FBI-Grade Background Checks
+          </h1>
+          <p className="text-md">
+            We ensure the highest level of security and reliability by providing
+            employees who have passed FBI-grade background checks. This rigorous
+            vetting process guarantees that our clients can trust the integrity
+            and competence of their offshore team members.
+          </p>
         </div>
       </div>
 
-      <div className="flex px-5 flex-col md:flex-row md:px-28 gap-10 py-10 md:items-center bg-[#f4fafc]">
+      <div className="flex flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28 max-w-7xl mx-auto">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={dataSec} alt="img" />
         </div>
         <div className="md:w-1/2">
-        <h1 className="font-outfit text-4xl font-normal pb-5">IT and Data Security</h1>
-        <p className="text-md">
-        Data security is a top priority at Montazzo. Our 24/7 IT support team
-          implements robust system monitoring, advanced encryption, and strict
-          access controls to protect sensitive data. We conduct regular audits
-          and maintain comprehensive disaster recovery plans to ensure
-          compliance with industry security standards and to safeguard our
-          clients' information.
-        </p>
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            IT and Data Security
+          </h1>
+          <p className="text-md">
+            Data security is a top priority at Montazzo. Our 24/7 IT support
+            team implements robust system monitoring, advanced encryption, and
+            strict access controls to protect sensitive data. We conduct regular
+            audits and maintain comprehensive disaster recovery plans to ensure
+            compliance with industry security standards and to safeguard our
+            clients' information.
+          </p>
         </div>
       </div>
 

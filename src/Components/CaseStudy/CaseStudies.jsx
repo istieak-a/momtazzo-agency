@@ -5,20 +5,13 @@ function CaseStudy() {
   const caseStudies = [
     {
       title:
-        "Marketplace unlocks $1.6 million in new revenue with on demand sales agents",
-      desc: "A leading US-based industrial firm hired Influx in July 2022 to help them grow their two-sided marketplace. They needed to sign up more vendors, and close more sales from customers.",
-      img: "https://influx.com/blog/uploads/blog-thumbnail-images.png",
-      link: "case-study-1",
-    },
-    {
-      title:
         "Ticketing app with 5 million users clears backlog and maintains 86% CSAT on 6,000+ tickets/month",
       desc: "See how a ticketing app partnered with Influx to clear the backlog and maintain inbox zero on over 6,000 ticket each month.",
       img: "https://influx.com/blog/uploads/case-studies-1-1.png",
       link: "case-study-2",
     },
     {
-      title: "Handling 8000 calls per week while achieving a 94% CSAT",
+      title: "Handling 2000 calls per week while achieving a 94% CSAT",
       desc: "A growing healthcare marketplace platform struggles to keep up with increased call volumes and unpredictable spikes.",
       img: "https://influx.com/blog/uploads/case-studies-2.png",
       link: "case-study-3",

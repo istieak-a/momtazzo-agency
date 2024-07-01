@@ -9,7 +9,7 @@ const CaseStudy3 = () => {
           CASE STUDY
         </p>
         <h1 className="py-8 text-5xl font-semibold leading-snug text-[#303030]">
-          Handling 8000 calls per week while achieving a 94% CSAT
+          Handling 2000 calls per week while achieving a 94% CSAT
         </h1>
       </div>
 
@@ -38,10 +38,10 @@ const CaseStudy3 = () => {
             voice, live chat, email, and SMS to help their internal team handle
             over:
             <ul>
-              <li>5,000-8,000 calls/week</li>
-              <li>1,000 live chat tickets/week</li>
-              <li>300-400 emails/week</li>
-              <li>4,000 SMS tickets/week</li>
+              <li>1500-2000 calls/week</li>
+              <li>300 live chat tickets/week</li>
+              <li>100 emails/week</li>
+              <li>800 SMS tickets/week</li>
             </ul>
           </li>
           <li>
@@ -66,9 +66,9 @@ const CaseStudy3 = () => {
         </ul>
         <h2>The Solution</h2>
         <p>
-          Montazzo initially launched a pilot-phase team of 15 CX professionals
+          Montazzo initially launched a pilot-phase team of 5 CX professionals
           with dedicated team leadership for 24/7 coverage. Within 3 months, the
-          company scaled their Montazzo team to 60+ full-time customer support
+          company scaled their Montazzo team to 15+ full-time customer support
           specialists across 6 regions.
         </p>
         <p>
@@ -77,54 +77,6 @@ const CaseStudy3 = () => {
           through every customer interaction. Montazzo established tiers of
           management with workforce management expertise, including predictions,
           attritions, coaching, and volume.
-        </p>
-        <p>
-          The 60-person team not only provides first-rate customer support, but
-          also auditing, reporting, and customer processes.
-        </p>
-        <h2>The Results</h2>
-        <ul>
-          <li>
-            Call management: Montazzo agents decreased abandon call rate by 10X by
-            using our award-winning internal playbook, SPEED.
-          </li>
-          <li>
-            Quality assurance: Each Montazzo agent is required to pass a monthly,
-            product knowledge assessment with a 90% or higher.
-          </li>
-          <li>
-            Customer satisfaction: Montazzo has received zero customer complaints,
-            driven by our unique in-house customer soft skills program, and
-            maintains a 94% CSAT, exceeding a 90% target.
-          </li>
-          <li>
-            Schedule adherence - Montazzo’s daily shrinkage consistently remains
-            below 10%.
-          </li>
-          <li>
-            Inbound + outbound voice support: Montazzo agents handle an average of
-            50-60 calls per agent each day, with a handle time of 6-8 minutes
-            per call.
-          </li>
-        </ul>
-        <p>
-          Since the partnership began in 2021, Montazzo acts as a flexible layer
-          of support, scaling up or down depending on the company’s ticket
-          volume to maintain consistent, high-quality coverage throughout the
-          year.
-        </p>
-        <h2>Get started with Montazzo</h2>
-        <p>
-          Montazzo builds fully flexible, high-performance call center teams. From
-          small teams, all the way to our ‘Enterprise’ teams (built for 5k+
-          interactions per week), we drive best-in-market productivity, scaling
-          up or down as you need it.
-        </p>
-        <p>
-          Make your call center operations fast, flexible, and ready for
-          anything with experienced, 24/7 support teams working on demand. See
-          how brands work with Montazzo to deliver exceptional customer support or
-          get a quote now.
         </p>
       </div>
 
