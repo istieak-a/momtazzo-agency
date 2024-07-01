@@ -393,7 +393,7 @@ const Homepage = () => {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 bg-[#f4fafc] px-5 py-10 md:px-16 md:py-20">
-        <h1 className="font-outfit text-5xl font-semibold">
+        <h1 className="font-outfit text-5xl">
           Montazzo in Action
         </h1>
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-10 md:grid-cols-3 md:px-16">
@@ -411,7 +411,7 @@ const Homepage = () => {
 
       <div className="bg-[#fff9e6]">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-10 md:px-28 md:py-20">
-          <h1 className="font-outfit text-5xl font-normal">
+          <h1 className="font-outfit text-5xl">
             How does it work?
           </h1>
           <p className="w-[70%] text-center text-lg md:w-1/2">
@@ -447,7 +447,7 @@ const Homepage = () => {
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
-        <h2 className="pb-10 text-center font-outfit text-4xl font-semibold">
+        <h2 className="pb-10 text-center font-outfit text-5xl">
           Validated by experts, valued by customers
         </h2>
         <Reviews />
