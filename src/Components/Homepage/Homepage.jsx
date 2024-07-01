@@ -339,12 +339,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-5 py-20">
-        <h2 className="pb-10 text-center font-outfit text-4xl font-semibold">
-          Validated by experts, valued by customers
-        </h2>
-        <Reviews />
-      </div>
+      
 
       <div className="bg-[#f4fafc]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-around gap-8 px-5 py-10 text-center md:flex-row md:px-16 md:py-12">
@@ -449,6 +444,13 @@ const Homepage = () => {
             />
           ))}
         </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-semibold">
+          Validated by experts, valued by customers
+        </h2>
+        <Reviews />
       </div>
 
       {/* <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-5 py-10 md:px-16 md:py-20">
