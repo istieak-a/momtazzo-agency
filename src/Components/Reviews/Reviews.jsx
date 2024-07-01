@@ -33,68 +33,25 @@ const Reviews = () => {
   const reviews = [
     {
       review:
-        "We’ve always wanted to hire offshore but have struggled to find great teams and companies. That all changed when we started working with Montazzo.",
+        "With Montazzo’s assistance, we’ve been able to 3X our content output with almost 100% audio and video accuracy. Montazzo ensures the content is up to standards, and we’ve been impressed with the ease of collaborating with the team.",
       img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/6414c829d23ea2471137dfa9_Andrew%20Wilkinson.jpeg",
-      name: "Andrew Wilkinson",
-      desc: "Managing Partner",
-      company: "Tiny",
+      name: "Head of Video Production",
+      company: "Media",
     },
     {
       review:
-        "Montazzo helped us quickly select top talent for our Customer Service team. It was easy, painless, and fast. We're very happy and will definitely be using them for other departments.",
+        "Thanks to Montazzo, we’ve scaled our affiliate program to more than 800 global ambassadors. The team’s work also helped reduce customer support tickets by 50% per month and response times to less than an hour. Overall, they stand out for their proactive approach, flexibility, and professionalism.",
       img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f68ef76163eed7f21dd1268_Patrick.jpg",
-      name: "Patrick Coddou",
-      desc: "CEO",
-      company: "Supply",
+      name: "VP of Growth",
+      company: "Gaming",
     },
-    // {
-    //   review:
-    //     "I really enjoyed working with Montazzo to find a new developer for my team! I've been extremely happy with the entire experience",
-    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/6414c8872e8c94b8d33bf98d_Nick%20Sharma.png",
-    //   name: "Nik Sharma",
-    //   desc: "CEO & Founder",
-    //   company: "Sharma Brands",
-    // },
-    // {
-    //   review:
-    //     'The Montazzo team helped me hire a new EA recently and it’s already been such a great addition to my team. Can highly recommend!',
-    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f7e143895838a5c6393ab5a_Adii.jpg",
-    //   name: "Adii Pienaar",
-    //   desc: "Creator ",
-    //   company: "WooCommerce",
-    // },
-    // {
-    //   review:
-    //     "Montazzo did an excellent job helping us find new engineering talent for our team. They've been competent and responsive throughout the entire process",
-    //   img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5ff65534c5c32e3a50b8a2ec_Tobias_Vanschneider-p-500.jpeg",
-    //   name: "Tobias van Schneider",
-    //   desc: "Founder ",
-    //   company: "Semplice & Designer of Spotify",
-    // },
     {
       review:
-        "We’re constantly trying to bring the best the market has to offer to support our global business operations by identifying suppliers with the exact solution we need to solve our problem. In this case, we found an incredible partner in Montazzo.",
+        "Montazzo has provided strategies and solutions to significantly reduce ticket response times. The team’s ability to cater to customers from diverse linguistic backgrounds makes the workflow seamless. Above all, we appreciate their flexibility, adaptability and punctuality in meetings.",
       img: "https://cdn.prod.website-files.com/5e6947ce3fd8148aa23649ce/5f68f127e72936dbd9fbf60f_kaitlyn.jpeg",
-      name: "Kaitlyn Witman",
-      desc: "Co-Founder",
-      company: "Rainfactory",
+      name: "Customer Support Manager",
+      company: "Food & Beverage",
     },
-    {
-      review:
-        "Anybody who’s gone to business school in the last 20 years has had 1 commandment hammered into them: if it’s not your core business, outsource it. Security, travel, tech, human resources – it’s not your core business, outsource it!",
-      img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/03/Pat-Cleary-640-2-300x300.jpg",
-      name: "Pat Cleary",
-      desc: "President & CEO",
-      company: "NAPEO",
-    },
-    {
-      review:
-        "MyOutDesk is a great option when you need a virtual assistant! They do all the heavy lifting to find the best candidate and assist with management in order to get up and running ASAP.",
-      img: "https://mod-cdn.myoutdesk.com/wp-content/uploads/2020/06/shealyn-anderson-500x500.jpg",
-      name: "SheaLyn Anderson",
-      desc: "REALTOR® & Operations Manager",
-      company: "The Wehner Group Brokered by EXP",
-    }
   ];
 
   const settings = {
