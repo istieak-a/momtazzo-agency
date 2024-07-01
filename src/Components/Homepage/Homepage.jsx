@@ -320,6 +320,7 @@ const Homepage = () => {
           Service or part time agents.
         </p> */}
       </div>
+      
       <div className="bg-[#f4fafc] py-10">
         <div class="mx-auto md:my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
           <div class="overflow-hidden rounded-lg shadow-2xl">

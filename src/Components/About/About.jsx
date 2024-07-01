@@ -8,6 +8,11 @@ import Reviews from "../Reviews/Reviews";
 import storyImg from "../../assets/images/campaign-creators-gMsnXqILjp4-unsplash.jpg";
 import fbiImg from "../../assets/images/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg";
 import dataSec from "../../assets/images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg";
+import missionImg from "../../assets/icons/mission.png";
+import visionImg from "../../assets/icons/vision.png";
+import valuesImg from "../../assets/icons/values.png";
+import Card from "../Card/Card";
+
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
@@ -16,6 +21,23 @@ const About = () => {
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
   };
+  const cardData = [
+    {
+      title: "Mission",
+      desc: "Our mission is to help you grow your business with smart and flexible offshoring solutions in the India. While at the same time, making a positive impact in the India.",
+      ico: missionImg,
+    },
+    {
+      title: "Vision",
+      desc: "Our vision is to become the recognized leader for outsourcing and offshoring solutions in the India.",
+      ico: visionImg,
+    },
+    {
+      title: "Values",
+      desc: "Our values form the foundation for how we serve our clients. We value integrity, transparency, value creation, professionalism, social responsibility and family.",
+      ico: valuesImg,
+    },
+  ];
   return (
     <div>
       <div>
@@ -36,7 +58,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={storyImg} alt="img" />
         </div>
@@ -57,7 +79,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 px-5  py-10 md:flex-row-reverse md:items-center md:px-28 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col  gap-10 px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={fbiImg} alt="img" />
         </div>
@@ -74,7 +96,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={dataSec} alt="img" />
         </div>
@@ -145,41 +167,14 @@ const About = () => {
         </Link>
       </div>
       <div className="section-container mx-auto max-w-7xl">
-        <h1>Mission, Vision and Values</h1>
+        {/* <h1>Mission, Vision and Values</h1> */}
 
-        <h2>Mission</h2>
-        <p>
-          Our mission is to help you grow your business with smart and flexible
-          offshoring solutions in the India. While at the same time, making a
-          positive impact in the India.
-        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {cardData.map((data) => (
+            <Card title={data.title} desc={data.desc} ico={data.ico} />
+          ))}
+        </div>
 
-        <h2>Vision</h2>
-        <p>
-          Our vision is to become the recognized leader for outsourcing and
-          offshoring solutions in the India.
-        </p>
-
-        <h2>Values</h2>
-        <p>
-          Our values form the foundation for how we serve our clients. We value
-          integrity, transparency, value creation, professionalism, social
-          responsibility and family.
-        </p>
-
-        <p>
-          We believe in fostering an open work environment, and invest heavily
-          in employee engagement activities. This means we can attract and
-          retain top talent for your business. And it means your team members
-          feel comfortable and motivated.
-        </p>
-
-        <p>
-          So while we’re all professionals here, we’ve got a fun and friendly
-          vibe. We set up your team’s workstations so they can freely talk to
-          one another and we don’t have strict dress codes (hoodies, t-shirts,
-          jeans, dresses – whatever!).
-        </p>
       </div>
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
