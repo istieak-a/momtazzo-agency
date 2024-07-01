@@ -28,7 +28,6 @@ import Faq from "react-faq-component";
 import deserveBetter from "../../assets/images/deserve-better.png";
 import "../HowItWorks/Howitworks.css";
 
-
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const partners = [
@@ -320,9 +319,9 @@ const Homepage = () => {
           Service or part time agents.
         </p> */}
       </div>
-      
+
       <div className="bg-[#f4fafc] py-10">
-        <div class="mx-auto md:my-6 max-w-[864px] px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-[864px] px-4 sm:px-6 md:my-6 lg:px-8">
           <div class="overflow-hidden rounded-lg shadow-2xl">
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
@@ -343,14 +342,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="px-5 md:px-16 py-10 md:py-16 flex flex-col items-center gap-10 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-5 py-10 md:px-16 md:py-16">
         <img
           src="https://hugoinc.com/wp-content/uploads/2023/10/success-title.svg"
           alt="title"
-          className="md:w-[60%] w-[85%]"
+          className="w-[85%] md:w-[60%]"
         />
-        <div className="flex gap-20 flex-col md:flex-row justify-between items-center max-w-4xl mx-auto">
-          <div className="flex flex-col gap-4 items-center md:items-start md:w-[60%]">
+        <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-20 md:flex-row">
+          <div className="flex flex-col items-center gap-4 md:w-[60%] md:items-start">
             <h1 className="font-outfit text-3xl">You deserve better.</h1>
             <p className="w-[90%] md:w-full">
               You deserve better outcomes, insights, and conversations. You
@@ -362,7 +361,9 @@ const Homepage = () => {
               Whether you’re a disruptive startup or an iconic brand, with Hugo
               you get more than outsourcing – you get what you deserve.
             </p>
-            <Link className="btn" to="/contact">Contact Us</Link>
+            <Link className="btn" to="/contact">
+              Contact Us
+            </Link>
           </div>
           <div className="md:w-[40%]">
             <img src={deserveBetter} alt="" />

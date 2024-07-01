@@ -169,12 +169,11 @@ const About = () => {
       <div className="section-container mx-auto max-w-7xl">
         {/* <h1>Mission, Vision and Values</h1> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {cardData.map((data) => (
             <Card title={data.title} desc={data.desc} ico={data.ico} />
           ))}
         </div>
-
       </div>
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">

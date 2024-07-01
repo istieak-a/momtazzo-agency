@@ -54,7 +54,7 @@ body {
       transform 300ms;
   }
   .section-margin {
-    @apply p-5 md:px-28 py-10;
+    @apply p-5 py-10 md:px-28;
   }
   .section-container {
     @apply flex flex-col items-start gap-7 px-5 py-10 font-dmsans text-lg  md:px-28;
@@ -75,7 +75,7 @@ body {
     @apply cursor-pointer pe-10 text-[#00b7ef] hover:underline;
   }
   .case-study-con {
-    @apply flex flex-col items-start gap-8 mx-auto w-[80%] mt-10;
+    @apply mx-auto mt-10 flex w-[80%] flex-col items-start gap-8;
   }
   .case-study-con h2 {
     @apply font-outfit text-3xl font-[500];
@@ -84,7 +84,7 @@ body {
     @apply font-outfit text-[17px] font-[400] text-gray-600;
   }
   .case-study-con img {
-    @apply w-full h-auto;
+    @apply h-auto w-full;
   }
   .case-study-con ul {
     @apply list-inside list-disc;
