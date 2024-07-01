@@ -29,10 +29,10 @@ const Navbar = () => {
       title: "How it works",
       link: "/how-it-works",
     }, 
-    {
-      title: "Pricing",
-      link: "/pricing",
-    }, 
+    // {
+    //   title: "Pricing",
+    //   link: "/pricing",
+    // }, 
     {
       title: "Case Studies",
       link: "/case-studies",
