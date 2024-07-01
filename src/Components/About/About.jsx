@@ -5,6 +5,9 @@ import HeroBanner4 from "../Sections/HeroBanner4/HeroBanner4";
 import { Link } from "react-router-dom";
 import GuranteePricing from "../Sections/GuranteePricing/GuranteePricing";
 import Reviews from "../Reviews/Reviews";
+import storyImg from "../../assets/images/campaign-creators-gMsnXqILjp4-unsplash.jpg";
+import fbiImg from "../../assets/images/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg";
+import dataSec from "../../assets/images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg";
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
@@ -32,9 +35,14 @@ const About = () => {
           help them do just that.
         </p>
       </div>
-      <div className="section-container mx-auto max-w-7xl">
-        <h1>Our Story</h1>
-        <p>
+
+      <div className="flex px-5 md:px-28 gap-10 py-10 flex-col md:flex-row md:items-center bg-[#f4fafc]">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={storyImg} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+        <h1 className="font-outfit text-4xl font-normal pb-5">Our Story</h1>
+        <p className="text-md">
           Montazzo LLC began its journey in 2021 with a focus on B2B lead
           generation. As we worked with various clients, we saw the challenges
           American businesses face due to high local hiring costs and overheads.
@@ -46,22 +54,42 @@ const About = () => {
           Australia, and Canada in scaling their operations efficiently by
           outsourcing tasks to India.
         </p>
-        <h1>FBI-Grade Background Checks</h1>
-        <p>
-          We ensure the highest level of security and reliability by providing
+        </div>
+      </div>
+
+      <div className="flex px-5 md:px-28 flex-col  md:flex-row-reverse gap-10 py-10 md:items-center">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={fbiImg} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+        <h1 className="font-outfit text-4xl font-normal pb-5">FBI-Grade Background Checks</h1>
+        <p className="text-md">
+        We ensure the highest level of security and reliability by providing
           employees who have passed FBI-grade background checks. This rigorous
           vetting process guarantees that our clients can trust the integrity
           and competence of their offshore team members.
         </p>
-        <h1>IT and Data Security</h1>
-        <p>
-          Data security is a top priority at Montazzo. Our 24/7 IT support team
+        </div>
+      </div>
+
+      <div className="flex px-5 flex-col md:flex-row md:px-28 gap-10 py-10 md:items-center bg-[#f4fafc]">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={dataSec} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+        <h1 className="font-outfit text-4xl font-normal pb-5">IT and Data Security</h1>
+        <p className="text-md">
+        Data security is a top priority at Montazzo. Our 24/7 IT support team
           implements robust system monitoring, advanced encryption, and strict
           access controls to protect sensitive data. We conduct regular audits
           and maintain comprehensive disaster recovery plans to ensure
           compliance with industry security standards and to safeguard our
           clients' information.
         </p>
+        </div>
+      </div>
+
+      <div className="section-container mx-auto max-w-7xl">
         <img
           src="https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/mic_MS_MicroSourcing-team.jpg"
           alt="img"
