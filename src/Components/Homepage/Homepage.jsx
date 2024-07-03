@@ -358,7 +358,7 @@ const Homepage = () => {
               sacrificing quality for speed.
               <br />
               <br />
-              Whether you’re a disruptive startup or an iconic brand, with Hugo
+              Whether you’re a disruptive startup or an iconic brand, with Montazzo
               you get more than outsourcing – you get what you deserve.
             </p>
             <Link className="btn" to="/contact">
