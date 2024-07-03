@@ -84,11 +84,11 @@ const Footer = () => {
         <div className="text-white">
           <h1 className="font-outfit text-[18px] font-[500]">Services</h1>
           <div className="mt-4 flex flex-col items-start gap-1">
-            <Link className="link-white font-dmsans text-[16px] font-[400]">
+            <Link to={'/contact'} className="link-white font-dmsans text-[16px] font-[400]">
               Customer Service
             </Link>
-            <Link className="link-white font-dmsans text-[16px] font-[400]">
-              Build your team
+            <Link to={'/how-it-works'} className="link-white font-dmsans text-[16px] font-[400]">
+              How it works
             </Link>
           </div>
         </div>
