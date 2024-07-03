@@ -47,10 +47,10 @@ const Footer = () => {
       title: "Case studies",
       link: "/case-studies",
     },
-    {
-      title: "Pricing",
-      link: "/pricing",
-    },
+    // {
+    //   title: "Pricing",
+    //   link: "/pricing",
+    // },
   ];
   return (
     <div className="bg-[#07131d]">
