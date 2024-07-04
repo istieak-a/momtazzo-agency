@@ -1,0 +1,6 @@
+.step-desc {
+    @apply flex flex-col gap-7 font-dmsans text-lg text-gray-600;
+}
+.step-desc ul {
+    @apply list-decimal list-inside;
+}

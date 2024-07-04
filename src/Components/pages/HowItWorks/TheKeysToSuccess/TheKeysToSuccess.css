@@ -1,0 +1,6 @@
+.keytosucc-block h4 {
+    @apply bg-[#50aab2] inline-block px-5 py-2 text-white text-lg font-bold -mb-4 mt-8;
+}
+.keytosucc-block h2 {
+    @apply text-4xl font-outfit font-[500]
+}
