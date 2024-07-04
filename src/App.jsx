@@ -60,7 +60,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/build-your-team" element={<BuildYourTeam />} />
+        {/* <Route path="/build-your-team" element={<BuildYourTeam />} /> */}
         <Route path="case-studies" element={<CaseStudy />}>
           <Route path="case-study-1" element={<CaseStudy1 />} />
           <Route path="case-study-2" element={<CaseStudy2 />} />
@@ -74,6 +74,7 @@ const App = () => {
           <Route path="case-study-10" element={<CaseStudy10 />} />
         </Route>
         <Route path="build-your-team" element={<BuildYourTeamWrapper />}>
+        <Route index element={<BuildYourTeam />} />
           <Route path="accountant" element={<Accountant />} />
           <Route path="administrative-assistant" element={<AdministrativeAssistant />} />
           <Route path="collection-specialist" element={<CollectionSpecialist />} />
