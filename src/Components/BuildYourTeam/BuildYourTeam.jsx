@@ -6,7 +6,7 @@ import Reviews from "../Reviews/Reviews";
 
 const BuildYourTeam = () => {
   const heroBanner = {
-    title: "Select Your Job Profile",
+    title: " ",
     desc: "Unlock the full potential of outsourcing with ease and discover the perfect fit for your organization. Our comprehensive range of offshore roles can help streamline your operations and make outsourcing simple.",
     img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
     imgRes:
