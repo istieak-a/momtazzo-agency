@@ -89,7 +89,7 @@ const Teams = () => {
   };
 
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid md:grid-cols-2 gap-20 md:gap-0">
 
         {reviews.map((review) => (
           <TeamCard key={review.id} {...review} />

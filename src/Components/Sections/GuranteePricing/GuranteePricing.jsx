@@ -19,7 +19,7 @@ const GuranteePricing = () => {
           </p>
         </div>
       </div>
-      <div className="items-center flex justify-around gap-10 py-10">
+      <div className="items-center flex md:flex-row flex-col justify-around gap-10 py-10">
         <div className="flex flex-col items-center gap-4">
           <img src={fixed} alt="ico" />
           <h2 className="text-center font-outfit text-[20px] font-bold text-white">
