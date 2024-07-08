@@ -12,6 +12,7 @@ import missionImg from "../../assets/icons/mission.png";
 import visionImg from "../../assets/icons/vision.png";
 import valuesImg from "../../assets/icons/values.png";
 import Card from "../Card/Card";
+import Teams from "../Teams/Teams";
 
 const About = () => {
   const heroBanner = {
@@ -63,23 +64,61 @@ const About = () => {
           <img className="rounded-lg" src={storyImg} alt="img" />
         </div>
         <div className="md:w-1/2">
-          <h1 className="pb-5 font-outfit text-4xl font-normal">Our Story</h1>
-          <p className="text-md">
-            Montazzo LLC began its journey in 2021 with a focus on B2B lead
-            generation. As we worked with various clients, we saw the challenges
-            American businesses face due to high local hiring costs and
-            overheads. This issue is particularly significant for startups,
-            often causing financial strain and operational inefficiencies. To
-            address this, we expanded our services in 2022 to help businesses
-            save 70-80% on salary and overhead costs by building and managing
-            offshore teams for almost any online role. Today, we assist
-            businesses from the USA, UK, Australia, and Canada in scaling their
-            operations efficiently by outsourcing tasks to India.
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            Legacy Continues with <br /> 20+ Years of Experience
+          </h1>
+          <p>
+            Founded in 2019, Montazzo has an accumulated experience of more than
+            20+ years. The management is well aware about the industry and the
+            problems it is facing and works day in and day out for solutions.
+          </p>
+          <p className="pt-5">
+            We are a client-centric team that take pride in the collaborative
+            business relationships that we have developed with our clients and
+            the consistent results that we have delivered in all our projects in
+            the field of CX, Recruitment Process Outsourcing and Offshore
+            Staffing.
           </p>
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col  gap-10 px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src="https://plus.unsplash.com/premium_photo-1661503228105-e404823831dd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
+        </div>
+        <div className="md:w-1/2">
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            OUR Difference
+          </h1>
+          <p className="text-md">
+            Our pricing model sets us apart from other BPOs. By separating
+            salaries from service costs, we make it very easy for you to see
+            that you’re getting the best possible talent for your money. You
+            have complete control over salaries and incentives, with the salary
+            component of your monthly fee going directly to your staff without
+            any mark-up.
+          </p>
+          <p className="pt-5 pb-5">
+            Most outsourcing service providers don’t do this. Instead, they
+            charge a ‘fixed hourly rate’ that bundles the service fee and the
+            employee’s salary. This pricing model incentivizes the provider to
+            find the cheapest possible labor to maximize their margins. As a
+            result, candidate quality suffers and staff quickly leave as soon as
+            they’re offered market rate elsewhere.
+          </p>
+          <p>
+            We pay market rates for the skills you need, attracting the best
+            candidates and ensuring they feel valued and rewarded for their
+            work. Although this model yields lower profits for us, it allows us
+            to offer competitive salaries to our local employees, resulting in
+            higher job satisfaction and lower attrition rates. In fact,
+            Montazzo's employee attrition rate is less than half the industry
+            average.
+          </p>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col  gap-10 px-5 bg-[#f4fafc] py-10 md:flex-row md:items-center md:px-28">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={fbiImg} alt="img" />
         </div>
@@ -88,7 +127,7 @@ const About = () => {
             FBI-Grade Background Checks
           </h1>
           <p className="text-md">
-            We ensure the highest level of security and reliability by providing
+            We ensure the highest level of security and reliability by hiring
             employees who have passed FBI-grade background checks. This rigorous
             vetting process guarantees that our clients can trust the integrity
             and competence of their offshore team members.
@@ -96,7 +135,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10  px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
         <div className="md:w-1/2">
           <img className="rounded-lg" src={dataSec} alt="img" />
         </div>
@@ -113,16 +152,6 @@ const About = () => {
             clients' information.
           </p>
         </div>
-      </div>
-
-      <div className="py-10 px-5 md:px-20 max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-20">
-        <div className="md:w-1/2 flex flex-col gap-4">
-          <h1 className="font-outfit text-4xl md:text-[44px] font-normal">Legacy Continues with <br /> 20+ Years of Experience</h1>
-          <p>Founded in 2019, Montazzo has an accumulated experience of more than 50+ years. The management is well aware about the industry and the problems it is facing and works day in and day out for solutions.
-          </p>
-          <p>We are a client-centric team that take pride in the collaborative business relationships that we have developed with our clients and the consistent results that we have delivered in all our projects in the field of CX, Recruitment Process Outsourcing and Offshore Staffing.</p>
-        </div>
-        <img className="md:w-1/2 rounded-lg" src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
       </div>
 
       {/* <div className="section-container mx-auto max-w-7xl">
@@ -170,6 +199,13 @@ const About = () => {
           </li>
         </ul>
       </div> */}
+
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          Meet Our Team
+        </h2>
+        <Teams />
+      </div>
 
       <div className="flex flex-col items-center gap-5 pt-10">
         <GuranteePricing />

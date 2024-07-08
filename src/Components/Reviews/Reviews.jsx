@@ -56,12 +56,12 @@ const Reviews = () => {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     beforeChange: (current, next) => setActiveIndex(next),
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000, // Change slides every 2 seconds
     responsive: [
       {

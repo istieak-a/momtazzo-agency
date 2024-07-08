@@ -87,6 +87,9 @@ const Footer = () => {
             <Link to={'/contact'} className="link-white font-dmsans text-[16px] font-[400]">
               Customer Service
             </Link>
+            <Link to={'/build-your-team'} className="link-white font-dmsans text-[16px] font-[400]">
+              Build your team
+            </Link>
             <Link to={'/how-it-works'} className="link-white font-dmsans text-[16px] font-[400]">
               How it works
             </Link>
