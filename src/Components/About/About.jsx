@@ -16,7 +16,7 @@ import Card from "../Card/Card";
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
-    desc: "We make it easy and affordable for businesses to build their own full-time, dedicated teams in the India.",
+    desc: "Your Partner in Comprehensive CX and offshore staffing solutions.",
     img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
@@ -115,7 +115,17 @@ const About = () => {
         </div>
       </div>
 
-      <div className="section-container mx-auto max-w-7xl">
+      <div className="py-10 px-5 md:px-20 max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-20">
+        <div className="md:w-1/2 flex flex-col gap-4">
+          <h1 className="font-outfit text-4xl md:text-[44px] font-normal">Legacy Continues with <br /> 20+ Years of Experience</h1>
+          <p>Founded in 2019, Montazzo has an accumulated experience of more than 50+ years. The management is well aware about the industry and the problems it is facing and works day in and day out for solutions.
+          </p>
+          <p>We are a client-centric team that take pride in the collaborative business relationships that we have developed with our clients and the consistent results that we have delivered in all our projects in the field of CX, Recruitment Process Outsourcing and Offshore Staffing.</p>
+        </div>
+        <img className="md:w-1/2 rounded-lg" src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
+      </div>
+
+      {/* <div className="section-container mx-auto max-w-7xl">
         <img
           src="https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/mic_MS_MicroSourcing-team.jpg"
           alt="img"
@@ -159,7 +169,8 @@ const About = () => {
             Montazzo University with dozens of training development programs
           </li>
         </ul>
-      </div>
+      </div> */}
+
       <div className="flex flex-col items-center gap-5 pt-10">
         <GuranteePricing />
         <Link to={`/contact`} className="btn px-10 py-4">
