@@ -147,35 +147,47 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16 ">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
-        <div className="pe-5 md:w-[60%] md:pe-0">
-            <h1 className="font-sans text-xs md:text-sm">
-              GROW YOUR BUSINESS WITH MONTAZZO'S
-            </h1>
-            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
-              OFFSHORE PROFESSIONALS
-            </h2>
-            <p className="text-lg">
-              Outsource any remote role to our skilled and experienced
-              professionals with your local market expertise, working from our
-              24/7 office in your time zone.
-            </p>
-            <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
-              <Link className="btn" to="/contact">
-                Ask an expert
-              </Link>
-              <Link className="btn-outline" to="/contact">
-                what roles to outsource
-              </Link>
-            </div>
-          </div>
-          <div className="hidden w-1/2 overflow-hidden rounded-lg md:flex">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/q03Ikvuxb94?si=hg3IepRklCTnn55L&autoplay=1&controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-          </div>
-        </div>
+      <div className="bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16">
+  <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
+    <div className="pe-5 md:w-[60%] md:pe-0">
+      <h1 className="font-sans text-xs md:text-sm">
+        GROW YOUR BUSINESS WITH MONTAZZO'S
+      </h1>
+      <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
+        OFFSHORE PROFESSIONALS
+      </h2>
+      <p className="text-lg">
+        Outsource any remote role to our skilled and experienced professionals with your local market expertise, working from our 24/7 office in your time zone.
+      </p>
+      <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
+        <Link className="btn" to="/contact">
+          Ask an expert
+        </Link>
+        <Link className="btn-outline" to="/contact">
+          What roles to outsource
+        </Link>
       </div>
+    </div>
+    <div className="overflow-hidden rounded-lg shadow-2xl md:w-[40%]">
+      <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+        <iframe
+          src="https://player.vimeo.com/video/973150201?badge=0&autopause=0&player_id=0&app_id=58479"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
+            width: "100%",
+            height: "100%",
+          }}
+          title="Montazzo LLC"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
       {/* <div className="grid grid-cols-2 md:grid-cols-6 ">
         {partners.map((item, index) => (
           <div
