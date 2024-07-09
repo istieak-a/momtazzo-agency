@@ -3,13 +3,16 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Components/Homepage/Homepage";
 import Footer from "./Components/Footer/Footer";
+import HowItWorks from "./Components/HowItWorks/HowItWorks";
+import BuildYourTeamWrapper from "./Components/BuildYourTeam/BuildYourTeamWrapper";
+import BuildYourTeam from "./Components/BuildYourTeam/BuildYourTeam1";
+// import BuildYourTeam from "./Components/BuildYourTeam/BuildYourTeam";
 import ReduceCost from "./Components/pages/whyOutsource/ReduceCost/ReduceCost";
 import ScaleFast from "./Components/pages/whyOutsource/ScaleFast/ScaleFast";
 import WhyMicrosourcing from "./Components/pages/whyOutsource/WhyMicrosourcing/WhyMicroSourcing";
 import WhyThePhilippines from "./Components/pages/whyOutsource/WhyThePhilippines/WhyThePhilippines";
 import IncreaseQuality from "./Components/pages/whyOutsource/IncreaseQuality/IncreaseQuality";
 import WhyOutsource from "./Components/pages/whyOutsource/WhyOutsource"; // Import the new component
-import HowItWorks from "./Components/pages/HowItWorks/HowItWorks";
 import HowOffshoringWorks from "./Components/pages/HowItWorks/HowOffshoringWorks/HowOffshoringWorks";
 import IsItForYou from "./Components/pages/HowItWorks/IsItForYou/IsItForYou";
 import TheKeysToSuccess from "./Components/pages/HowItWorks/TheKeysToSuccess/TheKeysToSuccess";
@@ -86,6 +89,8 @@ const App = () => {
         <Route path="/pricing" element={<Pricing  />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
           <Route path="why-montazzo" element={<WhyMicrosourcing />} />  
@@ -155,6 +160,37 @@ const App = () => {
           <Route path="reservation-booking-agent" element={<ReservationBookingAgent />} />
           <Route path="seo-specialist" element={<SeoSpecialist />} />
           <Route path="sales-support" element={<SalesSupport2 />} />
+          <Route path="social-media-specialist" element={<SocialMediaSpecialist />} />
+          <Route path="software-developer" element={<SoftwareDeveloper />} />
+          <Route path="talent-acquisition-specialist" element={<TalentAcquisitionSpecialist />} />
+          <Route path="video-editor" element={<VideoEditor />} />
+          <Route path="virtual-assistant" element={<VirtualAssistant />} />
+          <Route path="web-developer" element={<WebDeveloper />} />
+        </Route>
+        <Route path="build-your-team" element={<BuildYourTeamWrapper />}>
+        <Route index element={<BuildYourTeam />} />
+          <Route path="accountant" element={<Accountant />} />
+          <Route path="administrative-assistant" element={<AdministrativeAssistant />} />
+          <Route path="collection-specialist" element={<CollectionSpecialist />} />
+          <Route path="customer-service-rep" element={<CustomerServiceRep />} />
+          <Route path="data-analyst" element={<DataAnalyst />} />
+          <Route path="data-entry-specialist" element={<DataEntrySpecialist />} />
+          <Route path="digital-marketing-specialist" element={<DigitalMarketingSpecialist />} />
+          <Route path="enrollment-administrator" element={<EnrollmentAdministrator />} />
+          <Route path="executive-assistant" element={<ExecutiveAssistant />} />
+          <Route path="graphic-designer" element={<GraphicDesigner />} />
+          <Route path="hr-specialist" element={<HrSpecialist />} />
+          <Route path="logistics-coordinator" element={<LogisticsCoordinator />} />
+          <Route path="marketing-specialist" element={<MarketingSpecialist />} />
+          <Route path="medical-billing-specialist" element={<MedicalBillingSpecialist />} />
+          <Route path="order-processing-specialist" element={<OrderProcessingSpecialist />} />
+          <Route path="payroll-specialist" element={<PayrollSpecialist />} />
+          <Route path="ppc-sem-specialist" element={<PpcSemSpecialist />} />
+          <Route path="quality-assurance-specialist" element={<QualityAssuranceSpecialist />} />
+          <Route path="real-estate-assistant" element={<RealEstateAssistant />} />
+          <Route path="reservation-booking-agent" element={<ReservationBookingAgent />} />
+          <Route path="seo-specialist" element={<SeoSpecialist />} />
+          <Route path="sales-support" element={<SalesSupport />} />
           <Route path="social-media-specialist" element={<SocialMediaSpecialist />} />
           <Route path="software-developer" element={<SoftwareDeveloper />} />
           <Route path="talent-acquisition-specialist" element={<TalentAcquisitionSpecialist />} />

@@ -132,6 +132,7 @@ const Homepage = () => {
       desc: "All offshore are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
       ico: contact,
     },
+    // 
     {
       title: "All-Inclusive Pricing",
       desc: "Pay one flat rate per virtual assistant and let us handle the rest. We provide competitive medical benefits, insurance and paid time off in addition to handling the entire recruitment, interview and onboarding process.",
@@ -148,14 +149,14 @@ const Homepage = () => {
     <div>
       <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16 ">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
-          <div className="pe-5 md:w-[60%] md:pe-0">
-          <h1 className="font-dmsans text-4xl md:text-6xl">
-          Hire full time outsourced roles or teams{" "}
+        <div className="pe-5 md:w-[60%] md:pe-0">
+            <h1 className="font-sans text-xs md:text-sm">
+              GROW YOUR BUSINESS WITH MONTAZZO'S
             </h1>
-            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
-              Ready to work in as little as two weeks
+            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
+              OFFSHORE PROFESSIONALS
             </h2>
-            <p className="pt-5">
+            <p className="text-lg">
               Outsource any remote role to our skilled and experienced
               professionals with your local market expertise, working from our
               24/7 office in your time zone.

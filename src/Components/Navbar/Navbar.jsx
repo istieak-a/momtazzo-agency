@@ -17,77 +17,77 @@ import womenImg from '../../assets/women.webp'
 
 const Navbar = () => {
   const navData = [
-    {
-      title: "Why Outsource",
-      subitems: [
-        {
-          heading: "Reduce Cost",
-          url: "/why-outsource/reduce-cost",
-          desc: "Reduce costs and increase profits without compromise. All while accessing a deeper, wider talent pool.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/large-enterprises-menu-img.jpg?width=624&height=345&name=large-enterprises-menu-img.jpg",
-        },
-        {
-          heading: "Scale Fast",
-          url: "/why-outsource/scale-fast",
-          desc: "Reap the benefits of big-business infrastructure and proven best-practices without all the usual hassle and expenditure.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/small-businesses-menu-img.jpg?width=624&height=345&name=small-businesses-menu-img.jpg#",
-        },
-        {
-          heading: "Why Montazzo?",
-          url: "/why-outsource/why-montazzo",
-          desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Why_20MicroSourcing.jpg?width=624&height=345&name=Why_20MicroSourcing.jpg",
-        },
-        {
-          heading: "Increase Quality & Efficiency",
-          url: "/why-outsource/increase-quality-efficiency",
-          desc: "When your offshore team cares about the outcomes of their work, they'll work harder and commit to continuous improvement.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/increase-quality-menu-img.jpg?width=624&height=345&name=increase-quality-menu-img.jpg",
-        },
-        {
-          heading: "Why India?",
-          url: "/why-outsource/why-india",
-          desc: "Its low living costs and first-class education system are just the beginning. See why the India is the best offshoring destination.",
-          thumb:
-            "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",
-        },
-      ],
-    },
-    {
-      title: "How It Works",
-      subitems: [
-        {
-          heading: "How Offshoring Works",
-          url: "/how-it-works/how-offshoring-works",
-          desc: "It's your team. You have full visibility and control, without having to worry about facilities, operations and regulations.",
-          thumb: 'https://i.ibb.co/mBmRkjf/man.webp'
-        },
-        // {
-        //   heading: "The Keys to Success",
-        //   url: "/how-it-works/the-keys-to-success",
-        //   desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
-        //   thumb:
-        //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
-        // },
-        {
-          heading: "Is It For You?",
-          url: "/how-it-works/is-it-for-you",
-          desc: "Learn your offshoring options and explore the benefits of Managed Operations over less effective models.",
-          thumb:'https://i.ibb.co/WfnLd6j/women.webp'
-        },
-        // {
-        //   heading: "Offshore Staffing",
-        //   url: "/how-it-works/offshore-staffing",
-        //   desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
-        //   thumb:
-        //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
-        // },
-      ],
-    },
+    // {
+    //   title: "Why Outsource",
+    //   subitems: [
+    //     {
+    //       heading: "Reduce Cost",
+    //       url: "/why-outsource/reduce-cost",
+    //       desc: "Reduce costs and increase profits without compromise. All while accessing a deeper, wider talent pool.",
+    //       thumb:
+    //         "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/large-enterprises-menu-img.jpg?width=624&height=345&name=large-enterprises-menu-img.jpg",
+    //     },
+    //     {
+    //       heading: "Scale Fast",
+    //       url: "/why-outsource/scale-fast",
+    //       desc: "Reap the benefits of big-business infrastructure and proven best-practices without all the usual hassle and expenditure.",
+    //       thumb:
+    //         "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/small-businesses-menu-img.jpg?width=624&height=345&name=small-businesses-menu-img.jpg#",
+    //     },
+    //     {
+    //       heading: "Why Montazzo?",
+    //       url: "/why-outsource/why-montazzo",
+    //       desc: "When you partner with the strongest provider, you get the best outcome, and no hidden costs or unforeseen risks.",
+    //       thumb:
+    //         "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/Why_20MicroSourcing.jpg?width=624&height=345&name=Why_20MicroSourcing.jpg",
+    //     },
+    //     {
+    //       heading: "Increase Quality & Efficiency",
+    //       url: "/why-outsource/increase-quality-efficiency",
+    //       desc: "When your offshore team cares about the outcomes of their work, they'll work harder and commit to continuous improvement.",
+    //       thumb:
+    //         "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/increase-quality-menu-img.jpg?width=624&height=345&name=increase-quality-menu-img.jpg",
+    //     },
+    //     {
+    //       heading: "Why India?",
+    //       url: "/why-outsource/why-india",
+    //       desc: "Its low living costs and first-class education system are just the beginning. See why the India is the best offshoring destination.",
+    //       thumb:
+    //         "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/why-the-philippines-menu-img.jpg?width=624&height=345&name=why-the-philippines-menu-img.jpg",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "How It Works",
+    //   subitems: [
+    //     {
+    //       heading: "How Offshoring Works",
+    //       url: "/how-it-works/how-offshoring-works",
+    //       desc: "It's your team. You have full visibility and control, without having to worry about facilities, operations and regulations.",
+    //       thumb: 'https://i.ibb.co/mBmRkjf/man.webp'
+    //     },
+    //     // {
+    //     //   heading: "The Keys to Success",
+    //     //   url: "/how-it-works/the-keys-to-success",
+    //     //   desc: "As the largest managed operations offshoring provider in the Philippines, we've learned a lot. Here are some tips to ensure your success.",
+    //     //   thumb:
+    //     //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/keys-to-success-menu-img.jpg",
+    //     // },
+    //     {
+    //       heading: "Is It For You?",
+    //       url: "/how-it-works/is-it-for-you",
+    //       desc: "Learn your offshoring options and explore the benefits of Managed Operations over less effective models.",
+    //       thumb:'https://i.ibb.co/WfnLd6j/women.webp'
+    //     },
+    //     // {
+    //     //   heading: "Offshore Staffing",
+    //     //   url: "/how-it-works/offshore-staffing",
+    //     //   desc: "Offshore staffing has a bevy of benefits, not least the potential for up to 70% cost savings.Managed Operations over less effective models.",
+    //     //   thumb:
+    //     //     "https://www.microsourcing.com/hs-fs/hubfs/MicroSourcing/menu/offshore-staffing-menu-img.jpg?width=624&height=345&name=offshore-staffing-menu-img.jpg",
+    //     // },
+    //   ],
+    // },
     {
       title: "Build Your Team",
       categories: [
@@ -500,7 +500,7 @@ const Navbar = () => {
           <img className="w-[220px]" src={logo} alt="logo" />
         </Link>
         <div className="hidden items-center gap-5 md:flex ">
-          {navData.map((item, index) => (
+          {/* {navData.map((item, index) => (
             <div key={index}>
               <h2
                 className="flex cursor-pointer items-center gap-1 font-outfit text-[15px] hover:text-orange-500"
@@ -607,15 +607,128 @@ const Navbar = () => {
                 </div>
               )}
             </div>
+          ))} */}
+          <Link to={'/'} className="link-under font-outfit text-[18px] font-[400]">Home</Link>
+          <Link to={'/about'} className="link-under font-outfit text-[18px] font-[400]">About us</Link>
+          {/* <Link to={'/how-it-works'} className="link-under font-outfit text-[18px] font-[400]">How it works</Link>
+           */}
+           {navData.map((item, index) => (
+            <div key={index}>
+              <h2
+                className="flex cursor-pointer items-center gap-1 link-under font-outfit text-[18px] font-[400]"
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={handleMouseLeave}
+              >
+                {item.title}
+                <IoIosArrowDown />
+              </h2>
+              {isDropDownActive && activeDropdown === index && (
+                <div
+                  className={`absolute top-[95px] z-50 flex bg-white px-20 py-5 ${
+                    activeDropdownIndex !== 3 ? "left-0" : "" // Add the 'left-0' class if the active dropdown index is not 3 (Learn)
+                  }`}
+                  onMouseEnter={() => handleMouseEnter(index)}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {item.categories ? (
+                    <div className="flex flex-col gap-2">
+                      {item.categories.map((category, categoryIndex) => (
+                        <div
+                          key={categoryIndex}
+                          onMouseEnter={() =>
+                            handleCategoryMouseEnter(categoryIndex)
+                          }
+                          className={`flex cursor-pointer items-center gap-2 px-10 py-2 hover:bg-[#fafafa] hover:text-[#e9892b] ${
+                            activeCategory === categoryIndex
+                              ? "bg-[#fafafa]"
+                              : ""
+                          }`}
+                        >
+                          <span className="flex items-center gap-2 text-xl">
+                            {category.ico}
+                            {category.title}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-2 gap-5">
+                      {item.subitems &&
+                        item.subitems.map((subitem, subItemIndex) => (
+                          <Link
+                            to={subitem.url}
+                            key={subItemIndex}
+                            className="navdropdown-item flex w-full gap-4 rounded-lg px-2 py-2 hover:bg-[#f4fafc]"
+                            onMouseEnter={handleSubItemMouseEnter}
+                            onMouseLeave={handleSubItemMouseLeave}
+                            onClick={handleSubItemClick}
+                          >
+                            {subitem.thumb ? (
+                              // Design when subitem.thumb exists
+                              <>
+                                <img
+                                  src={subitem.thumb}
+                                  alt={subitem.heading}
+                                  className="size-20 rounded-xl object-cover"
+                                />
+                                <div>
+                                  <h3 className="font-outfit text-lg font-semibold">
+                                    {subitem.heading}
+                                  </h3>
+                                  <p className="font-dmsans text-sm">
+                                    {subitem.desc}
+                                  </p>
+                                </div>
+                              </>
+                            ) : (
+                              // Design when subitem.thumb does not exist
+                              <div>
+                                <h3 className="font-outfit text-lg font-semibold">
+                                  {subitem.heading}
+                                </h3>
+                              </div>
+                            )}
+                          </Link>
+                        ))}
+                    </div>
+                  )}
+                  {activeCategory !== null && item.categories && (
+                    <div className="flex flex-col bg-[#fafafa] p-3">
+                      <h3 className="font-outfit text-xl font-semibold">
+                        {item.categories[activeCategory].heading}
+                      </h3>
+                      <p className="font-dmsans text-sm">
+                        {item.categories[activeCategory].desc}
+                      </p>
+                      <div className="mt-6 grid grid-cols-3">
+                        {item.categories[activeCategory].subitems.map(
+                          (subitem, subItemIndex) => (
+                            <Link
+                              to={subitem.url}
+                              key={subItemIndex}
+                              className="rounded-lg p-2 hover:text-[#e9892b]"
+                              onClick={handleCategorySubItemClick}
+                            >
+                              {subitem.title}
+                            </Link>
+                          ),
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
           ))}
-          <Link to={'/about'} className="font-outfit hover:text-orange-500 text-[15px]">About</Link>
+          <Link to={'/build-your-team'} className="link-under font-outfit text-[18px] font-[400]">Build your team</Link>
 
-          <Link
+
+          {/* <Link
             to={"/pricing"}
             className="font-outfit text-[15px] hover:text-orange-500"
           >
             Pricing
-          </Link>
+          </Link> */}
           <Link to={'/contact'} className="btn py-[5px] ms-10">Book a strategy call</Link>
         </div>
         <motion.div

@@ -5,14 +5,40 @@ import HeroBanner4 from "../Sections/HeroBanner4/HeroBanner4";
 import { Link } from "react-router-dom";
 import GuranteePricing from "../Sections/GuranteePricing/GuranteePricing";
 import Reviews from "../Reviews/Reviews";
+import storyImg from "../../assets/images/campaign-creators-gMsnXqILjp4-unsplash.jpg";
+import fbiImg from "../../assets/images/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg";
+import dataSec from "../../assets/images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg";
+import missionImg from "../../assets/icons/mission.png";
+import visionImg from "../../assets/icons/vision.png";
+import valuesImg from "../../assets/icons/values.png";
+import Card from "../Card/Card";
+import Teams from "../Teams/Teams";
+
 const About = () => {
   const heroBanner = {
     title: "About Montazzo",
-    desc: "We make it easy and affordable for businesses to build their own full-time, dedicated teams in the India.",
+    desc: "Your Partner in Comprehensive CX and offshore staffing solutions.",
     img: "https://www.microsourcing.com/hubfs/Administrative%20Assistant_Desktop.jpg",
     imgRes:
       "https://www.microsourcing.com/hubfs/MicroSourcing/Build%20Your%20Team/Admin%20Assistant/MS%20-%20Header%20Banner%20M-%20Admin%20Assistant.jpg",
   };
+  const cardData = [
+    {
+      title: "Mission",
+      desc: "Our mission is to help you grow your business with smart and flexible offshoring solutions in the India. While at the same time, making a positive impact in the India.",
+      ico: missionImg,
+    },
+    {
+      title: "Vision",
+      desc: "Our vision is to become the recognized leader for outsourcing and offshoring solutions in the India.",
+      ico: visionImg,
+    },
+    {
+      title: "Values",
+      desc: "Our values form the foundation for how we serve our clients. We value integrity, transparency, value creation, professionalism, social responsibility and family.",
+      ico: valuesImg,
+    },
+  ];
   return (
     <div>
       <div>
@@ -32,36 +58,103 @@ const About = () => {
           help them do just that.
         </p>
       </div>
-      <div className="section-container mx-auto max-w-7xl">
-        <h1>Our Story</h1>
-        <p>
-          Montazzo LLC began its journey in 2021 with a focus on B2B lead
-          generation. As we worked with various clients, we saw the challenges
-          American businesses face due to high local hiring costs and overheads.
-          This issue is particularly significant for startups, often causing
-          financial strain and operational inefficiencies. To address this, we
-          expanded our services in 2022 to help businesses save 70-80% on salary
-          and overhead costs by building and managing offshore teams for almost
-          any online role. Today, we assist businesses from the USA, UK,
-          Australia, and Canada in scaling their operations efficiently by
-          outsourcing tasks to India.
-        </p>
-        <h1>FBI-Grade Background Checks</h1>
-        <p>
-          We ensure the highest level of security and reliability by providing
-          employees who have passed FBI-grade background checks. This rigorous
-          vetting process guarantees that our clients can trust the integrity
-          and competence of their offshore team members.
-        </p>
-        <h1>IT and Data Security</h1>
-        <p>
-          Data security is a top priority at Montazzo. Our 24/7 IT support team
-          implements robust system monitoring, advanced encryption, and strict
-          access controls to protect sensitive data. We conduct regular audits
-          and maintain comprehensive disaster recovery plans to ensure
-          compliance with industry security standards and to safeguard our
-          clients' information.
-        </p>
+
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 bg-[#f4fafc] px-5 py-10 md:flex-row md:items-center md:px-28">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={storyImg} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            Legacy Continues with <br /> 20+ Years of Experience
+          </h1>
+          <p>
+            Founded in 2019, Montazzo has an accumulated experience of more than
+            20+ years. The management is well aware about the industry and the
+            problems it is facing and works day in and day out for solutions.
+          </p>
+          <p className="pt-5">
+            We are a client-centric team that take pride in the collaborative
+            business relationships that we have developed with our clients and
+            the consistent results that we have delivered in all our projects in
+            the field of CX, Recruitment Process Outsourcing and Offshore
+            Staffing.
+          </p>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src="https://plus.unsplash.com/premium_photo-1661503228105-e404823831dd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
+        </div>
+        <div className="md:w-1/2">
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            OUR Difference
+          </h1>
+          <p className="text-md">
+            Our pricing model sets us apart from other BPOs. By separating
+            salaries from service costs, we make it very easy for you to see
+            that you’re getting the best possible talent for your money. You
+            have complete control over salaries and incentives, with the salary
+            component of your monthly fee going directly to your staff without
+            any mark-up.
+          </p>
+          <p className="pt-5 pb-5">
+            Most outsourcing service providers don’t do this. Instead, they
+            charge a ‘fixed hourly rate’ that bundles the service fee and the
+            employee’s salary. This pricing model incentivizes the provider to
+            find the cheapest possible labor to maximize their margins. As a
+            result, candidate quality suffers and staff quickly leave as soon as
+            they’re offered market rate elsewhere.
+          </p>
+          <p>
+            We pay market rates for the skills you need, attracting the best
+            candidates and ensuring they feel valued and rewarded for their
+            work. Although this model yields lower profits for us, it allows us
+            to offer competitive salaries to our local employees, resulting in
+            higher job satisfaction and lower attrition rates. In fact,
+            Montazzo's employee attrition rate is less than half the industry
+            average.
+          </p>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col  gap-10 px-5 bg-[#f4fafc] py-10 md:flex-row md:items-center md:px-28">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={fbiImg} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            FBI-Grade Background Checks
+          </h1>
+          <p className="text-md">
+            We ensure the highest level of security and reliability by hiring
+            employees who have passed FBI-grade background checks. This rigorous
+            vetting process guarantees that our clients can trust the integrity
+            and competence of their offshore team members.
+          </p>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col gap-10  px-5 py-10 md:flex-row-reverse md:items-center md:px-28">
+        <div className="md:w-1/2">
+          <img className="rounded-lg" src={dataSec} alt="img" />
+        </div>
+        <div className="md:w-1/2">
+          <h1 className="pb-5 font-outfit text-4xl font-normal">
+            IT and Data Security
+          </h1>
+          <p className="text-md">
+            Data security is a top priority at Montazzo. Our 24/7 IT support
+            team implements robust system monitoring, advanced encryption, and
+            strict access controls to protect sensitive data. We conduct regular
+            audits and maintain comprehensive disaster recovery plans to ensure
+            compliance with industry security standards and to safeguard our
+            clients' information.
+          </p>
+        </div>
+      </div>
+
+      {/* <div className="section-container mx-auto max-w-7xl">
         <img
           src="https://www.microsourcing.com/hubfs/MicroSourcing_May2020/Images/mic_MS_MicroSourcing-team.jpg"
           alt="img"
@@ -105,7 +198,15 @@ const About = () => {
             Montazzo University with dozens of training development programs
           </li>
         </ul>
+      </div> */}
+
+      <div className="mx-auto max-w-7xl px-5 py-20">
+        <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
+          Meet Our Team
+        </h2>
+        <Teams />
       </div>
+
       <div className="flex flex-col items-center gap-5 pt-10">
         <GuranteePricing />
         <Link to={`/contact`} className="btn px-10 py-4">
@@ -113,41 +214,13 @@ const About = () => {
         </Link>
       </div>
       <div className="section-container mx-auto max-w-7xl">
-        <h1>Mission, Vision and Values</h1>
+        {/* <h1>Mission, Vision and Values</h1> */}
 
-        <h2>Mission</h2>
-        <p>
-          Our mission is to help you grow your business with smart and flexible
-          offshoring solutions in the India. While at the same time, making a
-          positive impact in the India.
-        </p>
-
-        <h2>Vision</h2>
-        <p>
-          Our vision is to become the recognized leader for outsourcing and
-          offshoring solutions in the India.
-        </p>
-
-        <h2>Values</h2>
-        <p>
-          Our values form the foundation for how we serve our clients. We value
-          integrity, transparency, value creation, professionalism, social
-          responsibility and family.
-        </p>
-
-        <p>
-          We believe in fostering an open work environment, and invest heavily
-          in employee engagement activities. This means we can attract and
-          retain top talent for your business. And it means your team members
-          feel comfortable and motivated.
-        </p>
-
-        <p>
-          So while we’re all professionals here, we’ve got a fun and friendly
-          vibe. We set up your team’s workstations so they can freely talk to
-          one another and we don’t have strict dress codes (hoodies, t-shirts,
-          jeans, dresses – whatever!).
-        </p>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {cardData.map((data) => (
+            <Card title={data.title} desc={data.desc} ico={data.ico} />
+          ))}
+        </div>
       </div>
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
