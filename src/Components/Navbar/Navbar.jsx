@@ -608,14 +608,14 @@ const Navbar = () => {
               )}
             </div>
           ))} */}
-          <Link to={'/'} className="link-under font-outfit text-[18px] font-[400]">Home</Link>
-          <Link to={'/about'} className="link-under font-outfit text-[18px] font-[400]">About us</Link>
-          <Link to={'/how-it-works'} className="link-under font-outfit text-[18px] font-[400]">How it works</Link>
+          <Link to={'/'} className="link-under font-outfit text-[17px] font-[400]">Home</Link>
+          <Link to={'/about'} className="link-under font-outfit text-[17px] font-[400]">About us</Link>
+          <Link to={'/how-it-works'} className="link-under font-outfit text-[17px] font-[400]">How it works</Link>
           
            {navData.map((item, index) => (
             <div key={index}>
               <h2
-                className="flex cursor-pointer items-center gap-1 link-under font-outfit text-[18px] font-[400]"
+                className="flex cursor-pointer items-center gap-1 link-under font-outfit text-[17px] font-[400]"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -720,7 +720,7 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          {/* <Link to={'/build-your-team'} className="link-under font-outfit text-[18px] font-[400]">Build your team</Link> */}
+          {/* <Link to={'/build-your-team'} className="link-under font-outfit text-[17px] font-[400]">Build your team</Link> */}
 
 
           {/* <Link

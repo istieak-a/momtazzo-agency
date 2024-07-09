@@ -59,7 +59,7 @@ const HowItWorks = () => {
   };
 
   return (
-    <div className="bg-[#fff9e6]">
+    <div className="bg-[#f4fafc]">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-5 py-10 md:px-28 md:py-20">
         <h1 className="font-outfit text-5xl font-normal">How does it work?</h1>
         <p className="w-[70%] text-center text-lg md:w-1/2">
@@ -68,13 +68,11 @@ const HowItWorks = () => {
         </p>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-10 px-5 py-10 md:flex-row md:px-28">
-        <div className="faq-container md:w-[80%]">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-10 px-5 py-10 md:px-28">
+        <div className="faq-container">
           <Faq data={data} styles={styles} config={config} />
         </div>
-        <div>
-          <img src={faqbg} alt="" />
-        </div>
+
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
