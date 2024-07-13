@@ -6,7 +6,7 @@ const HeroBanner2 = ({ img, title, btn, cate }) => {
   return (
     <div>
       <div
-        className="flex flex-col gap-10 px-5 py-10 md:flex-row md:px-28 md:py-16"
+        className="flex flex-col gap-10 px-5 py-10 md:flex-row md:px-28 md:py-16 bg-no-repeat bg-cover bg-center items-center justify-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="flex flex-col items-center justify-center md:items-start">
@@ -14,7 +14,7 @@ const HeroBanner2 = ({ img, title, btn, cate }) => {
           <h1 className="text-center font-outfit text-4xl font-bold md:text-left md:text-5xl">
             {title}
           </h1>
-          <Link className="btn mt-5">{btn}</Link>
+          <Link to={'/contact'} className="btn mt-5">{btn}</Link>
         </div>
         <img src={img} alt="banner-img" />
       </div>

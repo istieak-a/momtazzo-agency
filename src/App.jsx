@@ -80,6 +80,7 @@ import WebDeveloper from "./Components/pages/Jobs/WebDeveloper/WebDeveloper";
 import Pricing from "./Components/Pricing/Pricing";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import DataSecurity from "./Components/DataSecurity/DataSecurity";
 const App = () => {
   return (
     <BrowserRouter>
@@ -90,6 +91,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/data-security" element={<DataSecurity />} />
 
         <Route path="why-outsource/" element={<WhyOutsource />}> {/* Use the WhyOutsource component */}
           <Route path="reduce-cost" element={<ReduceCost />} />
