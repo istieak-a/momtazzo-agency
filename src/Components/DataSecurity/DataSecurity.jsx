@@ -1,6 +1,7 @@
 import React from "react";
 import HeroBanner2 from "../Sections/HeroBanner2/HeroBanner2";
 import Card from "../Card/Card";
+import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 
 const DataSecurity = () => {
   const banner = {
@@ -93,8 +94,8 @@ const DataSecurity = () => {
       <div className="mx-auto max-w-7xl px-5 py-10 md:px-16">
         <div className="flex flex-col items-center gap-8 rounded-lg bg-[#f4fafc] py-10 text-center shadow-lg">
           <h1 className="w-[80%] font-outfit text-4xl text-[#50aab2]">
-            At Montazzo, we understand the critical importance of keeping
-            your sensitive information secure when sending it overseas.
+            At Montazzo, we understand the critical importance of keeping your
+            sensitive information secure when sending it overseas.
           </h1>
           <p className="w-1/2">
             Our robust data security and stringent compliance controls are
@@ -103,54 +104,7 @@ const DataSecurity = () => {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-20 px-5 py-10 md:px-16">
-        <div className=" flex flex-col items-center text-center">
-          <h1 className="font-sans text-4xl font-semibold">
-            ISO 27001 and 9001 certifications
-          </h1>
-          <p className="w-1/2 pt-5">
-            Montazzo is ISO 27001 and ISO 9001 certified and is audited
-            yearly by SGS, an internationally renowned and recognized auditing
-            firm.
-          </p>
-        </div>
-        <div className="grid grid-cols-2 gap-10">
-          <div className="flex items-start gap-10">
-            <img
-              className="w-[100px]"
-              src="https://www.microsourcing.com/hubfs/MicroSourcing/About%20Us/Data%20Security%20and%20Compliance/ISO%2027001.png"
-              alt="iso"
-            />
-            <div>
-              <h1 className="font-semibold text-blue-500">
-                ISO 27001 CERTIFICATION
-              </h1>
-              <p className="w-[70%] pt-3 text-sm">
-                Signifies that we can expertly establish, implement, maintain
-                and continually improve an information security management
-                system within an organization, including the assessment and
-                treatment of risks.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start gap-10">
-            <img
-              className="w-[100px]"
-              src="https://www.microsourcing.com/hubfs/MicroSourcing/About%20Us/Data%20Security%20and%20Compliance/ISO%209001.png"
-              alt="iso"
-            />
-            <div>
-              <h1 className="font-semibold text-blue-500">
-                ISO 9001 CERTIFICATION
-              </h1>
-              <p className="w-[70%] pt-3 text-sm">
-                Signifies that we can consistently provide services that meet
-                customer, statutory and regulatory requirements.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+   
 
       <div className="mx-auto flex max-w-7xl flex-col gap-14 bg-[#f4fafc] px-5 py-10 md:px-16 md:py-16">
         <div className="flex flex-col items-center gap-8 text-center">
@@ -176,31 +130,58 @@ const DataSecurity = () => {
           </h1>
           <p className="w-1/2">
             Montazzo recognizes the importance of business continuity and
-            disaster recovery management. Every Montazzo facility provides
-            100% infrastructure redundancy and world-class business continuity
+            disaster recovery management. Every Montazzo facility provides 100%
+            infrastructure redundancy and world-class business continuity
             processes, including:
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           {revoeryData.map((data, index) => (
             <Card key={index} ico={data.ico} desc={data.title} />
           ))}
         </div>
       </div>
-      <div className="bg-[#f4fafc] px-5 md:px-16 flex flex-col items-center py-10 gap-5 max-w-7xl mx-auto">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 bg-[#f4fafc] px-5 py-10 md:px-16">
         <h1 className="font-outfit text-4xl">Risk management</h1>
-        <p className="w-[80%] text-center">Montazzo has implemented various risk management measures with all offices located in private compounds with access points monitored by security cameras. The office buildings in which we operate have their own security guards and strict protocols for the delivery of and extraction of assets, and entry of people.</p>
+        <p className="w-[80%] text-center">
+          Montazzo has implemented various risk management measures with all
+          offices located in private compounds with access points monitored by
+          security cameras. The office buildings in which we operate have their
+          own security guards and strict protocols for the delivery of and
+          extraction of assets, and entry of people.
+        </p>
       </div>
-      
+
       <div className="mx-auto flex max-w-7xl  gap-14 px-5 py-10 md:px-16 md:py-16">
-        <img src="https://www.microsourcing.com/hubfs/MicroSourcing/About%20Us/Data%20Security%20and%20Compliance/istockphoto-1669221932.png" alt="img" />
+        <img
+          src="https://www.microsourcing.com/hubfs/MicroSourcing/About%20Us/Data%20Security%20and%20Compliance/istockphoto-1669221932.png"
+          alt="img"
+        />
         <div className="flex flex-col gap-5">
-          <h1 className="font-outfit text-4xl">Remote work and work from home functionality</h1>
-          <p>Montazzo understands the need for remote or work-from-home solutions and has implemented robust measures to ensure data security in such scenarios. We take a client-centric approach, providing connectivity, staff deployment, office space and hardware, while clients equip their offshore staff with necessary tools and systems - keeping client data under their control.</p>
-          <p>We work with our clients to implement industry best practices for remote setups, including access controls and compliance with regulations like HIPAA, PCI DSS and emergency protocols. Our customizable solutions enable secure remote operations while prioritizing client data protection.</p>
+          <h1 className="font-outfit text-4xl">
+            Remote work and work from home functionality
+          </h1>
+          <p>
+            Montazzo understands the need for remote or work-from-home solutions
+            and has implemented robust measures to ensure data security in such
+            scenarios. We take a client-centric approach, providing
+            connectivity, staff deployment, office space and hardware, while
+            clients equip their offshore staff with necessary tools and systems
+            - keeping client data under their control.
+          </p>
+          <p>
+            We work with our clients to implement industry best practices for
+            remote setups, including access controls and compliance with
+            regulations like HIPAA, PCI DSS and emergency protocols. Our
+            customizable solutions enable secure remote operations while
+            prioritizing client data protection.
+          </p>
         </div>
       </div>
 
+      <div>
+        <BuildTeam />
+      </div>
     </div>
   );
 };
