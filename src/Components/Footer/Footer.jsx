@@ -93,6 +93,9 @@ const Footer = () => {
             <Link to={'/how-it-works'} className="link-white font-dmsans text-[16px] font-[400]">
               How it works
             </Link>
+            <Link to={'/data-security'} className="link-white font-dmsans text-[16px] font-[400]">
+              Data Security
+            </Link>
           </div>
         </div>
 

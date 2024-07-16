@@ -611,6 +611,7 @@ const Navbar = () => {
           <Link to={'/'} className="link-under font-outfit text-[17px] font-[400]">Home</Link>
           <Link to={'/about'} className="link-under font-outfit text-[17px] font-[400]">About us</Link>
           <Link to={'/how-it-works'} className="link-under font-outfit text-[17px] font-[400]">How it works</Link>
+          <Link to={'/data-security'} className="link-under font-outfit text-[17px] font-[400]">Data security</Link>
           
            {navData.map((item, index) => (
             <div key={index}>
