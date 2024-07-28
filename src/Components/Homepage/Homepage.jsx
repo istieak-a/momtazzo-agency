@@ -132,7 +132,7 @@ const Homepage = () => {
       desc: "All offshore are vetted, FBI-grade background checked and undergo extensive personality profiling to ensure you receive the quality and qualified professional.",
       ico: contact,
     },
-    // 
+    //
     {
       title: "All-Inclusive Pricing",
       desc: "Pay one flat rate per virtual assistant and let us handle the rest. We provide competitive medical benefits, insurance and paid time off in addition to handling the entire recruitment, interview and onboarding process.",
@@ -148,45 +148,46 @@ const Homepage = () => {
   return (
     <div>
       <div className="bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16">
-  <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
-    <div className="pe-5 md:w-[60%] md:pe-0">
-      <h1 className="font-sans text-xs md:text-sm">
-        GROW YOUR BUSINESS WITH MONTAZZO'S
-      </h1>
-      <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
-        OFFSHORE PROFESSIONALS
-      </h2>
-      <p className="text-lg">
-        Outsource any remote role to our skilled and experienced professionals with your local market expertise, working from our 24/7 office in your time zone.
-      </p>
-      <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
-        <Link className="btn" to="/contact">
-          Ask an expert
-        </Link>
-        <Link className="btn-outline" to="/contact">
-          What roles to outsource
-        </Link>
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
+          <div className="pe-5 md:w-[60%] md:pe-0">
+            <h1 className="font-sans text-xs md:text-sm">
+              GROW YOUR BUSINESS WITH MONTAZZO'S
+            </h1>
+            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
+              Virtual Assistants
+            </h2>
+            <p className="text-lg">
+              Outsource any remote role to our college educated, pre trained and
+              experienced professionals with your local market expertise.
+            </p>
+            <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
+              <Link className="btn" to="/contact">
+                Ask an expert
+              </Link>
+              <Link className="btn-outline" to="/contact">
+                What roles to outsource
+              </Link>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-lg shadow-2xl md:w-[40%]">
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/973150201?badge=0&autopause=0&player_id=0&app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                title="Montazzo LLC"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div className="overflow-hidden rounded-lg shadow-2xl md:w-[40%]">
-      <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-        <iframe
-          src="https://player.vimeo.com/video/973150201?badge=0&autopause=0&player_id=0&app_id=58479"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-          style={{
-            position: "absolute",
-            top: "0",
-            left: "0",
-            width: "100%",
-            height: "100%",
-          }}
-          title="Montazzo LLC"
-        ></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 
       {/* <div className="grid grid-cols-2 md:grid-cols-6 ">
         {partners.map((item, index) => (
@@ -216,7 +217,7 @@ const Homepage = () => {
           );
         })}
       </div>
-      <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
+      {/* <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
         <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
           <div className="chart md:w-[60%]">
             <div className="chart-container flex flex-col gap-7 border-b py-5">
@@ -241,10 +242,10 @@ const Homepage = () => {
                 (BPO) save 70% on employment costs.
               </span>
             </h2>
-            {/* <Link className="btn">Learn how your business can save</Link> */}
+            <Link className="btn">Learn how your business can save</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
         <h1 className="font-outfit text-4xl font-normal md:text-5xl">
           How offshoring works
@@ -285,7 +286,7 @@ const Homepage = () => {
         </div>
       </div> */}
 
-      {/* <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl">
         <div className="flex flex-col justify-between gap-5 px-5 py-20 md:flex-row md:px-24 md:py-36">
           <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
             Our model saves our clients{" "}
@@ -321,7 +322,7 @@ const Homepage = () => {
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <h1 className="text-center font-outfit text-4xl font-[500]">
@@ -341,14 +342,14 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center bg-zinc-50 py-20 gap-20">
-        <h2 className="text-4xl md:text-6xl font-bold text-zinc-800 font-outfit">
-        How Offshoring Works
+      <div className="flex flex-col items-center gap-20 bg-zinc-50 py-20">
+        <h2 className="font-outfit text-4xl font-bold text-zinc-800 md:text-6xl">
+          How Offshoring Works
         </h2>
         <div className="mb-5 flex flex-col items-center justify-center gap-8 md:flex-row">
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 1.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -358,12 +359,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Start Your Free Consultation</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Start Your Free Consultation
+            </p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 2.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -373,12 +376,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Meet With Our Team</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Meet With Our Team
+            </p>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-4 p-20 bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] rounded-full">
-              <div className="absolute left-16 top-17 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
+            <div className="relative mb-4 rounded-full bg-gradient-to-b from-[#EDEEEF] to-[#F5F6F6] p-20">
+              <div className="top-17 absolute left-16 flex h-7 w-7 items-center justify-center rounded-full bg-[#50aab2] text-white">
                 3.
               </div>
               <div className="rounded-lg bg-white p-6 shadow-lg">
@@ -388,10 +393,14 @@ const Homepage = () => {
                 />
               </div>
             </div>
-            <p className="text-zinc-800 font-semibold text-xl pt-10">Hire Your Offshore Professional</p>
+            <p className="pt-10 text-xl font-semibold text-zinc-800">
+              Hire Your Offshore Professional
+            </p>
           </div>
         </div>
-        <Link to="/contact" className="btn">Book a strategy Call</Link>
+        <Link to="/contact" className="btn">
+          Book a strategy Call
+        </Link>
       </div>
 
       <div className="mx-auto max-w-7xl px-5 py-20">
@@ -400,7 +409,7 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
-      {/* <Accordion /> */}
+      <Accordion />
       <div>
         <BuildTeam />
       </div>
