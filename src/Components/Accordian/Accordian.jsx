@@ -1,61 +1,129 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Accordion = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const accordionData = [
     {
-      title: "Do you offer full time or part time?",
-      content: "We offer full-time dedicated teams for clients. Our staff will work exclusively within your systems, ensuring they carry their learnings from one day to the next and provide onshore reporting directly to you and your teams. This level of commitment ensures that you receive the undivided attention it deserves. In contrast, some offshore providers offer part-time services where the staff members may be shared across multiple clients simultaneously, providing a more flexible but less dedicated approach."
+      title: "What is a virtual assistant?",
+      content:
+        "Virtual assistants are individuals who provide virtual assistance services remotely. They perform various tasks such as administrative support, scheduling appointments, managing emails, conducting research, social media management, and data entry, among others. They utilize their skills, expertise, and organizational abilities to assist individuals or businesses in accomplishing their tasks and improving productivity.",
     },
     {
-      title: "As a client, will I have visibility over the salary and benefits of my offshore team members?",
-      content: "Yes, you will have complete visibility because we prioritize transparency. You will have the final say in determining the compensation for your staff member. Our fees consist of two components: A fixed monthly service fee - per employee: covers our top-notch facilities, furnished offices, support services, IT assistance and client management. Direct employee costs: base salary and benefits - with no margin attached. We separate salaries from service costs to give you control over compensation. The salary component of your fee goes directly to your staff without any markup. This transparency not only provides visibility into your labor costs but also allows you to discern precisely what you're paying for in terms of skills and experience."
+      title: "What does a virtual assistant do?",
+      content:
+        "A virtual assistant can perform just about anything as long as your business has the right tools. VAs can tackle anything from sales to customer service to administrative work — answering calls, managing inboxes, data entry, customer support, graphic design, cold-calling, number crunching, payroll, etc. If it can be done remotely on a PC, they can likely do it. Montazzo carefully evaluates your business objectives to make sure that a Virtual Assistant will meet or exceed your expectations.",
     },
     {
-      title: "Do you have an option to deliver work from home or hybrid?",
-      content: "We prioritize delivering top talent and outstanding results. While our preference is for an in-office culture, we understand the importance of flexibility. That's why we offer options for both in-office and remote work arrangements, supported by advanced digital infrastructure. With our approach, you have the freedom to assemble a skilled workforce tailored to your needs, all while maintaining data security and data loss prevention. We're here to help you achieve excellence in talent and output, regardless of the work mode you choose."
+      title: "How much time does a virtual assistant save?",
+      content:
+        "Hiring a virtual assistant means you don’t need to go through a lengthy recruitment or interview process, saving you time and money.",
     },
     {
-      title: "What happens if it doesn't work out or go to plan?",
-      content: "We have protocols in place to address situations where things may not go as expected. We employ performance management frameworks to ensure that any issues are addressed promptly and effectively. Regarding your partnership with Montazzo, you have the flexibility to terminate the agreement at any time with proper notice."
+      title: "Why should I use Montazzo for virtual assistant services?",
+      content:
+        "Since 2008 Montazzo has delivered the highest quality virtual assistant services to businesses across the nation – including 36 of the RealTrends™ Top-100 ranked Real Estate teams in the country and several Inc 5000 and Fortune 500 companies! We value our clients & treat them all with white-glove service & support, whether you’re a startup or an established business with decades of experience. We employ a stringent talent matching process that uses detailed work experience profiling, FBI grade background checks, and even DISC personality matching to ensure you receive the most experienced, educated & skilled virtual assistant services possible. Virtual assistants cost up to 70% less than in-house staff and allow you to scale your business rapidly – our virtual assistants make our clients over $100 million a year!",
     },
     {
-      title: "What is included in your pricing model?",
-      content: "Our pricing model is designed for transparency and value. It consists of two components: A fixed monthly service fee - per employee: This fee covers access to our premium facilities, fully furnished offices, comprehensive support services, IT assistance and dedicated client management. Direct employee costs: We are transparent in our approach, separating base salaries and benefits from service costs. There are no additional margins added. The salary component of your fee is directly allocated to your staff without any markup. This transparent structure not only provides clarity on your labor costs but also enables you to precisely determine the value you receive in terms of skills and experience."
-    }
+      title: "Will I have to train my virtual assistant?",
+      content:
+        "Your virtual assistant will need to be trained just as any in-house employee would. Each business is unique and there is no silver bullet to avoid having to spend time with your virtual assistant teaching them your business processes, procedures, and systems. Montazzo will give you the top 1% of talent, the tools, and the resources to make sure you hit the ground running. You will also get a copy of our e-book “Scaling Your Business With Virtual Professionals” when you have a consultation with us, which will give you the recipe to go from a single virtual assistant to having an entire team. No strings attached.",
+    },
+    {
+      title: "How long does it take to hire a virtual assistant with Montazzo?",
+      content:
+        "The average time to hire an assistant in the US is roughly 30 days. At Montazzo we can provide you with multiple highly-qualified VAs to select from and hit the ground running in as little as 1 week.",
+    },
+    {
+      title: "How does the hiring process work?",
+      content:
+        "We present several virtual assistants from our diverse pool of professionals, handpicked to fit your specific business needs. You then select which one(or more) you’d like to start onboarding.",
+    },
+    {
+      title: "What services can a virtual assistant provide?",
+      content:
+        "A virtual assistant can provide a wide range of services to any business owner, including administrative tasks, social media management, bookkeeping, research, customer support, and other specialized tasks based on the business’s unique needs. If it can be done remotely via laptop, chances are a VA can handle it for you.",
+    },
+    {
+      title: "How do I know if a virtual assistant is right for me?",
+      content:
+        "You should consider hiring a virtual assistant if you find yourself overwhelmed with tasks or struggling to manage your workload efficiently. A virtual assistant could be a cost-effective solution if you’re spending too much time on non-core business activities. Furthermore, if you want to scale your business without the numerous costs of hiring an in-house assistant, then a VA can provide the necessary support at a fraction of the cost.",
+    },
+    {
+      title: "What makes a good virtual assistant?",
+      content:
+        "A virtual assistant should always have, at minimum, the typically expected skills of any assistant professional. Such as; good communication, proper time management, self-discipline and motivation, organization, confident typing abilities, and technical know-how.",
+    },
+    {
+      title: "How challenging is it to hire a virtual assistant?",
+      content:
+        "Hiring a capable virtual assistant requires planning and effort. Clearly define your needs, set expectations, and leverage online platforms or agencies to find qualified candidates. Invest time in thorough interviewing and reference checks to ensure a successful match. The long-term benefits of increased productivity and time freedom for your business growth often outweigh the initial effort.",
+    },
+    {
+      title: "Are there any tasks virtual assistants can’t do?",
+      content:
+        "Virtual professionals are remote working professionals, so tasks requiring a physical presence, like picking up an order or greeting customers at the door would of course be impossible. However, for most administrative, technical, customer service, and creative tasks, virtual assistants can be fantastic remote partners.",
+    },
+    {
+      title:
+        "Can virtual assistants provide more than just administrative tasks?",
+      content:
+        "Virtual assistants transcend mere administrative support. Imagine a skilled, remote extension of your team, adept at managing social media channels, conducting in-depth research, crafting compelling content, and even wielding graphic design magic. By delegating diverse tasks, you regain focus on your business core, leaving the rest to your versatile VA partner.",
+    },
+    {
+      title: "What tasks should I outsource to my virtual assistant first?",
+      content:
+        "Free up your day by handing off email management, calendar wrangling, and meeting logistics to your VA. Let them research and book travel, handle social media scheduling, and tackle basic data entry. These are some of the most common initial tasks virtual assistants are utilized for, allowing you to save your precious time for the work that truly demands your focus.",
+    },
+    {
+      title: "When should I hire a virtual assistant?",
+      content:
+        "The perfect timing depends on your unique needs. Hire a VA if you’re drowning in admin tasks, missing deadlines, or sacrificing growth due to time constraints. Even a small business can benefit if you lack specialized skills or simply want to focus on higher-level work. Don’t wait until you’re overwhelmed; be proactive, not reactive.",
+    },
+    {
+      title:
+        "Which industries benefit from virtual assistant services the most?",
+      content:
+        "Industries that see the most value in virtual assistant services are customer service, tech, marketing, sales, real estate, HR, insurance, etc. The list goes on. Businesses in any industry with work to be done digitally and remotely are a great fit for VA services!",
+    },
+    {
+      title: "How does pricing work?",
+      content:
+        "Our clients pay us a flat monthly rate, and we pay our virtual assistants ourselves, as well as handle all insurance, benefits, and PTO.",
+    },
   ];
-  
 
-  const toggleAccordion = index => {
+  const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
-    <div className="py-10 md:py-20 mx-auto max-w-7xl flex flex-col items-center">
-      <h2 className="text-5xl font-bold font-outfit mb-5">Frequently asked questions</h2>
-      <div className='bg-white p-5 shadow-md rounded-lg'>
-      {accordionData.map((item, index) => (
-        <div key={index} className="mb-2 last:mb-0">
-          <button
-            onClick={() => toggleAccordion(index)}
-            className="flex justify-between items-center w-full px-10 py-5 text-left bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-opacity-75 focus-visible:ring-blue-500"
-            aria-expanded={openIndex === index}
-          >
-            <span className="font-medium text-gray-700 text-xl">{item.title}</span>
-            <span className="text-lg">
-              {openIndex === index ? '-' : '+'}
-            </span>
-          </button>
-          <div
-            className={`overflow-hidden transition-max-height duration-500 ease-in-out ${openIndex === index ? 'max-h-96' : 'max-h-0'}`}
-          >
-            <div className="p-5 text-gray-600 bg-white rounded-lg text-xl shadow-inner">
-              {item.content}
+    <div className="mx-auto flex max-w-7xl flex-col items-center py-10 md:py-20">
+      <h2 className="mb-5 font-outfit text-5xl font-bold">
+        Frequently asked questions
+      </h2>
+      <div className="rounded-lg bg-white p-5 shadow-md">
+        {accordionData.map((item, index) => (
+          <div key={index} className="mb-2 last:mb-0">
+            <button
+              onClick={() => toggleAccordion(index)}
+              className="flex w-full items-center justify-between rounded-lg bg-gray-100 px-10 py-5 text-left hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75"
+              aria-expanded={openIndex === index}
+            >
+              <span className="text-xl font-medium text-gray-700">
+                {item.title}
+              </span>
+              <span className="text-lg">{openIndex === index ? "-" : "+"}</span>
+            </button>
+            <div
+              className={`transition-max-height overflow-hidden duration-500 ease-in-out ${openIndex === index ? "max-h-96" : "max-h-0"}`}
+            >
+              <div className="rounded-lg bg-white p-5 text-xl text-gray-600 shadow-inner">
+                {item.content}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </div>
   );
