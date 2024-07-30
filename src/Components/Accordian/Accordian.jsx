@@ -20,11 +20,6 @@ const Accordion = () => {
         "Hiring a virtual assistant means you don’t need to go through a lengthy recruitment or interview process, saving you time and money.",
     },
     {
-      title: "Why should I use Montazzo for virtual assistant services?",
-      content:
-        "Since 2008 Montazzo has delivered the highest quality virtual assistant services to businesses across the nation – including 36 of the RealTrends™ Top-100 ranked Real Estate teams in the country and several Inc 5000 and Fortune 500 companies! We value our clients & treat them all with white-glove service & support, whether you’re a startup or an established business with decades of experience. We employ a stringent talent matching process that uses detailed work experience profiling, FBI grade background checks, and even DISC personality matching to ensure you receive the most experienced, educated & skilled virtual assistant services possible. Virtual assistants cost up to 70% less than in-house staff and allow you to scale your business rapidly – our virtual assistants make our clients over $100 million a year!",
-    },
-    {
       title: "Will I have to train my virtual assistant?",
       content:
         "Your virtual assistant will need to be trained just as any in-house employee would. Each business is unique and there is no silver bullet to avoid having to spend time with your virtual assistant teaching them your business processes, procedures, and systems. Montazzo will give you the top 1% of talent, the tools, and the resources to make sure you hit the ground running. You will also get a copy of our e-book “Scaling Your Business With Virtual Professionals” when you have a consultation with us, which will give you the recipe to go from a single virtual assistant to having an entire team. No strings attached.",

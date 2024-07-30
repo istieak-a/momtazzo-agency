@@ -169,7 +169,7 @@ const Homepage = () => {
               </Link>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg shadow-2xl md:w-[40%]">
+          <div className="overflow-hidden rounded-lg shadow-2xl md:w-[60%]">
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/973150201?badge=0&autopause=0&player_id=0&app_id=58479"
