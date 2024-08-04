@@ -147,25 +147,25 @@ const Homepage = () => {
 
   return (
     <div>
-      <div className="bg-gradient-to-br from-top-left to-bottom-right px-8 py-24 md:px-16">
+      <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:px-16 ">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 md:flex-row md:gap-20">
           <div className="pe-5 md:w-[60%] md:pe-0">
-            <h1 className="font-sans text-xs md:text-sm">
-              GROW YOUR BUSINESS WITH MONTAZZO'S
+            <h1 className="font-dmsans text-4xl md:text-5xl">
+              Hire full-time outsourced teams in India.{" "}
             </h1>
-            <h2 className="py-8 font-outfit text-5xl font-semibold tracking-wide md:text-6xl">
-              Virtual Assistants
+            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
+              Ready to work in as little as two weeks
             </h2>
-            <p className="text-lg">
-              Outsource any remote role to our college educated, pre trained and
-              experienced professionals with your local market expertise.
+            <p className="pt-5">
+              Achieve unparalleled, sustainable growth while maintaining
+              complete operational control.
             </p>
             <div className="mt-6 flex flex-col items-start gap-4 md:flex-row">
               <Link className="btn" to="/contact">
                 Ask an expert
               </Link>
               <Link className="btn-outline" to="/contact">
-                What roles to outsource
+                what roles to outsource
               </Link>
             </div>
           </div>
@@ -203,7 +203,78 @@ const Homepage = () => {
           </div>
         ))}
       </div> */}
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
+
+      <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
+        <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
+          <div className="chart md:w-[60%]">
+            <div className="chart-container flex flex-col gap-7 border-b py-5">
+              <div className="w-[55%]">
+                <h2>AUSTRALIA</h2>
+              </div>
+              <div className="w-[70%]">
+                <h2>USA</h2>
+              </div>
+              <div className="w-[100%]">
+                <h2>UK</h2>
+              </div>
+              <div className="w-[20%]">
+                <h2>INDIA</h2>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-start justify-center gap-5 md:w-[40%]">
+            <h2 className="font-outfit text-4xl text-white md:text-5xl ">
+              Businesses who engage in business process outsourcing{" "}
+              <span className="font-semibold">
+                (BPO) save 70% on employment costs.
+              </span>
+            </h2>
+            {/* <Link className="btn">Learn how your business can save</Link> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 md:gap-10 md:px-16 md:py-20">
+        <h1 className="font-outfit text-4xl font-normal md:text-5xl">
+          How offshoring works
+        </h1>
+        <div className="flex flex-col gap-5 md:flex-row">
+          <div className="flex flex-col gap-5 md:w-1/2">
+            {offhsoring.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="offshoring cursor-pointer rounded-lg py-4 ps-8 duration-300 hover:shadow-xl"
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                >
+                  <h3 className="font-dmsans text-xs font-bold text-[#3e96dd]">
+                    {item.no}
+                  </h3>
+                  <h1 className="font-outfit text-4xl font-[600]">
+                    {item.title}
+                  </h1>
+                  <p className="w-[70%] pt-5 font-dmsans text-lg">
+                    {item.desc}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="flex items-center">
+            <img
+              src={
+                hoveredIndex !== null
+                  ? offhsoring[hoveredIndex].img
+                  : offhsoring[0].img
+              }
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
         {cardData.map((item, index) => {
           return (
             <Card
@@ -216,7 +287,7 @@ const Homepage = () => {
             />
           );
         })}
-      </div>
+      </div> */}
       {/* <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
         <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
           <div className="chart md:w-[60%]">
@@ -286,7 +357,7 @@ const Homepage = () => {
         </div>
       </div> */}
 
-      <div className="mx-auto max-w-7xl">
+      {/* <div className="mx-auto max-w-7xl">
         <div className="flex flex-col justify-between gap-5 px-5 py-20 md:flex-row md:px-24 md:py-36">
           <p className="border-t-4 border-[#61b2ba] pt-5 font-outfit text-4xl md:me-10 md:w-1/2 md:text-5xl">
             Our model saves our clients{" "}
@@ -322,9 +393,9 @@ const Homepage = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
+      {/* <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:px-16">
         <h1 className="text-center font-outfit text-4xl font-[500]">
           What sets us apart
         </h1>
@@ -340,9 +411,9 @@ const Homepage = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col items-center gap-20 bg-zinc-50 py-20">
+      {/* <div className="flex flex-col items-center gap-20 bg-zinc-50 py-20">
         <h2 className="font-outfit text-4xl font-bold text-zinc-800 md:text-6xl">
           How Offshoring Works
         </h2>
@@ -401,7 +472,7 @@ const Homepage = () => {
         <Link to="/contact" className="btn">
           Book a strategy Call
         </Link>
-      </div>
+      </div> */}
 
       <div className="mx-auto max-w-7xl px-5 py-20">
         <h2 className="pb-10 text-center font-outfit text-4xl font-bold">
@@ -409,7 +480,7 @@ const Homepage = () => {
         </h2>
         <Reviews />
       </div>
-      <Accordion />
+      {/* <Accordion /> */}
       <div>
         <BuildTeam />
       </div>
