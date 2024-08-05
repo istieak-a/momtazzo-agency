@@ -22,6 +22,12 @@ import verify from "../../assets/icons/verify.png";
 import BuildTeam from "../Sections/BuildTeam/BuildTeam";
 import Accordion from "../Accordian/Accordian";
 import checkIco from "../../assets/icons/pngegg.png";
+import ico1 from "./unique2/1.png";
+import ico2 from "./unique2/2.png";
+import ico3 from "./unique2/3.png";
+import ico4 from "./unique2/4.png";
+import ico5 from "./unique2/5.png";
+import ico6 from "./unique2/6.png";
 
 const Homepage = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -145,6 +151,34 @@ const Homepage = () => {
     },
   ];
 
+  const unique2 = [
+    {
+      title:
+        "13 State-of-the-art locations and facilities strategically placed for recruitment",
+      ico: ico1,
+    },
+    {
+      title: "30,664 Square meters of office space",
+      ico: ico2,
+    },
+    {
+      title: "217,000+ Screened candidates ready for employment",
+      ico: ico3,
+    },
+    {
+      title: "70+ Experienced local recruiters",
+      ico: ico4,
+    },
+    {
+      title: "60+ IT workers for 24/7 support",
+      ico: ico5,
+    },
+    {
+      title: "185+ HR & operations staff to support you",
+      ico: ico6,
+    },
+  ];
+
   return (
     <div>
       <div className=" bg-gradient-to-br from-top-left to-bottom-right px-8 py-10 md:px-16 ">
@@ -153,7 +187,7 @@ const Homepage = () => {
             <h1 className="font-dmsans text-4xl md:text-5xl">
               Hire full-time outsourced teams in India.{" "}
             </h1>
-            <h2 className="pt-5 font-outfit text-4xl font-bold md:text-6xl">
+            <h2 className="pt-5 font-dmsans text-4xl font-[600]">
               Ready to work in as little as two weeks
             </h2>
             <p className="pt-5">
@@ -186,6 +220,24 @@ const Homepage = () => {
               ></iframe>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:py-32 md:px-16">
+        <h1 className="text-center font-sans text-5xl font-[500]">
+        Leverage big-business infrastructure
+        </h1>
+        <p className="text-center font-dmsans text-xl">No matter the size of your business, you gain access to our big-business outsourced infrastructure.</p>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {unique2.map((item, index) => {
+            return (
+              <Card
+                key={index}
+                desc={item.title}
+                ico={item.ico}
+              />
+            );
+          })}
         </div>
       </div>
 
@@ -270,6 +322,67 @@ const Homepage = () => {
               }
               alt=""
             />
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[#f8f8f8] py-10">
+        <div className=" mx-auto max-w-7xl p-4">
+          <div className="mb-10 text-center">
+            <h1 className="text-5xl font-semibold">Us vs Them</h1>
+            <p className="mt-3 text-zinc-600">
+              Montazzo is miles ahead of the competition
+            </p>
+          </div>
+          <div className="overflow-x-auto text-lg">
+            <table className="min-w-full border border-zinc-300">
+              <thead>
+                <tr>
+                  <th className="w-1/2"></th>
+                  <th className="w-1/4 bg-blue-500 py-2 text-white">
+                    Montazzo
+                  </th>
+                  <th className="w-1/4 bg-zinc-100 py-2 text-zinc-700">THEM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <TableRow
+                  title="No Salary Markup"
+                  myOutDesk="✔"
+                  them="✖"
+                />
+                <TableRow
+                  title="Fast Recruitment process"
+                  myOutDesk="✔"
+                  them="✔"
+                />
+                <TableRow
+                  title="Direct Hire Facilitation"
+                  myOutDesk="✔"
+                  them="✖"
+                />
+                <TableRow
+                  title="Compliance Facilitation"
+                  myOutDesk="✔"
+                  them="✔"
+                />
+                <TableRow
+                  title="Cost Transparency"
+                  myOutDesk="✔"
+                  them="✖"
+                />
+                <TableRow
+                  title="Thorough Testing"
+                  myOutDesk="✔"
+                  them="✔"
+                />
+                <TableRow
+                  title="Thorough Background Checks"
+                  myOutDesk="✔"
+                  them="✔"
+                />
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -522,6 +635,21 @@ const Homepage = () => {
         </marquee>
       </div> */}
     </div>
+  );
+};
+
+const TableRow = ({ title, myOutDesk, them }) => {
+  const tableCellClasses = "py-2 px-4 text-center";
+  const greenTextClasses = "text-green-500";
+  const redTextClasses = "text-red-500";
+  const borderClasses = "border-t border-zinc-300";
+
+  return (
+    <tr className={borderClasses}>
+      <td className={`${tableCellClasses}`}>{title}</td>
+      <td className={`${tableCellClasses} ${greenTextClasses}`}>{myOutDesk}</td>
+      <td className={`${tableCellClasses} ${redTextClasses}`}>{them}</td>
+    </tr>
   );
 };
 
