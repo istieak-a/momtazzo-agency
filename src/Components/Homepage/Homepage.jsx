@@ -187,7 +187,7 @@ const Homepage = () => {
             <h1 className="font-dmsans text-4xl md:text-5xl">
               Hire full-time outsourced teams in India.{" "}
             </h1>
-            <h2 className="pt-5 font-dmsans text-4xl font-[600]">
+            <h2 className="pt-2 font-dmsans text-5xl md:text-7xl font-[800]">
               Ready to work in as little as two weeks
             </h2>
             <p className="pt-5">
