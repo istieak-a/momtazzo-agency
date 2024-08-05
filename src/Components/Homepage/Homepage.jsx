@@ -223,6 +223,21 @@ const Homepage = () => {
         </div>
       </div>
 
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
+        {cardData.map((item, index) => {
+          return (
+            <Card
+              key={index}
+              title={item.title}
+              desc={item.desc}
+              url={item.url}
+              ico={item.ico}
+              btn={item.btn}
+            />
+          );
+        })}
+      </div> 
+
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-10 md:py-32 md:px-16">
         <h1 className="text-center font-sans text-5xl font-[500]">
         Leverage big-business infrastructure
@@ -387,20 +402,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      {/* <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-8 py-10 md:grid-cols-3 md:px-16">
-        {cardData.map((item, index) => {
-          return (
-            <Card
-              key={index}
-              title={item.title}
-              desc={item.desc}
-              url={item.url}
-              ico={item.ico}
-              btn={item.btn}
-            />
-          );
-        })}
-      </div> */}
+     
       {/* <div className="mx-5  bg-[#547087] px-8 py-10 md:mx-0">
         <div className="mx-auto flex max-w-7xl flex-col gap-10  md:flex-row-reverse md:p-16">
           <div className="chart md:w-[60%]">
